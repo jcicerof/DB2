@@ -1,0 +1,2 @@
+CREATE STOGROUP STGPD1D VOLUMES (DBCAD1 , DBCAD2) VCAT DB2PCAT;                 
+COMMIT;                                                                         

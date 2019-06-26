@@ -1,0 +1,29 @@
+//DBACLONE JOB MSGCLASS=X,CLASS=A,COND=(4,LT),NOTIFY=JONAS              JOB00855
+//*------------------------------------------------------------------           
+//ADR001   EXEC PGM=ADRDSSU                                                     
+//SAIDA    DD  DUMMY                                                            
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSIN    DD  DSN=DBA.CLONE.SYSIN(DELARQ),DISP=SHR                             
+//*------------------------------------------------------------------           
+//UTILB01  EXEC PGM=DSNUTILB,                                                   
+//       PARM='DB2P,CLONE1',                                                    
+//       REGION=0M,DYNAMNBR=20                                                  
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSUDUMP DD  SYSOUT=*                                                         
+//SYSIN    DD  *                                                                
+  OPTIONS EVENT(ITEMERROR,SKIP)                                                 
+  LISTDEF CLONE                                                                 
+        INCLUDE TABLESPACES TABLESPACE DBEETA.CDGEQCLS                          
+TEMPLATE DATOS                                                                  
+         DSN(DBA.&SSID..&DB..&TS..D&LI.)                                        
+         UNIT=SYSDA                                                             
+         VOLUMES (SHR004)                                                       
+         DISP(NEW,CATLG,DELETE)                                                 
+TEMPLATE PUNCH                                                                  
+         DSN(DBA.&SSID..&DB..&TS..P&LI.)                                        
+         UNIT=SYSDA                                                             
+         VOLUMES (SHR004)                                                       
+         DISP(NEW,CATLG,DELETE)                                                 
+UNLOAD LIST CLONE  UNLDDN DATOS PUNCHDDN PUNCH                                  
+         SHRLEVEL CHANGE                                                        
+         ISOLATION UR                                                           

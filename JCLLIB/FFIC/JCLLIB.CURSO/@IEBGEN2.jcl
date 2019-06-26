@@ -1,0 +1,34 @@
+//IBM1JCF0 JOB (T00101,520,AU88100,658,000,581),'DB2 TOOLS',            JOB01274
+//         MSGLEVEL=(1,1),MSGCLASS=X,
+//         CLASS=L,NOTIFY=IBM1JCF
+/*JOBPARM Z=O,HOLD=ALL,S=ESYS,T=1439
+//*------------------------------------------------------------------
+//*
+//*------------------------------------------------------------------
+//IEBGENER EXEC PGM=IEBGENER
+//SYSPRINT DD SYSOUT=*
+//SYSIN    DD *
+//SYSUT1   DD DISP=OLD,DSN=DBA5.C059897.DDL.DEIS0A00.SSUN0A00
+//SYSUT2   DD DSN=DBA5.C059945.DDL.DEIS0A00.SSUN0A00,
+//         DISP=(NEW,CATLG,DELETE),
+//         UNIT=MAGV,VOL=SER=,LABEL=RETPD=030
+//*------------------------------------------------------------------
+//IEBGENER EXEC PGM=IEBGENER
+//SYSPRINT DD SYSOUT=*
+//SYSIN    DD *
+//SYSUT1   DD DISP=OLD,DSN=DBA5.C059897.DDL.DEIS0T00.SQCN0T00
+//SYSUT2   DD DSN=DBA5.C059945.DDL.DEIS0T00.SQCN0T00,
+//         DISP=(NEW,CATLG,DELETE),
+//         UNIT=MAGV,VOL=SER=,LABEL=RETPD=030
+//*------------------------------------------------------------------
+//IEBGENER EXEC PGM=IEBGENER
+//SYSPRINT DD SYSOUT=*
+//SYSIN    DD *
+//SYSUT1   DD DISP=OLD,DSN=DBA5.C059897.DDL.DEIS0T00.SSUN0T00
+//SYSUT2   DD DSN=DBA5.C059945.DDL.DEIS0T00.SSUN0T00,
+//         DISP=(NEW,CATLG,DELETE),
+//         UNIT=MAGV,VOL=SER=,LABEL=RETPD=030
+//
+                           DBA5.C059897.DDL.DEIS0A00.SSUN0A00
+                           DBA5.C059897.DDL.DEIS0T00.SQCN0T00
+                           DBA5.C059897.DDL.DEIS0T00.SSUN0T00

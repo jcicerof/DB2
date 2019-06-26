@@ -1,0 +1,24 @@
+ALTER TABLESPACE DBEETA.MVRSSCOB PRIQTY 142992 SECQTY 14304;            00030000
+COMMIT;                                                                 00030100
+ALTER TABLESPACE DBEETA.MVRSCBVL PRIQTY 362544 SECQTY 36288;            00031000
+COMMIT;                                                                 00031100
+ALTER TABLESPACE DBEETA.MVRSLCRS PRIQTY 29520  SECQTY 2976;             00032000
+COMMIT;                                                                 00032100
+ALTER TABLESPACE DBEETA.MVRSLCAB PRIQTY 3936   SECQTY 432;              00033000
+COMMIT;                                                                 00033100
+ALTER TABLESPACE DBEETA.MVRSSPPS PRIQTY 15840  SECQTY 1584;             00034000
+COMMIT;                                                                 00034100
+ALTER TABLESPACE DBEETA.MVRSSPRO PRIQTY 134784 SECQTY 13488;            00035000
+COMMIT;                                                                 00050000
+ALTER INDEX TECINFOR.MOVRSSCOBVAL_PK   PRIQTY 1500 SECQTY  150;         00060001
+COMMIT;                                                                 00061001
+ALTER INDEX TECINFOR.MOVRSSLOCRIS_PK   PRIQTY 3000 SECQTY  300;         00070001
+COMMIT;                                                                 00071001
+ALTER INDEX TECINFOR.MOVRSSLOCRISCAB_PK PRIQTY 2000 SECQTY  200;        00080001
+COMMIT;                                                                 00081001
+ALTER INDEX TECINFOR.MOVRSSPPS_PK      PRIQTY 500 SECQTY 500 ;          00090001
+COMMIT;                                                                 00091001
+ALTER INDEX TECINFOR.MOVRSSPRO_PK      PRIQTY 1000 SECQTY 100 ;         00100001
+COMMIT;                                                                 00101001
+ALTER INDEX TECINFOR.MOVRSSCOB_PK PRIQTY 2000 SECQTY 200 ;              00110001
+COMMIT;                                                                 00120001

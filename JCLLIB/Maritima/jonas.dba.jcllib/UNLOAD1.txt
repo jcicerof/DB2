@@ -1,0 +1,14 @@
+//DBPULOAD JOB MSGCLASS=X,CLASS=A,NOTIFY=&SYSUID                        JOB02386
+//*                                                                     00020002
+//UNLOAD   EXEC PGM=DSNUTILB,PARM='DB2P,TBFERIAD.LOAD'                  00030005
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00040005
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00050005
+//SYSPRINT DD   SYSOUT=*                                                00060001
+//SYSOUT   DD   SYSOUT=*                                                00070001
+//SYSPUNCH DD   DSN=JONAS.DBNOVA.TBFERIAD.P,DISP=(NEW,CATLG,DELETE),    00080010
+//         SPACE=(TRK,(1,1),RLSE),UNIT=SYSDBA                           00090008
+//SYSREC   DD   DSN=JONAS.DBNOVA.TBFERIAD.D,DISP=(NEW,CATLG,DELETE),    00100010
+//         UNIT=SYSDBA,SPACE=(TRK,(999,999),RLSE)                       00101008
+//SYSIN    DD   *                                                       00140001
+  UNLOAD TABLESPACE DBNOVA.TBFERIAD  PUNCHDDN SYSPUNCH UNLDDN SYSREC    00170010
+  FROM TABLE ANO2000.TBFERIAD                                           00180009

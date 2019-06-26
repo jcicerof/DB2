@@ -1,0 +1,35 @@
+SELECT COUNT(*)                                                                 
+FROM SYSIBM.SYSTABLES A,                                                        
+SYSIBM.SYSTABAUTH B                                                             
+WHERE                                                                           
+A.NAME = B.TTNAME AND                                                           
+A.CREATOR = B.TCREATOR AND                                                      
+A.TYPE = 'T' AND                                                                
+B.GRANTEE NOT IN ('MVSPUSER','IFXPUSER','INFORMIX','CA7ONL','CSPPUSER')         
+AND                                                                             
+B.GRANTEETYPE <> 'P' AND                                                        
+(SELECTAUTH = 'Y' OR                                                            
+ INSERTAUTH = 'Y' OR                                                            
+ DELETEAUTH = 'Y' OR                                                            
+ UPDATEAUTH = 'Y')                                                              
+WITH UR;                                                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+--SELECT DISTINCT CREATOR,COUNT(*) FROM SYSIBM.SYSTABLES WHERE TYPE='T'         
+-- GROUP BY CREATOR                                                             
+-- ORDER BY 2 DESC                                                              
+-- FOR READ ONLY WITH UR;                                                       
+--ELECT DISTINCT GRANTEE FROM SYSIBM.SYSUSERAUTH WHERE SYSADMAUTH = 'Y';        
+--LECT DISTINCT GRANTEE FROM SYSIBM.SYSUSERAUTH WHERE SYSCTRLAUTH = 'Y';        
+--SELECT COUNT(*)                                                               
+--       FROM SYSIBM.SYSTABLES WITH UR;                                         
+--SELECT COUNT(GRANTEE)                                                         
+--SELECT GRANTEE,COUNT(*)                                                       
+--     FROM SYSIBM.SYSTABAUTH WITH UR;                                          

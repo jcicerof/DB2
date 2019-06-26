@@ -1,0 +1,29 @@
+--
+-- LISTA DE UTILITARIOS
+--
+SELECT DISTINCT CHAR(STRIP(GETVARIABLE('SYSIBM.SSID')),4) AS SSID,
+       A.DBNAME,
+       C.JOBNAME,
+       CASE C.ICTYPE
+            WHEN 'I' THEN 'COPY'
+            WHEN 'F' THEN 'COPY'
+            WHEN 'M' THEN 'MODIFY'
+            WHEN 'Q' THEN 'QUIESCE'
+            WHEN 'R' THEN 'LOAD REPLACE'
+            WHEN 'S' THEN 'LOAD REPLACE'
+            WHEN 'W' THEN 'REORG'
+            WHEN 'X' THEN 'REORG'
+            WHEN 'Y' THEN 'LOAD RESUME'
+            WHEN 'Z' THEN 'LOAD RESUME'
+       END AS JOBTYPE
+  FROM SYSIBM.SYSTABLESPACE A,
+       SYSIBM.SYSCOPY   C
+ WHERE A.DBNAME = C.DBNAME
+   AND A.NAME = C.TSNAME
+   AND C.ICTYPE IN ('I','F','M','Q','R','S','W','X','Y','Z')
+   AND SUBSTR(A.DBNAME,1,4) IN ('DCLI','DPER','DPOL','DPUT','DQST',
+                                'DPIP')
+   AND SUBSTR(C.JOBNAME,1,3) NOT IN ('IBM')
+GROUP BY CHAR(STRIP(GETVARIABLE('SYSIBM.SSID')),4),
+       A.DBNAME,
+       C.JOBNAME,C.ICTYPE;

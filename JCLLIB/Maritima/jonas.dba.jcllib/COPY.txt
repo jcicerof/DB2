@@ -1,0 +1,19 @@
+//DBPCOPY  JOB 'JONAS',MSGCLASS=A,CLASS=A,NOTIFY=JONAS                          
+//*                                                                             
+//         SET DSN=DB2P                                                         
+//*------------------------------------------------------------------           
+//* COPY                                                                        
+//*------------------------------------------------------------------           
+//COPY     EXEC PGM=DSNUTILB,PARM='&DSN'                                        
+//STEPLIB  DD   DSN=DB2.&DSN..SDSNEXIT,DISP=SHR                                 
+//         DD   DSN=DB2.&DSN..SDSNLOAD,DISP=SHR                                 
+//SYSPRINT DD   SYSOUT=*                                                        
+//UTPRINT  DD   SYSOUT=*                                                        
+//SYSUDUMP DD   SYSOUT=*                                                        
+//SYSCOPY  DD   DSN=DB2PCOPY.FE.DBSS01.SSLOGRED.GENIS.#1286697,                 
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         UNIT=VSM                                                             
+//SYSIN    DD   *                                                               
+COPY TABLESPACE DBSS01.SSLOGRED                                                 
+     SHRLEVEL REFERENCE                                                         
+     FULL YES                                                                   

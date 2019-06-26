@@ -1,0 +1,20 @@
+//DBPUNLO2 JOB 'JONAS',MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID,TYPRUN=HOLD    00010047
+//*                                                                     00020000
+//         JCLLIB ORDER=(CICERO.DB2.PROCLIB)                            00030000
+//*------------------------------------------------------------------   00040000
+//* UNLOAD                                                              00050000
+//*------------------------------------------------------------------   00060000
+//UNLOAD   EXEC PROC=UNLOAD,DSN=DB2P                                    00070000
+//SYSPUNCH DD   DUMMY                                                   00080000
+//SYSREC   DD   DUMMY                                                   00090000
+//SYSIN    DD   *                                                       00100000
+OPTIONS EVENT(ITEMERROR, SKIP)                                          00110000
+LISTDEF DBLIST  INCLUDE TABLESPACE DBMA02.SEGURADO                      00120049
+TEMPLATE DDPUNCH DSN(JJ22.UNL.&DB..&TS..PUNCH.D&DT.)                    00289049
+   UNIT SYSDBA SPACE (10,10) TRK DISP (NEW,CATLG,DELETE)                00290001
+TEMPLATE DDREC DSN(JJ22.UNL.&DB..&TS..REC.D&DT.)                        00300049
+   UNIT SYSDBA SPACE (1000,1000) TRK DISP (NEW,CATLG,DELETE)            00310000
+UNLOAD LIST DBLIST                                                      00320000
+       PUNCHDDN DDPUNCH                                                 00330000
+       UNLDDN DDREC                                                     00340000
+       SHRLEVEL CHANGE ISOLATION UR                                     00350000

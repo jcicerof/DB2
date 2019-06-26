@@ -1,0 +1,10 @@
+GRANT SELECT ON TECINFOR.VRSVER TO SEDA;                                        
+COMMIT;                                                                         
+GRANT SELECT ON TECINFOR.HISMOVVER TO SEDA;                                     
+COMMIT;                                                                         
+GRANT SELECT ON TECINFOR.HISATZ TO SEDA;                                        
+COMMIT;                                                                         
+--SELECT * FROM SYSIBM.SYSTABLES WHERE NAME IN (                                
+--'VRSVER',                                                                     
+--'HISMOVVER',                                                                  
+--'HISATZ') AND TYPE='T';                                                       

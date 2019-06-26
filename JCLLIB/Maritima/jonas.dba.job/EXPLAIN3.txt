@@ -1,0 +1,10 @@
+SELECT MAX(BIND_TIME),MAX(EXPLAIN_TIME)                                 00010000
+FROM MVSPUSER.PLAN_TABLE A,                                             00020000
+     MVSPUSER.DSN_STATEMNT_TABLE B                                      00030000
+ WHERE                                                                  00040000
+     B.QUERYNO = A.QUERYNO                                              00050000
+ AND A.COLLID   = 'MAPCCOLE'                                            00060000
+ AND A.PROGNAME = 'SSR0133R'                                            00070000
+ AND A.PROGNAME = B.PROGNAME                                            00080000
+ AND A.COLLID   = B.COLLID                                              00090000
+  ;                                                                     00100000

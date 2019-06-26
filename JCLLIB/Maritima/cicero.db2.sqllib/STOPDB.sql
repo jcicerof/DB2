@@ -1,0 +1,8058 @@
+-STO DB(DBAD01) SPACE(ADABI)                                               DBAD0
+-STA DB(DBAD01) SPACE(ADABI) ACC(RW)                                       DBAD0
+-STO DB(DBAD01) SPACE(ADBCOABI)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADBCOABI) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADBCODAD)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADBCODAD) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADCOARSP)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADCOARSP) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADCOLUNA)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADCOLUNA) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADDMIFRE)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADDMIFRE) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADGRANT)                                             DBAD0
+-STA DB(DBAD01) SPACE(ADGRANT) ACC(RW)                                     DBAD0
+-STO DB(DBAD01) SPACE(ADSIS)                                               DBAD0
+-STA DB(DBAD01) SPACE(ADSIS) ACC(RW)                                       DBAD0
+-STO DB(DBAD01) SPACE(ADSOL)                                               DBAD0
+-STA DB(DBAD01) SPACE(ADSOL) ACC(RW)                                       DBAD0
+-STO DB(DBAD01) SPACE(ADSST)                                               DBAD0
+-STA DB(DBAD01) SPACE(ADSST) ACC(RW)                                       DBAD0
+-STO DB(DBAD01) SPACE(ADSSTCON)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADSSTCON) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADTAB)                                               DBAD0
+-STA DB(DBAD01) SPACE(ADTAB) ACC(RW)                                       DBAD0
+-STO DB(DBAD01) SPACE(ADTABCCD)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADTABCCD) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADTIPCCD)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADTIPCCD) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADTIPMNT)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADTIPMNT) ACC(RW)                                    DBAD0
+-STO DB(DBCO01) SPACE(COAPENDE)                                            DBCO0
+-STA DB(DBCO01) SPACE(COAPENDE) ACC(RW)                                    DBCO0
+-STO DB(DBCO01) SPACE(MOVCOACE)                                            DBCO0
+-STA DB(DBCO01) SPACE(MOVCOACE) ACC(RW)                                    DBCO0
+-STO DB(DBCO01) SPACE(MOVCOACP)                                            DBCO0
+-STA DB(DBCO01) SPACE(MOVCOACP) ACC(RW)                                    DBCO0
+-STO DB(DBEEAC) SPACE(AUXTERMI)                                            DBEEA
+-STA DB(DBEEAC) SPACE(AUXTERMI) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(MVAELTRD)                                            DBEEA
+-STA DB(DBEEAE) SPACE(MVAELTRD) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(PRDVIANE)                                            DBEEA
+-STA DB(DBEEAE) SPACE(PRDVIANE) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(TIPOVINC)                                            DBEEA
+-STA DB(DBEEAE) SPACE(TIPOVINC) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(TPDIRALC)                                            DBEEA
+-STA DB(DBEEAE) SPACE(TPDIRALC) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(TPPRDVIN)                                            DBEEA
+-STA DB(DBEEAE) SPACE(TPPRDVIN) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(TPSITDOC)                                            DBEEA
+-STA DB(DBEEAE) SPACE(TPSITDOC) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(TPSITRTI)                                            DBEEA
+-STA DB(DBEEAE) SPACE(TPSITRTI) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(VINCLIB)                                             DBEEA
+-STA DB(DBEEAE) SPACE(VINCLIB) ACC(RW)                                     DBEEA
+-STO DB(DBEEAE) SPACE(VINCPRD)                                             DBEEA
+-STA DB(DBEEAE) SPACE(VINCPRD) ACC(RW)                                     DBEEA
+-STO DB(DBEEAL) SPACE(CELRESPO)                                            DBEEA
+-STA DB(DBEEAL) SPACE(CELRESPO) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(CONTEXTO)                                            DBEEA
+-STA DB(DBEEAL) SPACE(CONTEXTO) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(CTTRCSNH)                                            DBEEA
+-STA DB(DBEEAL) SPACE(CTTRCSNH) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(DPTRESPO)                                            DBEEA
+-STA DB(DBEEAL) SPACE(DPTRESPO) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FILAANAL)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FILAANAL) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FILACELU)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FILACELU) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FILADEPT)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FILADEPT) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FILAPESS)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FILAPESS) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FUNCIONL)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FUNCIONL) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FUNCPROG)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FUNCPROG) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GPACECTX)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GPACECTX) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GPACEFUN)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GPACEFUN) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GPACESSO)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GPACESSO) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GPACICTX)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GPACICTX) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(IMPRESSO)                                            DBEEA
+-STA DB(DBEEAL) SPACE(IMPRESSO) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(ITCONPRM)                                            DBEEA
+-STA DB(DBEEAL) SPACE(ITCONPRM) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(ITEMCONT)                                            DBEEA
+-STA DB(DBEEAL) SPACE(ITEMCONT) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(NIVELALC)                                            DBEEA
+-STA DB(DBEEAL) SPACE(NIVELALC) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(PREAUMSG)                                            DBEEA
+-STA DB(DBEEAL) SPACE(PREAUMSG) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(PREAUTOR)                                            DBEEA
+-STA DB(DBEEAL) SPACE(PREAUTOR) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(PROGRAMA)                                            DBEEA
+-STA DB(DBEEAL) SPACE(PROGRAMA) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(SENHAUSU)                                            DBEEA
+-STA DB(DBEEAL) SPACE(SENHAUSU) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(SNHAUUSR)                                            DBEEA
+-STA DB(DBEEAL) SPACE(SNHAUUSR) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(TPFUNPGM)                                            DBEEA
+-STA DB(DBEEAL) SPACE(TPFUNPGM) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(TPLNGPGM)                                            DBEEA
+-STA DB(DBEEAL) SPACE(TPLNGPGM) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USCTLSNH)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USCTLSNH) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USGPOACE)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USGPOACE) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USHISSNH)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USHISSNH) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USMARPRM)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USMARPRM) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USMGPACE)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USMGPACE) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUARIO)                                             DBEEA
+-STA DB(DBEEAL) SPACE(USUARIO) ACC(RW)                                     DBEEA
+-STO DB(DBEEAL) SPACE(USUARIPR)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUARIPR) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUARMAR)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUARMAR) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUARNEG)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUARNEG) ACC(RW)                                    DBEEA
+-STO DB(DBEEBM) SPACE(AVARPRVG)                                            DBEEB
+-STA DB(DBEEBM) SPACE(AVARPRVG) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMCOVEI)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMCOVEI) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMPEHIS)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMPEHIS) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMVCARG)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMVCARG) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMVELSE)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMVELSE) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMVGCRG)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMVGCRG) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMVSACH)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMVSACH) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(CPVEPCVG)                                            DBEEB
+-STA DB(DBEEBM) SPACE(CPVEPCVG) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(CUSMOPNT)                                            DBEEB
+-STA DB(DBEEBM) SPACE(CUSMOPNT) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(PCAAVAVG)                                            DBEEB
+-STA DB(DBEEBM) SPACE(PCAAVAVG) ACC(RW)                                    DBEEB
+-STO DB(DBEEGD) SPACE(TPFSEPCS)                                            DBEEG
+-STA DB(DBEEGD) SPACE(TPFSEPCS) ACC(RW)                                    DBEEG
+-STO DB(DBEELO) SPACE(BAIRROMA)                                            DBEEL
+-STA DB(DBEELO) SPACE(BAIRROMA) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(CEPGDUCP)                                            DBEEL
+-STA DB(DBEELO) SPACE(CEPGDUCP) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(CEPLGMAR)                                            DBEEL
+-STA DB(DBEELO) SPACE(CEPLGMAR) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(CEPLGSBT)                                            DBEEL
+-STA DB(DBEELO) SPACE(CEPLGSBT) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(CEPUNOCP)                                            DBEEL
+-STA DB(DBEELO) SPACE(CEPUNOCP) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(FAIXACXP)                                            DBEEL
+-STA DB(DBEELO) SPACE(FAIXACXP) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(FXCEPLCL)                                            DBEEL
+-STA DB(DBEELO) SPACE(FXCEPLCL) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(FXCEPUF)                                             DBEEL
+-STA DB(DBEELO) SPACE(FXCEPUF) ACC(RW)                                     DBEEL
+-STO DB(DBEELO) SPACE(GRUSRCVS)                                            DBEEL
+-STA DB(DBEELO) SPACE(GRUSRCVS) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(LOCALEND)                                            DBEEL
+-STA DB(DBEELO) SPACE(LOCALEND) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(LOCALMAR)                                            DBEEL
+-STA DB(DBEELO) SPACE(LOCALMAR) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(LOGRAMAR)                                            DBEEL
+-STA DB(DBEELO) SPACE(LOGRAMAR) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(NEWUF)                                               DBEEL
+-STA DB(DBEELO) SPACE(NEWUF) ACC(RW)                                       DBEEL
+-STO DB(DBEELO) SPACE(PAIS)                                                DBEEL
+-STA DB(DBEELO) SPACE(PAIS) ACC(RW)                                        DBEEL
+-STO DB(DBEELO) SPACE(TIPOCXP)                                             DBEEL
+-STA DB(DBEELO) SPACE(TIPOCXP) ACC(RW)                                     DBEEL
+-STO DB(DBEELO) SPACE(TIPOTPTT)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPOTPTT) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TPLOCALI)                                            DBEEL
+-STA DB(DBEELO) SPACE(TPLOCALI) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TPLOGRAD)                                            DBEEL
+-STA DB(DBEELO) SPACE(TPLOGRAD) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TPORICEP)                                            DBEEL
+-STA DB(DBEELO) SPACE(TPORICEP) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TPPREPOS)                                            DBEEL
+-STA DB(DBEELO) SPACE(TPPREPOS) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TPREGLGR)                                            DBEEL
+-STA DB(DBEELO) SPACE(TPREGLGR) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TPSITLCL)                                            DBEEL
+-STA DB(DBEELO) SPACE(TPSITLCL) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TPUNIOCU)                                            DBEEL
+-STA DB(DBEELO) SPACE(TPUNIOCU) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TPUNIOPR)                                            DBEEL
+-STA DB(DBEELO) SPACE(TPUNIOPR) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(UNOPRCVS)                                            DBEEL
+-STA DB(DBEELO) SPACE(UNOPRCVS) ACC(RW)                                    DBEEL
+-STO DB(DBEEOR) SPACE(OBITFSIN)                                            DBEEO
+-STA DB(DBEEOR) SPACE(OBITFSIN) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(OBVDDTSN)                                            DBEEO
+-STA DB(DBEEOR) SPACE(OBVDDTSN) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCGCRSS)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCGCRSS) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCITVEI)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCITVEI) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORFOPGRM)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORFOPGRM) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORFORPGT)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORFORPGT) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORICPEBN)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORICPEBN) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORITCGVE)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORITCGVE) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORITMTGE)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORITMTGE) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORITPRAN)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORITPRAN) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORITPROB)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORITPROB) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORITQSUT)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORITQSUT) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(SISGRCVG)                                            DBEEO
+-STA DB(DBEEOR) SPACE(SISGRCVG) ACC(RW)                                    DBEEO
+-STO DB(DBEEPE) SPACE(ANALINIB)                                            DBEEP
+-STA DB(DBEEPE) SPACE(ANALINIB) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(AREA)                                                DBEEP
+-STA DB(DBEEPE) SPACE(AREA) ACC(RW)                                        DBEEP
+-STO DB(DBEEPE) SPACE(CNDOBJVG)                                            DBEEP
+-STA DB(DBEEPE) SPACE(CNDOBJVG) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(COLABMAR)                                            DBEEP
+-STA DB(DBEEPE) SPACE(COLABMAR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(COLABMHS)                                            DBEEP
+-STA DB(DBEEPE) SPACE(COLABMHS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(CONTABAN)                                            DBEEP
+-STA DB(DBEEPE) SPACE(CONTABAN) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(CONVEPES)                                            DBEEP
+-STA DB(DBEEPE) SPACE(CONVEPES) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(ENDERELE)                                            DBEEP
+-STA DB(DBEEPE) SPACE(ENDERELE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(ESTR12JA)                                            DBEEP
+-STA DB(DBEEPE) SPACE(ESTR12JA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(ESTRUTEM)                                            DBEEP
+-STA DB(DBEEPE) SPACE(ESTRUTEM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(IDENTPES)                                            DBEEP
+-STA DB(DBEEPE) SPACE(IDENTPES) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(NATUOCUP)                                            DBEEP
+-STA DB(DBEEPE) SPACE(NATUOCUP) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(NATURJUD)                                            DBEEP
+-STA DB(DBEEPE) SPACE(NATURJUD) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(OCUPACAO)                                            DBEEP
+-STA DB(DBEEPE) SPACE(OCUPACAO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PARCTXVG)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PARCTXVG) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESESTIP)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESESTIP) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESFISHS)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESFISHS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESGRREL)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESGRREL) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESGRVIN)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESGRVIN) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESJUDHS)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESJUDHS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESLOCEN)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESLOCEN) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESLOCOR)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESLOCOR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESLOCRP)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESLOCRP) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESLOCVS)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESLOCVS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSEGUR)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSEGUR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSHIST)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSHIST) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSOJUR)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSOJUR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSUBES)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSUBES) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PROPONEN)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PROPONEN) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(RAMOATIV)                                            DBEEP
+-STA DB(DBEEPE) SPACE(RAMOATIV) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(SGSISTE)                                             DBEEP
+-STA DB(DBEEPE) SPACE(SGSISTE) ACC(RW)                                     DBEEP
+-STO DB(DBEEPE) SPACE(TBPALAVR)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TBPALAVR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TELEFONE)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TELEFONE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TELLOCEN)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TELLOCEN) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOSEXO)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOSEXO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPATRIBU)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPATRIBU) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPCOLAB)                                             DBEEP
+-STA DB(DBEEPE) SPACE(TPCOLAB) ACC(RW)                                     DBEEP
+-STO DB(DBEEPE) SPACE(TPENDELE)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPENDELE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPESTCIV)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPESTCIV) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPGRAREL)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPGRAREL) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPGRESCO)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPGRESCO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPIDFOBJ)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPIDFOBJ) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPLOCAL)                                             DBEEP
+-STA DB(DBEEPE) SPACE(TPLOCAL) ACC(RW)                                     DBEEP
+-STO DB(DBEEPE) SPACE(TPOCUPAC)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPOCUPAC) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPPALAVR)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPPALAVR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPPESSOA)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPPESSOA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPRESIDE)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPRESIDE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPRMOATI)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPRMOATI) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPSITRED)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPSITRED) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPTELEFO)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPTELEFO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TPTIPPES)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TPTIPPES) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(UNIDADE)                                             DBEEP
+-STA DB(DBEEPE) SPACE(UNIDADE) ACC(RW)                                     DBEEP
+-STO DB(DBEEPR) SPACE(CTPRORNV)                                            DBEEP
+-STA DB(DBEEPR) SPACE(CTPRORNV) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(DIARNVEM)                                            DBEEP
+-STA DB(DBEEPR) SPACE(DIARNVEM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(DIARNVPD)                                            DBEEP
+-STA DB(DBEEPR) SPACE(DIARNVPD) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(ETAPARNV)                                            DBEEP
+-STA DB(DBEEPR) SPACE(ETAPARNV) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(FASEETRN)                                            DBEEP
+-STA DB(DBEEPR) SPACE(FASEETRN) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(GPTXPAVG)                                            DBEEP
+-STA DB(DBEEPR) SPACE(GPTXPAVG) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(GPTXTPAD)                                            DBEEP
+-STA DB(DBEEPR) SPACE(GPTXTPAD) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PPSCBCPM)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PPSCBCPM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PPSITCBC)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PPSITCBC) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PPSITVLI)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PPSITVLI) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRCORRET)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRCORRET) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRCREEDS)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRCREEDS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRCTPCVS)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRCTPCVS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRICCBRM)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRICCBRM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRIFOPRM)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRIFOPRM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRIFPCRM)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRIFPCRM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRITAUEL)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRITAUEL) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRITCAPA)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRITCAPA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRITCEDS)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRITCEDS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRITCLAU)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRITCLAU) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRITCOBR)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRITCOBR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRITOBAN)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRITOBAN) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PRITSTMT)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PRITSTMT) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROITCRE)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROITCRE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROITOBS)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROITOBS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROITSIT)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROITSIT) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPANEX)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPANEX) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPCLAU)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPCLAU) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPCOSS)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPCOSS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPOOBS)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPOOBS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROTOPRM)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROTOPRM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROTXTEM)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROTXTEM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVPCPRV)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVPCPRV) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVPCREN)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVPCREN) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVPREVB)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVPREVB) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVPROAX)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVPROAX) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVPROCA)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVPROCA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVRETOM)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVRETOM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVRNBCO)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVRNBCO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RVPRORET)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RVPRORET) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(SITUPROC)                                            DBEEP
+-STA DB(DBEEPR) SPACE(SITUPROC) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(TPNUMPPS)                                            DBEEP
+-STA DB(DBEEPR) SPACE(TPNUMPPS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(TPSELPRO)                                            DBEEP
+-STA DB(DBEEPR) SPACE(TPSELPRO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(TXTPANEG)                                            DBEEP
+-STA DB(DBEEPR) SPACE(TXTPANEG) ACC(RW)                                    DBEEP
+-STO DB(DBEESP) SPACE(SEGSPBXA)                                            DBEES
+-STA DB(DBEESP) SPACE(SEGSPBXA) ACC(RW)                                    DBEES
+-STO DB(DBEESP) SPACE(SEGSRRMO)                                            DBEES
+-STA DB(DBEESP) SPACE(SEGSRRMO) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(CLTPPAIN)                                            DBEES
+-STA DB(DBEESR) SPACE(CLTPPAIN) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENCMAR)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENCMAR) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENCSEG)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENCSEG) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENINSP)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENINSP) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENMCOB)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENMCOB) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENPROD)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENPROD) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENQANV)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENQANV) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENQCAT)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENQCAT) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENQCOR)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENQCOR) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENQGAR)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENQGAR) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENQRMO)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENQRMO) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENTPCS)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENTPCS) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PAENTPDO)                                            DBEES
+-STA DB(DBEESR) SPACE(PAENTPDO) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARACJUD)                                            DBEES
+-STA DB(DBEESR) SPACE(PARACJUD) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAGERA)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAGERA) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMPEN)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMPEN) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAPERF)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAPERF) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAPROD)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAPROD) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARASINI)                                            DBEES
+-STA DB(DBEESR) SPACE(PARASINI) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARCHEQU)                                            DBEES
+-STA DB(DBEESR) SPACE(PARCHEQU) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARCONSU)                                            DBEES
+-STA DB(DBEESR) SPACE(PARCONSU) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARFALEN)                                            DBEES
+-STA DB(DBEESR) SPACE(PARFALEN) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARGEENQ)                                            DBEES
+-STA DB(DBEESR) SPACE(PARGEENQ) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARHAPGT)                                            DBEES
+-STA DB(DBEESR) SPACE(PARHAPGT) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARINENQ)                                            DBEES
+-STA DB(DBEESR) SPACE(PARINENQ) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARPROTE)                                            DBEES
+-STA DB(DBEESR) SPACE(PARPROTE) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARSRFED)                                            DBEES
+-STA DB(DBEESR) SPACE(PARSRFED) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(REPMEQAT)                                            DBEES
+-STA DB(DBEESR) SPACE(REPMEQAT) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(REPMEQCB)                                            DBEES
+-STA DB(DBEESR) SPACE(REPMEQCB) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(REPMEQTM)                                            DBEES
+-STA DB(DBEESR) SPACE(REPMEQTM) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTCNOME)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTCNOME) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTDCONV)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTDCONV) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTDECOD)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTDECOD) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTDPFAL)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTDPFAL) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTRBANC)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTRBANC) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTRCCRE)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTRCCRE) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTRCONV)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTRCONV) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTRCSUS)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTRCSUS) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTREPES)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTREPES) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTRPFAL)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTRPFAL) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTRPFIN)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTRPFIN) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTSDPRO)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTSDPRO) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTSDSRF)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTSDSRF) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTSRSEG)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTSRSEG) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTSRSRF)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTSRSRF) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TPCATEGO)                                            DBEES
+-STA DB(DBEESR) SPACE(TPCATEGO) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TPCHEQUE)                                            DBEES
+-STA DB(DBEESR) SPACE(TPCHEQUE) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TPCONDPA)                                            DBEES
+-STA DB(DBEESR) SPACE(TPCONDPA) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TPPAGERA)                                            DBEES
+-STA DB(DBEESR) SPACE(TPPAGERA) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TPPARMIN)                                            DBEES
+-STA DB(DBEESR) SPACE(TPPARMIN) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TPPARSER)                                            DBEES
+-STA DB(DBEESR) SPACE(TPPARSER) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TPREGIST)                                            DBEES
+-STA DB(DBEESR) SPACE(TPREGIST) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TPRESTRI)                                            DBEES
+-STA DB(DBEESR) SPACE(TPRESTRI) ACC(RW)                                    DBEES
+-STO DB(DBEETA) SPACE(ACETFVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(ACETFVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ALCCALVG)                                            DBEET
+-STA DB(DBEETA) SPACE(ALCCALVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ANEXO)                                               DBEET
+-STA DB(DBEETA) SPACE(ANEXO) ACC(RW)                                       DBEET
+-STO DB(DBEETA) SPACE(ANEXOVCL)                                            DBEET
+-STA DB(DBEETA) SPACE(ANEXOVCL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ANEXOVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(ANEXOVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(AVAVIGEN)                                            DBEET
+-STA DB(DBEETA) SPACE(AVAVIGEN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(BANMECBA)                                            DBEET
+-STA DB(DBEETA) SPACE(BANMECBA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(BONUSEE)                                             DBEET
+-STA DB(DBEETA) SPACE(BONUSEE) ACC(RW)                                     DBEET
+-STO DB(DBEETA) SPACE(CADDIV)                                              DBEET
+-STA DB(DBEETA) SPACE(CADDIV) ACC(RW)                                      DBEET
+-STO DB(DBEETA) SPACE(CAMPODOC)                                            DBEET
+-STA DB(DBEETA) SPACE(CAMPODOC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CATAUHIS)                                            DBEET
+-STA DB(DBEETA) SPACE(CATAUHIS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CATAUTUT)                                            DBEET
+-STA DB(DBEETA) SPACE(CATAUTUT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CATEAUTO)                                            DBEET
+-STA DB(DBEETA) SPACE(CATEAUTO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CATGORCF)                                            DBEET
+-STA DB(DBEETA) SPACE(CATGORCF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CATRCFHI)                                            DBEET
+-STA DB(DBEETA) SPACE(CATRCFHI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CDGEQCLS)                                            DBEET
+-STA DB(DBEETA) SPACE(CDGEQCLS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CDGEQFIL)                                            DBEET
+-STA DB(DBEETA) SPACE(CDGEQFIL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CDGEQPRR)                                            DBEET
+-STA DB(DBEETA) SPACE(CDGEQPRR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CHTABAPI)                                            DBEET
+-STA DB(DBEETA) SPACE(CHTABAPI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAFRANQ)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAFRANQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAOPVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAOPVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAPREMI)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAPREMI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAUSTXT)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAUSTXT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLCNCOVG)                                            DBEET
+-STA DB(DBEETA) SPACE(CLCNCOVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLCNVCOM)                                            DBEET
+-STA DB(DBEETA) SPACE(CLCNVCOM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLCOBVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(CLCOBVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLFRAVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(CLFRAVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLOPCMTV)                                            DBEET
+-STA DB(DBEETA) SPACE(CLOPCMTV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLPRMIVG)                                            DBEET
+-STA DB(DBEETA) SPACE(CLPRMIVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLPROVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(CLPROVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLTXTVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(CLTXTVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNDGEANE)                                            DBEET
+-STA DB(DBEETA) SPACE(CNDGEANE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNGEQTAC)                                            DBEET
+-STA DB(DBEETA) SPACE(CNGEQTAC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNGERQST)                                            DBEET
+-STA DB(DBEETA) SPACE(CNGERQST) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNGQTPDT)                                            DBEET
+-STA DB(DBEETA) SPACE(CNGQTPDT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNVACECN)                                            DBEET
+-STA DB(DBEETA) SPACE(CNVACECN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNVCLAUS)                                            DBEET
+-STA DB(DBEETA) SPACE(CNVCLAUS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNVCONDI)                                            DBEET
+-STA DB(DBEETA) SPACE(CNVCONDI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNVDSFRO)                                            DBEET
+-STA DB(DBEETA) SPACE(CNVDSFRO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNVETCND)                                            DBEET
+-STA DB(DBEETA) SPACE(CNVETCND) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNVETPCO)                                            DBEET
+-STA DB(DBEETA) SPACE(CNVETPCO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNVFORPG)                                            DBEET
+-STA DB(DBEETA) SPACE(CNVFORPG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNVNEGOC)                                            DBEET
+-STA DB(DBEETA) SPACE(CNVNEGOC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNVPROCP)                                            DBEET
+-STA DB(DBEETA) SPACE(CNVPROCP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNVTXTOB)                                            DBEET
+-STA DB(DBEETA) SPACE(CNVTXTOB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBACEVG)                                            DBEET
+-STA DB(DBEETA) SPACE(COBACEVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBCALVG)                                            DBEET
+-STA DB(DBEETA) SPACE(COBCALVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBCNGVG)                                            DBEET
+-STA DB(DBEETA) SPACE(COBCNGVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBERCNG)                                            DBEET
+-STA DB(DBEETA) SPACE(COBERCNG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBERCOM)                                            DBEET
+-STA DB(DBEETA) SPACE(COBERCOM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBERTUE)                                            DBEET
+-STA DB(DBEETA) SPACE(COBERTUE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBERTVG)                                            DBEET
+-STA DB(DBEETA) SPACE(COBERTVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBERVCL)                                            DBEET
+-STA DB(DBEETA) SPACE(COBERVCL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBLNNEG)                                            DBEET
+-STA DB(DBEETA) SPACE(COBLNNEG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBPLOPC)                                            DBEET
+-STA DB(DBEETA) SPACE(COBPLOPC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COLCNSPA)                                            DBEET
+-STA DB(DBEETA) SPACE(COLCNSPA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COLDESCR)                                            DBEET
+-STA DB(DBEETA) SPACE(COLDESCR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COMPOVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(COMPOVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONVENEE)                                            DBEET
+-STA DB(DBEETA) SPACE(CONVENEE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONVENVG)                                            DBEET
+-STA DB(DBEETA) SPACE(CONVENVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONVEPRO)                                            DBEET
+-STA DB(DBEETA) SPACE(CONVEPRO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CORBSVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(CORBSVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CORPLVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(CORPLVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CORVEICU)                                            DBEET
+-STA DB(DBEETA) SPACE(CORVEICU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTOFBVG)                                            DBEET
+-STA DB(DBEETA) SPACE(COTOFBVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTPVVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(COTPVVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTREGVG)                                            DBEET
+-STA DB(DBEETA) SPACE(COTREGVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTREVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(COTREVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTTPGEN)                                            DBEET
+-STA DB(DBEETA) SPACE(COTTPGEN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTTPMTP)                                            DBEET
+-STA DB(DBEETA) SPACE(COTTPMTP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CPLECDAU)                                            DBEET
+-STA DB(DBEETA) SPACE(CPLECDAU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CPLHCDAU)                                            DBEET
+-STA DB(DBEETA) SPACE(CPLHCDAU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CPNAVVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(CPNAVVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CPNVTVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(CPNVTVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CRBCPDVG)                                            DBEET
+-STA DB(DBEETA) SPACE(CRBCPDVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CSTDPCVG)                                            DBEET
+-STA DB(DBEETA) SPACE(CSTDPCVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CTLRMS)                                              DBEET
+-STA DB(DBEETA) SPACE(CTLRMS) ACC(RW)                                      DBEET
+-STO DB(DBEETA) SPACE(CUSDOCVG)                                            DBEET
+-STA DB(DBEETA) SPACE(CUSDOCVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CUSDPRVG)                                            DBEET
+-STA DB(DBEETA) SPACE(CUSDPRVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CUSMOBRA)                                            DBEET
+-STA DB(DBEETA) SPACE(CUSMOBRA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CUSTODOC)                                            DBEET
+-STA DB(DBEETA) SPACE(CUSTODOC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DCCPCMVG)                                            DBEET
+-STA DB(DBEETA) SPACE(DCCPCMVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DESCAVAR)                                            DBEET
+-STA DB(DBEETA) SPACE(DESCAVAR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DESCMSGS)                                            DBEET
+-STA DB(DBEETA) SPACE(DESCMSGS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DESFCNVG)                                            DBEET
+-STA DB(DBEETA) SPACE(DESFCNVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DIRMOTVG)                                            DBEET
+-STA DB(DBEETA) SPACE(DIRMOTVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DUPLPROP)                                            DBEET
+-STA DB(DBEETA) SPACE(DUPLPROP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(EMPRESAE)                                            DBEET
+-STA DB(DBEETA) SPACE(EMPRESAE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(EMPRMVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(EMPRMVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FASESPPS)                                            DBEET
+-STA DB(DBEETA) SPACE(FASESPPS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FIPEVIGE)                                            DBEET
+-STA DB(DBEETA) SPACE(FIPEVIGE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FORMAPGT)                                            DBEET
+-STA DB(DBEETA) SPACE(FORMAPGT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FORPCVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(FORPCVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FORPGNVG)                                            DBEET
+-STA DB(DBEETA) SPACE(FORPGNVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FPPGJVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(FPPGJVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FRCOBVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(FRCOBVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FTJUPAVE)                                            DBEET
+-STA DB(DBEETA) SPACE(FTJUPAVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRAUREL)                                             DBEET
+-STA DB(DBEETA) SPACE(GRAUREL) ACC(RW)                                     DBEET
+-STO DB(DBEETA) SPACE(GRCAAUTI)                                            DBEET
+-STA DB(DBEETA) SPACE(GRCAAUTI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRCAUTVI)                                            DBEET
+-STA DB(DBEETA) SPACE(GRCAUTVI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRCOBERT)                                            DBEET
+-STA DB(DBEETA) SPACE(GRCOBERT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRCOBVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(GRCOBVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRCRCFVI)                                            DBEET
+-STA DB(DBEETA) SPACE(GRCRCFVI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRINFCOL)                                            DBEET
+-STA DB(DBEETA) SPACE(GRINFCOL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRMOTRCS)                                            DBEET
+-STA DB(DBEETA) SPACE(GRMOTRCS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRMTRCVG)                                            DBEET
+-STA DB(DBEETA) SPACE(GRMTRCVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRPCAUVG)                                            DBEET
+-STA DB(DBEETA) SPACE(GRPCAUVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRREGIAO)                                            DBEET
+-STA DB(DBEETA) SPACE(GRREGIAO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRREGVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(GRREGVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRTXTEMI)                                            DBEET
+-STA DB(DBEETA) SPACE(GRTXTEMI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUCARCF)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUCARCF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUCATAU)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUCATAU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPEMIS)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPEMIS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPINFO)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPINFO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRVEICUL)                                            DBEET
+-STA DB(DBEETA) SPACE(GRVEICUL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(INFATTAB)                                            DBEET
+-STA DB(DBEETA) SPACE(INFATTAB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ITCONTAB)                                            DBEET
+-STA DB(DBEETA) SPACE(ITCONTAB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LIBERVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(LIBERVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LITCOVCL)                                            DBEET
+-STA DB(DBEETA) SPACE(LITCOVCL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LITTPCVG)                                            DBEET
+-STA DB(DBEETA) SPACE(LITTPCVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LMACTVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(LMACTVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LOGEANEL)                                            DBEET
+-STA DB(DBEETA) SPACE(LOGEANEL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LOGPRMVG)                                            DBEET
+-STA DB(DBEETA) SPACE(LOGPRMVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MARCRVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(MARCRVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MARTPVRS)                                            DBEET
+-STA DB(DBEETA) SPACE(MARTPVRS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MARVEICU)                                            DBEET
+-STA DB(DBEETA) SPACE(MARVEICU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MCTPVEDS)                                            DBEET
+-STA DB(DBEETA) SPACE(MCTPVEDS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MECBPAVI)                                            DBEET
+-STA DB(DBEETA) SPACE(MECBPAVI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MODVEICU)                                            DBEET
+-STA DB(DBEETA) SPACE(MODVEICU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MODVFDSC)                                            DBEET
+-STA DB(DBEETA) SPACE(MODVFDSC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MODVFDSQ)                                            DBEET
+-STA DB(DBEETA) SPACE(MODVFDSQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MODVSANT)                                            DBEET
+-STA DB(DBEETA) SPACE(MODVSANT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOLICARB)                                            DBEET
+-STA DB(DBEETA) SPACE(MOLICARB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOLIVIGE)                                            DBEET
+-STA DB(DBEETA) SPACE(MOLIVIGE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MORSTSOL)                                            DBEET
+-STA DB(DBEETA) SPACE(MORSTSOL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOTIVLIB)                                            DBEET
+-STA DB(DBEETA) SPACE(MOTIVLIB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOTRECUS)                                            DBEET
+-STA DB(DBEETA) SPACE(MOTRECUS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MTVRECSA)                                            DBEET
+-STA DB(DBEETA) SPACE(MTVRECSA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MTVRECSP)                                            DBEET
+-STA DB(DBEETA) SPACE(MTVRECSP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MTVRESPO)                                            DBEET
+-STA DB(DBEETA) SPACE(MTVRESPO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MVDTLDTV)                                            DBEET
+-STA DB(DBEETA) SPACE(MVDTLDTV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NACCOEVG)                                            DBEET
+-STA DB(DBEETA) SPACE(NACCOEVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NACOBCNE)                                            DBEET
+-STA DB(DBEETA) SPACE(NACOBCNE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NAOACPVG)                                            DBEET
+-STA DB(DBEETA) SPACE(NAOACPVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NAPROCNE)                                            DBEET
+-STA DB(DBEETA) SPACE(NAPROCNE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NEGOCIO)                                             DBEET
+-STA DB(DBEETA) SPACE(NEGOCIO) ACC(RW)                                     DBEET
+-STO DB(DBEETA) SPACE(NEGPRVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(NEGPRVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NEGPTVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(NEGPTVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NGBCPDVG)                                            DBEET
+-STA DB(DBEETA) SPACE(NGBCPDVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NIVELRCF)                                            DBEET
+-STA DB(DBEETA) SPACE(NIVELRCF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NIVRCFVG)                                            DBEET
+-STA DB(DBEETA) SPACE(NIVRCFVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NUMSQSOL)                                            DBEET
+-STA DB(DBEETA) SPACE(NUMSQSOL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(OPCCALCV)                                            DBEET
+-STA DB(DBEETA) SPACE(OPCCALCV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(OPCCALVG)                                            DBEET
+-STA DB(DBEETA) SPACE(OPCCALVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ORAPTPDS)                                            DBEET
+-STA DB(DBEETA) SPACE(ORAPTPDS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PARAMGER)                                            DBEET
+-STA DB(DBEETA) SPACE(PARAMGER) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PARAMSLN)                                            DBEET
+-STA DB(DBEETA) SPACE(PARAMSLN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PARGERSQ)                                            DBEET
+-STA DB(DBEETA) SPACE(PARGERSQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PARMCBVG)                                            DBEET
+-STA DB(DBEETA) SPACE(PARMCBVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PECAS)                                               DBEET
+-STA DB(DBEETA) SPACE(PECAS) ACC(RW)                                       DBEET
+-STO DB(DBEETA) SPACE(PERFTARI)                                            DBEET
+-STA DB(DBEETA) SPACE(PERFTARI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PERGUNTA)                                            DBEET
+-STA DB(DBEETA) SPACE(PERGUNTA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PLARIPES)                                            DBEET
+-STA DB(DBEETA) SPACE(PLARIPES) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PONTUACA)                                            DBEET
+-STA DB(DBEETA) SPACE(PONTUACA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(POPULCID)                                            DBEET
+-STA DB(DBEETA) SPACE(POPULCID) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRACNEVG)                                            DBEET
+-STA DB(DBEETA) SPACE(PRACNEVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRACURVG)                                            DBEET
+-STA DB(DBEETA) SPACE(PRACURVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRAZOCSI)                                            DBEET
+-STA DB(DBEETA) SPACE(PRAZOCSI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRCSANEG)                                            DBEET
+-STA DB(DBEETA) SPACE(PRCSANEG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRCSANVG)                                            DBEET
+-STA DB(DBEETA) SPACE(PRCSANVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PREBARCF)                                            DBEET
+-STA DB(DBEETA) SPACE(PREBARCF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRESTSER)                                            DBEET
+-STA DB(DBEETA) SPACE(PRESTSER) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRICOREM)                                            DBEET
+-STA DB(DBEETA) SPACE(PRICOREM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRIEMIVI)                                            DBEET
+-STA DB(DBEETA) SPACE(PRIEMIVI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRIINPEM)                                            DBEET
+-STA DB(DBEETA) SPACE(PRIINPEM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PROCEVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(PROCEVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRODUTOS)                                            DBEET
+-STA DB(DBEETA) SPACE(PRODUTOS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRODUVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(PRODUVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PROLIRMT)                                            DBEET
+-STA DB(DBEETA) SPACE(PROLIRMT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PROVIDEN)                                            DBEET
+-STA DB(DBEETA) SPACE(PROVIDEN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRSERREG)                                            DBEET
+-STA DB(DBEETA) SPACE(PRSERREG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRZCSCOR)                                            DBEET
+-STA DB(DBEETA) SPACE(PRZCSCOR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRZCSIVG)                                            DBEET
+-STA DB(DBEETA) SPACE(PRZCSIVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRZCURTO)                                            DBEET
+-STA DB(DBEETA) SPACE(PRZCURTO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PTUQTRST)                                            DBEET
+-STA DB(DBEETA) SPACE(PTUQTRST) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PTUSQPTO)                                            DBEET
+-STA DB(DBEETA) SPACE(PTUSQPTO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QTARGQTA)                                            DBEET
+-STA DB(DBEETA) SPACE(QTARGQTA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QTRGRTCT)                                            DBEET
+-STA DB(DBEETA) SPACE(QTRGRTCT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QUESTAO)                                             DBEET
+-STA DB(DBEETA) SPACE(QUESTAO) ACC(RW)                                     DBEET
+-STO DB(DBEETA) SPACE(QUESTIDF)                                            DBEET
+-STA DB(DBEETA) SPACE(QUESTIDF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QUESTION)                                            DBEET
+-STA DB(DBEETA) SPACE(QUESTION) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QUESTQTA)                                            DBEET
+-STA DB(DBEETA) SPACE(QUESTQTA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QUESTRGR)                                            DBEET
+-STA DB(DBEETA) SPACE(QUESTRGR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RAMGENER)                                            DBEET
+-STA DB(DBEETA) SPACE(RAMGENER) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RAMOCONG)                                            DBEET
+-STA DB(DBEETA) SPACE(RAMOCONG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(REAPECAS)                                            DBEET
+-STA DB(DBEETA) SPACE(REAPECAS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RECUSPRV)                                            DBEET
+-STA DB(DBEETA) SPACE(RECUSPRV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(REGCEPAL)                                            DBEET
+-STA DB(DBEETA) SPACE(REGCEPAL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(REGCEPPV)                                            DBEET
+-STA DB(DBEETA) SPACE(REGCEPPV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(REGIAO)                                              DBEET
+-STA DB(DBEETA) SPACE(REGIAO) ACC(RW)                                      DBEET
+-STO DB(DBEETA) SPACE(REGVISTO)                                            DBEET
+-STA DB(DBEETA) SPACE(REGVISTO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(REONBASE)                                            DBEET
+-STA DB(DBEETA) SPACE(REONBASE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RESPOCTU)                                            DBEET
+-STA DB(DBEETA) SPACE(RESPOCTU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RESPOSOL)                                            DBEET
+-STA DB(DBEETA) SPACE(RESPOSOL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RESPOSTA)                                            DBEET
+-STA DB(DBEETA) SPACE(RESPOSTA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ROTCADTB)                                            DBEET
+-STA DB(DBEETA) SPACE(ROTCADTB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SEQPROPO)                                            DBEET
+-STA DB(DBEETA) SPACE(SEQPROPO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SEQUECTX)                                            DBEET
+-STA DB(DBEETA) SPACE(SEQUECTX) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISGFOPG)                                            DBEET
+-STA DB(DBEETA) SPACE(SISGFOPG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISSACOV)                                            DBEET
+-STA DB(DBEETA) SPACE(SISSACOV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISSPAUR)                                            DBEET
+-STA DB(DBEETA) SPACE(SISSPAUR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISSPINP)                                            DBEET
+-STA DB(DBEETA) SPACE(SISSPINP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISSVCOV)                                            DBEET
+-STA DB(DBEETA) SPACE(SISSVCOV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISSVCST)                                            DBEET
+-STA DB(DBEETA) SPACE(SISSVCST) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISSVCVG)                                            DBEET
+-STA DB(DBEETA) SPACE(SISSVCVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SITDISPO)                                            DBEET
+-STA DB(DBEETA) SPACE(SITDISPO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SUBCPAVG)                                            DBEET
+-STA DB(DBEETA) SPACE(SUBCPAVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SUCCORNE)                                            DBEET
+-STA DB(DBEETA) SPACE(SUCCORNE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TABAPOIO)                                            DBEET
+-STA DB(DBEETA) SPACE(TABAPOIO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TAXAMCTE)                                            DBEET
+-STA DB(DBEETA) SPACE(TAXAMCTE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TAXCMTIP)                                            DBEET
+-STA DB(DBEETA) SPACE(TAXCMTIP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TAXCRVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(TAXCRVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TDOCICVG)                                            DBEET
+-STA DB(DBEETA) SPACE(TDOCICVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TEXTOEMI)                                            DBEET
+-STA DB(DBEETA) SPACE(TEXTOEMI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TEXTOOBS)                                            DBEET
+-STA DB(DBEETA) SPACE(TEXTOOBS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPANEXO)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPANEXO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPATFVI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPATFVI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPCIDAD)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPCIDAD) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPCNDRG)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPCNDRG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPDTENQ)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPDTENQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOBEM)                                             DBEET
+-STA DB(DBEETA) SPACE(TIPOBEM) ACC(RW)                                     DBEET
+-STO DB(DBEETA) SPACE(TIPOCSIP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCSIP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODADO)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODADO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODIA)                                             DBEET
+-STA DB(DBEETA) SPACE(TIPODIA) ACC(RW)                                     DBEET
+-STO DB(DBEETA) SPACE(TIPODISP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODISP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOLCAL)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOLCAL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOQST)                                             DBEET
+-STA DB(DBEETA) SPACE(TIPOQST) ACC(RW)                                     DBEET
+-STO DB(DBEETA) SPACE(TIPOQUES)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOQUES) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPPRR)                                              DBEET
+-STA DB(DBEETA) SPACE(TIPPRR) ACC(RW)                                      DBEET
+-STO DB(DBEETA) SPACE(TPA24HVG)                                            DBEET
+-STA DB(DBEETA) SPACE(TPA24HVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPACEITE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPACEITE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPACERNV)                                            DBEET
+-STA DB(DBEETA) SPACE(TPACERNV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPACEVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPACEVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPACEVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(TPACEVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPACVVIG)                                            DBEET
+-STA DB(DBEETA) SPACE(TPACVVIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPALCCTV)                                            DBEET
+-STA DB(DBEETA) SPACE(TPALCCTV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPALCVDV)                                            DBEET
+-STA DB(DBEETA) SPACE(TPALCVDV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPALCVTV)                                            DBEET
+-STA DB(DBEETA) SPACE(TPALCVTV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPALITAB)                                            DBEET
+-STA DB(DBEETA) SPACE(TPALITAB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPAMSGVG)                                            DBEET
+-STA DB(DBEETA) SPACE(TPAMSGVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPAST24H)                                            DBEET
+-STA DB(DBEETA) SPACE(TPAST24H) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPAVARIA)                                            DBEET
+-STA DB(DBEETA) SPACE(TPAVARIA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCABVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCABVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCALCCT)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCALCCT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCALDPC)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCALDPC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCALFRQ)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCALFRQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCALPRE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCALPRE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCALPRO)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCALPRO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCALTAX)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCALTAX) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCAMBVE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCAMBVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCAPVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCAPVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCARBUR)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCARBUR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCARVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCARVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCATSUS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCATSUS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCFMPFL)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCFMPFL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCILVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCILVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCLAJAV)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCLAJAV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCLATXT)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCLATXT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCLSVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCLSVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCNDANE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCNDANE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCNDPGT)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCNDPGT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCNVCOM)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCNVCOM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCOBERT)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCOBERT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCOBSUS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCOBSUS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCOMISS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCOMISS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCOMVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCOMVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCONCRA)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCONCRA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCONEVE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCONEVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCONSEG)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCONSEG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCONVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCONVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCONVEN)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCONVEN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCPNVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCPNVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCPOCAL)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCPOCAL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCPSJUR)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCPSJUR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPCRAVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPCRAVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPDESCTO)                                            DBEET
+-STA DB(DBEETA) SPACE(TPDESCTO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPDOCANE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPDOCANE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPDOCCBA)                                            DBEET
+-STA DB(DBEETA) SPACE(TPDOCCBA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPDOCUME)                                            DBEET
+-STA DB(DBEETA) SPACE(TPDOCUME) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPDSBLFB)                                            DBEET
+-STA DB(DBEETA) SPACE(TPDSBLFB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPDSCCSV)                                            DBEET
+-STA DB(DBEETA) SPACE(TPDSCCSV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPDSCTUR)                                            DBEET
+-STA DB(DBEETA) SPACE(TPDSCTUR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPENDOSS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPENDOSS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPENQCAT)                                            DBEET
+-STA DB(DBEETA) SPACE(TPENQCAT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPENQCOL)                                            DBEET
+-STA DB(DBEETA) SPACE(TPENQCOL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPENQDEP)                                            DBEET
+-STA DB(DBEETA) SPACE(TPENQDEP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPENQPAR)                                            DBEET
+-STA DB(DBEETA) SPACE(TPENQPAR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPESTINF)                                            DBEET
+-STA DB(DBEETA) SPACE(TPESTINF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPESTPPS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPESTPPS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPESTVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPESTVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPEVEDOC)                                            DBEET
+-STA DB(DBEETA) SPACE(TPEVEDOC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPEVETAB)                                            DBEET
+-STA DB(DBEETA) SPACE(TPEVETAB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPFORCRA)                                            DBEET
+-STA DB(DBEETA) SPACE(TPFORCRA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPFORPGT)                                            DBEET
+-STA DB(DBEETA) SPACE(TPFORPGT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPFRANQU)                                            DBEET
+-STA DB(DBEETA) SPACE(TPFRANQU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPFREVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPFREVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPFRQSUS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPFRQSUS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPFSCMVE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPFSCMVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPFTOJUR)                                            DBEET
+-STA DB(DBEETA) SPACE(TPFTOJUR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPGARANT)                                            DBEET
+-STA DB(DBEETA) SPACE(TPGARANT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPGROPVE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPGROPVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPGRPDOC)                                            DBEET
+-STA DB(DBEETA) SPACE(TPGRPDOC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPGTVNOV)                                            DBEET
+-STA DB(DBEETA) SPACE(TPGTVNOV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPIDFLIM)                                            DBEET
+-STA DB(DBEETA) SPACE(TPIDFLIM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPILDPES)                                            DBEET
+-STA DB(DBEETA) SPACE(TPILDPES) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPINFCPO)                                            DBEET
+-STA DB(DBEETA) SPACE(TPINFCPO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPINFRES)                                            DBEET
+-STA DB(DBEETA) SPACE(TPINFRES) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPINJVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPINJVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPISTRVE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPISTRVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPLIMTEC)                                            DBEET
+-STA DB(DBEETA) SPACE(TPLIMTEC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPLMPDOC)                                            DBEET
+-STA DB(DBEETA) SPACE(TPLMPDOC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPLOCVST)                                            DBEET
+-STA DB(DBEETA) SPACE(TPLOCVST) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPMATCRA)                                            DBEET
+-STA DB(DBEETA) SPACE(TPMATCRA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPMEICBA)                                            DBEET
+-STA DB(DBEETA) SPACE(TPMEICBA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPMOEDA)                                             DBEET
+-STA DB(DBEETA) SPACE(TPMOEDA) ACC(RW)                                     DBEET
+-STO DB(DBEETA) SPACE(TPMOTSOL)                                            DBEET
+-STA DB(DBEETA) SPACE(TPMOTSOL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPNACION)                                            DBEET
+-STA DB(DBEETA) SPACE(TPNACION) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPNIVLVE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPNIVLVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPOAUTOR)                                            DBEET
+-STA DB(DBEETA) SPACE(TPOAUTOR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPOEVDOC)                                            DBEET
+-STA DB(DBEETA) SPACE(TPOEVDOC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPOPCCAL)                                            DBEET
+-STA DB(DBEETA) SPACE(TPOPCCAL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPORANEX)                                            DBEET
+-STA DB(DBEETA) SPACE(TPORANEX) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPORCAME)                                            DBEET
+-STA DB(DBEETA) SPACE(TPORCAME) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPORCLAU)                                            DBEET
+-STA DB(DBEETA) SPACE(TPORCLAU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPORDCAL)                                            DBEET
+-STA DB(DBEETA) SPACE(TPORDCAL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPORIMOV)                                            DBEET
+-STA DB(DBEETA) SPACE(TPORIMOV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPORISEG)                                            DBEET
+-STA DB(DBEETA) SPACE(TPORISEG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPPARAME)                                            DBEET
+-STA DB(DBEETA) SPACE(TPPARAME) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPPCHVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPPCHVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPPERIOD)                                            DBEET
+-STA DB(DBEETA) SPACE(TPPERIOD) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPPESQUI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPPESQUI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPPGTCOM)                                            DBEET
+-STA DB(DBEETA) SPACE(TPPGTCOM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPPINVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPPINVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPPLAOPC)                                            DBEET
+-STA DB(DBEETA) SPACE(TPPLAOPC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPPOTVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPPOTVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPPRAZO)                                             DBEET
+-STA DB(DBEETA) SPACE(TPPRAZO) ACC(RW)                                     DBEET
+-STO DB(DBEETA) SPACE(TPPRIEMI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPPRIEMI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPPROVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPPROVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPQTDCSI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPQTDCSI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPRCFSUS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPRCFSUS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPRCOVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPRCOVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPREGTAR)                                            DBEET
+-STA DB(DBEETA) SPACE(TPREGTAR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPREPARO)                                            DBEET
+-STA DB(DBEETA) SPACE(TPREPARO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPRSPPGT)                                            DBEET
+-STA DB(DBEETA) SPACE(TPRSPPGT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPSISGVE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPSISGVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPSITANE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPSITANE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPSITCLS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPSITCLS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPSITEXT)                                            DBEET
+-STA DB(DBEETA) SPACE(TPSITEXT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPSITSER)                                            DBEET
+-STA DB(DBEETA) SPACE(TPSITSER) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPSITUAC)                                            DBEET
+-STA DB(DBEETA) SPACE(TPSITUAC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPSOLICI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPSOLICI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPSOPRPS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPSOPRPS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPTABCOT)                                            DBEET
+-STA DB(DBEETA) SPACE(TPTABCOT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPTARACE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPTARACE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPTONVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPTONVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPTRAVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPTRAVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPTXTANE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPTXTANE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPTXTEMI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPTXTEMI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPTXTIPS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPTXTIPS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPUTIVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPUTIVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPUTVEIH)                                            DBEET
+-STA DB(DBEETA) SPACE(TPUTVEIH) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPVALPRE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPVALPRE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPVALVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TPVALVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPVENPAG)                                            DBEET
+-STA DB(DBEETA) SPACE(TPVENPAG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPVIGPRO)                                            DBEET
+-STA DB(DBEETA) SPACE(TPVIGPRO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPVMODVE)                                            DBEET
+-STA DB(DBEETA) SPACE(TPVMODVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TSITICVG)                                            DBEET
+-STA DB(DBEETA) SPACE(TSITICVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TXGRINCO)                                            DBEET
+-STA DB(DBEETA) SPACE(TXGRINCO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TXTPADRA)                                            DBEET
+-STA DB(DBEETA) SPACE(TXTPADRA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VARCMMTP)                                            DBEET
+-STA DB(DBEETA) SPACE(VARCMMTP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VARCOMED)                                            DBEET
+-STA DB(DBEETA) SPACE(VARCOMED) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VEIANUSO)                                            DBEET
+-STA DB(DBEETA) SPACE(VEIANUSO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VERCALCO)                                            DBEET
+-STA DB(DBEETA) SPACE(VERCALCO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VERSPERF)                                            DBEET
+-STA DB(DBEETA) SPACE(VERSPERF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VRSCALEM)                                            DBEET
+-STA DB(DBEETA) SPACE(VRSCALEM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VRSPFLCO)                                            DBEET
+-STA DB(DBEETA) SPACE(VRSPFLCO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VRSPFLPT)                                            DBEET
+-STA DB(DBEETA) SPACE(VRSPFLPT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VRSPFLQT)                                            DBEET
+-STA DB(DBEETA) SPACE(VRSPFLQT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VRSPFLTA)                                            DBEET
+-STA DB(DBEETA) SPACE(VRSPFLTA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VRSPFLVG)                                            DBEET
+-STA DB(DBEETA) SPACE(VRSPFLVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VSTATALT)                                            DBEET
+-STA DB(DBEETA) SPACE(VSTATALT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VSTRGCEP)                                            DBEET
+-STA DB(DBEETA) SPACE(VSTRGCEP) ACC(RW)                                    DBEET
+-STO DB(DBEEVT) SPACE(ALMRTPVO)                                            DBEEV
+-STA DB(DBEEVT) SPACE(ALMRTPVO) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(ALMTPLEV)                                            DBEEV
+-STA DB(DBEEVT) SPACE(ALMTPLEV) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(CBPVAPTF)                                            DBEEV
+-STA DB(DBEEVT) SPACE(CBPVAPTF) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(CPOMVSON)                                            DBEEV
+-STA DB(DBEEVT) SPACE(CPOMVSON) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(CTSITCOR)                                            DBEEV
+-STA DB(DBEEVT) SPACE(CTSITCOR) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(DOMINSPE)                                            DBEEV
+-STA DB(DBEEVT) SPACE(DOMINSPE) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(DOMVSTON)                                            DBEEV
+-STA DB(DBEEVT) SPACE(DOMVSTON) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(EMAILINP)                                            DBEEV
+-STA DB(DBEEVT) SPACE(EMAILINP) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(HSINDCOR)                                            DBEEV
+-STA DB(DBEEVT) SPACE(HSINDCOR) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(HSTCOPVS)                                            DBEEV
+-STA DB(DBEEVT) SPACE(HSTCOPVS) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(HSTCOSOL)                                            DBEEV
+-STA DB(DBEEVT) SPACE(HSTCOSOL) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(INCORVIG)                                            DBEEV
+-STA DB(DBEEVT) SPACE(INCORVIG) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUCNDCH)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUCNDCH) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUCNDVE)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUCNDVE) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUVSTAV)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUVSTAV) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUVSTET)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUVSTET) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUVSTSI)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUVSTSI) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAVSTACE)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAVSTACE) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAVSTONB)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAVSTONB) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(MTBLQCOR)                                            DBEEV
+-STA DB(DBEEVT) SPACE(MTBLQCOR) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(MTLIBCOR)                                            DBEEV
+-STA DB(DBEEVT) SPACE(MTLIBCOR) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(MVSTONBL)                                            DBEEV
+-STA DB(DBEEVT) SPACE(MVSTONBL) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(SOLVSTOB)                                            DBEEV
+-STA DB(DBEEVT) SPACE(SOLVSTOB) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(SOVSTONB)                                            DBEEV
+-STA DB(DBEEVT) SPACE(SOVSTONB) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TIPEMAIL)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TIPEMAIL) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TIPIMPRE)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TIPIMPRE) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TIPOCANC)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TIPOCANC) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TPSITANA)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TPSITANA) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TPSITSOL)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TPSITSOL) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TPSITVST)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TPSITVST) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(VISCOND)                                             DBEEV
+-STA DB(DBEEVT) SPACE(VISCOND) ACC(RW)                                     DBEEV
+-STO DB(DBEEVT) SPACE(VSCBCTPD)                                            DBEEV
+-STA DB(DBEEVT) SPACE(VSCBCTPD) ACC(RW)                                    DBEEV
+-STO DB(DBER01) SPACE(ERCTPROC)                                            DBER0
+-STA DB(DBER01) SPACE(ERCTPROC) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERDATPRO)                                            DBER0
+-STA DB(DBER01) SPACE(ERDATPRO) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERMDSIPC)                                            DBER0
+-STA DB(DBER01) SPACE(ERMDSIPC) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERMVSLPT)                                            DBER0
+-STA DB(DBER01) SPACE(ERMVSLPT) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERPROGRA)                                            DBER0
+-STA DB(DBER01) SPACE(ERPROGRA) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERROTPCS)                                            DBER0
+-STA DB(DBER01) SPACE(ERROTPCS) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERTIPPCS)                                            DBER0
+-STA DB(DBER01) SPACE(ERTIPPCS) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(K9SGPRCR)                                            DBER0
+-STA DB(DBER01) SPACE(K9SGPRCR) ACC(RW)                                    DBER0
+-STO DB(DBINFOR) SPACE(TABLEVAN)                                           DBINF
+-STA DB(DBINFOR) SPACE(TABLEVAN) ACC(RW)                                   DBINF
+-STO DB(DBINFOR) SPACE(UTILITAR)                                           DBINF
+-STA DB(DBINFOR) SPACE(UTILITAR) ACC(RW)                                   DBINF
+-STO DB(DBKIT1) SPACE(RECPNAUT)                                            DBKIT
+-STA DB(DBKIT1) SPACE(RECPNAUT) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWBENE)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWBENE) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWCCOR)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWCCOR) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWCOBE)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWCOBE) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWCOBP)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWCOBP) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWLRIS)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWLRIS) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWPROP)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWPROP) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWRESU)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWRESU) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(WEBTEXTO)                                            DBKIT
+-STA DB(DBKIT1) SPACE(WEBTEXTO) ACC(RW)                                    DBKIT
+-STO DB(DBLG01) SPACE(SOLPGITG)                                            DBLG0
+-STA DB(DBLG01) SPACE(SOLPGITG) ACC(RW)                                    DBLG0
+-STO DB(DBMA01) SPACE(CADANSIN)                                            DBMA0
+-STA DB(DBMA01) SPACE(CADANSIN) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(CORRHIST)                                            DBMA0
+-STA DB(DBMA01) SPACE(CORRHIST) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(DPOCRSIN)                                            DBMA0
+-STA DB(DBMA01) SPACE(DPOCRSIN) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(DPREGSIN)                                            DBMA0
+-STA DB(DBMA01) SPACE(DPREGSIN) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(GRPNTSLV)                                            DBMA0
+-STA DB(DBMA01) SPACE(GRPNTSLV) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(ITNATSLV)                                            DBMA0
+-STA DB(DBMA01) SPACE(ITNATSLV) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(NOTFISCA)                                            DBMA0
+-STA DB(DBMA01) SPACE(NOTFISCA) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(OPERFISC)                                            DBMA0
+-STA DB(DBMA01) SPACE(OPERFISC) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(PRDINSPR)                                            DBMA0
+-STA DB(DBMA01) SPACE(PRDINSPR) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(PREFTEL)                                             DBMA0
+-STA DB(DBMA01) SPACE(PREFTEL) ACC(RW)                                     DBMA0
+-STO DB(DBMA01) SPACE(PROCURAD)                                            DBMA0
+-STA DB(DBMA01) SPACE(PROCURAD) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(REGCEPAM)                                            DBMA0
+-STA DB(DBMA01) SPACE(REGCEPAM) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(REGIICMS)                                            DBMA0
+-STA DB(DBMA01) SPACE(REGIICMS) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(RGPCINSV)                                            DBMA0
+-STA DB(DBMA01) SPACE(RGPCINSV) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(RNSREGES)                                            DBMA0
+-STA DB(DBMA01) SPACE(RNSREGES) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNBNFVID)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNBNFVID) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNCHQSAL)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNCHQSAL) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNCLCREC)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNCLCREC) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNCRDESP)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNCRDESP) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNCTEXPG)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNCTEXPG) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNCTLVST)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNCTLVST) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNDCCRDP)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNDCCRDP) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNDSTAUD)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNDSTAUD) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNINCORE)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNINCORE) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNITIMDS)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNITIMDS) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNITIMRG)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNITIMRG) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNJUDBEN)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNJUDBEN) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNMSGRNS)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNMSGRNS) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNOCORGR)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNOCORGR) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNPARAM)                                             DBMA0
+-STA DB(DBMA01) SPACE(SNPARAM) ACC(RW)                                     DBMA0
+-STO DB(DBMA01) SPACE(SNRGRAUD)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNRGRAUD) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNROTCEP)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNROTCEP) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNROTVST)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNROTVST) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNSERVIC)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNSERVIC) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNTIPFRQ)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNTIPFRQ) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNTIPIMP)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNTIPIMP) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNTIPOPE)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNTIPOPE) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNTIPORI)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNTIPORI) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNTPOROP)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNTPOROP) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNVEIRGR)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNVEIRGR) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SSISNPTR)                                            DBMA0
+-STA DB(DBMA01) SPACE(SSISNPTR) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SSTIPISN)                                            DBMA0
+-STA DB(DBMA01) SPACE(SSTIPISN) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SUBRCEPA)                                            DBMA0
+-STA DB(DBMA01) SPACE(SUBRCEPA) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TBCPORNS)                                            DBMA0
+-STA DB(DBMA01) SPACE(TBCPORNS) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TBOCRSIN)                                            DBMA0
+-STA DB(DBMA01) SPACE(TBOCRSIN) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TCHEQUE)                                             DBMA0
+-STA DB(DBMA01) SPACE(TCHEQUE) ACC(RW)                                     DBMA0
+-STO DB(DBMA01) SPACE(TCONFIRM)                                            DBMA0
+-STA DB(DBMA01) SPACE(TCONFIRM) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TLOCALVE)                                            DBMA0
+-STA DB(DBMA01) SPACE(TLOCALVE) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TPAGAMEN)                                            DBMA0
+-STA DB(DBMA01) SPACE(TPAGAMEN) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TPROCURA)                                            DBMA0
+-STA DB(DBMA01) SPACE(TPROCURA) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TPROVIDE)                                            DBMA0
+-STA DB(DBMA01) SPACE(TPROVIDE) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TREMOCAO)                                            DBMA0
+-STA DB(DBMA01) SPACE(TREMOCAO) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TSINICPM)                                            DBMA0
+-STA DB(DBMA01) SPACE(TSINICPM) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSEVEES)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSEVEES) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSEVESV)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSEVESV) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSLEILA)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSLEILA) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSMTCAP)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSMTCAP) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSNUMSQ)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSNUMSQ) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSPERFI)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSPERFI) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSPEUSR)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSPEUSR) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSPROCR)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSPROCR) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSPROCU)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSPROCU) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSRECOM)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSRECOM) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSRECSV)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSRECSV) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSSLVOU)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSSLVOU) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSUSUAR)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSUSUAR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(AGEBANES)                                            DBMA0
+-STA DB(DBMA02) SPACE(AGEBANES) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(AGLPRODU)                                            DBMA0
+-STA DB(DBMA02) SPACE(AGLPRODU) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(AGRPRODU)                                            DBMA0
+-STA DB(DBMA02) SPACE(AGRPRODU) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(ANALSIST)                                            DBMA0
+-STA DB(DBMA02) SPACE(ANALSIST) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CADCNGPC)                                            DBMA0
+-STA DB(DBMA02) SPACE(CADCNGPC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CCUSTO)                                              DBMA0
+-STA DB(DBMA02) SPACE(CCUSTO) ACC(RW)                                      DBMA0
+-STO DB(DBMA02) SPACE(CELULA)                                              DBMA0
+-STA DB(DBMA02) SPACE(CELULA) ACC(RW)                                      DBMA0
+-STO DB(DBMA02) SPACE(CENTRCUS)                                            DBMA0
+-STA DB(DBMA02) SPACE(CENTRCUS) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CLAPRODU)                                            DBMA0
+-STA DB(DBMA02) SPACE(CLAPRODU) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CMACEMOT)                                            DBMA0
+-STA DB(DBMA02) SPACE(CMACEMOT) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CMACETOT)                                            DBMA0
+-STA DB(DBMA02) SPACE(CMACETOT) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORCTETQ)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORCTETQ) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRCONC)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRCONC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRETEL)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRETEL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRMASC)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRMASC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRMAST)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRMAST) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRPERS)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRPERS) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRTADC)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRTADC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRTCND)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRTCND) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRTEQP)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRTEQP) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRTEXT)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRTEXT) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRTSIS)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRTSIS) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRTVID)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRTVID) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORSITFC)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORSITFC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORSNGTE)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORSNGTE) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORSTFC)                                             DBMA0
+-STA DB(DBMA02) SPACE(CORSTFC) ACC(RW)                                     DBMA0
+-STO DB(DBMA02) SPACE(CTLRMSCR)                                            DBMA0
+-STA DB(DBMA02) SPACE(CTLRMSCR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(DATAS)                                               DBMA0
+-STA DB(DBMA02) SPACE(DATAS) ACC(RW)                                       DBMA0
+-STO DB(DBMA02) SPACE(DEPTO)                                               DBMA0
+-STA DB(DBMA02) SPACE(DEPTO) ACC(RW)                                       DBMA0
+-STO DB(DBMA02) SPACE(DSRELCOR)                                            DBMA0
+-STA DB(DBMA02) SPACE(DSRELCOR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(EMAILINV)                                            DBMA0
+-STA DB(DBMA02) SPACE(EMAILINV) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(ENSATERP)                                            DBMA0
+-STA DB(DBMA02) SPACE(ENSATERP) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(FUNCIONA)                                            DBMA0
+-STA DB(DBMA02) SPACE(FUNCIONA) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(FUNUSIMP)                                            DBMA0
+-STA DB(DBMA02) SPACE(FUNUSIMP) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(GGRBANES)                                            DBMA0
+-STA DB(DBMA02) SPACE(GGRBANES) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(GRPCAT)                                              DBMA0
+-STA DB(DBMA02) SPACE(GRPCAT) ACC(RW)                                      DBMA0
+-STO DB(DBMA02) SPACE(GRPCATAU)                                            DBMA0
+-STA DB(DBMA02) SPACE(GRPCATAU) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(GRPCATRC)                                            DBMA0
+-STA DB(DBMA02) SPACE(GRPCATRC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(HPKTWAEX)                                            DBMA0
+-STA DB(DBMA02) SPACE(HPKTWAEX) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(IMGAUVPR)                                            DBMA0
+-STA DB(DBMA02) SPACE(IMGAUVPR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(INTCONSA)                                            DBMA0
+-STA DB(DBMA02) SPACE(INTCONSA) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(ITFOCICS)                                            DBMA0
+-STA DB(DBMA02) SPACE(ITFOCICS) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(LNHPRODU)                                            DBMA0
+-STA DB(DBMA02) SPACE(LNHPRODU) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(LOCALSEC)                                            DBMA0
+-STA DB(DBMA02) SPACE(LOCALSEC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(LOGATURE)                                            DBMA0
+-STA DB(DBMA02) SPACE(LOGATURE) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(LOGROTDT)                                            DBMA0
+-STA DB(DBMA02) SPACE(LOGROTDT) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(MENDOCTO)                                            DBMA0
+-STA DB(DBMA02) SPACE(MENDOCTO) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(MOTINCON)                                            DBMA0
+-STA DB(DBMA02) SPACE(MOTINCON) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(MSGNEGOC)                                            DBMA0
+-STA DB(DBMA02) SPACE(MSGNEGOC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PARINSPE)                                            DBMA0
+-STA DB(DBMA02) SPACE(PARINSPE) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECADCGO)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECADCGO) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECADMDO)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECADMDO) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECADORG)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECADORG) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECADREL)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECADREL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECADRLA)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECADRLA) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECADTIL)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECADTIL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PKITWCOB)                                            DBMA0
+-STA DB(DBMA02) SPACE(PKITWCOB) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PREMICAN)                                            DBMA0
+-STA DB(DBMA02) SPACE(PREMICAN) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PROCMLMA)                                            DBMA0
+-STA DB(DBMA02) SPACE(PROCMLMA) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(RAMOSVIG)                                            DBMA0
+-STA DB(DBMA02) SPACE(RAMOSVIG) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(RESSEGUR)                                            DBMA0
+-STA DB(DBMA02) SPACE(RESSEGUR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SECAOFUN)                                            DBMA0
+-STA DB(DBMA02) SPACE(SECAOFUN) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SENHA)                                               DBMA0
+-STA DB(DBMA02) SPACE(SENHA) ACC(RW)                                       DBMA0
+-STO DB(DBMA02) SPACE(SENHAAPL)                                            DBMA0
+-STA DB(DBMA02) SPACE(SENHAAPL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SENHACTL)                                            DBMA0
+-STA DB(DBMA02) SPACE(SENHACTL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SENHATLM)                                            DBMA0
+-STA DB(DBMA02) SPACE(SENHATLM) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SERVCORR)                                            DBMA0
+-STA DB(DBMA02) SPACE(SERVCORR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SISTEMA)                                             DBMA0
+-STA DB(DBMA02) SPACE(SISTEMA) ACC(RW)                                     DBMA0
+-STO DB(DBMA02) SPACE(SNSVDESP)                                            DBMA0
+-STA DB(DBMA02) SPACE(SNSVDESP) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SSPACTCP)                                            DBMA0
+-STA DB(DBMA02) SPACE(SSPACTCP) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SSPADFPM)                                            DBMA0
+-STA DB(DBMA02) SPACE(SSPADFPM) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SSTREPTR)                                            DBMA0
+-STA DB(DBMA02) SPACE(SSTREPTR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SUCURSAL)                                            DBMA0
+-STA DB(DBMA02) SPACE(SUCURSAL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SUPBANES)                                            DBMA0
+-STA DB(DBMA02) SPACE(SUPBANES) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SYSDATA1)                                            DBMA0
+-STA DB(DBMA02) SPACE(SYSDATA1) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TBCODFIN)                                            DBMA0
+-STA DB(DBMA02) SPACE(TBCODFIN) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TBPLCORR)                                            DBMA0
+-STA DB(DBMA02) SPACE(TBPLCORR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TIPDOCEM)                                            DBMA0
+-STA DB(DBMA02) SPACE(TIPDOCEM) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TIPINCON)                                            DBMA0
+-STA DB(DBMA02) SPACE(TIPINCON) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TIPODEST)                                            DBMA0
+-STA DB(DBMA02) SPACE(TIPODEST) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TIPRELAT)                                            DBMA0
+-STA DB(DBMA02) SPACE(TIPRELAT) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TPDSTRLT)                                            DBMA0
+-STA DB(DBMA02) SPACE(TPDSTRLT) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(UCADPROG)                                            DBMA0
+-STA DB(DBMA02) SPACE(UCADPROG) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(UCADSINS)                                            DBMA0
+-STA DB(DBMA02) SPACE(UCADSINS) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(UF)                                                  DBMA0
+-STA DB(DBMA02) SPACE(UF) ACC(RW)                                          DBMA0
+-STO DB(DBMA02) SPACE(UFNOS)                                               DBMA0
+-STA DB(DBMA02) SPACE(UFNOS) ACC(RW)                                       DBMA0
+-STO DB(DBMA02) SPACE(UMOVSENH)                                            DBMA0
+-STA DB(DBMA02) SPACE(UMOVSENH) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(UNIBANES)                                            DBMA0
+-STA DB(DBMA02) SPACE(UNIBANES) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(UNIDPROD)                                            DBMA0
+-STA DB(DBMA02) SPACE(UNIDPROD) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(URACARTA)                                            DBMA0
+-STA DB(DBMA02) SPACE(URACARTA) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(URACOTAL)                                            DBMA0
+-STA DB(DBMA02) SPACE(URACOTAL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(USERVCOR)                                            DBMA0
+-STA DB(DBMA02) SPACE(USERVCOR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(USIMPCHQ)                                            DBMA0
+-STA DB(DBMA02) SPACE(USIMPCHQ) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEBPRODU)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEBPRODU) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEVEALCA)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEVEALCA) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEVESIST)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEVESIST) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WMDNIVAL)                                            DBMA0
+-STA DB(DBMA02) SPACE(WMDNIVAL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WMODULO)                                             DBMA0
+-STA DB(DBMA02) SPACE(WMODULO) ACC(RW)                                     DBMA0
+-STO DB(DBMA02) SPACE(WNIVALCA)                                            DBMA0
+-STA DB(DBMA02) SPACE(WNIVALCA) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WUSUCORR)                                            DBMA0
+-STA DB(DBMA02) SPACE(WUSUCORR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WUSUEVEN)                                            DBMA0
+-STA DB(DBMA02) SPACE(WUSUEVEN) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WUSUMODU)                                            DBMA0
+-STA DB(DBMA02) SPACE(WUSUMODU) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(CIMPLERP)                                            DBMA0
+-STA DB(DBMA03) SPACE(CIMPLERP) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(CXPOSTAL)                                            DBMA0
+-STA DB(DBMA03) SPACE(CXPOSTAL) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(LGRCEPLC)                                            DBMA0
+-STA DB(DBMA03) SPACE(LGRCEPLC) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(LOCALFXA)                                            DBMA0
+-STA DB(DBMA03) SPACE(LOCALFXA) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(LOCALTIP)                                            DBMA0
+-STA DB(DBMA03) SPACE(LOCALTIP) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(LOGRATIP)                                            DBMA0
+-STA DB(DBMA03) SPACE(LOGRATIP) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(PARAMLCL)                                            DBMA0
+-STA DB(DBMA03) SPACE(PARAMLCL) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(SSMRSVSN)                                            DBMA0
+-STA DB(DBMA03) SPACE(SSMRSVSN) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(SUBREGSN)                                            DBMA0
+-STA DB(DBMA03) SPACE(SUBREGSN) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBFXACEP)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBFXACEP) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBREGCEP)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBREGCEP) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBREGINS)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBREGINS) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBSUBREG)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBSUBREG) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBTARFAC)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBTARFAC) ACC(RW)                                    DBMA0
+-STO DB(DBMO01) SPACE(DEPACES1)                                            DBMO0
+-STA DB(DBMO01) SPACE(DEPACES1) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(DEPACESS)                                            DBMO0
+-STA DB(DBMO01) SPACE(DEPACESS) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(EMARACES)                                            DBMO0
+-STA DB(DBMO01) SPACE(EMARACES) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ENDCMTIP)                                            DBMO0
+-STA DB(DBMO01) SPACE(ENDCMTIP) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(JEUZ001)                                             DBMO0
+-STA DB(DBMO01) SPACE(JEUZ001) ACC(RW)                                     DBMO0
+-STO DB(DBMO01) SPACE(JEUZ5)                                               DBMO0
+-STA DB(DBMO01) SPACE(JEUZ5) ACC(RW)                                       DBMO0
+-STO DB(DBMO01) SPACE(ORCACESS)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCACESS) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCAENDS)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCAENDS) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCCATEN)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCCATEN) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCCOBPN)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCCOBPN) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCCPROD)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCCPROD) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCONDES)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCONDES) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFCCDT)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFCCDT) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFCDVG)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFCDVG) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFCVEI)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFCVEI) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFCVVG)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFCVVG) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFDES1)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFDES1) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFIDVG)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFIDVG) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFTHVG)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFTHVG) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(RMARACES)                                            DBMO0
+-STA DB(DBMO01) SPACE(RMARACES) ACC(RW)                                    DBMO0
+-STO DB(DBMP01) SPACE(AGRAVOBO)                                            DBMP0
+-STA DB(DBMP01) SPACE(AGRAVOBO) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(ANEXOS)                                              DBMP0
+-STA DB(DBMP01) SPACE(ANEXOS) ACC(RW)                                      DBMP0
+-STO DB(DBMP01) SPACE(CLAUSULA)                                            DBMP0
+-STA DB(DBMP01) SPACE(CLAUSULA) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(NORMASAF)                                            DBMP0
+-STA DB(DBMP01) SPACE(NORMASAF) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PCONCARG)                                            DBMP0
+-STA DB(DBMP01) SPACE(PCONCARG) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PCONVACE)                                            DBMP0
+-STA DB(DBMP01) SPACE(PCONVACE) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PCONVLOG)                                            DBMP0
+-STA DB(DBMP01) SPACE(PCONVLOG) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PCONVMSG)                                            DBMP0
+-STA DB(DBMP01) SPACE(PCONVMSG) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PCONVOPC)                                            DBMP0
+-STA DB(DBMP01) SPACE(PCONVOPC) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PCONVPCO)                                            DBMP0
+-STA DB(DBMP01) SPACE(PCONVPCO) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PELFILIM)                                            DBMP0
+-STA DB(DBMP01) SPACE(PELFILIM) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PKITACES)                                            DBMP0
+-STA DB(DBMP01) SPACE(PKITACES) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PKITBCNS)                                            DBMP0
+-STA DB(DBMP01) SPACE(PKITBCNS) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PKITCARG)                                            DBMP0
+-STA DB(DBMP01) SPACE(PKITCARG) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PKITCFG)                                             DBMP0
+-STA DB(DBMP01) SPACE(PKITCFG) ACC(RW)                                     DBMP0
+-STO DB(DBMP01) SPACE(PKITCLON)                                            DBMP0
+-STA DB(DBMP01) SPACE(PKITCLON) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PKITCOLE)                                            DBMP0
+-STA DB(DBMP01) SPACE(PKITCOLE) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PKITCORR)                                            DBMP0
+-STA DB(DBMP01) SPACE(PKITCORR) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(TEXTOS)                                              DBMP0
+-STA DB(DBMP01) SPACE(TEXTOS) ACC(RW)                                      DBMP0
+-STO DB(DBMP02) SPACE(PCONVMSG)                                            DBMP0
+-STA DB(DBMP02) SPACE(PCONVMSG) ACC(RW)                                    DBMP0
+-STO DB(DBMP02) SPACE(PCONVOPC)                                            DBMP0
+-STA DB(DBMP02) SPACE(PCONVOPC) ACC(RW)                                    DBMP0
+-STO DB(DBMT01) SPACE(ACCOBVIG)                                            DBMT0
+-STA DB(DBMT01) SPACE(ACCOBVIG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(ACESSORI)                                            DBMT0
+-STA DB(DBMT01) SPACE(ACESSORI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(AGRAVOID)                                            DBMT0
+-STA DB(DBMT01) SPACE(AGRAVOID) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(AS24HVIG)                                            DBMT0
+-STA DB(DBMT01) SPACE(AS24HVIG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(AVRNVACE)                                            DBMT0
+-STA DB(DBMT01) SPACE(AVRNVACE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(BLOQRAST)                                            DBMT0
+-STA DB(DBMT01) SPACE(BLOQRAST) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(BONTRCIA)                                            DBMT0
+-STA DB(DBMT01) SPACE(BONTRCIA) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(BONUS)                                               DBMT0
+-STA DB(DBMT01) SPACE(BONUS) ACC(RW)                                       DBMT0
+-STO DB(DBMT01) SPACE(CATAUTIL)                                            DBMT0
+-STA DB(DBMT01) SPACE(CATAUTIL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CATEGAUT)                                            DBMT0
+-STA DB(DBMT01) SPACE(CATEGAUT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CATEGRCF)                                            DBMT0
+-STA DB(DBMT01) SPACE(CATEGRCF) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGNACEIT)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGNACEIT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGNACNEV)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGNACNEV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGNACOBV)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGNACOBV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGNACVIG)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGNACVIG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CLASSOPC)                                            DBMT0
+-STA DB(DBMT01) SPACE(CLASSOPC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CLOPCVEI)                                            DBMT0
+-STA DB(DBMT01) SPACE(CLOPCVEI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBCOMIS)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBCOMIS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBDCONV)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBDCONV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBDESTM)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBDESTM) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBERTUR)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBERTUR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBERVIG)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBERVIG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBMTNAC)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBMTNAC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBPRDSC)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBPRDSC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBPRMIO)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBPRMIO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBVINCU)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBVINCU) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COEFIRCF)                                            DBMT0
+-STA DB(DBMT01) SPACE(COEFIRCF) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COMBUST)                                             DBMT0
+-STA DB(DBMT01) SPACE(COMBUST) ACC(RW)                                     DBMT0
+-STO DB(DBMT01) SPACE(CONESACV)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONESACV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONESPEC)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONESPEC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONESPRV)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONESPRV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONESPVI)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONESPVI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONVCOVI)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONVCOVI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONVENIO)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONVENIO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONVSCOR)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONVSCOR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONVSCOV)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONVSCOV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONVSEGU)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONVSEGU) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONVSEGV)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONVSEGV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CUSTAPOL)                                            DBMT0
+-STA DB(DBMT01) SPACE(CUSTAPOL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(DEBLRRFP)                                            DBMT0
+-STA DB(DBMT01) SPACE(DEBLRRFP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(DESCRMSG)                                            DBMT0
+-STA DB(DBMT01) SPACE(DESCRMSG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(DMORIMSG)                                            DBMT0
+-STA DB(DBMT01) SPACE(DMORIMSG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPPROTV)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPPROTV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPREMAR)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPREMAR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPRESA)                                             DBMT0
+-STA DB(DBMT01) SPACE(EMPRESA) ACC(RW)                                     DBMT0
+-STO DB(DBMT01) SPACE(EMPRPROD)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPRPROD) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FIPEANO)                                             DBMT0
+-STA DB(DBMT01) SPACE(FIPEANO) ACC(RW)                                     DBMT0
+-STO DB(DBMT01) SPACE(FIPEVIG)                                             DBMT0
+-STA DB(DBMT01) SPACE(FIPEVIG) ACC(RW)                                     DBMT0
+-STO DB(DBMT01) SPACE(FIPLRTI1)                                            DBMT0
+-STA DB(DBMT01) SPACE(FIPLRTI1) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FIPLRTIP)                                            DBMT0
+-STA DB(DBMT01) SPACE(FIPLRTIP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FIPLRVI1)                                            DBMT0
+-STA DB(DBMT01) SPACE(FIPLRVI1) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FORMPAGA)                                            DBMT0
+-STA DB(DBMT01) SPACE(FORMPAGA) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FPEMPVIG)                                            DBMT0
+-STA DB(DBMT01) SPACE(FPEMPVIG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FPJURVIG)                                            DBMT0
+-STA DB(DBMT01) SPACE(FPJURVIG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GPAREMOV)                                            DBMT0
+-STA DB(DBMT01) SPACE(GPAREMOV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRCATAUC)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRCATAUC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRCATAUT)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRCATAUT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRCATRCF)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRCATRCF) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRCOBCOB)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRCOBCOB) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRRCFCAT)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRRCFCAT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRREGREG)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRREGREG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRTPCONV)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRTPCONV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRTPCVTP)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRTPCVTP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUPOCOB)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUPOCOB) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUPOREG)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUPOREG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUPOVEI)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUPOVEI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(IEMPCOBE)                                            DBMT0
+-STA DB(DBMT01) SPACE(IEMPCOBE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(INCONAPO)                                            DBMT0
+-STA DB(DBMT01) SPACE(INCONAPO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMTCOBE)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMTCOBE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMTCVIN)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMTCVIN) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMTECNI)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMTECNI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMTECTP)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMTECTP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(MOLICVAL)                                            DBMT0
+-STA DB(DBMT01) SPACE(MOLICVAL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(MOLICVIG)                                            DBMT0
+-STA DB(DBMT01) SPACE(MOLICVIG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(MORECTEC)                                            DBMT0
+-STA DB(DBMT01) SPACE(MORECTEC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(OPCVEICU)                                            DBMT0
+-STA DB(DBMT01) SPACE(OPCVEICU) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARACACO)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARACACO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARACCHQ)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARACCHQ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARACCNS)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARACCNS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARACEIT)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARACEIT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARACFAL)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARACFAL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARACHAB)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARACHAB) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARACPDT)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARACPDT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARACPRO)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARACPRO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARCATEG)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARCATEG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARGERAL)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARGERAL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARGESEQ)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARGESEQ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARGRINS)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARGRINS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARPERFI)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARPERFI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARPRODC)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARPRODC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARPRODU)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARPRODU) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARSERAS)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARSERAS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARSINIS)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARSINIS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARTPSEG)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARTPSEG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARVALIS)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARVALIS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLCOBOPC)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLCOBOPC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLOPCVIG)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLOPCVIG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLOPREVI)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLOPREVI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLRISPES)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLRISPES) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRBASRCF)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRBASRCF) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRODUTO)                                             DBMT0
+-STA DB(DBMT01) SPACE(PRODUTO) ACC(RW)                                     DBMT0
+-STO DB(DBMT01) SPACE(PRODVIG)                                             DBMT0
+-STA DB(DBMT01) SPACE(PRODVIG) ACC(RW)                                     DBMT0
+-STO DB(DBMT01) SPACE(PRTSERRE)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRTSERRE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRTSERVI)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRTSERVI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRZCEMPV)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRZCEMPV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRZCURTO)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRZCURTO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRZCURVI)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRZCURVI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(REGCEPP1)                                            DBMT0
+-STA DB(DBMT01) SPACE(REGCEPP1) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(RENOVBON)                                            DBMT0
+-STA DB(DBMT01) SPACE(RENOVBON) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(RMOATIEX)                                            DBMT0
+-STA DB(DBMT01) SPACE(RMOATIEX) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(SUCEMPRE)                                            DBMT0
+-STA DB(DBMT01) SPACE(SUCEMPRE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(TBDTCALC)                                            DBMT0
+-STA DB(DBMT01) SPACE(TBDTCALC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(TIPACESS)                                            DBMT0
+-STA DB(DBMT01) SPACE(TIPACESS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(TIPAUTIL)                                            DBMT0
+-STA DB(DBMT01) SPACE(TIPAUTIL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(TIPOCONV)                                            DBMT0
+-STA DB(DBMT01) SPACE(TIPOCONV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(TPENSMOV)                                            DBMT0
+-STA DB(DBMT01) SPACE(TPENSMOV) ACC(RW)                                    DBMT0
+-STO DB(DBNA01) SPACE(NAOPE)                                               DBNA0
+-STA DB(DBNA01) SPACE(NAOPE) ACC(RW)                                       DBNA0
+-STO DB(DBNA01) SPACE(NAPRN)                                               DBNA0
+-STA DB(DBNA01) SPACE(NAPRN) ACC(RW)                                       DBNA0
+-STO DB(DBNA01) SPACE(TBBC)                                                DBNA0
+-STA DB(DBNA01) SPACE(TBBC) ACC(RW)                                        DBNA0
+-STO DB(DBNA01) SPACE(TBBNN)                                               DBNA0
+-STA DB(DBNA01) SPACE(TBBNN) ACC(RW)                                       DBNA0
+-STO DB(DBNA01) SPACE(TBEP)                                                DBNA0
+-STA DB(DBNA01) SPACE(TBEP) ACC(RW)                                        DBNA0
+-STO DB(DBNA01) SPACE(TBEPCC)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBEPCC) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBEPMC)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBEPMC) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBEPNA)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBEPNA) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBEPSC)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBEPSC) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBEPV)                                               DBNA0
+-STA DB(DBNA01) SPACE(TBEPV) ACC(RW)                                       DBNA0
+-STO DB(DBNA01) SPACE(TBNA)                                                DBNA0
+-STA DB(DBNA01) SPACE(TBNA) ACC(RW)                                        DBNA0
+-STO DB(DBNA01) SPACE(TBNAEV)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBNAEV) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBNAEVL)                                             DBNA0
+-STA DB(DBNA01) SPACE(TBNAEVL) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(TBNALV)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBNALV) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBNAOCPI)                                            DBNA0
+-STA DB(DBNA01) SPACE(TBNAOCPI) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(TBNAOE)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBNAOE) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBNAOFP)                                             DBNA0
+-STA DB(DBNA01) SPACE(TBNAOFP) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(TBNAOOC)                                             DBNA0
+-STA DB(DBNA01) SPACE(TBNAOOC) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(TBNAOOPI)                                            DBNA0
+-STA DB(DBNA01) SPACE(TBNAOOPI) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(TBNAOOS)                                             DBNA0
+-STA DB(DBNA01) SPACE(TBNAOOS) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(TBNAOP)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBNAOP) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBNAOPI)                                             DBNA0
+-STA DB(DBNA01) SPACE(TBNAOPI) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(TBNAOR)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBNAOR) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBNAORC)                                             DBNA0
+-STA DB(DBNA01) SPACE(TBNAORC) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(TBPI)                                                DBNA0
+-STA DB(DBNA01) SPACE(TBPI) ACC(RW)                                        DBNA0
+-STO DB(DBNA01) SPACE(TBPPCI)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBPPCI) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBPPI)                                               DBNA0
+-STA DB(DBNA01) SPACE(TBPPI) ACC(RW)                                       DBNA0
+-STO DB(DBNA01) SPACE(TBPRFP)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBPRFP) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBPRM)                                               DBNA0
+-STA DB(DBNA01) SPACE(TBPRM) ACC(RW)                                       DBNA0
+-STO DB(DBNA01) SPACE(TBPRVD)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBPRVD) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBPVC)                                               DBNA0
+-STA DB(DBNA01) SPACE(TBPVC) ACC(RW)                                       DBNA0
+-STO DB(DBNA01) SPACE(TBPVCR)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBPVCR) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBPXYZ)                                              DBNA0
+-STA DB(DBNA01) SPACE(TBPXYZ) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(TBTP)                                                DBNA0
+-STA DB(DBNA01) SPACE(TBTP) ACC(RW)                                        DBNA0
+-STO DB(DBNA01) SPACE(TBUP)                                                DBNA0
+-STA DB(DBNA01) SPACE(TBUP) ACC(RW)                                        DBNA0
+-STO DB(DBNA01) SPACE(TBUPV)                                               DBNA0
+-STA DB(DBNA01) SPACE(TBUPV) ACC(RW)                                       DBNA0
+-STO DB(DBNA01) SPACE(TBUSR)                                               DBNA0
+-STA DB(DBNA01) SPACE(TBUSR) ACC(RW)                                       DBNA0
+-STO DB(DBNOVA) SPACE(BANCOS)                                              DBNOV
+-STA DB(DBNOVA) SPACE(BANCOS) ACC(RW)                                      DBNOV
+-STO DB(DBNOVA) SPACE(CADAMREN)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADAMREN) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADAUAU2)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADAUAU2) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADAUVID)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADAUVID) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADCIRC)                                             DBNOV
+-STA DB(DBNOVA) SPACE(CADCIRC) ACC(RW)                                     DBNOV
+-STO DB(DBNOVA) SPACE(CADCOCED)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADCOCED) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADPARAM)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADPARAM) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADRENAU)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADRENAU) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CDALCADA)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CDALCADA) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CONGENER)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CONGENER) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CORATU)                                              DBNOV
+-STA DB(DBNOVA) SPACE(CORATU) ACC(RW)                                      DBNOV
+-STO DB(DBNOVA) SPACE(CORRCOMP)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CORRCOMP) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(HISATZ)                                              DBNOV
+-STA DB(DBNOVA) SPACE(HISATZ) ACC(RW)                                      DBNOV
+-STO DB(DBNOVA) SPACE(HISMOVVE)                                            DBNOV
+-STA DB(DBNOVA) SPACE(HISMOVVE) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVACESS)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVACESS) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVAPCHQ)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVAPCHQ) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVAPCOR)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVAPCOR) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVAUDIS)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVAUDIS) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVAURES)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVAURES) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVAUVID)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVAUVID) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVBICRE)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVBICRE) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVBILHE)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVBILHE) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVCOCED)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVCOCED) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVCRALT)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVCRALT) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(NIVELALC)                                            DBNOV
+-STA DB(DBNOVA) SPACE(NIVELALC) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(RAMOS)                                               DBNOV
+-STA DB(DBNOVA) SPACE(RAMOS) ACC(RW)                                       DBNOV
+-STO DB(DBNOVA) SPACE(SEQAUTRZ)                                            DBNOV
+-STA DB(DBNOVA) SPACE(SEQAUTRZ) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBACESS)                                             DBNOV
+-STA DB(DBNOVA) SPACE(TBACESS) ACC(RW)                                     DBNOV
+-STO DB(DBNOVA) SPACE(TBAUCATG)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBAUCATG) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBAUDISP)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBAUDISP) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBAUPLAS)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBAUPLAS) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBAUPLRS)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBAUPLRS) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBFERIAD)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBFERIAD) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBIMPREN)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBIMPREN) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBINFAUT)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBINFAUT) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBINSS)                                              DBNOV
+-STA DB(DBNOVA) SPACE(TBINSS) ACC(RW)                                      DBNOV
+-STO DB(DBNOVA) SPACE(TBPBRCF)                                             DBNOV
+-STA DB(DBNOVA) SPACE(TBPBRCF) ACC(RW)                                     DBNOV
+-STO DB(DBNOVA) SPACE(TBRCCOEF)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBRCCOEF) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBREFMTP)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBREFMTP) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBTIPRSM)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBTIPRSM) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBTXTCOR)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBTXTCOR) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBTXTJUR)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBTXTJUR) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBTXTPRO)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBTXTPRO) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TIPOVDR)                                             DBNOV
+-STA DB(DBNOVA) SPACE(TIPOVDR) ACC(RW)                                     DBNOV
+-STO DB(DBNOVA) SPACE(VERVERBA)                                            DBNOV
+-STA DB(DBNOVA) SPACE(VERVERBA) ACC(RW)                                    DBNOV
+-STO DB(DBRE01) SPACE(GPTANEXO)                                            DBRE0
+-STA DB(DBRE01) SPACE(GPTANEXO) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(GPTVERSA)                                            DBRE0
+-STA DB(DBRE01) SPACE(GPTVERSA) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAMACE)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAMACE) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAMAPL)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAMAPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAMCOB)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAMCOB) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAMRSM)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAMRSM) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAPCMA)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAPCMA) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAPCOS)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAPCOS) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAPMES)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAPMES) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAUBON)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAUBON) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAUCEX)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAUCEX) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAUCIT)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAUCIT) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAUOPC)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAUOPC) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVAUPCP)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVAUPCP) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCAIXA)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCAIXA) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIACE)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIACE) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIALT)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIALT) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIAPL)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIAPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIAPP)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIAPP) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIASS)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIASS) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIAUT)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIAUT) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIOBS)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIOBS) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIPCL)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIPCL) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIRCF)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIRCF) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIRES)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIRES) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCIRSM)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCIRSM) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCISEG)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCISEG) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCITXE)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCITXE) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVCOMPL)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVCOMPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVDESAG)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVDESAG) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVENDCB)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVENDCB) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVIMVIS)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVIMVIS) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVINCCL)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVINCCL) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVINCCX)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVINCCX) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVINCDS)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVINCDS) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVINCEN)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVINCEN) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVLCRIS)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVLCRIS) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVLEASI)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVLEASI) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVOBSER)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVOBSER) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVPEREN)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVPEREN) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVRCALT)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVRCALT) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVRCGCO)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVRCGCO) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVRCGGA)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVRCGGA) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVRCGLC)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVRCGLC) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVTRCIA)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVTRCIA) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVVDMAR)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVVDMAR) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVVDRCL)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVVDRCL) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVVIDRO)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVVIDRO) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(TMPMPROP)                                            DBRE0
+-STA DB(DBRE01) SPACE(TMPMPROP) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(TXTRNCXA)                                            DBRE0
+-STA DB(DBRE01) SPACE(TXTRNCXA) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(BXCOMINC)                                            DBRE0
+-STA DB(DBRE02) SPACE(BXCOMINC) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(CTLPGADC)                                            DBRE0
+-STA DB(DBRE02) SPACE(CTLPGADC) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(CTRCBZRE)                                            DBRE0
+-STA DB(DBRE02) SPACE(CTRCBZRE) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(FCHPRERT)                                            DBRE0
+-STA DB(DBRE02) SPACE(FCHPRERT) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(GPTENDOS)                                            DBRE0
+-STA DB(DBRE02) SPACE(GPTENDOS) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(INPROELE)                                            DBRE0
+-STA DB(DBRE02) SPACE(INPROELE) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(ORIGOPER)                                            DBRE0
+-STA DB(DBRE02) SPACE(ORIGOPER) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TARIFBCO)                                            DBRE0
+-STA DB(DBRE02) SPACE(TARIFBCO) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBACEEMP)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBACEEMP) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBACEFRQ)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBACEFRQ) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAGEREG)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAGEREG) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAGINSP)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAGINSP) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAMREG)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBAMREG) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBAMVRCO)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAMVRCO) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAUPERC)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAUPERC) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAUREGI)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAUREGI) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAUVIST)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAUVIST) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBBANCOS)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBBANCOS) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCAIXA)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBCAIXA) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBCIRSUC)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCIRSUC) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCMLIB)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBCMLIB) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBCMRRM)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBCMRRM) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBCNDGER)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCNDGER) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCOBRD)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBCOBRD) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBCONBCO)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCONBCO) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCPVIDA)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCPVIDA) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCUSTO)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBCUSTO) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBDEPREN)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBDEPREN) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBDESAGR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBDESAGR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBDETRD)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBDETRD) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBDIFCOT)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBDIFCOT) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEMPIDE)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEMPIDE) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEMPRBB)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEMPRBB) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEMPRE)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBEMPRE) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBEQPFAB)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEQPFAB) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEQPSIS)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEQPSIS) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEQUIP)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBEQUIP) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBEVERD)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBEVERD) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBGRPOPC)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBGRPOPC) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBGRUCOM)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBGRUCOM) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBINDCAT)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBINDCAT) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBISMER)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBISMER) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBKITDOC)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBKITDOC) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMASCRE)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMASCRE) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMODRD)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBMODRD) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBMRCAUT)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMRCAUT) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMRCEMP)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMRCEMP) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMTCANC)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMTCANC) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMTDEPA)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMTDEPA) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBORGAN)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBORGAN) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBPARANO)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBPARANO) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBPARMTP)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBPARMTP) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBPARREG)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBPARREG) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBPLACOP)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBPLACOP) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBPRMREN)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBPRMREN) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBREFACE)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBREFACE) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBRELRD)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBRELRD) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBSENHA)                                             DBRE0
+-STA DB(DBRE02) SPACE(TBSENHA) ACC(RW)                                     DBRE0
+-STO DB(DBRE02) SPACE(TBSENIMP)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBSENIMP) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBSENRES)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBSENRES) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBSISCON)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBSISCON) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBSQVIST)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBSQVIST) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTECAUT)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTECAUT) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTIPEMP)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTIPEMP) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTIPPRO)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTIPPRO) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTIPREG)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTIPREG) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTXTCRE)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTXTCRE) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTXTEDS)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTXTEDS) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTXTGER)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTXTGER) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTXTIMP)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTXTIMP) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBVEIALT)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBVEIALT) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBVEIMER)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBVEIMER) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBVEITRF)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBVEITRF) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(WEBACSEG)                                            DBRE0
+-STA DB(DBRE02) SPACE(WEBACSEG) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(ALQIMPVG)                                            DBRE0
+-STA DB(DBRE03) SPACE(ALQIMPVG) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADADIAN)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADADIAN) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADAUCAN)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADAUCAN) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADAULIB)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADAULIB) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADBCOFX)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADBCOFX) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADCAIXA)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADCAIXA) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADDOCCX)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADDOCCX) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADEMACE)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADEMACE) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADLIMIT)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADLIMIT) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVACE)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVACE) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVAPL)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVAPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVAVR)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVAVR) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVCOB)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVCOB) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVCON)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVCON) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVLIB)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVLIB) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVOPC)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVOPC) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVPER)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVPER) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVRSM)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVRSM) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVSEG)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVSEG) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADRVTXT)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADRVTXT) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADSEGRM)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADSEGRM) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADSINCB)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADSINCB) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CDAPVIAD)                                            DBRE0
+-STA DB(DBRE03) SPACE(CDAPVIAD) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CHEQPFIX)                                            DBRE0
+-STA DB(DBRE03) SPACE(CHEQPFIX) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CTRENARQ)                                            DBRE0
+-STA DB(DBRE03) SPACE(CTRENARQ) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(DEFMUNIC)                                            DBRE0
+-STA DB(DBRE03) SPACE(DEFMUNIC) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(DPARMEMP)                                            DBRE0
+-STA DB(DBRE03) SPACE(DPARMEMP) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(EXCCOMIS)                                            DBRE0
+-STA DB(DBRE03) SPACE(EXCCOMIS) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(HSTCOMIS)                                            DBRE0
+-STA DB(DBRE03) SPACE(HSTCOMIS) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(IMPCALEN)                                            DBRE0
+-STA DB(DBRE03) SPACE(IMPCALEN) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(IMPLOCAL)                                            DBRE0
+-STA DB(DBRE03) SPACE(IMPLOCAL) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(IMPRENPF)                                            DBRE0
+-STA DB(DBRE03) SPACE(IMPRENPF) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(INSPTRIA)                                            DBRE0
+-STA DB(DBRE03) SPACE(INSPTRIA) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(LIMIACEI)                                            DBRE0
+-STA DB(DBRE03) SPACE(LIMIACEI) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(PDIMPPRE)                                            DBRE0
+-STA DB(DBRE03) SPACE(PDIMPPRE) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(PEDREATI)                                            DBRE0
+-STA DB(DBRE03) SPACE(PEDREATI) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(TIPCODIF)                                            DBRE0
+-STA DB(DBRE03) SPACE(TIPCODIF) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(TOMAIMPO)                                            DBRE0
+-STA DB(DBRE03) SPACE(TOMAIMPO) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(TPGIMPDI)                                            DBRE0
+-STA DB(DBRE03) SPACE(TPGIMPDI) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(TPIMPOST)                                            DBRE0
+-STA DB(DBRE03) SPACE(TPIMPOST) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADACAPL)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADACAPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADAPCAN)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADAPCAN) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADAPMES)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADAPMES) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADAPRES)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADAPRES) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADAUCIT)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADAUCIT) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADAUOPC)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADAUOPC) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADAUPER)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADAUPER) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADAURC2)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADAURC2) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADAUREN)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADAUREN) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADBILHE)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADBILHE) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADBIRDI)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADBIRDI) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADCAMPA)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADCAMPA) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADCOMPL)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADCOMPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADINCCL)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADINCCL) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADINCEN)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADINCEN) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADLCRIS)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADLCRIS) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADLEASI)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADLEASI) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADPERF2)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADPERF2) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADRCGCO)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADRCGCO) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADRCGGA)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADRCGGA) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADRCGLC)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADRCGLC) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADVDMAR)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADVDMAR) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADVDRCL)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADVDRCL) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADVIDRO)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADVIDRO) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(RELRESEG)                                            DBRE0
+-STA DB(DBRE04) SPACE(RELRESEG) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(TMPEDSRE)                                            DBRE0
+-STA DB(DBRE04) SPACE(TMPEDSRE) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTACAPL)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTACAPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTAPCAN)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTAPCAN) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTAPMES)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTAPMES) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTAPRES)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTAPRES) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTAUCIT)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTAUCIT) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTAUOPC)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTAUOPC) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTAUPER)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTAUPER) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTAUREN)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTAUREN) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTAUVID)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTAUVID) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTBCOFX)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTBCOFX) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTBILHE)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTBILHE) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTBIRDI)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTBIRDI) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTBONRM)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTBONRM) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTCOCED)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTCOCED) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTCOMPL)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTCOMPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTINCCL)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTINCCL) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTINCDS)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTINCDS) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTINCEN)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTINCEN) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTLCRIS)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTLCRIS) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTLEASI)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTLEASI) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTPROFX)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTPROFX) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTRCGCO)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTRCGCO) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTRCGGA)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTRCGGA) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTRCGLC)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTRCGLC) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTRVACE)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTRVACE) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTRVCON)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTRVCON) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTRVLIB)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTRVLIB) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTRVOPC)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTRVOPC) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTRVPER)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTRVPER) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTRVTXT)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTRVTXT) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTSINCB)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTSINCB) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTVDMAR)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTVDMAR) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTVDRCL)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTVDRCL) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTVIDRO)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTVIDRO) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCACAPL)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCACAPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCACESS)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCACESS) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAPCAN)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAPCAN) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAPCOR)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAPCOR) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAPLIB)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAPLIB) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAPMES)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAPMES) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAPRES)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAPRES) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAUCIT)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAUCIT) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAUOPC)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAUOPC) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAUPER)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAUPER) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAUREN)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAUREN) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAURES)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAURES) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCAUVID)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCAUVID) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCBCOFX)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCBCOFX) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCBILHE)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCBILHE) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCBIRDI)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCBIRDI) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCBONRM)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCBONRM) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCCHQFX)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCCHQFX) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCCHQSF)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCCHQSF) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCCOCED)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCCOCED) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCCOMPL)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCCOMPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCCRALT)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCCRALT) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCDCATM)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCDCATM) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCINCCL)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCINCCL) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCINCDS)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCINCDS) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCINCEN)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCINCEN) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCLCRIS)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCLCRIS) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCLEASI)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCLEASI) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCPROFX)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCPROFX) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRCGCO)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRCGCO) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRCGGA)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRCGGA) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRCGLC)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRCGLC) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVACE)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVACE) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVAPL)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVAPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVAVR)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVAVR) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVCOB)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVCOB) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVCON)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVCON) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVLIB)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVLIB) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVOPC)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVOPC) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVPER)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVPER) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVRSM)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVRSM) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVSEG)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVSEG) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCRVTXT)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCRVTXT) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCSINCB)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCSINCB) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCTXBON)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCTXBON) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCVDMAR)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCVDMAR) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCVDRCL)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCVDRCL) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCVIDRO)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCVIDRO) ACC(RW)                                    DBRE0
+-STO DB(DBRE99) SPACE(CADAPMES)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADAPMES) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADAUOPC)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADAUOPC) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADAUVID)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADAUVID) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADBCOFX)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADBCOFX) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADCOMPL)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADCOMPL) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADLEASI)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADLEASI) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(MOVAPOL)                                             DBRE9
+-STA DB(DBRE99) SPACE(MOVAPOL) ACC(RW)                                     DBRE9
+-STO DB(DBRS01) SPACE(PRAZODIA)                                            DBRS0
+-STA DB(DBRS01) SPACE(PRAZODIA) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSALC)                                               DBRS0
+-STA DB(DBRS01) SPACE(RSALC) ACC(RW)                                       DBRS0
+-STO DB(DBRS01) SPACE(RSDOCSOL)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSDOCSOL) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSFSEPCS)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSFSEPCS) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSFSESIT)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSFSESIT) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSMTVENC)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSMTVENC) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSPRFNDS)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSPRFNDS) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSPRMALT)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSPRMALT) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSPRTEML)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSPRTEML) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSPRTRSC)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSPRTRSC) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSREALC)                                             DBRS0
+-STA DB(DBRS01) SPACE(RSREALC) ACC(RW)                                     DBRS0
+-STO DB(DBRS01) SPACE(RSRGRDIS)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSRGRDIS) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSSITPCS)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSSITPCS) ACC(RW)                                    DBRS0
+-STO DB(DBSS01) SPACE(ANEXMAIL)                                            DBSS0
+-STA DB(DBSS01) SPACE(ANEXMAIL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(ENVEMAIL)                                            DBSS0
+-STA DB(DBSS01) SPACE(ENVEMAIL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(LOGEMAIL)                                            DBSS0
+-STA DB(DBSS01) SPACE(LOGEMAIL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(REGLOCAL)                                            DBSS0
+-STA DB(DBSS01) SPACE(REGLOCAL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSABRPTR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSABRPTR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSADITAM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSADITAM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAFEC)                                              DBSS0
+-STA DB(DBSS01) SPACE(SSAFEC) ACC(RW)                                      DBSS0
+-STO DB(DBSS01) SPACE(SSAFESTI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAFESTI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSANAPRG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSANAPRG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSANSDES)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSANSDES) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSANSPLA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSANSPLA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSANSPRE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSANSPRE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSANSPVM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSANSPVM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAPOLIC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAPOLIC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAUDIT)                                             DBSS0
+-STA DB(DBSS01) SPACE(SSAUDIT) ACC(RW)                                     DBSS0
+-STO DB(DBSS01) SPACE(SSAUDSIN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAUDSIN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAUTORI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAUTORI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSBANCRE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSBANCRE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSBANEST)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSBANEST) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSBENEFR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSBENEFR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCAPACO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCAPACO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCAREMP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCAREMP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCARGRU)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCARGRU) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCARSUB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCARSUB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCATPLA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCATPLA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCBERTU)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCBERTU) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCEPPRE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCEPPRE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCEPSEG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCEPSEG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCLACEP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCLACEP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCNLDIS)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCNLDIS) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCOBBAN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCOBBAN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCOBERT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCOBERT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCOBPRO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCOBPRO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCOLIGA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCOLIGA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCONANT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCONANT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCONATU)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCONATU) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCONFAB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCONFAB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCONFAT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCONFAT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCONREA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCONREA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCRMCPF)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCRMCPF) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCTCREP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCTCREP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCTLRLT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCTLRLT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCTLRSV)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCTLRSV) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCTLTIP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCTLTIP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCTRLIG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCTRLIG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDESCAT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDESCAT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDESEQU)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDESEQU) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDESLOG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDESLOG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDESPER)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDESPER) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDESR66)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDESR66) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDESVER)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDESVER) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDGNCLI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDGNCLI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDGSEG)                                             DBSS0
+-STA DB(DBSS01) SPACE(SSDGSEG) ACC(RW)                                     DBSS0
+-STO DB(DBSS01) SPACE(SSDIRPRE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDIRPRE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEMACOR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEMACOR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEMICAR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEMICAR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSENTCOM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSENTCOM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEQPDES)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEQPDES) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSESPMED)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSESPMED) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSESTABE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSESTABE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSESTCIV)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSESTCIV) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSESTINA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSESTINA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSESTLIM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSESTLIM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSESTPLA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSESTPLA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSESTPRD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSESTPRD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSESTPRS)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSESTPRS) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSESTVAL)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSESTVAL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEXCLUI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEXCLUI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFATCON)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFATCON) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFATDES)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFATDES) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFERIAD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFERIAD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFONSEG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFONSEG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFRAREE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFRAREE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFXESTO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFXESTO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFXPLAN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFXPLAN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGIICAR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGIICAR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGLOMOT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGLOMOT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGLOSAS)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGLOSAS) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGRCPRO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGRCPRO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGRDESP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGRDESP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGRESME)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGRESME) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGRPGLO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGRPGLO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIDIOMA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIDIOMA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIMPCHE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIMPCHE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIMPREN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIMPREN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSINCCAR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSINCCAR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSINCGLO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSINCGLO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSINDREA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSINDREA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSINFATE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSINFATE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSINFCOR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSINFCOR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSINFEST)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSINFEST) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSINFPLA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSINFPLA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSINFSUC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSINFSUC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSINSFOR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSINSFOR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSINTPRE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSINTPRE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIOPMSA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIOPMSA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSITGLSP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSITGLSP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSITPSAT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSITPSAT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSITSOAT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSITSOAT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLEITOS)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLEITOS) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLIMREV)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLIMREV) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLISGTP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLISGTP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLOGREA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLOGREA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLOGREE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLOGREE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMANRED)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMANRED) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMANUAL)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMANUAL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMEDFUN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMEDFUN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMENCON)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMENCON) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMOCAPR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMOCAPR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMOCASA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMOCASA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMOCOAD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMOCOAD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMOVCRC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMOVCRC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMOVCRD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMOVCRD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMOVIME)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMOVIME) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMSGCAR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMSGCAR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMTEXEC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMTEXEC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMTVSAI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMTVSAI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSNIVREE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSNIVREE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSNTASIN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSNTASIN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSOBTMLH)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSOBTMLH) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSOENDPR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSOENDPR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSORCSAU)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSORCSAU) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSORGEMI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSORGEMI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPACAPR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPACAPR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPACOTE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPACOTE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPAGIRD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPAGIRD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPANEST)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPANEST) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPANVRS)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPANVRS) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPAORIG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPAORIG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPARCOM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPARCOM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPAREMA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPAREMA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPAREMI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPAREMI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPARENT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPARENT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPAREST)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPAREST) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPARPRE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPARPRE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPARPRO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPARPRO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPARSRV)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPARSRV) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPARVAR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPARVAR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPCDCAC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPCDCAC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPCDRET)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPCDRET) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPCDRJU)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPCDRJU) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPERIOD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPERIOD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPLACOB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPLACOB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPLACOR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPLACOR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPLANO2)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPLANO2) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPLANOS)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPLANOS) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPLAREA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPLAREA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPLASRV)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPLASRV) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPRCONT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPRCONT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPREDTX)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPREDTX) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPREHIS)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPREHIS) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPREJUR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPREJUR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPREREF)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPREREF) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPRETER)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPRETER) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPRIDRE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPRIDRE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPRODUT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPRODUT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPROMOC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPROMOC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPROSUS)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPROSUS) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSQTVIDA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSQTVIDA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSRAMATI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSRAMATI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSREAUSM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSREAUSM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSREDE)                                              DBSS0
+-STA DB(DBSS01) SPACE(SSREDE) ACC(RW)                                      DBSS0
+-STO DB(DBSS01) SPACE(SSRELPAG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSRELPAG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSREMAUX)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSREMAUX) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSRGMINA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSRGMINA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSRGTPLA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSRGTPLA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSCAHON)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSCAHON) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSCAPAC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSCAPAC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSCAREM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSCAREM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSCATRA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSCATRA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSCOMPR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSCOMPR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSEGAPS)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSEGAPS) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSEGBAN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSEGBAN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSEGCON)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSEGCON) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSEGCPT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSEGCPT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSEGEMP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSEGEMP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSEGINA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSEGINA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSEGSUS)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSEGSUS) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSERVIC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSERVIC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSGEXEC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSGEXEC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSIEMPR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSIEMPR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSINATU)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSINATU) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSINCOR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSINCOR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSINENC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSINENC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSINEST)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSINEST) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSINFXE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSINFXE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSINR66)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSINR66) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSINSOL)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSINSOL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSINSUC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSINSUC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSIPLAN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSIPLAN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSIPROC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSIPROC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSITSOL)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSITSOL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSRVPRE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSRVPRE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSTACAR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSTACAR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSUSATE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSUSATE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTABBAI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTABBAI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTABCID)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTABCID) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTABREA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTABREA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTABREG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTABREG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTBCPRE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTBCPRE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTERIMP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTERIMP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTIPCOM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTIPCOM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTIPIMP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTIPIMP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTPCART)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTPCART) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTPCASG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTPCASG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTPDES)                                             DBSS0
+-STA DB(DBSS01) SPACE(SSTPDES) ACC(RW)                                     DBSS0
+-STO DB(DBSS01) SPACE(SSTPDMTT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTPDMTT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTPEXEC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTPEXEC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTPIMVG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTPIMVG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTPLIG)                                             DBSS0
+-STA DB(DBSS01) SPACE(SSTPLIG) ACC(RW)                                     DBSS0
+-STO DB(DBSS01) SPACE(SSTPRPTR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTPRPTR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTPTBPR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTPTBPR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSVALFIL)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSVALFIL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSVALSRV)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSVALSRV) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSVALUSM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSVALUSM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSVANCOB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSVANCOB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSVRUSME)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSVRUSME) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(STACPSOL)                                            DBSS0
+-STA DB(DBSS01) SPACE(STACPSOL) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSANSHST)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSANSHST) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSESPRDE)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSESPRDE) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSMVDRRF)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSMVDRRF) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSMVPRTP)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSMVPRTP) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSSGPLAD)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSSGPLAD) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSCAREMO)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSCAREMO) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSCONATU)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSCONATU) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSFQREPR)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSFQREPR) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSLIBANA)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSLIBANA) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSLOGCPL)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSLOGCPL) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSLOGRED)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSLOGRED) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSPEDREE)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSPEDREE) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSPLAREE)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSPLAREE) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSPROEXC)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSPROEXC) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSPROSEG)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSPROSEG) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSPRTSAU)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSPRTSAU) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSVIAPRO)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSVIAPRO) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSAGRDCP)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSAGRDCP) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSCAREMO)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSCAREMO) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSCOMANA)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSCOMANA) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSDPMATU)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSDPMATU) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSLOGCPL)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSLOGCPL) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSOPRDCP)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSOPRDCP) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSREPLEG)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSREPLEG) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSSEGCAR)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSSEGCAR) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSSEGPLA)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSSEGPLA) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTPCBLO)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTPCBLO) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTPDCLO)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTPDCLO) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTPENLO)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTPENLO) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTPORLO)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTPORLO) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTPPGTO)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTPPGTO) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTPVNEP)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTPVNEP) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSASHMPP)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSASHMPP) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSATPEES)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSATPEES) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSATPESE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSATPESE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSATPEUN)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSATPEUN) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSBANCO)                                             DBSS0
+-STA DB(DBSS05) SPACE(SSBANCO) ACC(RW)                                     DBSS0
+-STO DB(DBSS05) SPACE(SSCARGO)                                             DBSS0
+-STA DB(DBSS05) SPACE(SSCARGO) ACC(RW)                                     DBSS0
+-STO DB(DBSS05) SPACE(SSCNBCEN)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSCNBCEN) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSCPTMCT)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSCPTMCT) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSCSSEXN)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSCSSEXN) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSDIRCRE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSDIRCRE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSENDELE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSENDELE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSENELEN)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSENELEN) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSESPHMD)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSESPHMD) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSESPMDC)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSESPMDC) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSETPPES)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSETPPES) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSFORPGT)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSFORPGT) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGESPSE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGESPSE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGMTMAC)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGMTMAC) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGRAESC)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGRAESC) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGRAPTP)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGRAPTP) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGRMVSI)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGRMVSI) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGRPERF)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGRPERF) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGRPMTV)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGRPMTV) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGRPPES)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGRPPES) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSHMPPTE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSHMPPTE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSIDACD)                                             DBSS0
+-STA DB(DBSS05) SPACE(SSIDACD) ACC(RW)                                     DBSS0
+-STO DB(DBSS05) SPACE(SSIGESSE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSIGESSE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSINGEPR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSINGEPR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSISEIMP)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSISEIMP) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSITMLAC)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSITMLAC) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMDLACS)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMDLACS) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMDTPCP)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMDTPCP) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMMAMAR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMMAMAR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMMFRTB)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMMFRTB) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMMTBRF)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMMTBRF) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMODALI)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMODALI) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMOTIVO)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMOTIVO) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMTMDMA)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMTMDMA) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSNACPES)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSNACPES) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSOBSPTR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSOBSPTR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSORITPL)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSORITPL) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSORIUSR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSORIUSR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPEINGE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPEINGE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPERFAT)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPERFAT) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPESJUR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPESJUR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPFLACS)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPFLACS) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPITMAC)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPITMAC) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPRINGE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPRINGE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPRMGER)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPRMGER) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSQSINGE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSQSINGE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSQSTPRF)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSQSTPRF) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSRDCTPL)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSRDCTPL) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSRDE)                                               DBSS0
+-STA DB(DBSS05) SPACE(SSRDE) ACC(RW)                                       DBSS0
+-STO DB(DBSS05) SPACE(SSRSINGE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSRSINGE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSSERHMD)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSSERHMD) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSSERVIC)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSSERVIC) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSSTUNPR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSSTUNPR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTECUTL)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTECUTL) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPACO)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPACO) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPATD)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPATD) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPCBZ)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPCBZ) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPCNS)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPCNS) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPCPV)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPCPV) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPDOC)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPDOC) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPDOE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPDOE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPDVG)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPDVG) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPINA)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPINA) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPOLO)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPOLO) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPSAI)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPSAI) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPSER)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPSER) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPSIT)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPSIT) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPTAB)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPTAB) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPTEL)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPTEL) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTMPDOE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTMPDOE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPACAO)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPACAO) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPAHMP)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPAHMP) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPASSU)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPASSU) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPDRTX)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPDRTX) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPENEL)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPENEL) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPESMD)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPESMD) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPIDPE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPIDPE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPITML)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPITML) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPLREF)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPLREF) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPSIGU)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPSIGU) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSUNATPR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSUNATPR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSUSITML)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSUSITML) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSUSUARI)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSUSUARI) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSVIAACS)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSVIAACS) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSVINPES)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSVINPES) ACC(RW)                                    DBSS0
+-STO DB(DBVD01) SPACE(ABIGAIL)                                             DBVD0
+-STA DB(DBVD01) SPACE(ABIGAIL) ACC(RW)                                     DBVD0
+-STO DB(DBVD01) SPACE(NWPRODSI)                                            DBVD0
+-STA DB(DBVD01) SPACE(NWPRODSI) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VABENEFI)                                            DBVD0
+-STA DB(DBVD01) SPACE(VABENEFI) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VACOBERT)                                            DBVD0
+-STA DB(DBVD01) SPACE(VACOBERT) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VACORRET)                                            DBVD0
+-STA DB(DBVD01) SPACE(VACORRET) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VADEPEND)                                            DBVD0
+-STA DB(DBVD01) SPACE(VADEPEND) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAEPROPS)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAEPROPS) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAHEMAIL)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAHEMAIL) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAHSTDEP)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAHSTDEP) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAHSTPCL)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAHSTPCL) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAINDEXA)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAINDEXA) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAMOVCHQ)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAMOVCHQ) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAMOVTSG)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAMOVTSG) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAMSGCAR)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAMSGCAR) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VANMCOBE)                                            DBVD0
+-STA DB(DBVD01) SPACE(VANMCOBE) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VANWCORR)                                            DBVD0
+-STA DB(DBVD01) SPACE(VANWCORR) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VANWPROD)                                            DBVD0
+-STA DB(DBVD01) SPACE(VANWPROD) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAPARAM)                                             DBVD0
+-STA DB(DBVD01) SPACE(VAPARAM) ACC(RW)                                     DBVD0
+-STO DB(DBVD01) SPACE(VAPARINC)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAPARINC) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAPRODUT)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAPRODUT) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAPROPOR)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAPROPOR) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VASEGURD)                                            DBVD0
+-STA DB(DBVD01) SPACE(VASEGURD) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VATBVALO)                                            DBVD0
+-STA DB(DBVD01) SPACE(VATBVALO) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAVLINDE)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAVLINDE) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPAGENC)                                             DBVD0
+-STA DB(DBVD01) SPACE(VPAGENC) ACC(RW)                                     DBVD0
+-STO DB(DBVD01) SPACE(VPBAIXA)                                             DBVD0
+-STA DB(DBVD01) SPACE(VPBAIXA) ACC(RW)                                     DBVD0
+-STO DB(DBVD01) SPACE(VPCRDIND)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPCRDIND) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPDTPARM)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPDTPARM) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPESTIPU)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPESTIPU) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPINFGER)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPINFGER) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPINTCAN)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPINTCAN) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPINTCBR)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPINTCBR) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPINTCOB)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPINTCOB) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPINTCOR)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPINTCOR) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPMOVCRE)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPMOVCRE) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(WALCOMIS)                                            DBVD0
+-STA DB(DBVD01) SPACE(WALCOMIS) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(GRAUPARE)                                            DBVD0
+-STA DB(DBVD02) SPACE(GRAUPARE) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TIPOCAPI)                                            DBVD0
+-STA DB(DBVD02) SPACE(TIPOCAPI) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPCOAGE)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPCOAGE) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPCOBRA)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPCOBRA) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPCOLAB)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPCOLAB) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPINSPA)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPINSPA) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPINSPE)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPINSPE) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPMPROP)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPMPROP) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPRBENE)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPRBENE) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPRCOBE)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPRCOBE) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPRCOCO)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPRCOCO) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPRPROP)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPRPROP) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPRRESU)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPRRESU) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPVDITE)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPVDITE) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TMPVITIN)                                            DBVD0
+-STA DB(DBVD02) SPACE(TMPVITIN) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TPVARTAX)                                            DBVD0
+-STA DB(DBVD02) SPACE(TPVARTAX) ACC(RW)                                    DBVD0
+-STO DB(DBWAP1) SPACE(WAPSITSI)                                            DBWAP
+-STA DB(DBWAP1) SPACE(WAPSITSI) ACC(RW)                                    DBWAP
+-STO DB(DBWAP1) SPACE(WAPTELAS)                                            DBWAP
+-STA DB(DBWAP1) SPACE(WAPTELAS) ACC(RW)                                    DBWAP
+-STO DB(DBWDC1) SPACE(WDCASCCT)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCASCCT) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCASSUN)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCASSUN) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCCARAC)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCCARAC) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCCIDAD)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCCIDAD) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCCIDAS)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCCIDAS) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCCIDRE)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCCIDRE) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCCONGE)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCCONGE) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCFUNCA)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCFUNCA) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCFUNPF)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCFUNPF) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCGRCCT)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCGRCCT) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCMSGFO)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCMSGFO) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCNOTIC)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCNOTIC) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCPERFI)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCPERFI) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCPFLUS)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCPFLUS) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCPRODU)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCPRODU) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCRAMO)                                             DBWDC
+-STA DB(DBWDC1) SPACE(WDCRAMO) ACC(RW)                                     DBWDC
+-STO DB(DBWDC1) SPACE(WDCREGIA)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCREGIA) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCREGUS)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCREGUS) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCTOPIC)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCTOPIC) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCTPCAS)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCTPCAS) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCUSUAR)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCUSUAR) ACC(RW)                                    DBWDC
+-STO DB(DBWGAT) SPACE(WGTASSUN)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTASSUN) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTFILA)                                             DBWGA
+-STA DB(DBWGAT) SPACE(WGTFILA) ACC(RW)                                     DBWGA
+-STO DB(DBWGAT) SPACE(WGTFLUSR)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTFLUSR) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTLNXML)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTLNXML) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTLOGID)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTLOGID) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTMOTIV)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTMOTIV) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTORATD)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTORATD) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTORIGE)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTORIGE) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTPRIOR)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTPRIOR) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTSEQUE)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTSEQUE) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTSTATU)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTSTATU) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTTPATD)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTTPATD) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTTPATI)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTTPATI) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTTPFMO)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTTPFMO) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTTPSLC)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTTPSLC) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTUSUAR)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTUSUAR) ACC(RW)                                    DBWGA
+-STO DB(DBWPC1) SPACE(DEPARAPO)                                            DBWPC
+-STA DB(DBWPC1) SPACE(DEPARAPO) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(MOVIAPOL)                                            DBWPC
+-STA DB(DBWPC1) SPACE(MOVIAPOL) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(ORIGAPOL)                                            DBWPC
+-STA DB(DBWPC1) SPACE(ORIGAPOL) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(PARAMAPO)                                            DBWPC
+-STA DB(DBWPC1) SPACE(PARAMAPO) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(PARAPORE)                                            DBWPC
+-STA DB(DBWPC1) SPACE(PARAPORE) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(PARGERAL)                                            DBWPC
+-STA DB(DBWPC1) SPACE(PARGERAL) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(TIPOINFO)                                            DBWPC
+-STA DB(DBWPC1) SPACE(TIPOINFO) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCGRPFL)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCGRPFL) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCIDSER)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCIDSER) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJBDTC)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJBDTC) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJBDTP)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJBDTP) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJBDTU)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJBDTU) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJOBFD)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJOBFD) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJOBPR)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJOBPR) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJOBSQ)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJOBSQ) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJOBTF)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJOBTF) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCMPTMP)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCMPTMP) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCPERFI)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCPERFI) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCPETMP)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCPETMP) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCSNHCO)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCSNHCO) ACC(RW)                                    DBWPC
+-STO DB(DBAD01) SPACE(ADABIRPK)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADABIRPK) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADBC1HD5)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADBC1HD5) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADBC1QMU)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADBC1QMU) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADCO15ZR)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADCO15ZR) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADCO1OI7)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADCO1OI7) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADDM1BRF)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADDM1BRF) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADGRANTR)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADGRANTR) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADSISRPK)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADSISRPK) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADSOLRPK)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADSOLRPK) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADSS1QL#)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADSS1QL#) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADSSTRPK)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADSSTRPK) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADTA1AQ5)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADTA1AQ5) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADTABRPK)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADTABRPK) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADTI1LYW)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADTI1LYW) ACC(RW)                                    DBAD0
+-STO DB(DBAD01) SPACE(ADTI1RN1)                                            DBAD0
+-STA DB(DBAD01) SPACE(ADTI1RN1) ACC(RW)                                    DBAD0
+-STO DB(DBCO01) SPACE(COAP1L84)                                            DBCO0
+-STA DB(DBCO01) SPACE(COAP1L84) ACC(RW)                                    DBCO0
+-STO DB(DBCO01) SPACE(MOVC1WFE)                                            DBCO0
+-STA DB(DBCO01) SPACE(MOVC1WFE) ACC(RW)                                    DBCO0
+-STO DB(DBCO01) SPACE(MOVCOAPA)                                            DBCO0
+-STA DB(DBCO01) SPACE(MOVCOAPA) ACC(RW)                                    DBCO0
+-STO DB(DBEEAC) SPACE(AUXILIAT)                                            DBEEA
+-STA DB(DBEEAC) SPACE(AUXILIAT) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(MOVA1$3L)                                            DBEEA
+-STA DB(DBEEAE) SPACE(MOVA1$3L) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(PRDVINAN)                                            DBEEA
+-STA DB(DBEEAE) SPACE(PRDVINAN) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(TIPO155N)                                            DBEEA
+-STA DB(DBEEAE) SPACE(TIPO155N) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(TIPO1MSR)                                            DBEEA
+-STA DB(DBEEAE) SPACE(TIPO1MSR) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(TIPODIRA)                                            DBEEA
+-STA DB(DBEEAE) SPACE(TIPODIRA) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(TIPOPRDV)                                            DBEEA
+-STA DB(DBEEAE) SPACE(TIPOPRDV) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(TIPOSITU)                                            DBEEA
+-STA DB(DBEEAE) SPACE(TIPOSITU) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(VINCULOL)                                            DBEEA
+-STA DB(DBEEAE) SPACE(VINCULOL) ACC(RW)                                    DBEEA
+-STO DB(DBEEAE) SPACE(VINCULOP)                                            DBEEA
+-STA DB(DBEEAE) SPACE(VINCULOP) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(CELR1L#1)                                            DBEEA
+-STA DB(DBEEAL) SPACE(CELR1L#1) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(CONT1NCU)                                            DBEEA
+-STA DB(DBEEAL) SPACE(CONT1NCU) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(CONT1UKZ)                                            DBEEA
+-STA DB(DBEEAL) SPACE(CONT1UKZ) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(CONTROLE)                                            DBEEA
+-STA DB(DBEEAL) SPACE(CONTROLE) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(DPTR1IS2)                                            DBEEA
+-STA DB(DBEEAL) SPACE(DPTR1IS2) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FILA11SZ)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FILA11SZ) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FILA19LW)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FILA19LW) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FILA1IXY)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FILA1IXY) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FILA1TJ0)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FILA1TJ0) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FUNC11JZ)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FUNC11JZ) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FUNCAOPR)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FUNCAOPR) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(FUNCIONA)                                            DBEEA
+-STA DB(DBEEAL) SPACE(FUNCIONA) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GPOA14$W)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GPOA14$W) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GPOA16OZ)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GPOA16OZ) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GPOA1ES0)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GPOA1ES0) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GPOA1S#S)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GPOA1S#S) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GPOACEIT)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GPOACEIT) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GPOACESS)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GPOACESS) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(GRUPOACE)                                            DBEEA
+-STA DB(DBEEAL) SPACE(GRUPOACE) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(IMPR1W0P)                                            DBEEA
+-STA DB(DBEEAL) SPACE(IMPR1W0P) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(ITEM11CB)                                            DBEEA
+-STA DB(DBEEAL) SPACE(ITEM11CB) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(ITEM1JGY)                                            DBEEA
+-STA DB(DBEEAL) SPACE(ITEM1JGY) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(NIVE1652)                                            DBEEA
+-STA DB(DBEEAL) SPACE(NIVE1652) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(PREA1DT3)                                            DBEEA
+-STA DB(DBEEAL) SPACE(PREA1DT3) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(PREAUTME)                                            DBEEA
+-STA DB(DBEEAL) SPACE(PREAUTME) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(PROG12V7)                                            DBEEA
+-STA DB(DBEEAL) SPACE(PROG12V7) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(SENH1S#C)                                            DBEEA
+-STA DB(DBEEAL) SPACE(SENH1S#C) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(SENHAAUT)                                            DBEEA
+-STA DB(DBEEAL) SPACE(SENHAAUT) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(TIPOFUNC)                                            DBEEA
+-STA DB(DBEEAL) SPACE(TIPOFUNC) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(TIPOLNGP)                                            DBEEA
+-STA DB(DBEEAL) SPACE(TIPOLNGP) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USRMARGP)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USRMARGP) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUA17@L)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUA17@L) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUA1H2B)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUA1H2B) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUA1QP1)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUA1QP1) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUARIOC)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUARIOC) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUARIOG)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUARIOG) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUARIOH)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUARIOH) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUARIOI)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUARIOI) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUARIOM)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUARIOM) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUARION)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUARION) ACC(RW)                                    DBEEA
+-STO DB(DBEEAL) SPACE(USUARIOR)                                            DBEEA
+-STA DB(DBEEAL) SPACE(USUARIOR) ACC(RW)                                    DBEEA
+-STO DB(DBEEBM) SPACE(AVARIARP)                                            DBEEB
+-STA DB(DBEEBM) SPACE(AVARIARP) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMCONDI)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMCONDI) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMP1D5I)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMP1D5I) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMV1B3J)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMV1B3J) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMV1EKL)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMV1EKL) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMVEIGR)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMVEIGR) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(BEMVEISS)                                            DBEEB
+-STA DB(DBEEBM) SPACE(BEMVEISS) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(COMPONEN)                                            DBEEB
+-STA DB(DBEEBM) SPACE(COMPONEN) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(CUSTOMAO)                                            DBEEB
+-STA DB(DBEEBM) SPACE(CUSTOMAO) ACC(RW)                                    DBEEB
+-STO DB(DBEEBM) SPACE(PECAAVAR)                                            DBEEB
+-STA DB(DBEEBM) SPACE(PECAAVAR) ACC(RW)                                    DBEEB
+-STO DB(DBEEGD) SPACE(TIPOFSEP)                                            DBEEG
+-STA DB(DBEEGD) SPACE(TIPOFSEP) ACC(RW)                                    DBEEG
+-STO DB(DBEELO) SPACE(BAIR1ATE)                                            DBEEL
+-STA DB(DBEELO) SPACE(BAIR1ATE) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(FAIX1BFC)                                            DBEEL
+-STA DB(DBEELO) SPACE(FAIX1BFC) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(FAIX1HDD)                                            DBEEL
+-STA DB(DBEELO) SPACE(FAIX1HDD) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(FAIXASNU)                                            DBEEL
+-STA DB(DBEELO) SPACE(FAIXASNU) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(GDEUSRCE)                                            DBEEL
+-STA DB(DBEELO) SPACE(GDEUSRCE) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(GRAN1#1F)                                            DBEEL
+-STA DB(DBEELO) SPACE(GRAN1#1F) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(LGRM1DCY)                                            DBEEL
+-STA DB(DBEELO) SPACE(LGRM1DCY) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(LGRMARCE)                                            DBEEL
+-STA DB(DBEELO) SPACE(LGRMARCE) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(LOCA1JXB)                                            DBEEL
+-STA DB(DBEELO) SPACE(LOCA1JXB) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(LOCA1QEH)                                            DBEEL
+-STA DB(DBEELO) SPACE(LOCA1QEH) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(LOCA1WOE)                                            DBEEL
+-STA DB(DBEELO) SPACE(LOCA1WOE) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(LOGR1GTR)                                            DBEEL
+-STA DB(DBEELO) SPACE(LOGR1GTR) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(PAISRIPK)                                            DBEEL
+-STA DB(DBEELO) SPACE(PAISRIPK) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TIPO17XE)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPO17XE) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TIPOLOCA)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPOLOCA) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TIPOLOGR)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPOLOGR) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TIPONUMC)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPONUMC) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TIPOORIG)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPOORIG) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TIPOPREP)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPOPREP) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TIPOREGL)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPOREGL) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TIPOSITL)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPOSITL) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TIPOTITP)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPOTITP) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(TIPOUNID)                                            DBEEL
+-STA DB(DBEELO) SPACE(TIPOUNID) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(UFRIPK)                                              DBEEL
+-STA DB(DBEELO) SPACE(UFRIPK) ACC(RW)                                      DBEEL
+-STO DB(DBEELO) SPACE(UNID1BPH)                                            DBEEL
+-STA DB(DBEELO) SPACE(UNID1BPH) ACC(RW)                                    DBEEL
+-STO DB(DBEELO) SPACE(UNIOPRCE)                                            DBEEL
+-STA DB(DBEELO) SPACE(UNIOPRCE) ACC(RW)                                    DBEEL
+-STO DB(DBEEOR) SPACE(OBVIDDET)                                            DBEEO
+-STA DB(DBEEOR) SPACE(OBVIDDET) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(OBVIDSIN)                                            DBEEO
+-STA DB(DBEEOR) SPACE(OBVIDSIN) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCA19J@)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCA19J@) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCFORPG)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCFORPG) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCI13ZB)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCI13ZB) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCI1JVA)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCI1JVA) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCITECR)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCITECR) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCITECT)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCITECT) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCITEGR)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCITEGR) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCITEIS)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCITEIS) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCITEMR)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCITEMR) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(ORCITEQS)                                            DBEEO
+-STA DB(DBEEOR) SPACE(ORCITEQS) ACC(RW)                                    DBEEO
+-STO DB(DBEEOR) SPACE(SISGUREG)                                            DBEEO
+-STA DB(DBEEOR) SPACE(SISGUREG) ACC(RW)                                    DBEEO
+-STO DB(DBEEPE) SPACE(ANALISEI)                                            DBEEP
+-STA DB(DBEEPE) SPACE(ANALISEI) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(AREARPK)                                             DBEEP
+-STA DB(DBEEPE) SPACE(AREARPK) ACC(RW)                                     DBEEP
+-STO DB(DBEEPE) SPACE(COLA1BCY)                                            DBEEP
+-STA DB(DBEEPE) SPACE(COLA1BCY) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(COLA1W6Y)                                            DBEEP
+-STA DB(DBEEPE) SPACE(COLA1W6Y) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(COLABORA)                                            DBEEP
+-STA DB(DBEEPE) SPACE(COLABORA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(CONDICAO)                                            DBEEP
+-STA DB(DBEEPE) SPACE(CONDICAO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(CONT167Z)                                            DBEEP
+-STA DB(DBEEPE) SPACE(CONT167Z) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(CONVERSA)                                            DBEEP
+-STA DB(DBEEPE) SPACE(CONVERSA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(ENDERECO)                                            DBEEP
+-STA DB(DBEEPE) SPACE(ENDERECO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(ESTR19K3)                                            DBEEP
+-STA DB(DBEEPE) SPACE(ESTR19K3) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(ESTR1F$1)                                            DBEEP
+-STA DB(DBEEPE) SPACE(ESTR1F$1) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(IDENTIFI)                                            DBEEP
+-STA DB(DBEEPE) SPACE(IDENTIFI) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(NATU1HT#)                                            DBEEP
+-STA DB(DBEEPE) SPACE(NATU1HT#) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(NATUREZA)                                            DBEEP
+-STA DB(DBEEPE) SPACE(NATUREZA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(OCUP1ZP#)                                            DBEEP
+-STA DB(DBEEPE) SPACE(OCUP1ZP#) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PARAMCTX)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PARAMCTX) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESS1$VG)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESS1$VG) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESS11AH)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESS11AH) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESS15BK)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESS15BK) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESS1IPG)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESS1IPG) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESS1JSK)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESS1JSK) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESS1VHD)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESS1VHD) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSOAES)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSOAES) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSOAFI)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSOAFI) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSOAGR)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSOAGR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSOAHI)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSOAHI) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSOAJU)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSOAJU) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSOALO)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSOALO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSOASE)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSOASE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PESSOASU)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PESSOASU) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PROP12LM)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PROP12LM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PROP18XM)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PROP18XM) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(PROP1A$M)                                            DBEEP
+-STA DB(DBEEPE) SPACE(PROP1A$M) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(RAMO1$74)                                            DBEEP
+-STA DB(DBEEPE) SPACE(RAMO1$74) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(SIGLASIS)                                            DBEEP
+-STA DB(DBEEPE) SPACE(SIGLASIS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TBPA1APO)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TBPA1APO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TELE12OO)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TELE12OO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TELE1LJP)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TELE1LJP) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPO137U)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPO137U) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPO1@OQ)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPO1@OQ) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOATRI)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOATRI) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOCOLA)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOCOLA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOENDE)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOENDE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOESTA)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOESTA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOGRAU)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOGRAU) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOIDFO)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOIDFO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOLOCA)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOLOCA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOOCUP)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOOCUP) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOPALA)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOPALA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOPESS)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOPESS) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPORESI)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPORESI) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPORMOA)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPORMOA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOSITR)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOSITR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOTELE)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOTELE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(TIPOTITU)                                            DBEEP
+-STA DB(DBEEPE) SPACE(TIPOTITU) ACC(RW)                                    DBEEP
+-STO DB(DBEEPE) SPACE(UNIDADER)                                            DBEEP
+-STA DB(DBEEPE) SPACE(UNIDADER) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(CTLPROCR)                                            DBEEP
+-STA DB(DBEEPR) SPACE(CTLPROCR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(DIASRNVE)                                            DBEEP
+-STA DB(DBEEPR) SPACE(DIASRNVE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(DIASRNVP)                                            DBEEP
+-STA DB(DBEEPR) SPACE(DIASRNVP) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(ETAP1ODG)                                            DBEEP
+-STA DB(DBEEPR) SPACE(ETAP1ODG) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(FASEETAP)                                            DBEEP
+-STA DB(DBEEPR) SPACE(FASEETAP) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(GPOTEXTO)                                            DBEEP
+-STA DB(DBEEPR) SPACE(GPOTEXTO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(GPOTXTPA)                                            DBEEP
+-STA DB(DBEEPR) SPACE(GPOTXTPA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROP1$KB)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROP1$KB) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROP1121)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROP1121) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROP17FT)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROP17FT) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROP1IIV)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROP1IIV) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROP1JQO)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROP1JQO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROP1L0R)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROP1L0R) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROP1PJL)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROP1PJL) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROP1POD)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROP1POD) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROP1UA2)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROP1UA2) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROP1X2L)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROP1X2L) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPCBAC)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPCBAC) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPCORR)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPCORR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPCREE)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPCREE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPCTLP)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPCTLP) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPICOB)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPICOB) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPITAU)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPITAU) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPITCB)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPITCB) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPITCL)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPITCL) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPITCO)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPITCO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPITCR)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPITCR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPITFO)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPITFO) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPITOB)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPITOB) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPITVA)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPITVA) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROPTXTE)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROPTXTE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(PROT1#@Y)                                            DBEEP
+-STA DB(DBEEPR) SPACE(PROT1#@Y) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVP15PI)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVP15PI) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVP1F2I)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVP1F2I) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVP1KNE)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVP1KNE) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVP1OWW)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVP1OWW) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVP1VVI)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVP1VVI) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVPROCC)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVPROCC) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVPROCP)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVPROCP) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(RNVPROCR)                                            DBEEP
+-STA DB(DBEEPR) SPACE(RNVPROCR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(SITPROCR)                                            DBEEP
+-STA DB(DBEEPR) SPACE(SITPROCR) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(TEXTOPAD)                                            DBEEP
+-STA DB(DBEEPR) SPACE(TEXTOPAD) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(TIPONUMP)                                            DBEEP
+-STA DB(DBEEPR) SPACE(TIPONUMP) ACC(RW)                                    DBEEP
+-STO DB(DBEEPR) SPACE(TIPOSELP)                                            DBEEP
+-STA DB(DBEEPR) SPACE(TIPOSELP) ACC(RW)                                    DBEEP
+-STO DB(DBEESP) SPACE(SEGS14IG)                                            DBEES
+-STA DB(DBEESP) SPACE(SEGS14IG) ACC(RW)                                    DBEES
+-STO DB(DBEESP) SPACE(SEGSSPPR)                                            DBEES
+-STA DB(DBEESP) SPACE(SEGSSPPR) ACC(RW)                                    DBEES
+-STO DB(DBEESP) SPACE(SEGSSPRT)                                            DBEES
+-STA DB(DBEESP) SPACE(SEGSSPRT) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA11JS)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA11JS) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA12OT)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA12OT) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA147R)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA147R) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA14JR)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA14JR) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA16@T)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA16@T) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA1D9$)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA1D9$) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA1FIR)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA1FIR) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA1GTY)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA1GTY) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA1JRZ)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA1JRZ) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA1K$T)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA1K$T) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA1KC@)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA1KC@) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA1YPV)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA1YPV) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARA1Z8P)                                            DBEES
+-STA DB(DBEESR) SPACE(PARA1Z8P) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMACO)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMACO) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMANO)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMANO) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMCHE)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMCHE) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMCON)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMCON) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMENQ)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMENQ) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMFAL)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMFAL) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMGER)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMGER) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMHAB)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMHAB) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMIND)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMIND) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMPER)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMPER) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMPRO)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMPRO) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMSEC)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMSEC) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(PARAMSIN)                                            DBEES
+-STA DB(DBEESR) SPACE(PARAMSIN) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(REPA15S@)                                            DBEES
+-STA DB(DBEESR) SPACE(REPA15S@) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(REPA1W9$)                                            DBEES
+-STA DB(DBEESR) SPACE(REPA1W9$) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(REPARAME)                                            DBEES
+-STA DB(DBEESR) SPACE(REPARAME) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS1$I2)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS1$I2) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS12T7)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS12T7) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS1348)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS1348) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS16P6)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS16P6) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS17K#)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS17K#) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS18BB)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS18BB) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS19RD)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS19RD) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS1CV9)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS1CV9) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS1FJ9)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS1FJ9) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS1J0D)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS1J0D) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS1PO8)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS1PO8) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS1Q03)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS1Q03) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS1U04)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS1U04) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTS1Y5B)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTS1Y5B) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(RSTSERCO)                                            DBEES
+-STA DB(DBEESR) SPACE(RSTSERCO) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TIPO14LF)                                            DBEES
+-STA DB(DBEESR) SPACE(TIPO14LF) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TIPO1AVG)                                            DBEES
+-STA DB(DBEESR) SPACE(TIPO1AVG) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TIPOCATE)                                            DBEES
+-STA DB(DBEESR) SPACE(TIPOCATE) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TIPOCHEQ)                                            DBEES
+-STA DB(DBEESR) SPACE(TIPOCHEQ) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TIPOCOND)                                            DBEES
+-STA DB(DBEESR) SPACE(TIPOCOND) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TIPOPARA)                                            DBEES
+-STA DB(DBEESR) SPACE(TIPOPARA) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TIPOREGI)                                            DBEES
+-STA DB(DBEESR) SPACE(TIPOREGI) ACC(RW)                                    DBEES
+-STO DB(DBEESR) SPACE(TIPOREST)                                            DBEES
+-STA DB(DBEESR) SPACE(TIPOREST) ACC(RW)                                    DBEES
+-STO DB(DBEETA) SPACE(ACETAXFR)                                            DBEET
+-STA DB(DBEETA) SPACE(ACETAXFR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ALTCCTCA)                                            DBEET
+-STA DB(DBEETA) SPACE(ALTCCTCA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ANEX1XWL)                                            DBEET
+-STA DB(DBEETA) SPACE(ANEX1XWL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ANEXORPK)                                            DBEET
+-STA DB(DBEETA) SPACE(ANEXORPK) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ANEXOVIN)                                            DBEET
+-STA DB(DBEETA) SPACE(ANEXOVIN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(AVARIAVI)                                            DBEET
+-STA DB(DBEETA) SPACE(AVARIAVI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(BANCOMEI)                                            DBEET
+-STA DB(DBEETA) SPACE(BANCOMEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(BONUSRPK)                                            DBEET
+-STA DB(DBEETA) SPACE(BONUSRPK) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CADDIVRP)                                            DBEET
+-STA DB(DBEETA) SPACE(CADDIVRP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CAMPOSDO)                                            DBEET
+-STA DB(DBEETA) SPACE(CAMPOSDO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CATE10GU)                                            DBEET
+-STA DB(DBEETA) SPACE(CATE10GU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CATE1OVQ)                                            DBEET
+-STA DB(DBEETA) SPACE(CATE1OVQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CATE1S#R)                                            DBEET
+-STA DB(DBEETA) SPACE(CATE1S#R) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CATEGAUT)                                            DBEET
+-STA DB(DBEETA) SPACE(CATEGAUT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CATEGRCF)                                            DBEET
+-STA DB(DBEETA) SPACE(CATEGRCF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CHAVETAB)                                            DBEET
+-STA DB(DBEETA) SPACE(CHAVETAB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLACNVCO)                                            DBEET
+-STA DB(DBEETA) SPACE(CLACNVCO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAOPCMA)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAOPCMA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAP1PS4)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAP1PS4) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAS1PI1)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAS1PI1) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLASSECN)                                            DBEET
+-STA DB(DBEETA) SPACE(CLASSECN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLASSEFR)                                            DBEET
+-STA DB(DBEETA) SPACE(CLASSEFR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLASSEOP)                                            DBEET
+-STA DB(DBEETA) SPACE(CLASSEOP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLASSEPR)                                            DBEET
+-STA DB(DBEETA) SPACE(CLASSEPR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAU19B0)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAU19B0) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAU1JL4)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAU1JL4) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAU1VC5)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAU1VC5) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CLAUSULA)                                            DBEET
+-STA DB(DBEETA) SPACE(CLAUSULA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNDG1$FI)                                            DBEET
+-STA DB(DBEETA) SPACE(CNDG1$FI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNDG173X)                                            DBEET
+-STA DB(DBEETA) SPACE(CNDG173X) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNDG1C#2)                                            DBEET
+-STA DB(DBEETA) SPACE(CNDG1C#2) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNDG1CVL)                                            DBEET
+-STA DB(DBEETA) SPACE(CNDG1CVL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNDG1KNE)                                            DBEET
+-STA DB(DBEETA) SPACE(CNDG1KNE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNDG1NHX)                                            DBEET
+-STA DB(DBEETA) SPACE(CNDG1NHX) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNDGEEQT)                                            DBEET
+-STA DB(DBEETA) SPACE(CNDGEEQT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CNDGEREN)                                            DBEET
+-STA DB(DBEETA) SPACE(CNDGEREN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBE15#J)                                            DBEET
+-STA DB(DBEETA) SPACE(COBE15#J) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBE19UK)                                            DBEET
+-STA DB(DBEETA) SPACE(COBE19UK) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBE1AFM)                                            DBEET
+-STA DB(DBEETA) SPACE(COBE1AFM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBE1GGI)                                            DBEET
+-STA DB(DBEETA) SPACE(COBE1GGI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBE1ITH)                                            DBEET
+-STA DB(DBEETA) SPACE(COBE1ITH) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBE1OEE)                                            DBEET
+-STA DB(DBEETA) SPACE(COBE1OEE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBE1OWF)                                            DBEET
+-STA DB(DBEETA) SPACE(COBE1OWF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBE1W#L)                                            DBEET
+-STA DB(DBEETA) SPACE(COBE1W#L) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBE1WIG)                                            DBEET
+-STA DB(DBEETA) SPACE(COBE1WIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COBERTUR)                                            DBEET
+-STA DB(DBEETA) SPACE(COBERTUR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COLU1OQQ)                                            DBEET
+-STA DB(DBEETA) SPACE(COLU1OQQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COLU1WYQ)                                            DBEET
+-STA DB(DBEETA) SPACE(COLU1WYQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COLUNACN)                                            DBEET
+-STA DB(DBEETA) SPACE(COLUNACN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COLUNADE)                                            DBEET
+-STA DB(DBEETA) SPACE(COLUNADE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COMPONEN)                                            DBEET
+-STA DB(DBEETA) SPACE(COMPONEN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV100I)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV100I) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV14#Q)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV14#Q) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV14HB)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV14HB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV14XH)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV14XH) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV167O)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV167O) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV19KG)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV19KG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV1ACQ)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV1ACQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV1CCH)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV1CCH) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV1DFV)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV1DFV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV1EDA)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV1EDA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV1HAA)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV1HAA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV1ICB)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV1ICB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV1JIB)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV1JIB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV1MUA)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV1MUA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV1PUA)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV1PUA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONV1TZQ)                                            DBEET
+-STA DB(DBEETA) SPACE(CONV1TZQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CONVENIO)                                            DBEET
+-STA DB(DBEETA) SPACE(CONVENIO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CORBASEV)                                            DBEET
+-STA DB(DBEETA) SPACE(CORBASEV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CORBCOPA)                                            DBEET
+-STA DB(DBEETA) SPACE(CORBCOPA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CORPLACA)                                            DBEET
+-STA DB(DBEETA) SPACE(CORPLACA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CORV1TRF)                                            DBEET
+-STA DB(DBEETA) SPACE(CORV1TRF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTA147L)                                            DBEET
+-STA DB(DBEETA) SPACE(COTA147L) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTACAOR)                                            DBEET
+-STA DB(DBEETA) SPACE(COTACAOR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTACAOT)                                            DBEET
+-STA DB(DBEETA) SPACE(COTACAOT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTOPCFA)                                            DBEET
+-STA DB(DBEETA) SPACE(COTOPCFA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTPERCV)                                            DBEET
+-STA DB(DBEETA) SPACE(COTPERCV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(COTTIPOM)                                            DBEET
+-STA DB(DBEETA) SPACE(COTTIPOM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CPLECADA)                                            DBEET
+-STA DB(DBEETA) SPACE(CPLECADA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CPLHCADA)                                            DBEET
+-STA DB(DBEETA) SPACE(CPLHCADA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CPNACEVE)                                            DBEET
+-STA DB(DBEETA) SPACE(CPNACEVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CPNVEITI)                                            DBEET
+-STA DB(DBEETA) SPACE(CPNVEITI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CSTDOCPR)                                            DBEET
+-STA DB(DBEETA) SPACE(CSTDOCPR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CTLRMSRP)                                            DBEET
+-STA DB(DBEETA) SPACE(CTLRMSRP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CUST19YT)                                            DBEET
+-STA DB(DBEETA) SPACE(CUST19YT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CUST1G71)                                            DBEET
+-STA DB(DBEETA) SPACE(CUST1G71) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CUST1WJ9)                                            DBEET
+-STA DB(DBEETA) SPACE(CUST1WJ9) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(CUSTOMAO)                                            DBEET
+-STA DB(DBEETA) SPACE(CUSTOMAO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DESC1PR7)                                            DBEET
+-STA DB(DBEETA) SPACE(DESC1PR7) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DESCONTO)                                            DBEET
+-STA DB(DBEETA) SPACE(DESCONTO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DESCRICA)                                            DBEET
+-STA DB(DBEETA) SPACE(DESCRICA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DESFDDCN)                                            DBEET
+-STA DB(DBEETA) SPACE(DESFDDCN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DIRMOTIV)                                            DBEET
+-STA DB(DBEETA) SPACE(DIRMOTIV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DOCCPOCM)                                            DBEET
+-STA DB(DBEETA) SPACE(DOCCPOCM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(DUPL1Q1Z)                                            DBEET
+-STA DB(DBEETA) SPACE(DUPL1Q1Z) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(EMPR1064)                                            DBEET
+-STA DB(DBEETA) SPACE(EMPR1064) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(EMPRESAR)                                            DBEET
+-STA DB(DBEETA) SPACE(EMPRESAR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FASESPRO)                                            DBEET
+-STA DB(DBEETA) SPACE(FASESPRO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FIPE1W@7)                                            DBEET
+-STA DB(DBEETA) SPACE(FIPE1W@7) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FORM1F09)                                            DBEET
+-STA DB(DBEETA) SPACE(FORM1F09) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FORM1FC8)                                            DBEET
+-STA DB(DBEETA) SPACE(FORM1FC8) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FORM1M6#)                                            DBEET
+-STA DB(DBEETA) SPACE(FORM1M6#) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FORMAPAG)                                            DBEET
+-STA DB(DBEETA) SPACE(FORMAPAG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FRANQUIA)                                            DBEET
+-STA DB(DBEETA) SPACE(FRANQUIA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(FTOJURPR)                                            DBEET
+-STA DB(DBEETA) SPACE(FTOJURPR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRAURELR)                                            DBEET
+-STA DB(DBEETA) SPACE(GRAURELR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRPC1PV8)                                            DBEET
+-STA DB(DBEETA) SPACE(GRPC1PV8) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRPCATAU)                                            DBEET
+-STA DB(DBEETA) SPACE(GRPCATAU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUP12YB)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUP12YB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUP1724)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUP1724) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUP17Z@)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUP17Z@) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUP1FGA)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUP1FGA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUP1LF3)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUP1LF3) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUP1TY2)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUP1TY2) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPOCAT)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPOCAT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPOCOB)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPOCOB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPOEMI)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPOEMI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPOINF)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPOINF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPOMOT)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPOMOT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPOMTV)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPOMTV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPOREG)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPOREG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPOTXT)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPOTXT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(GRUPOVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(GRUPOVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(INFORMAA)                                            DBEET
+-STA DB(DBEETA) SPACE(INFORMAA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ITEMCONT)                                            DBEET
+-STA DB(DBEETA) SPACE(ITEMCONT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LIBERACA)                                            DBEET
+-STA DB(DBEETA) SPACE(LIBERACA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LIMI1QXJ)                                            DBEET
+-STA DB(DBEETA) SPACE(LIMI1QXJ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LIMITEAC)                                            DBEET
+-STA DB(DBEETA) SPACE(LIMITEAC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LIMITETE)                                            DBEET
+-STA DB(DBEETA) SPACE(LIMITETE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LIMTECTI)                                            DBEET
+-STA DB(DBEETA) SPACE(LIMTECTI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LOGE134L)                                            DBEET
+-STA DB(DBEETA) SPACE(LOGE134L) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LOGE1TOL)                                            DBEET
+-STA DB(DBEETA) SPACE(LOGE1TOL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LOGENTAN)                                            DBEET
+-STA DB(DBEETA) SPACE(LOGENTAN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(LOGPARAM)                                            DBEET
+-STA DB(DBEETA) SPACE(LOGPARAM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MARC1EPT)                                            DBEET
+-STA DB(DBEETA) SPACE(MARC1EPT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MARC1UMR)                                            DBEET
+-STA DB(DBEETA) SPACE(MARC1UMR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MARCACRA)                                            DBEET
+-STA DB(DBEETA) SPACE(MARCACRA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MARCAVEI)                                            DBEET
+-STA DB(DBEETA) SPACE(MARCAVEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MEIOCBAP)                                            DBEET
+-STA DB(DBEETA) SPACE(MEIOCBAP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MODELOVE)                                            DBEET
+-STA DB(DBEETA) SPACE(MODELOVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MODV1J$W)                                            DBEET
+-STA DB(DBEETA) SPACE(MODV1J$W) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MODVEIFO)                                            DBEET
+-STA DB(DBEETA) SPACE(MODVEIFO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MODVEISU)                                            DBEET
+-STA DB(DBEETA) SPACE(MODVEISU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOLICARR)                                            DBEET
+-STA DB(DBEETA) SPACE(MOLICARR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOLICARV)                                            DBEET
+-STA DB(DBEETA) SPACE(MOLICARV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOTI1668)                                            DBEET
+-STA DB(DBEETA) SPACE(MOTI1668) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOTI1G23)                                            DBEET
+-STA DB(DBEETA) SPACE(MOTI1G23) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOTI1TE8)                                            DBEET
+-STA DB(DBEETA) SPACE(MOTI1TE8) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOTIVODT)                                            DBEET
+-STA DB(DBEETA) SPACE(MOTIVODT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOTIVORE)                                            DBEET
+-STA DB(DBEETA) SPACE(MOTIVORE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOTIVORS)                                            DBEET
+-STA DB(DBEETA) SPACE(MOTIVORS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOTIVOSL)                                            DBEET
+-STA DB(DBEETA) SPACE(MOTIVOSL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MOTIVOSR)                                            DBEET
+-STA DB(DBEETA) SPACE(MOTIVOSR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(MTVR16FK)                                            DBEET
+-STA DB(DBEETA) SPACE(MTVR16FK) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NACECOBN)                                            DBEET
+-STA DB(DBEETA) SPACE(NACECOBN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NAOA1KG6)                                            DBEET
+-STA DB(DBEETA) SPACE(NAOA1KG6) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NAOACECO)                                            DBEET
+-STA DB(DBEETA) SPACE(NAOACECO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NAOACEPR)                                            DBEET
+-STA DB(DBEETA) SPACE(NAOACEPR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NEGBCOPA)                                            DBEET
+-STA DB(DBEETA) SPACE(NEGBCOPA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NEGOCIOP)                                            DBEET
+-STA DB(DBEETA) SPACE(NEGOCIOP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NEGOCIOR)                                            DBEET
+-STA DB(DBEETA) SPACE(NEGOCIOR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NEGPROTI)                                            DBEET
+-STA DB(DBEETA) SPACE(NEGPROTI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NIVE1$FD)                                            DBEET
+-STA DB(DBEETA) SPACE(NIVE1$FD) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NIVE1SRC)                                            DBEET
+-STA DB(DBEETA) SPACE(NIVE1SRC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(NRSEQTAB)                                            DBEET
+-STA DB(DBEETA) SPACE(NRSEQTAB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(OPCA148F)                                            DBEET
+-STA DB(DBEETA) SPACE(OPCA148F) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(OPCAOCAL)                                            DBEET
+-STA DB(DBEETA) SPACE(OPCAOCAL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ORDAPRTI)                                            DBEET
+-STA DB(DBEETA) SPACE(ORDAPRTI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PARA16RV)                                            DBEET
+-STA DB(DBEETA) SPACE(PARA16RV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PARA17LI)                                            DBEET
+-STA DB(DBEETA) SPACE(PARA17LI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PARAMETR)                                            DBEET
+-STA DB(DBEETA) SPACE(PARAMETR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PARMEICB)                                            DBEET
+-STA DB(DBEETA) SPACE(PARMEICB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PECASRPK)                                            DBEET
+-STA DB(DBEETA) SPACE(PECASRPK) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PERFILTA)                                            DBEET
+-STA DB(DBEETA) SPACE(PERFILTA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PERG1SZR)                                            DBEET
+-STA DB(DBEETA) SPACE(PERG1SZR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PLANORIS)                                            DBEET
+-STA DB(DBEETA) SPACE(PLANORIS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PONT1KSS)                                            DBEET
+-STA DB(DBEETA) SPACE(PONT1KSS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PONT1NHT)                                            DBEET
+-STA DB(DBEETA) SPACE(PONT1NHT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PONT1R0T)                                            DBEET
+-STA DB(DBEETA) SPACE(PONT1R0T) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(POPULACA)                                            DBEET
+-STA DB(DBEETA) SPACE(POPULACA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRAZ1FW5)                                            DBEET
+-STA DB(DBEETA) SPACE(PRAZ1FW5) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRAZ1KAI)                                            DBEET
+-STA DB(DBEETA) SPACE(PRAZ1KAI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRAZ1OPT)                                            DBEET
+-STA DB(DBEETA) SPACE(PRAZ1OPT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRAZ1WES)                                            DBEET
+-STA DB(DBEETA) SPACE(PRAZ1WES) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRAZ1YT5)                                            DBEET
+-STA DB(DBEETA) SPACE(PRAZ1YT5) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRAZOCUR)                                            DBEET
+-STA DB(DBEETA) SPACE(PRAZOCUR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PREMIOBA)                                            DBEET
+-STA DB(DBEETA) SPACE(PREMIOBA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRES1DA4)                                            DBEET
+-STA DB(DBEETA) SPACE(PRES1DA4) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRESTADO)                                            DBEET
+-STA DB(DBEETA) SPACE(PRESTADO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRIORICO)                                            DBEET
+-STA DB(DBEETA) SPACE(PRIORICO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRIORIEM)                                            DBEET
+-STA DB(DBEETA) SPACE(PRIORIEM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRIORIIN)                                            DBEET
+-STA DB(DBEETA) SPACE(PRIORIIN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRMC1SMF)                                            DBEET
+-STA DB(DBEETA) SPACE(PRMC1SMF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRMCSIAN)                                            DBEET
+-STA DB(DBEETA) SPACE(PRMCSIAN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PROCEDEN)                                            DBEET
+-STA DB(DBEETA) SPACE(PROCEDEN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRODUTOR)                                            DBEET
+-STA DB(DBEETA) SPACE(PRODUTOR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PRODUTOV)                                            DBEET
+-STA DB(DBEETA) SPACE(PRODUTOV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PROL1#42)                                            DBEET
+-STA DB(DBEETA) SPACE(PROL1#42) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PROV11M8)                                            DBEET
+-STA DB(DBEETA) SPACE(PROV11M8) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(PROV1Z1Y)                                            DBEET
+-STA DB(DBEETA) SPACE(PROV1Z1Y) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QTARGRRS)                                            DBEET
+-STA DB(DBEETA) SPACE(QTARGRRS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QUES1#BV)                                            DBEET
+-STA DB(DBEETA) SPACE(QUES1#BV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QUES14WW)                                            DBEET
+-STA DB(DBEETA) SPACE(QUES14WW) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QUES1CIU)                                            DBEET
+-STA DB(DBEETA) SPACE(QUES1CIU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QUES1PRV)                                            DBEET
+-STA DB(DBEETA) SPACE(QUES1PRV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QUES1SJV)                                            DBEET
+-STA DB(DBEETA) SPACE(QUES1SJV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(QUESTAOR)                                            DBEET
+-STA DB(DBEETA) SPACE(QUESTAOR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RAMO1FHF)                                            DBEET
+-STA DB(DBEETA) SPACE(RAMO1FHF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RAMOGENE)                                            DBEET
+-STA DB(DBEETA) SPACE(RAMOGENE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(REAJUSTE)                                            DBEET
+-STA DB(DBEETA) SPACE(REAJUSTE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RECUSAPR)                                            DBEET
+-STA DB(DBEETA) SPACE(RECUSAPR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(REGI1#BA)                                            DBEET
+-STA DB(DBEETA) SPACE(REGI1#BA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(REGI1SGG)                                            DBEET
+-STA DB(DBEETA) SPACE(REGI1SGG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(REGI1UQ@)                                            DBEET
+-STA DB(DBEETA) SPACE(REGI1UQ@) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(REGIAORP)                                            DBEET
+-STA DB(DBEETA) SPACE(REGIAORP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RESP1@DX)                                            DBEET
+-STA DB(DBEETA) SPACE(RESP1@DX) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RESP1DAD)                                            DBEET
+-STA DB(DBEETA) SPACE(RESP1DAD) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RESP1VLX)                                            DBEET
+-STA DB(DBEETA) SPACE(RESP1VLX) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(RESTRICA)                                            DBEET
+-STA DB(DBEETA) SPACE(RESTRICA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ROTE1XYN)                                            DBEET
+-STA DB(DBEETA) SPACE(ROTE1XYN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(ROTEIROC)                                            DBEET
+-STA DB(DBEETA) SPACE(ROTEIROC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SEQP12JO)                                            DBEET
+-STA DB(DBEETA) SPACE(SEQP12JO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SEQU1LNF)                                            DBEET
+-STA DB(DBEETA) SPACE(SEQU1LNF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SEQUENCI)                                            DBEET
+-STA DB(DBEETA) SPACE(SEQUENCI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISGUFOR)                                            DBEET
+-STA DB(DBEETA) SPACE(SISGUFOR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISS1C9Z)                                            DBEET
+-STA DB(DBEETA) SPACE(SISS1C9Z) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISS1TA0)                                            DBEET
+-STA DB(DBEETA) SPACE(SISS1TA0) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISSGUAC)                                            DBEET
+-STA DB(DBEETA) SPACE(SISSGUAC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISSGUPR)                                            DBEET
+-STA DB(DBEETA) SPACE(SISSGUPR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISSGUPT)                                            DBEET
+-STA DB(DBEETA) SPACE(SISSGUPT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SISSGUVE)                                            DBEET
+-STA DB(DBEETA) SPACE(SISSGUVE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SITD1B3W)                                            DBEET
+-STA DB(DBEETA) SPACE(SITD1B3W) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SUCBCOPA)                                            DBEET
+-STA DB(DBEETA) SPACE(SUCBCOPA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(SUCURSAL)                                            DBEET
+-STA DB(DBEETA) SPACE(SUCURSAL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TABE1Q0T)                                            DBEET
+-STA DB(DBEETA) SPACE(TABE1Q0T) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TABELAAP)                                            DBEET
+-STA DB(DBEETA) SPACE(TABELAAP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TAXAANOM)                                            DBEET
+-STA DB(DBEETA) SPACE(TAXAANOM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TAXACFCM)                                            DBEET
+-STA DB(DBEETA) SPACE(TAXACFCM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TAXACFCR)                                            DBEET
+-STA DB(DBEETA) SPACE(TAXACFCR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TEXT1$J9)                                            DBEET
+-STA DB(DBEETA) SPACE(TEXT1$J9) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TEXT1O$9)                                            DBEET
+-STA DB(DBEETA) SPACE(TEXT1O$9) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TEXTOGRP)                                            DBEET
+-STA DB(DBEETA) SPACE(TEXTOGRP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TEXTOPAD)                                            DBEET
+-STA DB(DBEETA) SPACE(TEXTOPAD) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPACETA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPACETA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPALTCC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPALTCC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPCDTEV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPCDTEV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPDOCIT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPDOCIT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPF1QE9)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPF1QE9) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPFORDS)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPFORDS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPI1@HC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPI1@HC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPIDFEN)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPIDFEN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPINFRE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPINFRE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1006)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1006) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO122V)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO122V) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO12LE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO12LE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO12ON)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO12ON) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO138E)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO138E) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO13ZZ)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO13ZZ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO140J)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO140J) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO14Q2)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO14Q2) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO16E4)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO16E4) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO16KL)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO16KL) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO187M)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO187M) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO18BT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO18BT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO18QG)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO18QG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO19I1)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO19I1) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO19OW)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO19OW) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1@MW)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1@MW) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1A3L)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1A3L) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1A68)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1A68) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1BD0)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1BD0) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1D5S)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1D5S) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1D64)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1D64) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1DP3)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1DP3) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1FVG)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1FVG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1FX9)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1FX9) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1G2X)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1G2X) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1GD7)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1GD7) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1IB7)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1IB7) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1KTD)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1KTD) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1L0P)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1L0P) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1MMY)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1MMY) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1MXJ)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1MXJ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1N@D)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1N@D) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1OBP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1OBP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1P4Y)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1P4Y) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1PQB)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1PQB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1QOQ)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1QOQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1R8@)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1R8@) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1RDV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1RDV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1SOR)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1SOR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1TDT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1TDT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1UMN)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1UMN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1UY#)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1UY#) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1VVX)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1VVX) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1X9V)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1X9V) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1XDJ)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1XDJ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1XWB)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1XWB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1XZR)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1XZR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1YMX)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1YMX) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPO1ZVM)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPO1ZVM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOACEI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOACEI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOACEV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOACEV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOACTT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOACTT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOALIA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOALIA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOALTC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOALTC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOANEX)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOANEX) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOAST2)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOAST2) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOAUTO)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOAUTO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOAVAR)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOAVAR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOBEMR)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOBEMR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCABI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCABI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCALA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCALA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCALC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCALC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCALP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCALP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCALT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCALT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCAMB)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCAMB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCAMP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCAMP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCAPO)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCAPO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCARB)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCARB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCARG)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCARG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCATA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCATA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCATR)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCATR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCFMP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCFMP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCIDA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCIDA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCILV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCILV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCLAS)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCLAS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCLAU)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCLAU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCNDA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCNDA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCNDP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCNDP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCNDR)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCNDR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCOBE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCOBE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCOBS)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCOBS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCOMB)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCOMB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCOMI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCOMI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCOMP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCOMP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCOND)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCOND) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCONF)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCONF) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCONS)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCONS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCONV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCONV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCPNV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCPNV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOCRAV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOCRAV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODATA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODATA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODESC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODESC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODIAR)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODIAR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODOCA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODOCA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODOCC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODOCC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODOCU)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODOCU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODSCB)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODSCB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODSCC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODSCC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPODSCT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPODSCT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOENDO)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOENDO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOENQC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOENQC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOENQD)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOENQD) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOENQP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOENQP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOESTA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOESTA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOEVED)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOEVED) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOEVEN)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOEVEN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOFATO)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOFATO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOFORM)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOFORM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOFRAN)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOFRAN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOFREI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOFREI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOFRQS)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOFRQS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOGARA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOGARA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOGRUP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOGRUP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOGTAV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOGTAV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOIDFC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOIDFC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOIDFP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOIDFP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOIMPD)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOIMPD) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOINFO)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOINFO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOINJE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOINJE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOISNT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOISNT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOLIMI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOLIMI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOLOCA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOLOCA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOMATE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOMATE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOMEIO)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOMEIO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOMOED)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOMOED) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOMOTI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOMOTI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPONACI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPONACI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPONIVB)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPONIVB) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOOPCA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOOPCA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOORCA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOORCA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOORDE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOORDE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOORIA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOORIA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOORIC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOORIC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOORIE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOORIE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOORIG)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOORIG) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPARA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPARA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPCQV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPCQV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPERI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPERI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPESQ)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPESQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPGTC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPGTC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPINT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPINT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPLAN)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPLAN) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPOTE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPOTE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPRAZ)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPRAZ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPRIO)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPRIO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOPROC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOPROC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOQSTR)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOQSTR) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOQTDC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOQTDC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOREFC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOREFC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOREGI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOREGI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOREPA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOREPA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPORSPP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPORSPP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOSISS)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOSISS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOSITA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOSITA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOSITC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOSITC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOSITE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOSITE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOSITU)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOSITU) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOSOLI)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOSOLI) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOTABE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOTABE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOTARA)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOTARA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOTEXT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOTEXT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOTONV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOTONV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOTRAC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOTRAC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOTXTE)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOTXTE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOUTIV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOUTIV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOVALO)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOVALO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOVALV)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOVALV) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOVENC)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOVENC) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOVIGP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOVIGP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPOVRSM)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPOVRSM) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPPRRRP)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPPRRRP) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPSITIT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPSITIT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TIPSOLPT)                                            DBEET
+-STA DB(DBEETA) SPACE(TIPSOLPT) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(TPDISPOS)                                            DBEET
+-STA DB(DBEETA) SPACE(TPDISPOS) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VARCOTME)                                            DBEET
+-STA DB(DBEETA) SPACE(VARCOTME) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VARIACAO)                                            DBEET
+-STA DB(DBEETA) SPACE(VARIACAO) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VEICULOA)                                            DBEET
+-STA DB(DBEETA) SPACE(VEICULOA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VERS1AE2)                                            DBEET
+-STA DB(DBEETA) SPACE(VERS1AE2) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VERS1M93)                                            DBEET
+-STA DB(DBEETA) SPACE(VERS1M93) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VERS1NK5)                                            DBEET
+-STA DB(DBEETA) SPACE(VERS1NK5) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VERS1R04)                                            DBEET
+-STA DB(DBEETA) SPACE(VERS1R04) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VERS1S03)                                            DBEET
+-STA DB(DBEETA) SPACE(VERS1S03) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VERS1ZJQ)                                            DBEET
+-STA DB(DBEETA) SPACE(VERS1ZJQ) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VERSAOCA)                                            DBEET
+-STA DB(DBEETA) SPACE(VERSAOCA) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VERSAOPE)                                            DBEET
+-STA DB(DBEETA) SPACE(VERSAOPE) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VIST1#XH)                                            DBEET
+-STA DB(DBEETA) SPACE(VIST1#XH) ACC(RW)                                    DBEET
+-STO DB(DBEETA) SPACE(VISTORIA)                                            DBEET
+-STA DB(DBEETA) SPACE(VISTORIA) ACC(RW)                                    DBEET
+-STO DB(DBEEVT) SPACE(ALMRCTPV)                                            DBEEV
+-STA DB(DBEEVT) SPACE(ALMRCTPV) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(ALTMRCTP)                                            DBEEV
+-STA DB(DBEEVT) SPACE(ALTMRCTP) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(COBPVSAP)                                            DBEEV
+-STA DB(DBEEVT) SPACE(COBPVSAP) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(CONT1FF1)                                            DBEEV
+-STA DB(DBEEVT) SPACE(CONT1FF1) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(CONTROLE)                                            DBEEV
+-STA DB(DBEEVT) SPACE(CONTROLE) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(CPODOMVS)                                            DBEEV
+-STA DB(DBEEVT) SPACE(CPODOMVS) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(DMIINPON)                                            DBEEV
+-STA DB(DBEEVT) SPACE(DMIINPON) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(DOMV1#2G)                                            DBEEV
+-STA DB(DBEEVT) SPACE(DOMV1#2G) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(DOMV1W8Q)                                            DBEEV
+-STA DB(DBEEVT) SPACE(DOMV1W8Q) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(EMAILINS)                                            DBEEV
+-STA DB(DBEEVT) SPACE(EMAILINS) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(HISTINDC)                                            DBEEV
+-STA DB(DBEEVT) SPACE(HISTINDC) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(HSTC16@G)                                            DBEEV
+-STA DB(DBEEVT) SPACE(HSTC16@G) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(HSTCOBER)                                            DBEEV
+-STA DB(DBEEVT) SPACE(HSTCOBER) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(INDICECO)                                            DBEEV
+-STA DB(DBEEVT) SPACE(INDICECO) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUD14Y2)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUD14Y2) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUD1B@V)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUD1B@V) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUD1E3E)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUD1E3E) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUD1HG4)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUD1HG4) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUD1HR8)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUD1HR8) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUD1Q4P)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUD1Q4P) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(LAUDOVST)                                            DBEEV
+-STA DB(DBEEVT) SPACE(LAUDOVST) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(MOTIVOBL)                                            DBEEV
+-STA DB(DBEEVT) SPACE(MOTIVOBL) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(MOTIVOLI)                                            DBEEV
+-STA DB(DBEEVT) SPACE(MOTIVOLI) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(SOLV1Z8C)                                            DBEEV
+-STA DB(DBEEVT) SPACE(SOLV1Z8C) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(SOLVSTON)                                            DBEEV
+-STA DB(DBEEVT) SPACE(SOLVSTON) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TIPOCANR)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TIPOCANR) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TIPOEMAI)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TIPOEMAI) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TIPOIMPR)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TIPOIMPR) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TIPOSITA)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TIPOSITA) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TIPOSITS)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TIPOSITS) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(TIPOSITV)                                            DBEEV
+-STA DB(DBEEVT) SPACE(TIPOSITV) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(VSTCOBCT)                                            DBEEV
+-STA DB(DBEEVT) SPACE(VSTCOBCT) ACC(RW)                                    DBEEV
+-STO DB(DBEEVT) SPACE(VSTCONDU)                                            DBEEV
+-STA DB(DBEEVT) SPACE(VSTCONDU) ACC(RW)                                    DBEEV
+-STO DB(DBER01) SPACE(ERCTLPCS)                                            DBER0
+-STA DB(DBER01) SPACE(ERCTLPCS) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERDATAPC)                                            DBER0
+-STA DB(DBER01) SPACE(ERDATAPC) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERMODULO)                                            DBER0
+-STA DB(DBER01) SPACE(ERMODULO) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERMOVSOL)                                            DBER0
+-STA DB(DBER01) SPACE(ERMOVSOL) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERPR15JG)                                            DBER0
+-STA DB(DBER01) SPACE(ERPR15JG) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERROTINA)                                            DBER0
+-STA DB(DBER01) SPACE(ERROTINA) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(ERTIPOPC)                                            DBER0
+-STA DB(DBER01) SPACE(ERTIPOPC) ACC(RW)                                    DBER0
+-STO DB(DBER01) SPACE(K9RSEGRP)                                            DBER0
+-STA DB(DBER01) SPACE(K9RSEGRP) ACC(RW)                                    DBER0
+-STO DB(DBINFOR) SPACE(TABL1W$@)                                           DBINF
+-STA DB(DBINFOR) SPACE(TABL1W$@) ACC(RW)                                   DBINF
+-STO DB(DBINFOR) SPACE(UTIL1X9V)                                           DBINF
+-STA DB(DBINFOR) SPACE(UTIL1X9V) ACC(RW)                                   DBINF
+-STO DB(DBKIT1) SPACE(RECPROPN)                                            DBKIT
+-STA DB(DBKIT1) SPACE(RECPROPN) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPW18XE)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPW18XE) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPW1SC5)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPW1SC5) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWEBBE)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWEBBE) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWEBCO)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWEBCO) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWEBLO)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWEBLO) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(TMPWEBPR)                                            DBKIT
+-STA DB(DBKIT1) SPACE(TMPWEBPR) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(WEBR1N7I)                                            DBKIT
+-STA DB(DBKIT1) SPACE(WEBR1N7I) ACC(RW)                                    DBKIT
+-STO DB(DBKIT1) SPACE(WEBT1L1C)                                            DBKIT
+-STA DB(DBKIT1) SPACE(WEBT1L1C) ACC(RW)                                    DBKIT
+-STO DB(DBLG01) SPACE(SOLPGTIT)                                            DBLG0
+-STA DB(DBLG01) SPACE(SOLPGTIT) ACC(RW)                                    DBLG0
+-STO DB(DBMA01) SPACE(CADANLSI)                                            DBMA0
+-STA DB(DBMA01) SPACE(CADANLSI) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(CORR1K6B)                                            DBMA0
+-STA DB(DBMA01) SPACE(CORR1K6B) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(DEPARAOC)                                            DBMA0
+-STA DB(DBMA01) SPACE(DEPARAOC) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(DEPARARE)                                            DBMA0
+-STA DB(DBMA01) SPACE(DEPARARE) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(GRPNATSL)                                            DBMA0
+-STA DB(DBMA01) SPACE(GRPNATSL) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(ITEMNATS)                                            DBMA0
+-STA DB(DBMA01) SPACE(ITEMNATS) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(NOTF1PLQ)                                            DBMA0
+-STA DB(DBMA01) SPACE(NOTF1PLQ) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(OPERACAO)                                            DBMA0
+-STA DB(DBMA01) SPACE(OPERACAO) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(PRDI1OH8)                                            DBMA0
+-STA DB(DBMA01) SPACE(PRDI1OH8) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(PREFTELR)                                            DBMA0
+-STA DB(DBMA01) SPACE(PREFTELR) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(PROC1CVA)                                            DBMA0
+-STA DB(DBMA01) SPACE(PROC1CVA) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(REGIAOCE)                                            DBMA0
+-STA DB(DBMA01) SPACE(REGIAOCE) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(REGIAOIC)                                            DBMA0
+-STA DB(DBMA01) SPACE(REGIAOIC) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(REGPCITE)                                            DBMA0
+-STA DB(DBMA01) SPACE(REGPCITE) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(RNSREGIM)                                            DBMA0
+-STA DB(DBMA01) SPACE(RNSREGIM) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNBN1NUI)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNBN1NUI) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNCH12X8)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNCH12X8) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNCL1DLK)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNCL1DLK) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNCR1K3E)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNCR1K3E) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNCRTDES)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNCRTDES) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNCTLEXU)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNCTLEXU) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNDOCCRT)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNDOCCRT) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNDS1IDJ)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNDS1IDJ) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNIN11RL)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNIN11RL) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNIN19EL)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNIN19EL) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNIN1YNX)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNIN1YNX) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNJU1AID)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNJU1AID) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNMS1@9M)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNMS1@9M) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNOC173M)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNOC173M) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNPARAMR)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNPARAMR) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNRE1IVN)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNRE1IVN) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNREGRAA)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNREGRAA) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNRO1P6U)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNRO1P6U) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNROTEIR)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNROTEIR) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNSE1CWT)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNSE1CWT) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNTI14H$)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNTI14H$) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNTI1IJ4)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNTI1IJ4) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNTI1K0$)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNTI1K0$) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNTIPOIM)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNTIPOIM) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNTPFRQR)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNTPFRQR) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SNVE1CCQ)                                            DBMA0
+-STA DB(DBMA01) SPACE(SNVE1CCQ) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SSCTLVST)                                            DBMA0
+-STA DB(DBMA01) SPACE(SSCTLVST) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SSIS1T50)                                            DBMA0
+-STA DB(DBMA01) SPACE(SSIS1T50) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SSTI1VLZ)                                            DBMA0
+-STA DB(DBMA01) SPACE(SSTI1VLZ) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(SUBREGIA)                                            DBMA0
+-STA DB(DBMA01) SPACE(SUBREGIA) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TBCP1O$7)                                            DBMA0
+-STA DB(DBMA01) SPACE(TBCP1O$7) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TBOC1GPK)                                            DBMA0
+-STA DB(DBMA01) SPACE(TBOC1GPK) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TCHEQUER)                                            DBMA0
+-STA DB(DBMA01) SPACE(TCHEQUER) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TCON1$5$)                                            DBMA0
+-STA DB(DBMA01) SPACE(TCON1$5$) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TCON1HKL)                                            DBMA0
+-STA DB(DBMA01) SPACE(TCON1HKL) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TPRO101N)                                            DBMA0
+-STA DB(DBMA01) SPACE(TPRO101N) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TPRO1RII)                                            DBMA0
+-STA DB(DBMA01) SPACE(TPRO1RII) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TREM1$LP)                                            DBMA0
+-STA DB(DBMA01) SPACE(TREM1$LP) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(TSIN1FRN)                                            DBMA0
+-STA DB(DBMA01) SPACE(TSIN1FRN) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSE1MG1)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSE1MG1) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSEVENT)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSEVENT) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSL19Z6)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSL19Z6) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSMTVCA)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSMTVCA) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSNUMER)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSNUMER) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSP15@L)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSP15@L) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSP16GM)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSP16GM) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSP1O9S)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSP1O9S) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSP1VGT)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSP1VGT) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSP1WSK)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSP1WSK) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSR1JK$)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSR1JK$) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSRECUP)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSRECUP) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSSALVO)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSSALVO) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSU1FGU)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSU1FGU) ACC(RW)                                    DBMA0
+-STO DB(DBMA01) SPACE(WRSU1O8U)                                            DBMA0
+-STA DB(DBMA01) SPACE(WRSU1O8U) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(AGEB12CJ)                                            DBMA0
+-STA DB(DBMA02) SPACE(AGEB12CJ) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(AGLP1BZU)                                            DBMA0
+-STA DB(DBMA02) SPACE(AGLP1BZU) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(AGRP1PVT)                                            DBMA0
+-STA DB(DBMA02) SPACE(AGRP1PVT) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CADC1C41)                                            DBMA0
+-STA DB(DBMA02) SPACE(CADC1C41) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CCUS1A6E)                                            DBMA0
+-STA DB(DBMA02) SPACE(CCUS1A6E) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CCUS1O6F)                                            DBMA0
+-STA DB(DBMA02) SPACE(CCUS1O6F) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CCUSTORI)                                            DBMA0
+-STA DB(DBMA02) SPACE(CCUSTORI) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CELULARI)                                            DBMA0
+-STA DB(DBMA02) SPACE(CELULARI) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CLAP1#3X)                                            DBMA0
+-STA DB(DBMA02) SPACE(CLAP1#3X) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CMAC1E1S)                                            DBMA0
+-STA DB(DBMA02) SPACE(CMAC1E1S) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CMAC1IYQ)                                            DBMA0
+-STA DB(DBMA02) SPACE(CMAC1IYQ) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR10PJ)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR10PJ) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR11QR)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR11QR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR161P)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR161P) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR197V)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR197V) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR1AIM)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR1AIM) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR1DBH)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR1DBH) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR1FQU)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR1FQU) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR1GQ4)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR1GQ4) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR1HBM)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR1HBM) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR1M5S)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR1M5S) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR1OHN)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR1OHN) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORR1PHN)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORR1PHN) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRETCT)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRETCT) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRSITF)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRSITF) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRSNHG)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRSNHG) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CORRTCON)                                            DBMA0
+-STA DB(DBMA02) SPACE(CORRTCON) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(CTLR1C75)                                            DBMA0
+-STA DB(DBMA02) SPACE(CTLR1C75) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(DATASRIX)                                            DBMA0
+-STA DB(DBMA02) SPACE(DATASRIX) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(DEPARTAM)                                            DBMA0
+-STA DB(DBMA02) SPACE(DEPARTAM) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(DSCRELCO)                                            DBMA0
+-STA DB(DBMA02) SPACE(DSCRELCO) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(EMAI1@22)                                            DBMA0
+-STA DB(DBMA02) SPACE(EMAI1@22) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(FUNC17$7)                                            DBMA0
+-STA DB(DBMA02) SPACE(FUNC17$7) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(FUNCAOUS)                                            DBMA0
+-STA DB(DBMA02) SPACE(FUNCAOUS) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(GGRB1KAJ)                                            DBMA0
+-STA DB(DBMA02) SPACE(GGRB1KAJ) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(GRPC1DB@)                                            DBMA0
+-STA DB(DBMA02) SPACE(GRPC1DB@) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(GRPC1R0J)                                            DBMA0
+-STA DB(DBMA02) SPACE(GRPC1R0J) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(GRPCATRP)                                            DBMA0
+-STA DB(DBMA02) SPACE(GRPCATRP) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(IMGA1W68)                                            DBMA0
+-STA DB(DBMA02) SPACE(IMGA1W68) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(INTERFCO)                                            DBMA0
+-STA DB(DBMA02) SPACE(INTERFCO) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(ITFENDSE)                                            DBMA0
+-STA DB(DBMA02) SPACE(ITFENDSE) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(ITFOCOIC)                                            DBMA0
+-STA DB(DBMA02) SPACE(ITFOCOIC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(LNHP1KBY)                                            DBMA0
+-STA DB(DBMA02) SPACE(LNHP1KBY) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(LOGA1YAH)                                            DBMA0
+-STA DB(DBMA02) SPACE(LOGA1YAH) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(LOGROTIN)                                            DBMA0
+-STA DB(DBMA02) SPACE(LOGROTIN) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(MEND1K48)                                            DBMA0
+-STA DB(DBMA02) SPACE(MEND1K48) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(MOTIVOIN)                                            DBMA0
+-STA DB(DBMA02) SPACE(MOTIVOIN) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(MSGN1M0@)                                            DBMA0
+-STA DB(DBMA02) SPACE(MSGN1M0@) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PARI1LTO)                                            DBMA0
+-STA DB(DBMA02) SPACE(PARI1LTO) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1#0Z)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1#0Z) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1CAP)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1CAP) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1D3K)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1D3K) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1F@E)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1F@E) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1G0K)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1G0K) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1KT6)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1KT6) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1MBE)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1MBE) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1R9Z)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1R9Z) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1R@Z)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1R@Z) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1SCA)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1SCA) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1SRB)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1SRB) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1UW6)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1UW6) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PECA1WNP)                                            DBMA0
+-STA DB(DBMA02) SPACE(PECA1WNP) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PKASIS00)                                            DBMA0
+-STA DB(DBMA02) SPACE(PKASIS00) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PKCCST01)                                            DBMA0
+-STA DB(DBMA02) SPACE(PKCCST01) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PKLOCF00)                                            DBMA0
+-STA DB(DBMA02) SPACE(PKLOCF00) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PKSFUN00)                                            DBMA0
+-STA DB(DBMA02) SPACE(PKSFUN00) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PKSIST00)                                            DBMA0
+-STA DB(DBMA02) SPACE(PKSIST00) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PKSRVCOR)                                            DBMA0
+-STA DB(DBMA02) SPACE(PKSRVCOR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PREMIOEM)                                            DBMA0
+-STA DB(DBMA02) SPACE(PREMIOEM) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PROD13EU)                                            DBMA0
+-STA DB(DBMA02) SPACE(PROD13EU) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PROD1OLV)                                            DBMA0
+-STA DB(DBMA02) SPACE(PROD1OLV) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PROD1P0V)                                            DBMA0
+-STA DB(DBMA02) SPACE(PROD1P0V) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PROD1Z@U)                                            DBMA0
+-STA DB(DBMA02) SPACE(PROD1Z@U) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PRODUTOC)                                            DBMA0
+-STA DB(DBMA02) SPACE(PRODUTOC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PROP1FME)                                            DBMA0
+-STA DB(DBMA02) SPACE(PROP1FME) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(PROPKITW)                                            DBMA0
+-STA DB(DBMA02) SPACE(PROPKITW) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(RAMO1QNW)                                            DBMA0
+-STA DB(DBMA02) SPACE(RAMO1QNW) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(RESS1W85)                                            DBMA0
+-STA DB(DBMA02) SPACE(RESS1W85) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SENH1O#S)                                            DBMA0
+-STA DB(DBMA02) SPACE(SENH1O#S) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SENH1QMV)                                            DBMA0
+-STA DB(DBMA02) SPACE(SENH1QMV) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SENHARIX)                                            DBMA0
+-STA DB(DBMA02) SPACE(SENHARIX) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SENHATEL)                                            DBMA0
+-STA DB(DBMA02) SPACE(SENHATEL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SNSE1MKU)                                            DBMA0
+-STA DB(DBMA02) SPACE(SNSE1MKU) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SNSE1QCV)                                            DBMA0
+-STA DB(DBMA02) SPACE(SNSE1QCV) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SNSERDES)                                            DBMA0
+-STA DB(DBMA02) SPACE(SNSERDES) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SSPARCON)                                            DBMA0
+-STA DB(DBMA02) SPACE(SSPARCON) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SSPARDIF)                                            DBMA0
+-STA DB(DBMA02) SPACE(SSPARDIF) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SSTR1FZJ)                                            DBMA0
+-STA DB(DBMA02) SPACE(SSTR1FZJ) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SUCU1UX3)                                            DBMA0
+-STA DB(DBMA02) SPACE(SUCU1UX3) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(SUPB1Y8M)                                            DBMA0
+-STA DB(DBMA02) SPACE(SUPB1Y8M) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TBCO1LUR)                                            DBMA0
+-STA DB(DBMA02) SPACE(TBCO1LUR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TBPL1KA2)                                            DBMA0
+-STA DB(DBMA02) SPACE(TBPL1KA2) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TIPO1BQ@)                                            DBMA0
+-STA DB(DBMA02) SPACE(TIPO1BQ@) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TIPODOCE)                                            DBMA0
+-STA DB(DBMA02) SPACE(TIPODOCE) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TIPODSTR)                                            DBMA0
+-STA DB(DBMA02) SPACE(TIPODSTR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TIPOINCO)                                            DBMA0
+-STA DB(DBMA02) SPACE(TIPOINCO) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(TIPORELA)                                            DBMA0
+-STA DB(DBMA02) SPACE(TIPORELA) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(UFNOSRIX)                                            DBMA0
+-STA DB(DBMA02) SPACE(UFNOSRIX) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(UFRIX1)                                              DBMA0
+-STA DB(DBMA02) SPACE(UFRIX1) ACC(RW)                                      DBMA0
+-STO DB(DBMA02) SPACE(UNIB14JV)                                            DBMA0
+-STA DB(DBMA02) SPACE(UNIB14JV) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(UNID1Y#P)                                            DBMA0
+-STA DB(DBMA02) SPACE(UNID1Y#P) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(URAC1@G6)                                            DBMA0
+-STA DB(DBMA02) SPACE(URAC1@G6) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(URAC1AQC)                                            DBMA0
+-STA DB(DBMA02) SPACE(URAC1AQC) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(URAC1RLF)                                            DBMA0
+-STA DB(DBMA02) SPACE(URAC1RLF) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(URAC1WEE)                                            DBMA0
+-STA DB(DBMA02) SPACE(URAC1WEE) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(URACADPR)                                            DBMA0
+-STA DB(DBMA02) SPACE(URACADPR) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(URACDSNH)                                            DBMA0
+-STA DB(DBMA02) SPACE(URACDSNH) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(USUARIOI)                                            DBMA0
+-STA DB(DBMA02) SPACE(USUARIOI) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEBE1RO0)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEBE1RO0) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEBEVENT)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEBEVENT) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEBMODNI)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEBMODNI) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEBMODUL)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEBMODUL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEBNIVEL)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEBNIVEL) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEBP1UNF)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEBP1UNF) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEBU1$KF)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEBU1$KF) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEBU182G)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEBU182G) ACC(RW)                                    DBMA0
+-STO DB(DBMA02) SPACE(WEBU1HIG)                                            DBMA0
+-STA DB(DBMA02) SPACE(WEBU1HIG) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(CONTROLI)                                            DBMA0
+-STA DB(DBMA03) SPACE(CONTROLI) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(CXPO1ZMP)                                            DBMA0
+-STA DB(DBMA03) SPACE(CXPO1ZMP) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(LGRC10BK)                                            DBMA0
+-STA DB(DBMA03) SPACE(LGRC10BK) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(LOCA1BMC)                                            DBMA0
+-STA DB(DBMA03) SPACE(LOCA1BMC) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(LOCA1KPF)                                            DBMA0
+-STA DB(DBMA03) SPACE(LOCA1KPF) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(LOGR1NVR)                                            DBMA0
+-STA DB(DBMA03) SPACE(LOGR1NVR) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(PARA17E8)                                            DBMA0
+-STA DB(DBMA03) SPACE(PARA17E8) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(SSMOVRSV)                                            DBMA0
+-STA DB(DBMA03) SPACE(SSMOVRSV) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBFX14L2)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBFX14L2) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBRE145J)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBRE145J) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBRE1JUK)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBRE1JUK) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBRE1NWI)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBRE1NWI) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBSU1#6R)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBSU1#6R) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBSU1@IF)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBSU1@IF) ACC(RW)                                    DBMA0
+-STO DB(DBMA03) SPACE(TBTA12DQ)                                            DBMA0
+-STA DB(DBMA03) SPACE(TBTA12DQ) ACC(RW)                                    DBMA0
+-STO DB(DBMO01) SPACE(DEPR1#7T)                                            DBMO0
+-STA DB(DBMO01) SPACE(DEPR1#7T) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(DEPRECIA)                                            DBMO0
+-STA DB(DBMO01) SPACE(DEPRECIA) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ENDCMOVT)                                            DBMO0
+-STA DB(DBMO01) SPACE(ENDCMOVT) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ENTM1T#4)                                            DBMO0
+-STA DB(DBMO01) SPACE(ENTM1T#4) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ENTMARAC)                                            DBMO0
+-STA DB(DBMO01) SPACE(ENTMARAC) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCA11DU)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCA11DU) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCA12QM)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCA12QM) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCA15EU)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCA15EU) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCA18XU)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCA18XU) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCA1D1M)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCA1D1M) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCA1NUM)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCA1NUM) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCC16$R)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCC16$R) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCC1M3Q)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCC1M3Q) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCC1NAH)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCC1NAH) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCC1UUG)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCC1UUG) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCCONDI)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCCONDI) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(ORCCONTR)                                            DBMO0
+-STA DB(DBMO01) SPACE(ORCCONTR) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERF16VF)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERF16VF) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERF1@SX)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERF1@SX) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERF1D2B)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERF1D2B) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERF1EYD)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERF1EYD) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERF1OSY)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERF1OSY) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFCARA)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFCARA) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFCCTC)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFCCTC) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFCCTV)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFCCTV) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFIDAD)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFIDAD) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(PERFTEMH)                                            DBMO0
+-STA DB(DBMO01) SPACE(PERFTEMH) ACC(RW)                                    DBMO0
+-STO DB(DBMO01) SPACE(RETMARAC)                                            DBMO0
+-STA DB(DBMO01) SPACE(RETMARAC) ACC(RW)                                    DBMO0
+-STO DB(DBMP01) SPACE(AGRA14B3)                                            DBMP0
+-STA DB(DBMP01) SPACE(AGRA14B3) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(ANEXOSRI)                                            DBMP0
+-STA DB(DBMP01) SPACE(ANEXOSRI) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(CLAU1MCM)                                            DBMP0
+-STA DB(DBMP01) SPACE(CLAU1MCM) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(NORM1MX9)                                            DBMP0
+-STA DB(DBMP01) SPACE(NORM1MX9) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PKPCONVL)                                            DBMP0
+-STA DB(DBMP01) SPACE(PKPCONVL) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROP1006)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROP1006) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROP13N2)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROP13N2) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROP1D#X)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROP1D#X) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROP1H93)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROP1H93) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROP1HVQ)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROP1HVQ) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROP1MPU)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROP1MPU) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROP1Q0N)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROP1Q0N) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROP1T@1)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROP1T@1) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROP1THE)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROP1THE) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROPCONV)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROPCONV) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROPELET)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROPELET) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROPKITB)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROPKITB) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROPKITC)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROPKITC) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PROPKITW)                                            DBMP0
+-STA DB(DBMP01) SPACE(PROPKITW) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(PWRETORN)                                            DBMP0
+-STA DB(DBMP01) SPACE(PWRETORN) ACC(RW)                                    DBMP0
+-STO DB(DBMP01) SPACE(TEXTOSRI)                                            DBMP0
+-STA DB(DBMP01) SPACE(TEXTOSRI) ACC(RW)                                    DBMP0
+-STO DB(DBMP02) SPACE(PROP1FRP)                                            DBMP0
+-STA DB(DBMP02) SPACE(PROP1FRP) ACC(RW)                                    DBMP0
+-STO DB(DBMP02) SPACE(PROP1LAQ)                                            DBMP0
+-STA DB(DBMP02) SPACE(PROP1LAQ) ACC(RW)                                    DBMP0
+-STO DB(DBMT01) SPACE(ACEI15DM)                                            DBMT0
+-STA DB(DBMT01) SPACE(ACEI15DM) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(ACEI182N)                                            DBMT0
+-STA DB(DBMT01) SPACE(ACEI182N) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(ACEI1@1M)                                            DBMT0
+-STA DB(DBMT01) SPACE(ACEI1@1M) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(ACEITACO)                                            DBMT0
+-STA DB(DBMT01) SPACE(ACEITACO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(ACES1BTP)                                            DBMT0
+-STA DB(DBMT01) SPACE(ACES1BTP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(ACES1LXO)                                            DBMT0
+-STA DB(DBMT01) SPACE(ACES1LXO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(AGRA14DO)                                            DBMT0
+-STA DB(DBMT01) SPACE(AGRA14DO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(AGRA15M2)                                            DBMT0
+-STA DB(DBMT01) SPACE(AGRA15M2) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(ASSI1$7R)                                            DBMT0
+-STA DB(DBMT01) SPACE(ASSI1$7R) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(ASSI16OR)                                            DBMT0
+-STA DB(DBMT01) SPACE(ASSI16OR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(ASSI1CIQ)                                            DBMT0
+-STA DB(DBMT01) SPACE(ASSI1CIQ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(ASSIST24)                                            DBMT0
+-STA DB(DBMT01) SPACE(ASSIST24) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(AVIS1Z8V)                                            DBMT0
+-STA DB(DBMT01) SPACE(AVIS1Z8V) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(BLOQ1SSO)                                            DBMT0
+-STA DB(DBMT01) SPACE(BLOQ1SSO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(BONUSRIX)                                            DBMT0
+-STA DB(DBMT01) SPACE(BONUSRIX) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(BONUSTRC)                                            DBMT0
+-STA DB(DBMT01) SPACE(BONUSTRC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CATE11TS)                                            DBMT0
+-STA DB(DBMT01) SPACE(CATE11TS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CATE13FT)                                            DBMT0
+-STA DB(DBMT01) SPACE(CATE13FT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CATE18U7)                                            DBMT0
+-STA DB(DBMT01) SPACE(CATE18U7) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CATE1Z0R)                                            DBMT0
+-STA DB(DBMT01) SPACE(CATE1Z0R) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CATEGORI)                                            DBMT0
+-STA DB(DBMT01) SPACE(CATEGORI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CDORIICS)                                            DBMT0
+-STA DB(DBMT01) SPACE(CDORIICS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN10UU)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN10UU) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN11EK)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN11EK) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN128Q)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN128Q) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN13TS)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN13TS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN17PF)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN17PF) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN18LU)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN18LU) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN19SL)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN19SL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1@7P)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1@7P) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1COR)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1COR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1EBH)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1EBH) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1FJS)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1FJS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1GRT)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1GRT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1OJT)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1OJT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1PJQ)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1PJQ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1TOE)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1TOE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1UFJ)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1UFJ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1VPI)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1VPI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1VSD)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1VSD) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1VWP)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1VWP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1Z9R)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1Z9R) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGEN1ZNO)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGEN1ZNO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGENACEC)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGENACEC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CGENACEI)                                            DBMT0
+-STA DB(DBMT01) SPACE(CGENACEI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CLAO1#BZ)                                            DBMT0
+-STA DB(DBMT01) SPACE(CLAO1#BZ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CLAOPCVE)                                            DBMT0
+-STA DB(DBMT01) SPACE(CLAOPCVE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CLASSEOP)                                            DBMT0
+-STA DB(DBMT01) SPACE(CLASSEOP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBC16VB)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBC16VB) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBC1CTC)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBC1CTC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBD1AKY)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBD1AKY) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBD1LYY)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBD1LYY) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBD1PBX)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBD1PBX) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBD1T@X)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBD1T@X) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBD1THW)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBD1THW) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBDESCC)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBDESCC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBE13VK)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBE13VK) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBE1YO6)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBE1YO6) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBM16MJ)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBM16MJ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBM1O1J)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBM1O1J) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBM1QYI)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBM1QYI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBMARTI)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBMARTI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBP19YI)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBP19YI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBP1K3H)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBP1K3H) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBP1QLH)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBP1QLH) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBP1V9F)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBP1V9F) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBPREMI)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBPREMI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBV17#M)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBV17#M) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBV18DL)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBV18DL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COBV19FK)                                            DBMT0
+-STA DB(DBMT01) SPACE(COBV19FK) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COEF18XN)                                            DBMT0
+-STA DB(DBMT01) SPACE(COEF18XN) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COEFICIE)                                            DBMT0
+-STA DB(DBMT01) SPACE(COEFICIE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COMBUSTI)                                            DBMT0
+-STA DB(DBMT01) SPACE(COMBUSTI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COND1$R3)                                            DBMT0
+-STA DB(DBMT01) SPACE(COND1$R3) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COND10E2)                                            DBMT0
+-STA DB(DBMT01) SPACE(COND10E2) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COND13$Q)                                            DBMT0
+-STA DB(DBMT01) SPACE(COND13$Q) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COND13PR)                                            DBMT0
+-STA DB(DBMT01) SPACE(COND13PR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COND173Y)                                            DBMT0
+-STA DB(DBMT01) SPACE(COND173Y) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COND17UX)                                            DBMT0
+-STA DB(DBMT01) SPACE(COND17UX) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COND17Z4)                                            DBMT0
+-STA DB(DBMT01) SPACE(COND17Z4) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COND18TQ)                                            DBMT0
+-STA DB(DBMT01) SPACE(COND18TQ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COND1O@5)                                            DBMT0
+-STA DB(DBMT01) SPACE(COND1O@5) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(COND1VBV)                                            DBMT0
+-STA DB(DBMT01) SPACE(COND1VBV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONDESPA)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONDESPA) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONDESPE)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONDESPE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONDESPR)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONDESPR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONDESPV)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONDESPV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1$FL)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1$FL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV10B2)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV10B2) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV12PH)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV12PH) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV14FI)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV14FI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV15$N)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV15$N) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV19Q4)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV19Q4) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1DQZ)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1DQZ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1E@K)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1E@K) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1GBX)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1GBX) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1GOY)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1GOY) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1N0G)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1N0G) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1P9@)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1P9@) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1PPF)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1PPF) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1RNN)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1RNN) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1UED)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1UED) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1UYM)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1UYM) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1VSL)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1VSL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONV1Z2M)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONV1Z2M) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CONVSEGC)                                            DBMT0
+-STA DB(DBMT01) SPACE(CONVSEGC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CUST1PF9)                                            DBMT0
+-STA DB(DBMT01) SPACE(CUST1PF9) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CUST1TP8)                                            DBMT0
+-STA DB(DBMT01) SPACE(CUST1TP8) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(CUSTOAPO)                                            DBMT0
+-STA DB(DBMT01) SPACE(CUSTOAPO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(DESC13I6)                                            DBMT0
+-STA DB(DBMT01) SPACE(DESC13I6) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(DESCRICA)                                            DBMT0
+-STA DB(DBMT01) SPACE(DESCRICA) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPP14Q$)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPP14Q$) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPP1FK@)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPP1FK@) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPPROTI)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPPROTI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPR100B)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPR100B) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPR11OV)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPR11OV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPR1YPC)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPR1YPC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPRESAP)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPRESAP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(EMPRESAR)                                            DBMT0
+-STA DB(DBMT01) SPACE(EMPRESAR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FIPE11$Y)                                            DBMT0
+-STA DB(DBMT01) SPACE(FIPE11$Y) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FIPE133A)                                            DBMT0
+-STA DB(DBMT01) SPACE(FIPE133A) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FIPE1NQA)                                            DBMT0
+-STA DB(DBMT01) SPACE(FIPE1NQA) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FIPE1RWS)                                            DBMT0
+-STA DB(DBMT01) SPACE(FIPE1RWS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FIPEANOR)                                            DBMT0
+-STA DB(DBMT01) SPACE(FIPEANOR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FIPEVIGR)                                            DBMT0
+-STA DB(DBMT01) SPACE(FIPEVIGR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FORM1AYI)                                            DBMT0
+-STA DB(DBMT01) SPACE(FORM1AYI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FORM1H7E)                                            DBMT0
+-STA DB(DBMT01) SPACE(FORM1H7E) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FORM1KWH)                                            DBMT0
+-STA DB(DBMT01) SPACE(FORM1KWH) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FORM1PXG)                                            DBMT0
+-STA DB(DBMT01) SPACE(FORM1PXG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FORM1SFF)                                            DBMT0
+-STA DB(DBMT01) SPACE(FORM1SFF) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FORM1W0F)                                            DBMT0
+-STA DB(DBMT01) SPACE(FORM1W0F) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(FORMAPAG)                                            DBMT0
+-STA DB(DBMT01) SPACE(FORMAPAG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRAUPARE)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRAUPARE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1$K7)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1$K7) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1$Z$)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1$Z$) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP10QF)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP10QF) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP143B)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP143B) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP14G5)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP14G5) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP17GD)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP17GD) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1A7N)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1A7N) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1IN8)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1IN8) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1IOE)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1IOE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1MDE)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1MDE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1MI6)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1MI6) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1NOL)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1NOL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1UC4)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1UC4) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1V85)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1V85) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUP1VFC)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUP1VFC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUPOCAT)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUPOCAT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(GRUPOTIP)                                            DBMT0
+-STA DB(DBMT01) SPACE(GRUPOTIP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(INCONSIS)                                            DBMT0
+-STA DB(DBMT01) SPACE(INCONSIS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(INTE136Q)                                            DBMT0
+-STA DB(DBMT01) SPACE(INTE136Q) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(INTE13PR)                                            DBMT0
+-STA DB(DBMT01) SPACE(INTE13PR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(INTEMPCO)                                            DBMT0
+-STA DB(DBMT01) SPACE(INTEMPCO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMI1C8D)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMI1C8D) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMI1E0H)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMI1E0H) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMI1EJV)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMI1EJV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMI1F@Q)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMI1F@Q) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMI1KJI)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMI1KJI) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMI1PFS)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMI1PFS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMI1PKR)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMI1PKR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMI1TXF)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMI1TXF) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMI1YNG)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMI1YNG) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMITETE)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMITETE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMT11#X)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMT11#X) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(LIMTECCO)                                            DBMT0
+-STA DB(DBMT01) SPACE(LIMTECCO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(MOLI1#BB)                                            DBMT0
+-STA DB(DBMT01) SPACE(MOLI1#BB) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(MOLI16V$)                                            DBMT0
+-STA DB(DBMT01) SPACE(MOLI16V$) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(MOLI1PEC)                                            DBMT0
+-STA DB(DBMT01) SPACE(MOLI1PEC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(MOLICARV)                                            DBMT0
+-STA DB(DBMT01) SPACE(MOLICARV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(MOTIVORC)                                            DBMT0
+-STA DB(DBMT01) SPACE(MOTIVORC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(OPCIONAL)                                            DBMT0
+-STA DB(DBMT01) SPACE(OPCIONAL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARA11G7)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARA11G7) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARA16XF)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARA16XF) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARA1B7C)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARA1B7C) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARA1C4X)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARA1C4X) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARA1F#D)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARA1F#D) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARA1H5C)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARA1H5C) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARA1HQE)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARA1HQE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARA1Q5E)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARA1Q5E) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARA1XKJ)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARA1XKJ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMACE)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMACE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMACT)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMACT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMCAT)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMCAT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMGER)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMGER) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMGRP)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMGRP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMPER)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMPER) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMPRO)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMPRO) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMSER)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMSER) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMSIN)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMSIN) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMTIP)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMTIP) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PARAMVAL)                                            DBMT0
+-STA DB(DBMT01) SPACE(PARAMVAL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN11RJ)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN11RJ) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN13II)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN13II) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN148Z)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN148Z) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN15AX)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN15AX) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN173J)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN173J) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN1@ZX)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN1@ZX) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN1HFM)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN1HFM) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN1KHW)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN1KHW) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN1P1G)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN1P1G) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN1R0K)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN1R0K) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLAN1UFW)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLAN1UFW) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLANOCOB)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLANOCOB) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLANOOPC)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLANOOPC) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PLANORIS)                                            DBMT0
+-STA DB(DBMT01) SPACE(PLANORIS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRAZ102R)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRAZ102R) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRAZ11C0)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRAZ11C0) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRAZ1@BT)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRAZ1@BT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRAZ1@F1)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRAZ1@F1) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRAZ1K4S)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRAZ1K4S) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRAZ1KS2)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRAZ1KS2) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRAZOCUR)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRAZOCUR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PREM19$R)                                            DBMT0
+-STA DB(DBMT01) SPACE(PREM19$R) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PREM1NQS)                                            DBMT0
+-STA DB(DBMT01) SPACE(PREM1NQS) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PREMIOBA)                                            DBMT0
+-STA DB(DBMT01) SPACE(PREMIOBA) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRES12XX)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRES12XX) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRES1DRW)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRES1DRW) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRES1P7Y)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRES1P7Y) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRES1Z5W)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRES1Z5W) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRESTSER)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRESTSER) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PROD1FYU)                                            DBMT0
+-STA DB(DBMT01) SPACE(PROD1FYU) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRODUTOR)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRODUTOR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(PRODUTOV)                                            DBMT0
+-STA DB(DBMT01) SPACE(PRODUTOV) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(REGC158S)                                            DBMT0
+-STA DB(DBMT01) SPACE(REGC158S) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(RENO13PT)                                            DBMT0
+-STA DB(DBMT01) SPACE(RENO13PT) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(RMOA18ED)                                            DBMT0
+-STA DB(DBMT01) SPACE(RMOA18ED) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(RMOATIVE)                                            DBMT0
+-STA DB(DBMT01) SPACE(RMOATIVE) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(SUCURSAL)                                            DBMT0
+-STA DB(DBMT01) SPACE(SUCURSAL) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(TBDT11LR)                                            DBMT0
+-STA DB(DBMT01) SPACE(TBDT11LR) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(TIPALTEN)                                            DBMT0
+-STA DB(DBMT01) SPACE(TIPALTEN) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(TIPO111R)                                            DBMT0
+-STA DB(DBMT01) SPACE(TIPO111R) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(TIPOACES)                                            DBMT0
+-STA DB(DBMT01) SPACE(TIPOACES) ACC(RW)                                    DBMT0
+-STO DB(DBMT01) SPACE(TIPOUTIL)                                            DBMT0
+-STA DB(DBMT01) SPACE(TIPOUTIL) ACC(RW)                                    DBMT0
+-STO DB(DBNA01) SPACE(PKBC00)                                              DBNA0
+-STA DB(DBNA01) SPACE(PKBC00) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(PKBNN00)                                             DBNA0
+-STA DB(DBNA01) SPACE(PKBNN00) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(PKEMPP00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKEMPP00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKEP00)                                              DBNA0
+-STA DB(DBNA01) SPACE(PKEP00) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(PKEPCC00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKEPCC00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKEPMC00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKEPMC00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKEPNA00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKEPNA00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKEPSC00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKEPSC00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNA00)                                              DBNA0
+-STA DB(DBNA01) SPACE(PKNA00) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(PKNA1Z#4)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNA1Z#4) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAEV00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAEV00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAEVL0)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAEVL0) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNALV00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNALV00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAOCPI)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAOCPI) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAOE00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAOE00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAOFP0)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAOFP0) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAOOC0)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAOOC0) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAOOPI)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAOOPI) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAOOS0)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAOOS0) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAOP00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAOP00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAOPE0)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAOPE0) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAOPI0)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAOPI0) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAOR00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAOR00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAORC0)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAORC0) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKNAPRN0)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKNAPRN0) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKPI00)                                              DBNA0
+-STA DB(DBNA01) SPACE(PKPI00) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(PKPPCI00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKPPCI00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKPPI00)                                             DBNA0
+-STA DB(DBNA01) SPACE(PKPPI00) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(PKPRFP00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKPRFP00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKPRM00)                                             DBNA0
+-STA DB(DBNA01) SPACE(PKPRM00) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(PKPRM01)                                             DBNA0
+-STA DB(DBNA01) SPACE(PKPRM01) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(PKPRM02)                                             DBNA0
+-STA DB(DBNA01) SPACE(PKPRM02) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(PKPRM03)                                             DBNA0
+-STA DB(DBNA01) SPACE(PKPRM03) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(PKPRVD00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKPRVD00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKPVC00)                                             DBNA0
+-STA DB(DBNA01) SPACE(PKPVC00) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(PKPVCR00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKPVCR00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKPXYZ00)                                            DBNA0
+-STA DB(DBNA01) SPACE(PKPXYZ00) ACC(RW)                                    DBNA0
+-STO DB(DBNA01) SPACE(PKTP00)                                              DBNA0
+-STA DB(DBNA01) SPACE(PKTP00) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(PKUP00)                                              DBNA0
+-STA DB(DBNA01) SPACE(PKUP00) ACC(RW)                                      DBNA0
+-STO DB(DBNA01) SPACE(PKUPV00)                                             DBNA0
+-STA DB(DBNA01) SPACE(PKUPV00) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(PKUSR00)                                             DBNA0
+-STA DB(DBNA01) SPACE(PKUSR00) ACC(RW)                                     DBNA0
+-STO DB(DBNA01) SPACE(PKUSR01)                                             DBNA0
+-STA DB(DBNA01) SPACE(PKUSR01) ACC(RW)                                     DBNA0
+-STO DB(DBNOVA) SPACE(BANCOSRI)                                            DBNOV
+-STA DB(DBNOVA) SPACE(BANCOSRI) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADA19IL)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADA19IL) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADA1L7G)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADA1L7G) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADA1VNU)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADA1VNU) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADALCAD)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADALCAD) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADC10BB)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADC10BB) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADC1PRC)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADC1PRC) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADC1X4V)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADC1X4V) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADCIRCR)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADCIRCR) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADP1IRG)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADP1IRG) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CADR1BCB)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CADR1BCB) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CONG1IQJ)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CONG1IQJ) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CORATURP)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CORATURP) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(CORR13DF)                                            DBNOV
+-STA DB(DBNOVA) SPACE(CORR13DF) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(HISATZRI)                                            DBNOV
+-STA DB(DBNOVA) SPACE(HISATZRI) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(HISATZRP)                                            DBNOV
+-STA DB(DBNOVA) SPACE(HISATZRP) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(HISM1N8#)                                            DBNOV
+-STA DB(DBNOVA) SPACE(HISM1N8#) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVA1$HP)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVA1$HP) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVA10YL)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVA10YL) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVA1T2H)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVA1T2H) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVA1UWQ)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVA1UWQ) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVA1V4Y)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVA1V4Y) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVA1W6R)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVA1W6R) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVB19RO)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVB19RO) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVB1B7L)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVB1B7L) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVC1$@3)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVC1$@3) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(MOVC1$PY)                                            DBNOV
+-STA DB(DBNOVA) SPACE(MOVC1$PY) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(NIVLALCA)                                            DBNOV
+-STA DB(DBNOVA) SPACE(NIVLALCA) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(RAMOSRIX)                                            DBNOV
+-STA DB(DBNOVA) SPACE(RAMOSRIX) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(SEQAUTOR)                                            DBNOV
+-STA DB(DBNOVA) SPACE(SEQAUTOR) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBACESSR)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBACESSR) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBAU14QN)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBAU14QN) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBAU1EQ@)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBAU1EQ@) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBAU1OOE)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBAU1OOE) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBAU1U9K)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBAU1U9K) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBFE124T)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBFE124T) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBIM1PQU)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBIM1PQU) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBIN1OPW)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBIN1OPW) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBINSSRI)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBINSSRI) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBPBRCFR)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBPBRCFR) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBRC148$)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBRC148$) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBRC1ZB@)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBRC1ZB@) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBRE1HAC)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBRE1HAC) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBTI1B7J)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBTI1B7J) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBTX1L2O)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBTX1L2O) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBTX1MYQ)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBTX1MYQ) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TBTX1ZRL)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TBTX1ZRL) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(TIPOVDRR)                                            DBNOV
+-STA DB(DBNOVA) SPACE(TIPOVDRR) ACC(RW)                                    DBNOV
+-STO DB(DBNOVA) SPACE(VRSVERRP)                                            DBNOV
+-STA DB(DBNOVA) SPACE(VRSVERRP) ACC(RW)                                    DBNOV
+-STO DB(DBRE01) SPACE(GPTA1YVD)                                            DBRE0
+-STA DB(DBRE01) SPACE(GPTA1YVD) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(GPTA1Z8@)                                            DBRE0
+-STA DB(DBRE01) SPACE(GPTA1Z8@) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(GPTV1MDQ)                                            DBRE0
+-STA DB(DBRE01) SPACE(GPTV1MDQ) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA18SB)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA18SB) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA19X9)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA19X9) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1A6X)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1A6X) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1BPL)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1BPL) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1DH3)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1DH3) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1FDV)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1FDV) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1FSA)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1FSA) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1GBK)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1GBK) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1K0W)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1K0W) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1NTC)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1NTC) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1PCU)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1PCU) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1V$L)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1V$L) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVA1W26)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVA1W26) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC125I)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC125I) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC14TY)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC14TY) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1BBB)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1BBB) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1BN$)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1BN$) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1IDY)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1IDY) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1IFE)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1IFE) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1MG7)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1MG7) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1N7U)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1N7U) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1PR0)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1PR0) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1R79)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1R79) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1STG)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1STG) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1U16)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1U16) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1ULV)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1ULV) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1Y23)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1Y23) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVC1Y4B)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVC1Y4B) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVD1$IG)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVD1$IG) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVE15FE)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVE15FE) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVE1YX@)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVE1YX@) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVI12X7)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVI12X7) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVI13DP)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVI13DP) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVI13P2)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVI13P2) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVI147E)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVI147E) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVI1LJ9)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVI1LJ9) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVL1ANK)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVL1ANK) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVL1GJ2)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVL1GJ2) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVO1RPQ)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVO1RPQ) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVP12TD)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVP12TD) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVR12XD)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVR12XD) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVR1GH$)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVR1GH$) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVR1N8I)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVR1N8I) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVR1OPN)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVR1OPN) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVT174K)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVT174K) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVT1JIC)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVT1JIC) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVT1QTR)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVT1QTR) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVV1$YB)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVV1$YB) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVV14TS)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVV14TS) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(MOVV1UZL)                                            DBRE0
+-STA DB(DBRE01) SPACE(MOVV1UZL) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(TEXTOTRN)                                            DBRE0
+-STA DB(DBRE01) SPACE(TEXTOTRN) ACC(RW)                                    DBRE0
+-STO DB(DBRE01) SPACE(TMPMOVPR)                                            DBRE0
+-STA DB(DBRE01) SPACE(TMPMOVPR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(BXACOMIN)                                            DBRE0
+-STA DB(DBRE02) SPACE(BXACOMIN) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(CTLPGTAD)                                            DBRE0
+-STA DB(DBRE02) SPACE(CTLPGTAD) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(CTRC1EKW)                                            DBRE0
+-STA DB(DBRE02) SPACE(CTRC1EKW) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(FICH1H1A)                                            DBRE0
+-STA DB(DBRE02) SPACE(FICH1H1A) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(GPTE1WAK)                                            DBRE0
+-STA DB(DBRE02) SPACE(GPTE1WAK) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(INPPROPO)                                            DBRE0
+-STA DB(DBRE02) SPACE(INPPROPO) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(ORIGEMOP)                                            DBRE0
+-STA DB(DBRE02) SPACE(ORIGEMOP) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TARIFABA)                                            DBRE0
+-STA DB(DBRE02) SPACE(TARIFABA) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAC1@@N)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAC1@@N) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAC1@Q8)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAC1@Q8) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAG18PM)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAG18PM) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAG1GIO)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAG1GIO) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAG1MCM)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAG1MCM) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAM1GZA)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAM1GZA) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAM1X6@)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAM1X6@) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAMREGR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAMREGR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAU11YF)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAU11YF) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAU17NS)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAU17NS) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAU1DTT)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAU1DTT) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBAU1XB2)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBAU1XB2) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBBA1XAD)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBBA1XAD) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCAIXAR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCAIXAR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCI1SHL)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCI1SHL) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCMLIBR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCMLIBR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCMRRMR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCMRRMR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCN1CUF)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCN1CUF) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCO19NH)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCO19NH) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCOBRDR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCOBRDR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCP1D7G)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCP1D7G) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBCUSTOR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBCUSTOR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBDE1#D6)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBDE1#D6) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBDE1BHR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBDE1BHR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBDETRDR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBDETRDR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBDI11FU)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBDI11FU) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBDI1TOV)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBDI1TOV) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEM1GRC)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEM1GRC) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEM1H$6)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEM1H$6) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEM1X3B)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEM1X3B) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEMPRER)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEMPRER) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEQ154I)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEQ154I) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEQ1OEL)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEQ1OEL) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEQUIPR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEQUIPR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBEVERDR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBEVERDR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBGR13U9)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBGR13U9) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBGR1RC#)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBGR1RC#) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBIN1@SG)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBIN1@SG) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBISMERR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBISMERR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBKI12AM)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBKI12AM) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMA1AX9)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMA1AX9) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMODRDR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMODRDR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMR1JTI)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMR1JTI) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMR1KMC)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMR1KMC) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMT1IE8)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMT1IE8) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBMT1JKP)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBMT1JKP) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBORGANR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBORGANR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBPA10VT)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBPA10VT) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBPA18IF)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBPA18IF) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBPA1N@A)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBPA1N@A) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBPL1S6U)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBPL1S6U) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBPR1S5@)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBPR1S5@) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBRE15LN)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBRE15LN) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBRELRDR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBRELRDR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBSE1KBD)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBSE1KBD) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBSE1QE#)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBSE1QE#) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBSENHAR)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBSENHAR) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBSI1PDH)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBSI1PDH) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBSQ13H1)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBSQ13H1) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTE1ZT6)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTE1ZT6) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTI1QY2)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTI1QY2) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTI1YQ4)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTI1YQ4) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTI1ZRD)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTI1ZRD) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTX1APJ)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTX1APJ) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTX1LRK)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTX1LRK) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTX1SXW)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTX1SXW) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBTX1YQ8)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBTX1YQ8) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBVE1RL5)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBVE1RL5) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBVE1W07)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBVE1W07) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(TBVE1Z$C)                                            DBRE0
+-STA DB(DBRE02) SPACE(TBVE1Z$C) ACC(RW)                                    DBRE0
+-STO DB(DBRE02) SPACE(WEBAPOLC)                                            DBRE0
+-STA DB(DBRE02) SPACE(WEBAPOLC) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(ALIQUOTA)                                            DBRE0
+-STA DB(DBRE03) SPACE(ALIQUOTA) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADA1KUZ)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADA1KUZ) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADA1LZ6)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADA1LZ6) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADA1NP1)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADA1NP1) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADB16FC)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADB16FC) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADC1S4C)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADC1S4C) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADD1AVK)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADD1AVK) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADE14HB)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADE14HB) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADL1NYZ)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADL1NYZ) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR1$UL)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR1$UL) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR10FG)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR10FG) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR12C@)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR12C@) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR15HA)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR15HA) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR19VP)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR19VP) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR1A@J)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR1A@J) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR1BOD)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR1BOD) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR1E5$)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR1E5$) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR1HK6)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR1HK6) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR1I2E)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR1I2E) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR1OT2)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR1OT2) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR1S5C)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR1S5C) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADR1VT0)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADR1VT0) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADS197I)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADS197I) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CADS1LPO)                                            DBRE0
+-STA DB(DBRE03) SPACE(CADS1LPO) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CDAP1PPG)                                            DBRE0
+-STA DB(DBRE03) SPACE(CDAP1PPG) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CHEQ1XCB)                                            DBRE0
+-STA DB(DBRE03) SPACE(CHEQ1XCB) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(CTRENVAR)                                            DBRE0
+-STA DB(DBRE03) SPACE(CTRENVAR) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(DEFERMUN)                                            DBRE0
+-STA DB(DBRE03) SPACE(DEFERMUN) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(DPAR18LT)                                            DBRE0
+-STA DB(DBRE03) SPACE(DPAR18LT) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(DPAR1MQU)                                            DBRE0
+-STA DB(DBRE03) SPACE(DPAR1MQU) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(DPAR1P4U)                                            DBRE0
+-STA DB(DBRE03) SPACE(DPAR1P4U) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(DPARMULT)                                            DBRE0
+-STA DB(DBRE03) SPACE(DPARMULT) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(EXCC1C$6)                                            DBRE0
+-STA DB(DBRE03) SPACE(EXCC1C$6) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(HSTC1601)                                            DBRE0
+-STA DB(DBRE03) SPACE(HSTC1601) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(IMPO1@5V)                                            DBRE0
+-STA DB(DBRE03) SPACE(IMPO1@5V) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(IMPOSTOC)                                            DBRE0
+-STA DB(DBRE03) SPACE(IMPOSTOC) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(IMPOSTOL)                                            DBRE0
+-STA DB(DBRE03) SPACE(IMPOSTOL) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(IMPOSTOR)                                            DBRE0
+-STA DB(DBRE03) SPACE(IMPOSTOR) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(INSPETOR)                                            DBRE0
+-STA DB(DBRE03) SPACE(INSPETOR) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(LIMACTRI)                                            DBRE0
+-STA DB(DBRE03) SPACE(LIMACTRI) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(LIMACTRP)                                            DBRE0
+-STA DB(DBRE03) SPACE(LIMACTRP) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(PEDR1AVH)                                            DBRE0
+-STA DB(DBRE03) SPACE(PEDR1AVH) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(PEDR1DMF)                                            DBRE0
+-STA DB(DBRE03) SPACE(PEDR1DMF) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(PGTODIFI)                                            DBRE0
+-STA DB(DBRE03) SPACE(PGTODIFI) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(TIPOIMPO)                                            DBRE0
+-STA DB(DBRE03) SPACE(TIPOIMPO) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(TIPOPGTI)                                            DBRE0
+-STA DB(DBRE03) SPACE(TIPOPGTI) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(TOMADORI)                                            DBRE0
+-STA DB(DBRE03) SPACE(TOMADORI) ACC(RW)                                    DBRE0
+-STO DB(DBRE03) SPACE(TPCODIFI)                                            DBRE0
+-STA DB(DBRE03) SPACE(TPCODIFI) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADA1#EV)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADA1#EV) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADA18CL)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADA18CL) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADA1@1D)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADA1@1D) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADA1CBT)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADA1CBT) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADA1E8J)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADA1E8J) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADA1HYY)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADA1HYY) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADA1IHA)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADA1IHA) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADA1NYD)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADA1NYD) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADA1WNC)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADA1WNC) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADASTRO)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADASTRO) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADAURCF)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADAURCF) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADB1DT$)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADB1DT$) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADB1UVA)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADB1UVA) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADC1O23)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADC1O23) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADI1IUV)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADI1IUV) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADI1WV2)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADI1WV2) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADL1#G5)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADL1#G5) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADL1T4E)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADL1T4E) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADP1MJ#)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADP1MJ#) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADR139S)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADR139S) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADR1IAV)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADR1IAV) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADR1LHP)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADR1LHP) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADV1$KZ)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADV1$KZ) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADV1809)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADV1809) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(CADV1D42)                                            DBRE0
+-STA DB(DBRE04) SPACE(CADV1D42) ACC(RW)                                    DBRE0
+-STO DB(DBRE04) SPACE(RELRESSE)                                            DBRE0
+-STA DB(DBRE04) SPACE(RELRESSE) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTA1$61)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTA1$61) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTA1ADA)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTA1ADA) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTA1GMV)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTA1GMV) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTA1H2D)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTA1H2D) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTA1IJ6)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTA1IJ6) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTA1JF@)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTA1JF@) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTA1OO3)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTA1OO3) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTA1UOF)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTA1UOF) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTA1VAA)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTA1VAA) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTA1XS6)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTA1XS6) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTB17L$)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTB17L$) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTB1@CS)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTB1@CS) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTB1O26)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTB1O26) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTB1SUU)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTB1SUU) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTC16Y5)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTC16Y5) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTC1Q8G)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTC1Q8G) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTC1XTG)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTC1XTG) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTI1FPK)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTI1FPK) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTI1QCD)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTI1QCD) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTI1UHG)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTI1UHG) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTL14KN)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTL14KN) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTL1EBO)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTL1EBO) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTP1#BV)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTP1#BV) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTP1UYZ)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTP1UYZ) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTR12E3)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTR12E3) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTR17VI)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTR17VI) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTR1A8Q)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTR1A8Q) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTR1BA3)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTR1BA3) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTR1DQZ)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTR1DQZ) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTR1J2$)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTR1J2$) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTR1KA8)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTR1KA8) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTR1LAM)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTR1LAM) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTR1US9)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTR1US9) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTS1A7T)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTS1A7T) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTV14KL)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTV14KL) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTV1DTU)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTV1DTU) ACC(RW)                                    DBRE0
+-STO DB(DBRE05) SPACE(HSTV1JIG)                                            DBRE0
+-STA DB(DBRE05) SPACE(HSTV1JIG) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1#AF)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1#AF) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1$1K)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1$1K) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA137T)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA137T) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA157Q)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA157Q) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA18WO)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA18WO) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1FQ9)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1FQ9) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1JNH)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1JNH) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1L8A)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1L8A) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1M2Y)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1M2Y) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1TQP)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1TQP) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1U@P)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1U@P) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1V6O)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1V6O) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1VQG)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1VQG) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCA1VXH)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCA1VXH) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCB16H3)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCB16H3) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCB18Z6)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCB18Z6) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCB1EZ7)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCB1EZ7) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCB1UA1)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCB1UA1) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCC18U7)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCC18U7) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCC1CUK)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCC1CUK) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCC1K#C)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCC1K#C) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCC1QI$)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCC1QI$) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCC1RZJ)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCC1RZJ) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCC1XEF)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCC1XEF) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCD16EK)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCD16EK) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCI140P)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCI140P) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCI18ET)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCI18ET) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCI1Y5Y)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCI1Y5Y) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCL1PS2)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCL1PS2) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCL1Y49)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCL1Y49) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCP1ADB)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCP1ADB) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCP1YCA)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCP1YCA) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR1$W2)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR1$W2) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR16JQ)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR16JQ) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR16TV)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR16TV) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR18AU)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR18AU) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR19YP)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR19YP) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR1E4E)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR1E4E) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR1KTS)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR1KTS) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR1MET)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR1MET) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR1P6F)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR1P6F) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR1PTC)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR1PTC) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR1RQC)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR1RQC) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR1U9D)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR1U9D) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR1VEJ)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR1VEJ) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCR1Y9O)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCR1Y9O) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCS1TLZ)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCS1TLZ) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCT1K#1)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCT1K#1) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCV1DCX)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCV1DCX) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCV1KV6)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCV1KV6) ACC(RW)                                    DBRE0
+-STO DB(DBRE06) SPACE(EXCV1WC0)                                            DBRE0
+-STA DB(DBRE06) SPACE(EXCV1WC0) ACC(RW)                                    DBRE0
+-STO DB(DBRE99) SPACE(CADA1$23)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADA1$23) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADA1CMX)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADA1CMX) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADA1Y03)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADA1Y03) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADA1ZU4)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADA1ZU4) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADB1@#L)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADB1@#L) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADC1SKO)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADC1SKO) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(CADL1T8A)                                            DBRE9
+-STA DB(DBRE99) SPACE(CADL1T8A) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(MOVA1S95)                                            DBRE9
+-STA DB(DBRE99) SPACE(MOVA1S95) ACC(RW)                                    DBRE9
+-STO DB(DBRE99) SPACE(MOVAPOLR)                                            DBRE9
+-STA DB(DBRE99) SPACE(MOVAPOLR) ACC(RW)                                    DBRE9
+-STO DB(DBRS01) SPACE(PRAZOCUR)                                            DBRS0
+-STA DB(DBRS01) SPACE(PRAZOCUR) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSALCRPK)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSALCRPK) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSDO19L$)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSDO19L$) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSFS13G@)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSFS13G@) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSFS1HM@)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSFS1HM@) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSMT174P)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSMT174P) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSMT1V4O)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSMT1V4O) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSPR1MU#)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSPR1MU#) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSPRESTE)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSPRESTE) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSPRESTF)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSPRESTF) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSPRESTR)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSPRESTR) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSREALCR)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSREALCR) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSRG1HN@)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSRG1HN@) ACC(RW)                                    DBRS0
+-STO DB(DBRS01) SPACE(RSSI1NQ@)                                            DBRS0
+-STA DB(DBRS01) SPACE(RSSI1NQ@) ACC(RW)                                    DBRS0
+-STO DB(DBSS01) SPACE(ANEX1OAI)                                            DBSS0
+-STA DB(DBSS01) SPACE(ANEX1OAI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(ENVE1US@)                                            DBSS0
+-STA DB(DBSS01) SPACE(ENVE1US@) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(LOGE1J11)                                            DBSS0
+-STA DB(DBSS01) SPACE(LOGE1J11) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(REGI12#$)                                            DBSS0
+-STA DB(DBSS01) SPACE(REGI12#$) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(REGIAOLC)                                            DBSS0
+-STA DB(DBSS01) SPACE(REGIAOLC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAB1IK2)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAB1IK2) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAD13VO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAD13VO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAF1H##)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAF1H##) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAFECRI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAFECRI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAN14VE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAN14VE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAN17AR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAN17AR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAN18RP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAN18RP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAN1Q#O)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAN1Q#O) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAN1TOE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAN1TOE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAP1M4N)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAP1M4N) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAP1UHM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAP1UHM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAU1080)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAU1080) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAU1O8X)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAU1O8X) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAU1QQY)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAU1QQY) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAU1VFN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAU1VFN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSAUDITR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSAUDITR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSBA1E33)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSBA1E33) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSBA1QZQ)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSBA1QZQ) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSBE1QQ6)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSBE1QQ6) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCA1DKB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCA1DKB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCA1GP5)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCA1GP5) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCA1K36)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCA1K36) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCA1NIE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCA1NIE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCA1X@I)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCA1X@I) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCA1Z96)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCA1Z96) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCB1F6M)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCB1F6M) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCE1K4#)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCE1K4#) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCE1SCD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCE1SCD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCL10EG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCL10EG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCN11LJ)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCN11LJ) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCO1@#P)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCO1@#P) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCO1@R7)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCO1@R7) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCO1IQD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCO1IQD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCO1L@L)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCO1L@L) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCO1LND)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCO1LND) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCO1O8I)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCO1O8I) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCO1OR3)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCO1OR3) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCO1PRT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCO1PRT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCO1VII)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCO1VII) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCO1YNR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCO1YNR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCR17OU)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCR17OU) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCR19@R)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCR19@R) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCT1$VA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCT1$VA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCT14UB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCT14UB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCT1AGL)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCT1AGL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCT1U@P)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCT1U@P) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSCT1UX1)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSCT1UX1) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDE12H9)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDE12H9) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDE14PC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDE14PC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDE1BKX)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDE1BKX) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDE1DZB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDE1DZB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDE1KEK)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDE1KEK) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDE1PIC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDE1PIC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDGSEGR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDGSEGR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDI1UHX)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDI1UHX) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSDIAGNO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSDIAGNO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEM1DTF)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEM1DTF) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEM1N2K)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEM1N2K) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEN13XF)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEN13XF) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEQ137#)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEQ137#) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSES1$WV)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSES1$WV) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSES10BO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSES10BO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSES13YI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSES13YI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSES14QC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSES14QC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSES14RT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSES14RT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSES1CA2)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSES1CA2) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSES1K58)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSES1K58) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSES1TX1)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSES1TX1) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSESTADO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSESTADO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEX14S3)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEX14S3) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEX1AO4)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEX1AO4) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSEX1O#1)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSEX1O#1) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFA1$E7)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFA1$E7) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFA1K21)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFA1K21) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFA1PT5)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFA1PT5) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFA1YR3)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFA1YR3) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFE17TB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFE17TB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFO1HMO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFO1HMO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFO1SBQ)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFO1SBQ) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFR1MFU)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFR1MFU) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFX10SF)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFX10SF) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSFX1B#V)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSFX1B#V) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGI14JL)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGI14JL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGI1H1J)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGI1H1J) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGL1MVI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGL1MVI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGL1S#A)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGL1S#A) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGR101Y)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGR101Y) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGR193@)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGR193@) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGR1JH$)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGR1JH$) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSGR1TAP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSGR1TAP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSID1GXD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSID1GXD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIM147Z)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIM147Z) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIM1C3Q)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIM1C3Q) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN15N5)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN15N5) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN15VO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN15VO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN183V)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN183V) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN18QI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN18QI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN1A#N)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN1A#N) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN1FMB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN1FMB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN1GE#)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN1GE#) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN1N@Z)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN1N@Z) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN1UKX)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN1UKX) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN1XY4)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN1XY4) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIN1YH4)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIN1YH4) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIT17IC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIT17IC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIT18QC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIT18QC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIT1JTE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIT1JTE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIT1SPD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIT1SPD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSIT1TSE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSIT1TSE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSITFATZ)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSITFATZ) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLE1G6U)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLE1G6U) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLI16W6)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLI16W6) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLI1ZHH)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLI1ZHH) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLO16PE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLO16PE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLO1THN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLO1THN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLO1WH9)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLO1WH9) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSLO1X1P)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSLO1X1P) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMA1#OZ)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMA1#OZ) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMA1UGW)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMA1UGW) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSME11OB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSME11OB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSME126D)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSME126D) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSME1HAK)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSME1HAK) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMO15RA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMO15RA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMO1AIC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMO1AIC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMO1DDP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMO1DDP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMO1E2T)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMO1E2T) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMO1HQY)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMO1HQY) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMO1L9N)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMO1L9N) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMOTEXC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMOTEXC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMS1N0J)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMS1N0J) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSMT196X)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSMT196X) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSNI1RZC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSNI1RZC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSNT1D51)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSNT1D51) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSOB1HUH)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSOB1HUH) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSOR1MRM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSOR1MRM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSORGAOE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSORGAOE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSOUTEND)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSOUTEND) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA12BN)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA12BN) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA12OO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA12OO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA151Q)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA151Q) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA15KD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA15KD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA18EY)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA18EY) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA18YX)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA18YX) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA19$3)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA19$3) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA1@PR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA1@PR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA1EHP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA1EHP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA1JJ2)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA1JJ2) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA1LUP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA1LUP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA1T9U)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA1T9U) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA1VHC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA1VHC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPA1W@E)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPA1W@E) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPC1EC0)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPC1EC0) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPE1KDM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPE1KDM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPL1#IJ)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPL1#IJ) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPL1$8X)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPL1$8X) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPL1$IG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPL1$IG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPL194Z)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPL194Z) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPL19OO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPL19OO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPL1BDF)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPL1BDF) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPO1G@0)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPO1G@0) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPORTEA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPORTEA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPR16UH)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPR16UH) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPR17$I)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPR17$I) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPR175#)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPR175#) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPR1AE@)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPR1AE@) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPR1D2N)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPR1D2N) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPR1D73)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPR1D73) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPR1EUM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPR1EUM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPR1LOC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPR1LOC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPR1T0Z)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPR1T0Z) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPR1Y03)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPR1Y03) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSPRRIND)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSPRRIND) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSQT1#V#)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSQT1#V#) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSRA1SQD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSRA1SQD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSRE16I1)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSRE16I1) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSRE1PM$)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSRE1PM$) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSRE1VOT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSRE1VOT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSRE1WEM)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSRE1WEM) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSREDERI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSREDERI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSREGPLA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSREGPLA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSRG19#C)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSRG19#C) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSC1CFB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSC1CFB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSC1DAE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSC1DAE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSC1GDF)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSC1GDF) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSC1NO5)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSC1NO5) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSC1VXC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSC1VXC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSE1$K6)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSE1$K6) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSE17SG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSE17SG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSE1BJA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSE1BJA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSE1H3G)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSE1H3G) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSE1LP#)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSE1LP#) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSE1TNT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSE1TNT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSE1WKP)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSE1WKP) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSE1Y3V)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSE1Y3V) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSE1ZKG)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSE1ZKG) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSEGURE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSEGURE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI126K)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI126K) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI1@G5)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI1@G5) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI1@WL)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI1@WL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI1EQO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI1EQO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI1G#H)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI1G#H) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI1H45)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI1H45) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI1KG@)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI1KG@) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI1KTQ)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI1KTQ) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI1L2#)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI1L2#) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI1N95)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI1N95) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSI1VVO)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSI1VVO) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSR1AQ#)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSR1AQ#) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSST1HF6)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSST1HF6) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSST1S73)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSST1S73) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSSU16IJ)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSSU16IJ) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTA1@I0)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTA1@I0) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTA1DPW)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTA1DPW) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTA1EK8)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTA1EK8) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTA1VPL)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTA1VPL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTB1FYZ)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTB1FYZ) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTE1HD$)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTE1HD$) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTI1DQ0)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTI1DQ0) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTI1EBB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTI1EBB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTIPCAE)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTIPCAE) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTIPDMT)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTIPDMT) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTIPEXC)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTIPEXC) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTIPOCA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTIPOCA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTIPRLA)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTIPRLA) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTIPTAB)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTIPTAB) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTPDESR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTPDESR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTPIMPV)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTPIMPV) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSTPLIGR)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSTPLIGR) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSVA18ZD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSVA18ZD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSVA1FOL)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSVA1FOL) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSVA1LEI)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSVA1LEI) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSVA1MAD)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSVA1MAD) ACC(RW)                                    DBSS0
+-STO DB(DBSS01) SPACE(SSVR1S3C)                                            DBSS0
+-STA DB(DBSS01) SPACE(SSVR1S3C) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSES1LDF)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSES1LDF) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSMO1@P#)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSMO1@P#) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSMO1BG6)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSMO1BG6) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSMOVDIR)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSMOVDIR) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSPRTHST)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSPRTHST) ACC(RW)                                    DBSS0
+-STO DB(DBSS02) SPACE(SSSEGPLA)                                            DBSS0
+-STA DB(DBSS02) SPACE(SSSEGPLA) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSCA1SX9)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSCA1SX9) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSCO1MB#)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSCO1MB#) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSFQ1$57)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSFQ1$57) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSFQ1JH6)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSFQ1JH6) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSLI1R9I)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSLI1R9I) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSLI1SOJ)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSLI1SOJ) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSLO1BB0)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSLO1BB0) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSLO1K34)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSLO1K34) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSPE16A1)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSPE16A1) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSPL1AA7)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSPL1AA7) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSPR12LF)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSPR12LF) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSPR1H5B)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSPR1H5B) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSPR1XSF)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSPR1XSF) ACC(RW)                                    DBSS0
+-STO DB(DBSS03) SPACE(SSVI15RI)                                            DBSS0
+-STA DB(DBSS03) SPACE(SSVI15RI) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSAGVRDE)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSAGVRDE) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSCA1@TM)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSCA1@TM) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSCO1AG6)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSCO1AG6) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSCO1DH5)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSCO1DH5) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSCO1Y17)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSCO1Y17) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSDPARMA)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSDPARMA) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSLO16SC)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSLO16SC) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSOPERED)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSOPERED) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSRE1JG0)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSRE1JG0) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSSE18JB)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSSE18JB) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSSE1PHZ)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSSE1PHZ) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTIPCOB)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTIPCOB) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTIPDOC)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTIPDOC) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTIPENT)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTIPENT) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTIPOPA)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTIPOPA) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTIPORI)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTIPORI) ACC(RW)                                    DBSS0
+-STO DB(DBSS04) SPACE(SSTIPVIN)                                            DBSS0
+-STA DB(DBSS04) SPACE(SSTIPVIN) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSAS1$SM)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSAS1$SM) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSAS1W0U)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSAS1W0U) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSAS1XQL)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSAS1XQL) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSAT195V)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSAT195V) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSAT1@6C)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSAT1@6C) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSAT1OA6)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSAT1OA6) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSATUPES)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSATUPES) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSBANCOR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSBANCOR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSCARGOR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSCARGOR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSCN1@#U)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSCN1@#U) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSCPTBMC)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSCPTBMC) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSCS1$$K)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSCS1$$K) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSCS1N00)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSCS1N00) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSDI1EZV)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSDI1EZV) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSEN10OF)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSEN10OF) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSEN1OCH)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSEN1OCH) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSES1HO4)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSES1HO4) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSES1LT2)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSES1LT2) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSES1VP8)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSES1VP8) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSESTIPU)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSESTIPU) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSFO1L25)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSFO1L25) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGR12G8)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGR12G8) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGR1HYF)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGR1HYF) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGR1OP3)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGR1OP3) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGR1PR8)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGR1PR8) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGR1WZG)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGR1WZG) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGR1Y75)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGR1Y75) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGRAUES)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGRAUES) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSGRPESP)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSGRPESP) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSHM1M95)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSHM1M95) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSIDACDR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSIDACDR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSINFGER)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSINFGER) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSISNIMO)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSISNIMO) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSIT17MG)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSIT17MG) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSIT1KF2)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSIT1KF2) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSITEGRP)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSITEGRP) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSITEMDL)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSITEMDL) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMD1UM@)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMD1UM@) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMO1K7B)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMO1K7B) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMODRPK)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMODRPK) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMODTIP)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMODTIP) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMT1RCR)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMT1RCR) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMT1V78)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMT1V78) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMT1VO5)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMT1VO5) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSMTLMDT)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSMTLMDT) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSNA1QUD)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSNA1QUD) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSOB1MP1)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSOB1MP1) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSOR154F)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSOR154F) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSOR1EBG)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSOR1EBG) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPE15E@)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPE15E@) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPE1L#G)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPE1L#G) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPEGINF)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPEGINF) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPEGRST)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPEGRST) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPF1FOH)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPF1FOH) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSPFLITE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSPFLITE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSQSTINF)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSQSTINF) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSQSTTPL)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSQSTTPL) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSRD1XRN)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSRD1XRN) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSRDECAT)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSRDECAT) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSRDERPK)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSRDERPK) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSRSTINF)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSRSTINF) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSSE1AI9)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSSE1AI9) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSSERRAK)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSSERRAK) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSSERRIX)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSSERRIX) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSSERRPK)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSSERRPK) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSSITUNI)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSSITUNI) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTE1OD$)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTE1OD$) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI13JV)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI13JV) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI14FI)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI14FI) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI1614)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI1614) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI169K)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI169K) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI187O)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI187O) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI1EWM)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI1EWM) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI1FGZ)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI1FGZ) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI1GI$)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI1GI$) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI1K$C)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI1K$C) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI1P52)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI1P52) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI1R$U)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI1R$U) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI1S7M)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI1S7M) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI1SRO)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI1SRO) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTI1UU@)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTI1UU@) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPACA)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPACA) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPASC)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPASC) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPDRA)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPDRA) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPEND)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPEND) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPESP)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPESP) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPITE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPITE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPOAS)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPOAS) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPOID)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPOID) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTIPOTE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTIPOTE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTM124@)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTM124@) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTP1$WB)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTP1$WB) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSTPLRPK)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSTPLRPK) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSUNIATU)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSUNIATU) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSUS1IWN)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSUS1IWN) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSUSRITE)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSUSRITE) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSVCLPES)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSVCLPES) ACC(RW)                                    DBSS0
+-STO DB(DBSS05) SPACE(SSVI1@$H)                                            DBSS0
+-STA DB(DBSS05) SPACE(SSVI1@$H) ACC(RW)                                    DBSS0
+-STO DB(DBVD01) SPACE(CORR1D@H)                                            DBVD0
+-STA DB(DBVD01) SPACE(CORR1D@H) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(CORRTREC)                                            DBVD0
+-STA DB(DBVD01) SPACE(CORRTREC) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(NWPR1F56)                                            DBVD0
+-STA DB(DBVD01) SPACE(NWPR1F56) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VABE1A8@)                                            DBVD0
+-STA DB(DBVD01) SPACE(VABE1A8@) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VABE1WH9)                                            DBVD0
+-STA DB(DBVD01) SPACE(VABE1WH9) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VACO10QT)                                            DBVD0
+-STA DB(DBVD01) SPACE(VACO10QT) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VACO1ITO)                                            DBVD0
+-STA DB(DBVD01) SPACE(VACO1ITO) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VADE1RX8)                                            DBVD0
+-STA DB(DBVD01) SPACE(VADE1RX8) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAEP188R)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAEP188R) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAEP1HXV)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAEP1HXV) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAHE10GV)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAHE10GV) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAHS13M5)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAHS13M5) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAHS1HLQ)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAHS1HLQ) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAIN1AZF)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAIN1AZF) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAMO1@EB)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAMO1@EB) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAMO1HKK)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAMO1HKK) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAMO1X@D)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAMO1X@D) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAMS1RK1)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAMS1RK1) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VANM1T7Q)                                            DBVD0
+-STA DB(DBVD01) SPACE(VANM1T7Q) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VANW1S1S)                                            DBVD0
+-STA DB(DBVD01) SPACE(VANW1S1S) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VANW1UP7)                                            DBVD0
+-STA DB(DBVD01) SPACE(VANW1UP7) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAPA1HQL)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAPA1HQL) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAPARAMR)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAPARAMR) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAPR1HQC)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAPR1HQC) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAPR1LCV)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAPR1LCV) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VASE15MA)                                            DBVD0
+-STA DB(DBVD01) SPACE(VASE15MA) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VASE1QUB)                                            DBVD0
+-STA DB(DBVD01) SPACE(VASE1QUB) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VATB119F)                                            DBVD0
+-STA DB(DBVD01) SPACE(VATB119F) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VAVL114L)                                            DBVD0
+-STA DB(DBVD01) SPACE(VAVL114L) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPAGENCR)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPAGENCR) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPBAIXAR)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPBAIXAR) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPCR1CAX)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPCR1CAX) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPDT1LSU)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPDT1LSU) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPES1TT6)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPES1TT6) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPIN1$7T)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPIN1$7T) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPIN10FA)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPIN10FA) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPIN192B)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPIN192B) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPIN1FXC)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPIN1FXC) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPIN1SPY)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPIN1SPY) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPIN1UVA)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPIN1UVA) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPIN1WJ4)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPIN1WJ4) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(VPMO1VIH)                                            DBVD0
+-STA DB(DBVD01) SPACE(VPMO1VIH) ACC(RW)                                    DBVD0
+-STO DB(DBVD01) SPACE(WALC19#U)                                            DBVD0
+-STA DB(DBVD01) SPACE(WALC19#U) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(GRAU1TI@)                                            DBVD0
+-STA DB(DBVD02) SPACE(GRAU1TI@) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TIPO1G0$)                                            DBVD0
+-STA DB(DBVD02) SPACE(TIPO1G0$) ACC(RW)                                    DBVD0
+-STO DB(DBVD02) SPACE(TIPOVART)                                            DBVD0
+-STA DB(DBVD02) SPACE(TIPOVART) ACC(RW)                                    DBVD0
+-STO DB(DBWAP1) SPACE(WAPS1JKW)                                            DBWAP
+-STA DB(DBWAP1) SPACE(WAPS1JKW) ACC(RW)                                    DBWAP
+-STO DB(DBWAP1) SPACE(WAPT1T3G)                                            DBWAP
+-STA DB(DBWAP1) SPACE(WAPT1T3G) ACC(RW)                                    DBWAP
+-STO DB(DBWDC1) SPACE(WDCA1@PZ)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCA1@PZ) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCA1E@W)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCA1E@W) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCA1ER4)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCA1ER4) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCA1S95)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCA1S95) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCA1VL6)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCA1VL6) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCA1WU6)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCA1WU6) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCC119Q)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCC119Q) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCC1ALT)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCC1ALT) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCC1EL0)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCC1EL0) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCC1GBQ)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCC1GBQ) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCC1JDL)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCC1JDL) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCC1JGK)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCC1JGK) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCC1X6T)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCC1X6T) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCF1#GD)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCF1#GD) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCF11GC)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCF11GC) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCF149F)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCF149F) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCGRUPO)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCGRUPO) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCM1@ZQ)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCM1@ZQ) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCM1AUP)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCM1AUP) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCM1TUN)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCM1TUN) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCN1W4W)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCN1W4W) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCP15EI)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCP15EI) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCP19PH)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCP19PH) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCP1K6G)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCP1K6G) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCP1OMW)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCP1OMW) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCP1TLU)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCP1TLU) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCP1WCH)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCP1WCH) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCR1PYN)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCR1PYN) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCRAMOR)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCRAMOR) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCREGIS)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCREGIS) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCT19$P)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCT19$P) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCT1@1$)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCT1@1$) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCT1H@Q)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCT1H@Q) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCT1HYF)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCT1HYF) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCU1727)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCU1727) ACC(RW)                                    DBWDC
+-STO DB(DBWDC1) SPACE(WDCU1E02)                                            DBWDC
+-STA DB(DBWDC1) SPACE(WDCU1E02) ACC(RW)                                    DBWDC
+-STO DB(DBWGAT) SPACE(WGTA1XVR)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTA1XVR) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTF17FP)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTF17FP) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTFILAR)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTFILAR) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTFILAU)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTFILAU) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTL1DH0)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTL1DH0) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTLNHXM)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTLNHXM) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTM12N1)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTM12N1) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTO14K4)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTO14K4) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTORIAT)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTORIAT) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTP1O36)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTP1O36) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTS1BK8)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTS1BK8) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTS1ES7)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTS1ES7) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTT11YA)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTT11YA) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTT1D8Q)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTT1D8Q) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTT1HG$)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTT1HG$) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTT1NX@)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTT1NX@) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTT1RF#)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTT1RF#) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTU12DB)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTU12DB) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTU1B2P)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTU1B2P) ACC(RW)                                    DBWGA
+-STO DB(DBWGAT) SPACE(WGTU1ZUO)                                            DBWGA
+-STA DB(DBWGAT) SPACE(WGTU1ZUO) ACC(RW)                                    DBWGA
+-STO DB(DBWPC1) SPACE(DEPA1ZPU)                                            DBWPC
+-STA DB(DBWPC1) SPACE(DEPA1ZPU) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(MOVIMENT)                                            DBWPC
+-STA DB(DBWPC1) SPACE(MOVIMENT) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(ORIGNFOR)                                            DBWPC
+-STA DB(DBWPC1) SPACE(ORIGNFOR) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(PARA15RW)                                            DBWPC
+-STA DB(DBWPC1) SPACE(PARA15RW) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(PARA1NCW)                                            DBWPC
+-STA DB(DBWPC1) SPACE(PARA1NCW) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(PARAMETR)                                            DBWPC
+-STA DB(DBWPC1) SPACE(PARAMETR) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(TIPO1I1X)                                            DBWPC
+-STA DB(DBWPC1) SPACE(TIPO1I1X) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCGRPPE)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCGRPPE) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCIDSSE)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCIDSSE) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJ162C)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJ162C) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJ18BD)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJ18BD) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJ1DR7)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJ1DR7) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJ1OQ#)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJ1OQ#) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCJOBDT)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCJOBDT) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCM108D)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCM108D) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCMAPPF)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCMAPPF) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCP1SQ5)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCP1SQ5) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCP1UOQ)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCP1UOQ) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCS1L8Q)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCS1L8Q) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCS1OQF)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCS1OQF) ACC(RW)                                    DBWPC
+-STO DB(DBWPC1) SPACE(WPCSENHA)                                            DBWPC
+-STA DB(DBWPC1) SPACE(WPCSENHA) ACC(RW)                                    DBWPC

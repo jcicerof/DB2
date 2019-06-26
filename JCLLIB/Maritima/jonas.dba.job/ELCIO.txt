@@ -1,0 +1,6 @@
+SET CURRENT SQLID='SYSADM';                                                     
+COMMIT;                                                                         
+GRANT SELECT ON MARITIMA.TBCTRBAN TO RESISE;                                    
+COMMIT;                                                                         
+GRANT SELECT ON ANO2000.RECIBO TO RESISE;                                       
+COMMIT;                                                                         

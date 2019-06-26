@@ -1,0 +1,138 @@
+SET CURRENT SQLID='SYSADM';                                                     
+COMMIT;                                                                         
+                                                                                
+ALTER TABLE ANO2000.CADAURSM ADD                                                
+PCAGVAMSMAS DECIMAL(7,4) NOT NULL  DEFAULT 0                                    
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN ANO2000.CADAURSM.PCAGVAMSMAS IS                               
+'PERCENTUAL COEFTICIENTE DE AGRAVO DO AUTO MENSAL MAIS'                         
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+ALTER TABLE ANO2000.MOVAURSM ADD                                                
+PCAGVAMSMAS DECIMAL(7,4) NOT NULL  DEFAULT 0                                    
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN ANO2000.MOVAURSM.PCAGVAMSMAS IS                               
+'PERCENTUAL COEFTICIENTE DE AGRAVO DO AUTO MENSAL MAIS'                         
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.EXCAURSM ADD                                               
+PCAGVAMSMAS DECIMAL(7,4) NOT NULL  DEFAULT 0                                    
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN MARITIMA.EXCAURSM.PCAGVAMSMAS IS                              
+'PERCENTUAL COEFTICIENTE DE AGRAVO DO AUTO MENSAL MAIS'                         
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.HSTAURSM ADD                                               
+PCAGVAMSMAS DECIMAL(7,4) NOT NULL  DEFAULT 0                                    
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN MARITIMA.HSTAURSM.PCAGVAMSMAS IS                              
+'PERCENTUAL COEFTICIENTE DE AGRAVO DO AUTO MENSAL MAIS'                         
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE ANO2000.CADAPOL ADD                                                 
+CDPRO INTEGER NOT NULL  DEFAULT 0                                               
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN ANO2000.CADAPOL.CDPRO IS                                      
+'CODIGO DO PRODUTO ASSOCIADO A APOLICE'                                         
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+ALTER TABLE MARITIMA.EXCAPOL ADD                                                
+CDPRO INTEGER NOT NULL  DEFAULT 0                                               
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN MARITIMA.EXCAPOL.CDPRO IS                                     
+'CODIGO DO PRODUTO ASSOCIADO A APOLICE'                                         
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.HSTAPOL ADD                                                
+CDPRO INTEGER NOT NULL  DEFAULT 0                                               
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN MARITIMA.HSTAPOL.CDPRO IS                                     
+'CODIGO DO PRODUTO ASSOCIADO A APOLICE'                                         
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE ANO2000.MOVAPOL ADD                                                 
+CDPRO INTEGER NOT NULL  DEFAULT 0                                               
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN ANO2000.MOVAPOL.CDPRO IS                                      
+'CODIGO DO PRODUTO ASSOCIADO A APOLICE'                                         
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+ALTER TABLE MARITIMA.TBSENHA ADD                                                
+IDLIBEMIAUTCVC CHAR(1) NOT NULL  DEFAULT 'N'                                    
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN MARITIMA.TBSENHA.IDLIBEMIAUTCVC IS                            
+'INDICADOR DE LIBERACAO DA EMISSAO AUTO CONVENCIONAL.                           
+VALOR: S, N'                                                                    
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+ALTER TABLE MARITIMA.TBSENHA ADD                                                
+IDLIBEMIAMS CHAR(1) NOT NULL  DEFAULT 'N'                                       
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN MARITIMA.TBSENHA.IDLIBEMIAMS IS                               
+'INDICADOR DE LIBERACAO DA EMISSAO AUTO MENSAL.                                 
+VALOR: S, N'                                                                    
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+ALTER TABLE MARITIMA.TBSENHA ADD                                                
+IDLIBEMIAMSMAS CHAR(1) NOT NULL  DEFAULT 'N'                                    
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+COMMENT ON COLUMN MARITIMA.TBSENHA.IDLIBEMIAMSMAS IS                            
+'INDICADOR DE LIBERACAO DA EMISSAO AUTO MENSAL MAIS.                            
+VALOR: S, N'                                                                    
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+ALTER TABLE MARITIMA.TBSENHA ADD                                                
+CONSTRAINT CK_TBSENH_IDLEAC                                                     
+CHECK (IDLIBEMIAUTCVC IN ('S', 'N'))                                            
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+ALTER TABLE MARITIMA.TBSENHA ADD                                                
+CONSTRAINT CK_TBSENH_IDLBEA                                                     
+CHECK (IDLIBEMIAMS IN ('S', 'N'))                                               
+;                                                                               
+COMMIT;                                                                         
+                                                                                
+ALTER TABLE MARITIMA.TBSENHA ADD                                                
+CONSTRAINT CK_TBSENH_IDLEAM                                                     
+CHECK (IDLIBEMIAMSMAS IN ('S', 'N'))                                            
+;                                                                               
+COMMIT;                                                                         

@@ -1,0 +1,16 @@
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD01 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD02 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD03 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD04 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD05 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD06 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD07 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD08 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD09 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD10 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD11 WITH UR;                               
+SELECT COUNT(*) FROM RECUPERA.CORCOOLD12 WITH UR;                               
+--SELECT * FROM SYSIBM.SYSTABLES WHERE NAME = 'CORCOOLD';                       
+--ELECT * FROM SYSIBM.SYSCOPY WHERE TSNAME = 'CORCOOLD' AND ICTYPE='F';         
+--DELETE  FROM RECUPERA.CORCOOLD10;                                             
+--COMMIT;                                                                       

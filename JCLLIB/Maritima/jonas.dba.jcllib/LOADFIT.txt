@@ -1,0 +1,93 @@
+//DBPLOAD JOB 'JONAS',MSGCLASS=T,CLASS=A,NOTIFY=&SYSUID                 JOB01600
+//*                                                                             
+//*------------------------------------------------------------------           
+//*------------------------------------------------------------------           
+//* LOAD NO T/H FROM PRODUCAO DA TABELA SENHA,TS SENHA,BANCO DBMA02             
+//* COM ARQUIVO DE DADOS DBA.DB2P.DADOS.DBMA02.SENHA.SENHA,GERADO NA            
+//* PRODUCAO E GRAVADO NO DISCO COMPARTILHADO SHR005 + PUNCH ANEXADO            
+//*------------------------------------------------------------------           
+//*------------------------------------------------------------------           
+//LOAD     EXEC PGM=DSNUTILB,PARM='DB2P,JONAS.LOAD'                             
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                  
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                  
+//SYSPRINT DD   SYSOUT=*                                                        
+//UTPRINT  DD   SYSOUT=*                                                        
+//SYSUDUMP DD   SYSOUT=*                                                        
+//SYSMAP   DD   UNIT=SYSDA,SPACE=(TRK,(500,500),RLSE)                           
+//SYSERR   DD   UNIT=SYSDA,SPACE=(TRK,(500,500),RLSE)                           
+//SYSUT1   DD   UNIT=SYSDA,SPACE=(TRK,(1500,1500),RLSE)                         
+//SORTOUT  DD   UNIT=SYSDA,SPACE=(TRK,(1500,1500),RLSE)                         
+//SYSDISC  DD   SYSOUT=*                                                        
+//* LOAD FROM DISCO                                                             
+//*SYSREC00 DD  DSN=DBA.DB2P.CADPARCL,DISP=SHR,VOL=SER=SHR005,UNIT=SYSDA        
+//*SYSREC01 DD  DSN=DBA.DB2P.PREPARCL,DISP=SHR,VOL=SER=SHR005,UNIT=SYSDA        
+//* LOAD FROM FITA                                                              
+//SYSREC00 DD  DSN=DBA.UNLOAD.SSLOGRED.G0047V00,DISP=SHR,UNIT=VSM               
+//         DD  DSN=DBA.UNLOAD.SSLOGRED.G0048V00,DISP=SHR,UNIT=VSM               
+//         DD  DSN=DBA.UNLOAD.SSLOGRED.G0049V00,DISP=SHR,UNIT=VSM               
+//         DD  DSN=DBA.UNLOAD.SSLOGRED.G0050V00,DISP=SHR,UNIT=VSM               
+//SYSREC01 DD  DSN=DBA.UNLOAD.SSLOGCPL.G0047V00,DISP=SHR,UNIT=VSM               
+//         DD  DSN=DBA.UNLOAD.SSLOGCPL.G0048V00,DISP=SHR,UNIT=VSM               
+//         DD  DSN=DBA.UNLOAD.SSLOGCPL.G0049V00,DISP=SHR,UNIT=VSM               
+//         DD  DSN=DBA.UNLOAD.SSLOGCPL.G0050V00,DISP=SHR,UNIT=VSM               
+//SYSIN    DD   *                                                               
+  LOAD DATA LOG NO NOCOPYPEND REPLACE INDDN SYSREC00 INTO TABLE                 
+      DB2ADM.SSLOGRED1                                                          
+   (                                                                            
+   NRLOTE                                 POSITION(       1         )           
+   INTEGER                       ,                                              
+   NRCPCGPR                               POSITION(       5:       9)           
+   DECIMAL                       ,                                              
+   NRCGFIPR                               POSITION(      10         )           
+   SMALLINT                      ,                                              
+   TPCOMPRO                               POSITION(      12         )           
+   CHAR(                      1) ,                                              
+   NRCOMPRO                               POSITION(      13         )           
+   INTEGER                       ,                                              
+   TSLOGRED                               POSITION(      17         )           
+   TIMESTAMP EXTERNAL(       26) ,                                              
+   CDANALIS                               POSITION(      43         )           
+   SMALLINT                      ,                                              
+   CDTPMOV                                POSITION(      45         )           
+   SMALLINT                      ,                                              
+   CDPGMLOG                               POSITION(      47         )           
+   CHAR(                      8)                                                
+   )                                                                            
+  LOAD DATA LOG NO NOCOPYPEND REPLACE  INDDN SYSREC01 INTO TABLE                
+      DB2ADM.SSLOGCPL1                                                          
+   (                                                                            
+   NRLOTE                                 POSITION(       1         )           
+   INTEGER                       ,                                              
+   NRCPCGPR                               POSITION(       5:       9)           
+   DECIMAL                       ,                                              
+   NRCGFIPR                               POSITION(      10         )           
+   SMALLINT                      ,                                              
+   TPCOMPRO                               POSITION(      12         )           
+   CHAR(                      1) ,                                              
+   NRCOMPRO                               POSITION(      13         )           
+   INTEGER                       ,                                              
+   NRSEQCOM                               POSITION(      17         )           
+   SMALLINT                      ,                                              
+   CDPROCED                               POSITION(      19         )           
+   INTEGER                       ,                                              
+   TSLOGRED                               POSITION(      23         )           
+   TIMESTAMP EXTERNAL(       26) ,                                              
+   CDANALIS                               POSITION(      49         )           
+   SMALLINT                      ,                                              
+   CDTPMOV                                POSITION(      51         )           
+   SMALLINT                      ,                                              
+   QTINFPRO                               POSITION(      53:      55)           
+   DECIMAL                       ,                                              
+   QTLIBPRO                               POSITION(      56:      58)           
+   DECIMAL                       ,                                              
+   VRINFPRO                               POSITION(      59:      64)           
+   DECIMAL                       ,                                              
+   VRCALPRO                               POSITION(      65:      70)           
+   DECIMAL                       ,                                              
+   CDANAPRO                               POSITION(      71         )           
+   CHAR(                      1) ,                                              
+   CDPGMLOG                               POSITION(      72         )           
+   CHAR(                      8) ,                                              
+   CDATUACA                               POSITION(      80         )           
+   CHAR(                      2)                                                
+   )                                                                            

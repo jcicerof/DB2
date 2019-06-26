@@ -1,0 +1,4 @@
+--ALTER STOGROUP STGPADD ADD VOLUMES (DB2PAG);                          00001003
+--COMMIT;                                                               00002003
+ALTER TABLESPACE DB2ADM.CORCOOLD PRIQTY 222222 SECQTY 90888;            00010004
+COMMIT;                                                                 00020003

@@ -1,0 +1,21 @@
+--                                                                      00010000
+-- ALTER TABLE MARITIMA.SSLOGCAD                                        00120000
+--   ALTER COLUMN DSCPOLGC SET DATA TYPE VARCHAR(2000)                  00130000
+-- ;                                                                    00140000
+-- COMMIT;                                                              00150000
+-- ALTER TABLE MARITIMA.SSLOGCAD                                        00160000
+--   ALTER COLUMN DSCPOFSC SET DATA TYPE VARCHAR(2000)                  00170000
+-- ;                                                                    00180000
+-- COMMIT;                                                              00190000
+-- ALTER TABLE MARITIMA.SSLOGCAD                                        00200000
+--   ALTER COLUMN DSVALCPO SET DATA TYPE VARCHAR(4000)                  00210000
+-- ;                                                                    00220000
+-- COMMIT;                                                              00230000
+-- ALTER TABLE MARITIMA.SSLOGCAD                                        00240000
+--   ALTER COLUMN DSIDXCPO SET DATA TYPE VARCHAR(4000)                  00250000
+-- ;                                                                    00260000
+-- COMMIT;                                                              00270000
+-- ALTER TABLE MARITIMA.SSLOGCAD                                        00280000
+--   ALTER COLUMN TELOGCAD SET DATA TYPE VARCHAR(2000)                  00290000
+-- ;                                                                    00300000
+-- COMMIT;                                                              00310000

@@ -1,0 +1,6 @@
+ SELECT COUNT(*)                                                                
+ FROM  RECUPERA.TBCTRBCO                                                        
+ WHERE                                                                          
+           CDSUCUR   =  01                                                      
+  AND CDRMBAS   =  31                                                           
+  AND NRAPOLI   =  193433;                                                      

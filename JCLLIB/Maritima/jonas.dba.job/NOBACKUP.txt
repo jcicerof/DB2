@@ -1,0 +1,13 @@
+SELECT DISTINCT CHAR('INCLUDE TABLESPACE '||STRIP(DBNAME)||'.'||                
+            STRIP(TSNAME),80)                                                   
+  FROM SYSIBM.SYSTABLES A                                                       
+WHERE A.TYPE = 'T'                                                              
+  AND A.CREATOR IN ('ANO2000', 'MAREXCLU', 'MARHISTO', 'MARITIMA',              
+                    'TECINFOR', 'SQLUSER','DB2USER')                            
+  AND NOT EXISTS (SELECT '1' FROM SYSIBM.SYSCOPY B                              
+                   WHERE B.DBNAME = A.DBNAME                                    
+                     AND B.TSNAME = A.TSNAME                                    
+                     AND B.ICTYPE = 'W'                                         
+  AND B.TIMESTAMP >=(CURRENT_TIMESTAMP - 45 DAYS)                               
+         AND B.ICDATE >= '080601')                                              
+;                                                                               

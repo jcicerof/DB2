@@ -1,0 +1,6 @@
+//DBREPAIR JOB MSGCLASS=X,CLASS=A,NOTIFY=JONAS                                  
+//REPAIR    EXEC DSNUPROC,SYSTEM=DB2P,UID=REPAIR,UTPROC='',                     
+//           COND=(4,LT)                                                        
+//SYSIN     DD *                                                                
+   REPAIR SET INDEX TECINFOR.MOVRSSLOCRIS_PK  NORBDPEND                         
+   REPAIR SET INDEX TECINFOR.MOVRSSLOCRISCAB_PK NORBDPEND                       

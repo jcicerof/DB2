@@ -1,0 +1,122 @@
+//DBPUNLPD JOB   MSGCLASS=X,CLASS=T,NOTIFY=&SYSUID                              
+//**********************************************************************        
+//*   UNLOAD DE TABELAS PRODUZINDO AS INSTRUCOES PARA LOAD, GERANDO OS D        
+//*   CASO HAJA JOINTÿS NAS QUERYS ABAIXO, GERAR O PUNCH VIA O JOB 2,           
+//*   COLOCANDO SELECT * NAS QUERYS ABAIXO E FORùANDO O ABEND DOS DADOS         
+//**********************************************************************        
+//UNLOAD   EXEC PGM=IKJEFT01,DYNAMNBR=20,COND=(4,LT)                            
+//SYSTSPRT DD  SYSOUT=*                                                         
+//SYSTSIN  DD  *                                                                
+ DSN SYSTEM(DB2P)                                                               
+ RUN  PROGRAM(DSNTIAUL) PLAN(DSNTIB00) PARMS('SQL') -                           
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSPUNCH DD DSN=DBA.DB2P.QUERIES.PUNCH,                                       
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(TRK,(1,1),RLSE),                                              
+//         VOL=SER=SHR004,UNIT=SYSDA                                            
+//*        UNIT=SYSWRK                                                          
+//SYSREC00 DD DSN=DBA.DB2P.SSVENPRE,                                            
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(CYL,(10,10),RLSE),                                            
+//         VOL=SER=SHR004,UNIT=SYSDA                                            
+//*        UNIT=SYSWRK                                                          
+//SYSREC01 DD DSN=DBA.DB2P.SSCARERR,                                            
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(CYL,(10,10),RLSE),                                            
+//         VOL=SER=SHR004,UNIT=SYSDA                                            
+//*        UNIT=SYSWRK                                                          
+//SYSREC02 DD DSN=DBA.DB2P.SSCAPROC,                                            
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(CYL,(10,10),RLSE),                                            
+//         VOL=SER=SHR004,UNIT=SYSDA                                            
+//*        UNIT=SYSWRK                                                          
+//SYSREC03 DD DSN=DBA.DB2P.SSCAAMEM,                                            
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(CYL,(10,10),RLSE),                                            
+//         VOL=SER=SHR004,UNIT=SYSDA                                            
+//*        UNIT=SYSWRK                                                          
+//SYSREC04 DD DSN=DBA.DB2P.SSCOMANA,                                            
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(CYL,(10,10),RLSE),                                            
+//         VOL=SER=SHR004,UNIT=SYSDA                                            
+//*        UNIT=SYSWRK                                                          
+//SYSREC05 DD DSN=DBA.DB2P.SSCONPRO,                                            
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(CYL,(10,10),RLSE),                                            
+//         VOL=SER=SHR004,UNIT=SYSDA                                            
+//*        UNIT=SYSWRK                                                          
+//SYSREC06 DD DSN=DBA.DB2P.SSCATRAT,                                            
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(CYL,(10,10),RLSE),                                            
+//         VOL=SER=SHR004,UNIT=SYSDA                                            
+//*        UNIT=SYSWRK                                                          
+//SYSIN    DD *                                                                 
+SELECT *                                                                        
+FROM SQLUSER.SSVENPRE                                                           
+WHERE DTRECCIA = '2007-03-30'                                                   
+AND NRCPCGPR IN (003638694,000442647,055905665)                                 
+WITH UR                                                                         
+;                                                                               
+SELECT *                                                                        
+FROM SQLUSER.SSCARERR                                                           
+WHERE DTRECCIA = '2007-03-30'                                                   
+AND TPATENDI = 1                                                                
+AND NRCPCGPR IN (003638694,000442647,055905665)                                 
+AND NRCGFIPR = 0001                                                             
+WITH UR                                                                         
+;                                                                               
+SELECT B.*                                                                      
+FROM SQLUSER.SSCARERR A,                                                        
+     SQLUSER.SSCAPROC B                                                         
+WHERE A.TPATENDI = 1                                                            
+   AND A.DTRECCIA = '2007-03-30'                                                
+   AND  A.TPCOMPRO = B.TPCOMPRO                                                 
+   AND  A.NRCOMPRO = B.NRCOMPRO                                                 
+   AND A.NRCPCGPR IN (003638694,000442647,055905665)                            
+   AND A.NRCGFIPR = 0001                                                        
+      WITH UR                                                                   
+;                                                                               
+SELECT B.*                                                                      
+FROM SQLUSER.SSCARERR A,                                                        
+      SQLUSER.SSCAAMEM B                                                        
+WHERE A.TPATENDI = 1  AND A.DTRECCIA = '2007-03-30'                             
+   AND  A.TPATENDI =  B.TPATENDI                                                
+   AND A.NRCOMPRO = B.NRCOMPRO                                                  
+   AND A.NRCPCGPR IN (003638694,000442647,055905665)                            
+   AND A.NRCGFIPR = 0001                                                        
+      WITH UR                                                                   
+;                                                                               
+SELECT B.*                                                                      
+FROM SQLUSER.SSCARERR A,                                                        
+      SQLUSER.SSCOMANA B                                                        
+WHERE A.TPATENDI = 1   AND A.DTRECCIA = '2007-03-30'                            
+   AND  A.TPATENDI =  B.TPATENDI                                                
+   AND A.TPCOMPRO = B.TPCOMPRO                                                  
+   AND A.NRCOMPRO = B.NRCOMPRO                                                  
+   AND A.NRCPCGPR IN (003638694,000442647,055905665)                            
+   AND A.NRCGFIPR = 0001                                                        
+      WITH UR                                                                   
+;                                                                               
+SELECT B.*                                                                      
+FROM SQLUSER.SSCARERR A,                                                        
+      SQLUSER.SSCONPRO B                                                        
+WHERE  A.TPATENDI = 1                                                           
+   AND A.DTRECCIA = '2007-03-30'                                                
+   AND A.TPATENDI =  B.TPATENDI                                                 
+   AND A.TPCOMPRO = B.TPCOMPRO                                                  
+   AND A.NRCOMPRO = B.NRCOMPRO                                                  
+   AND A.NRCPCGPR IN (003638694,000442647,055905665)                            
+   AND A.NRCGFIPR = 0001                                                        
+      WITH UR                                                                   
+;                                                                               
+SELECT B.*                                                                      
+FROM SQLUSER.SSCARERR A,                                                        
+      SQLUSER.SSCATRAT B                                                        
+WHERE A.TPATENDI = 1   AND A.DTRECCIA = '2007-03-30'                            
+   AND  A.TPATENDI =  B.TPATENDI                                                
+   AND A.NRCOMPRO = B.NRCOMPRO                                                  
+   AND A.NRCPCGPR IN (003638694,000442647,055905665)                            
+   AND A.NRCGFIPR = 0001                                                        
+      WITH UR                                                                   
+;                                                                               

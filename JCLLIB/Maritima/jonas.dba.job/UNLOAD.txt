@@ -1,0 +1,26 @@
+//DBPUNLPD JOB   MSGCLASS=X,CLASS=A,NOTIFY=&SYSUID TYPRUN=HOLD                  
+//UNLOAD   EXEC PGM=IKJEFT01,DYNAMNBR=20,COND=(4,LT)                            
+//SYSTSPRT DD  SYSOUT=*                                                         
+//SYSTSIN  DD  *                                                                
+ DSN SYSTEM(DB2P)                                                               
+ RUN  PROGRAM(DSNTIAUL) PLAN(DSNTIB00) PARMS('SQL') -                           
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSPUNCH DD DSN=DBA.DB2P.TBCTRBCO.PUNCH,                                      
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(TRK,(1,1),RLSE),                                              
+//         UNIT=SYSDBA                                                          
+//*        UNIT=SYSWRK                                                          
+//SYSREC00 DD DSN=DBA.DB2P.TBCTRBCO.REC,                                        
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(TRK,(710,710),RLSE),                                          
+//         UNIT=SYSDBA                                                          
+//*        UNIT=SYSWRK                                                          
+//SYSIN    DD *                                                                 
+SELECT *                                                                        
+    FROM                                                                        
+    RECUPERA.TBCTRBCO                                                           
+    WHERE                                                                       
+         CDSUCUR  =  01                                                         
+    AND  CDRMBAS  =  31                                                         
+    AND  NRAPOLI  =  621886                                                     

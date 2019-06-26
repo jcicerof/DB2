@@ -1,0 +1,5 @@
+--SET CURRENT SQLID='SYSADM';                                                   
+--COMMIT;                                                                       
+--GRANT SELECT,INSERT,UPDATE,DELETE ON MARITIMA.SNTIPORIGOPER TO                
+--MVSPUSER,CSPPUSER,CA7ONL,INFORMIX,IFXPUSER;                                   
+--COMMIT;                                                                       

@@ -1,0 +1,6 @@
+//DBPQUIES JOB MSGCLASS=X,CLASS=A,NOTIFY=JONAS                                  
+//QUIESCE   EXEC DSNUPROC,SYSTEM=DB2P,UID=QUIESCE,UTPROC='',                    
+//SYPRINT   DD *                                                                
+//SYSOUT    DD *                                                                
+//SYSIN     DD *                                                                
+   QUIESCE TABLESPACE DBWPC1.CONTRAPO                                           

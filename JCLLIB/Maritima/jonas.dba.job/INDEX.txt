@@ -1,0 +1,102 @@
+--                                                                      00001000
+-- CHANGE TABLE NAME AND CREATOR                                        00002000
+--                                                                      00003000
+                                                                        00003100
+-- LISTA TABLESPACES                                                    00004000
+  SELECT * FROM SYSIBM.SYSTABLESPACE A,                                 00010000
+                SYSIBM.SYSTABLES     B                                  00010100
+   WHERE B.NAME = 'PROPOSTA'                                            00011000
+     AND B.CREATOR  = 'ANO2000'                                         00011100
+     AND B.TYPE ='T'                                                    00012000
+     AND A.NAME = B.TSNAME                                              00013000
+     AND A.DBNAME  = B.DBNAME                                           00015000
+  WITH UR;                                                              00030000
+                                                                        00040000
+-- LISTA PARTICOES DO TABLESPACE                                        00040100
+  SELECT * FROM SYSIBM.SYSTABLEPART  A,                                 00040200
+                SYSIBM.SYSTABLES     B                                  00040300
+   WHERE B.NAME = 'PROPOSTA'                                            00040400
+     AND B.CREATOR  = 'ANO2000'                                         00040500
+     AND B.TYPE ='T'                                                    00040600
+     AND A.TSNAME = B.TSNAME                                            00040700
+     AND A.DBNAME  = B.DBNAME                                           00040800
+  WITH UR;                                                              00040900
+                                                                        00041000
+-- LISTA TABELAS                                                        00041100
+  SELECT * FROM SYSIBM.SYSTABLES                                        00041200
+   WHERE NAME = 'PROPOSTA'                                              00042000
+     AND CREATOR  = 'ANO2000'                                           00043000
+     AND TYPE ='T'                                                      00044000
+  WITH UR;                                                              00045000
+                                                                        00046000
+-- LISTA COLUNAS                                                        00047000
+  SELECT * FROM SYSIBM.SYSCOLUMNS                                       00050000
+   WHERE TBNAME = 'PROPOSTA'                                            00060000
+     AND TBCREATOR = 'ANO2000'                                          00070000
+   ORDER BY COLNO                                                       00071000
+  WITH UR;                                                              00080000
+                                                                        00090000
+-- LISTA INDICES                                                        00100000
+  SELECT * FROM SYSIBM.SYSINDEXES                                       00141000
+   WHERE TBNAME = 'PROPOSTA'                                            00142000
+     AND TBCREATOR = 'ANO2000'                                          00143000
+  WITH UR;                                                              00144000
+                                                                        00145000
+-- LISTA INDEXPART                                                      00145100
+  SELECT * FROM SYSIBM.SYSINDEXES A                                     00146000
+              , SYSIBM.SYSINDEXPART B                                   00147000
+   WHERE A.TBNAME = 'PROPOSTA'                                          00148000
+     AND A.TBCREATOR = 'ANO2000'                                        00149000
+     AND B.IXNAME = A.NAME                                              00149100
+     AND B.IXCREATOR = A.CREATOR                                        00149200
+  WITH UR;                                                              00149300
+                                                                        00149400
+-- LISTA PRIMARY KEYS                                                   00149500
+  SELECT                                                                00150000
+       A.IXNAME, B.UNIQUERULE,                                          00150100
+       A.IXCREATOR, A.COLNAME, A.COLNO, A.COLSEQ, A.ORDERING,           00150200
+       B.CLUSTERING, B.CLUSTERED, B.INDEXSPACE,                         00150300
+       B.CLUSTERRATIO, B.STATSTIME                                      00150400
+    FROM SYSIBM.SYSKEYS    A                                            00151000
+       , SYSIBM.SYSINDEXES B                                            00152000
+       , SYSIBM.SYSTABLES  C                                            00153000
+   WHERE C.CREATOR = 'ANO2000'                                          00160000
+     AND C.NAME    = 'PROPOSTA'                                         00170000
+     AND C.TYPE    = 'T'                                                00170100
+     AND B.TBNAME  = C.NAME                                             00171000
+     AND B.TBCREATOR  = C.CREATOR                                       00172000
+     AND A.IXNAME  = B.NAME                                             00173000
+     AND A.IXCREATOR  = B.CREATOR                                       00174000
+   ORDER BY A.IXNAME, A.COLSEQ                                          00175000
+  WITH UR;                                                              00180000
+                                                                        00190000
+-- LISTA FOREIGN KEYS                                                   00200000
+SELECT * FROM SYSIBM.SYSRELS                                            00240000
+ WHERE RELNAME IN (SELECT RELNAME FROM SYSIBM.SYSFOREIGNKEYS            00250000
+                    WHERE CREATOR = 'ANO2000'                           00260000
+                      AND TBNAME  = 'PROPOSTA')                         00270000
+  ORDER BY CREATOR,TBNAME,RELNAME                                       00280000
+WITH UR;                                                                00290000
+                                                                        00291000
+-- LISTA COLUNAS FOREIGN KEYS                                           00292000
+SELECT * FROM SYSIBM.SYSFOREIGNKEYS                                     00300000
+ WHERE CREATOR = 'ANO2000'                                              00310000
+   AND TBNAME  = 'PROPOSTA'                                             00320000
+ ORDER BY CREATOR,TBNAME,RELNAME,COLSEQ                                 00330000
+WITH UR;                                                                00340000
+                                                                        00350000
+-- LISTA CONSTRAINTS                                                    00360000
+SELECT * FROM SYSIBM.SYSCHECKS                                          00370000
+ WHERE TBOWNER = 'ANO2000'                                              00380000
+   AND TBNAME  = 'PROPOSTA'                                             00390000
+WITH UR;                                                                00410000
+                                                                        00411000
+SELECT * FROM SYSIBM.SYSCHECKDEP                                        00420000
+ WHERE TBOWNER = 'ANO2000'                                              00430000
+   AND TBNAME  = 'PROPOSTA'                                             00440000
+WITH UR;                                                                00460000
+                                                                        00470000
+SELECT * FROM SYSIBM.SYSKEYCOLUSE                                       00480000
+ WHERE TBCREATOR = 'ANO2000'                                            00490000
+   AND TBNAME  = 'PROPOSTA'                                             00500000
+WITH UR;                                                                00510000

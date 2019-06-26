@@ -1,0 +1,25 @@
+--//EQ000T   EXEC PROC=COPY,SS=EQ,TS=EQ000T,DT=060830
+--
+SELECT CHAR('//'||CHAR(STRIP(NAME), 9)||
+   'EXEC PROC=COPY,SS='||SUBSTR(STRIP(DBNAME), 1, 2)||
+   ',TS='||STRIP(NAME)||',DT=&DT', 80),
+   SUBSTR(STRIP(DBNAME), 1, 2), NAME
+  FROM SYSIBM.SYSTABLESPACE
+ WHERE SUBSTR(DBNAME, 4, 2) IN ('BP', 'BD')
+;
+--
+-- MONTA OS CARTOES JCL PARA INDICES
+--
+--
+--UNION
+--SELECT CHAR('//'||CHAR(STRIP(INDEXSPACE), 9)||
+--   'EXEC PROC=COPY,SS='||SUBSTR(STRIP(DBNAME), 1, 2)||
+--   ',TS='||STRIP(INDEXSPACE)||',DT=&DT', 80),
+--   SUBSTR(STRIP(DBNAME), 1, 2), INDEXSPACE
+--  FROM SYSIBM.SYSINDEXPART IP,                                          003700
+--       SYSIBM.SYSINDEXES   IX                                           003800
+-- WHERE IP.PARTITION = 1                                                 003900
+--   AND SUBSTR(IX.DBNAME, 4, 2) IN ('BP', 'BD')                          004000
+--   AND IP.IXNAME = IX.NAME                                              004100
+--   AND IP.IXCREATOR = IX.CREATOR                                        004200
+--ORDER BY 2, 3;

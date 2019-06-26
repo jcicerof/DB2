@@ -1,0 +1,54 @@
+ SELECT   DISTINCT CHAR('GRANT'||                                       00010012
+         CASE WHEN SELECTAUTH='Y' THEN ' SELECT' ELSE '' END||          00020000
+         CASE WHEN INSERTAUTH='Y' THEN ',INSERT' ELSE '' END||          00030000
+         CASE WHEN DELETEAUTH='Y' THEN ',DELETE' ELSE '' END||          00040000
+         CASE WHEN UPDATEAUTH='Y' THEN ',UPDATE' ELSE '' END||          00050000
+         ' ON TECINFOR.MOVSOLPCS TO '),                                 00060009
+         STNAME,SELECTAUTH,INSERTAUTH,DELETEAUTH,UPDATEAUTH,1           00061011
+   FROM SYSIBM.SYSTABAUTH                                               00080000
+  WHERE STNAME = 'PROPOSTA'                                             00090000
+    AND (SELECTAUTH = 'Y' OR                                            00100000
+         INSERTAUTH = 'Y' OR                                            00110000
+         DELETEAUTH = 'Y' OR                                            00120000
+         UPDATEAUTH = 'Y')                                              00130000
+UNION ALL                                                               00130101
+SELECT DISTINCT                                                         00131012
+'ADMDADOS,AGUIAR,AUTO,AUTOCIR,AUTOMAR,AUTONEG,AUTOSSA,AUTOWEB,BRAINP,'  00132001
+,STNAME,SELECTAUTH,INSERTAUTH,DELETEAUTH,UPDATEAUTH,2                   00134010
+   FROM SYSIBM.SYSTABAUTH                                               00140001
+  WHERE STNAME = 'PROPOSTA'                                             00141001
+    AND (SELECTAUTH = 'Y' OR                                            00142001
+         INSERTAUTH = 'Y' OR                                            00143001
+         DELETEAUTH = 'Y' OR                                            00144001
+         UPDATEAUTH = 'Y')                                              00145005
+UNION ALL                                                               00146001
+SELECT DISTINCT                                                         00147012
+'CA7ONL,CLAUDIO,CORDSIS,DBAUSER,DETAIL,FAEMISP,FEDUSER,JCARLOS,LUIS,'   00149001
+,STNAME,SELECTAUTH,INSERTAUTH,DELETEAUTH,UPDATEAUTH,3                   00149110
+   FROM SYSIBM.SYSTABAUTH                                               00149301
+  WHERE STNAME = 'PROPOSTA'                                             00149401
+    AND (SELECTAUTH = 'Y' OR                                            00149501
+         INSERTAUTH = 'Y' OR                                            00149601
+         DELETEAUTH = 'Y' OR                                            00149701
+         UPDATEAUTH = 'Y')                                              00149801
+UNION ALL                                                               00149901
+SELECT DISTINCT                                                         00150012
+'ONBASEP,ONBAUTP,PRIDE,PROJETO,PROSISD,PROSISE,RESISE,ROSCORP,ROSDBP,'  00150201
+,STNAME,SELECTAUTH,INSERTAUTH,DELETEAUTH,UPDATEAUTH,4                   00150310
+   FROM SYSIBM.SYSTABAUTH                                               00150401
+  WHERE STNAME = 'PROPOSTA'                                             00150501
+    AND (SELECTAUTH = 'Y' OR                                            00150601
+         INSERTAUTH = 'Y' OR                                            00150701
+         DELETEAUTH = 'Y' OR                                            00150801
+         UPDATEAUTH = 'Y')                                              00150901
+UNION ALL                                                               00151001
+SELECT DISTINCT                                                         00151112
+'SAUDE,SCHED,SEDA,TMONDB2,VIDA,WAP001'                                  00151409
+,STNAME,SELECTAUTH,INSERTAUTH,DELETEAUTH,UPDATEAUTH,5                   00151510
+   FROM SYSIBM.SYSTABAUTH                                               00151601
+  WHERE STNAME = 'PROPOSTA'                                             00151701
+    AND (SELECTAUTH = 'Y' OR                                            00151801
+         INSERTAUTH = 'Y' OR                                            00151901
+         DELETEAUTH = 'Y' OR                                            00152001
+         UPDATEAUTH = 'Y')                                              00152101
+ORDER BY 2,3,4,5,6,7                                                    00153010

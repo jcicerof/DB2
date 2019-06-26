@@ -1,0 +1,65 @@
+//IBM1JCFA JOB (T00101,520,AU88100,658,000,581),'DB2 TOOLS',            JOB12632
+//         MSGLEVEL=(1,1),MSGCLASS=X,      USER=DB2TEST,
+//         CLASS=L,NOTIFY=IBM1JCF
+/*JOBPARM Z=O,HOLD=ALL,S=ESYS,T=1439
+//*------------------------------------------------------------------
+//*  DB2A - DB2A.DB2LOAD/DB2A.DB2RUNLB
+//*  DB2D - DB2S.DB2LOAD/DB2S.DB2RUNLB
+//*  DB2J - DB2K.DB2LOAD/DB2S.DB2RUNLB
+//*  DB2E - DB2F.DB2LOAD/DB2F.DB2RUNLB
+//*  DB2H - DB2H.DB2LOAD/DB2H.DB2RUNLB
+//*  DB2P - DB2C.DB2LOAD/DB2C.DB2RUNLB
+//*  DB2Q - DB2R.DB2LOAD/DB2R.DB2RUNLB
+//*------------------------------------------------------------------
+//        JCLLIB ORDER=(DBA5.DB2.PROCLIB)
+//*------------------------------------------------------------------
+//*
+//*------------------------------------------------------------------
+//DISDB   EXEC PGM=IKJEFT01,DYNAMNBR=100
+//STEPLIB   DD DSN=DB2S.DB2RUNLB,DISP=SHR
+//          DD DISP=SHR,DSN=DB2K.DB2EXIT
+//          DD DISP=SHR,DSN=DB2K.DB2LOAD
+//SYSTSPRT  DD SYSOUT=*
+//SYSPRINT  DD SYSOUT=*
+//SYSTSIN   DD *
+ DSN SYSTEM(DB2J)
+ -DIS DB (DDBA0T00) SP(HSTVSAM) LIMIT(*) RESTRICT
+ END
+//SYSPUNCH  DD SYSOUT=*
+//SYSREC00  DD SYSOUT=*
+//SYSIN     DD DUMMY
+//*------------------------------------------------------------------
+//*
+//*------------------------------------------------------------------
+//REORG2   EXEC REORG2,DSN=DB2J,LIB=DB2K
+//SYSIN DD *
+  LISTDEF LISTDB  INCLUDE TABLESPACE DDBA0T00.HSTVSAM
+
+  TEMPLATE DDPUNCH
+     DSN 'DBA5.DB2.PUN.&DB..&TS..D&DATE.'
+     UNIT SYSDA SPACE (1,1) TRK
+     DISP (NEW,DELETE,CATLG)
+
+  TEMPLATE DDREC
+     DSN 'DBA5.DB2.UNL.&DB..&TS..D&DATE.'
+     UNIT MAGV  RETPD 7
+     STACK YES
+     DISP (NEW,DELETE,CATLG)
+
+  TEMPLATE DDCOPY
+     DSN 'DBA5.DB2.IC.&DB..&TS..D&DATE.'
+     UNIT MAGV  RETPD 21
+     STACK YES
+     DISP (NEW,CATLG,DELETE)
+
+  REORG TABLESPACE LIST LISTDB
+    LOG NO
+    SORTDATA
+    NOSYSREC
+    SHRLEVEL REFERENCE
+--  UNLDDN(DDREC)
+    PUNCHDDN(DDPUNCH)
+    COPYDDN(DDCOPY)
+    FASTSWITCH NO
+    STATISTICS TABLE(ALL) INDEX(ALL) UPDATE ALL KEYCARD
+//*

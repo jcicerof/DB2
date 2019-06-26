@@ -1,0 +1,1 @@
+SELECT * FROM SYSIBM.SYSCOPY WHERE ICTYPE='P';                          00010001

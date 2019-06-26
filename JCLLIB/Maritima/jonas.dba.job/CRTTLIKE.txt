@@ -1,0 +1,52 @@
+SELECT * FROM SYSIBM.SYSTABLES WHERE NAME LIKE 'CORCOOLD%' AND DBNAME =         
+'DB2ADM';                                                                       
+--CREATE TABLESPACE CORCOOLD                                                    
+--    IN DB2ADM                                                                 
+--    USING STOGROUP STGPADD                                                    
+--        PRIQTY 308880                                                         
+--        SECQTY 30888                                                          
+--    PCTFREE 5                                                                 
+--    TRACKMOD YES                                                              
+--    COMPRESS YES                                                              
+--    SEGSIZE 4                                                                 
+--    BUFFERPOOL BP1                                                            
+--    LOCKSIZE  ANY                                                             
+--   LOCKMAX SYSTEM                                                             
+--   CLOSE NO                                                                   
+--   CCSID EBCDIC                                                               
+--   MAXROWS 255                                                                
+--;                                                                             
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD02 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD03 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD04 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD05 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD06 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD07 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD08 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD09 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD10 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD11 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       
+--CREATE;TABLE RECUPERA.CORCOOLD12 LIKE MARITIMA.CORCOOLD IN                    
+--DB2ADM.CORCOOLD;                                                              
+--COMMIT;                                                                       

@@ -1,0 +1,29 @@
+//DB@SBKPD JOB MSGCLASS=P,CLASS=A,NOTIFY=JONAS                                  
+//**********************************************************************        
+//**JOB QUE ENVIA EMAIL DE TABELAS SEM BACKUP AMBIENTE PRODUùﬁO       **        
+//**AUTOR JONAS VASSALO JR DIA 21/11/2008                                       
+//**QUALQUER ABEND ENVIAR EMAIL PARA JONAS.VASSALO@T-SYSTEMS.COM.BR             
+//**********************************************************************        
+//STEP01  EXEC PGM=IKJEFT01,DYNAMNBR=20                                         
+//SYSTSPRT DD SYSOUT=*                                                          
+//SYSTSIN DD *                                                                  
+  DSN SYSTEM(DB2P)                                                              
+  RUN PROGRAM(DSNTEP2) PLAN(DSNTEP00) PARMS('/ALIGN(LHS) MIXED') -              
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+//SYSPRINT DD DSN=JONAS.DBA.LSTCPY.MRTP(+1),                                    
+//            DISP=(NEW,CATLG,DELETE),                                          
+//            UNIT=SYSDA,SPACE=(CYL,(3,2),RLSE)                                 
+//SYSOUT   DD SYSOUT=*                                                          
+//SYSUDUMP DD SYSOUT=*                                                          
+//SYSIN    DD DISP=SHR,DSN=JONAS.DBA.JOB(SEMBKP)                                
+//**********************************************************************        
+//** STEP DE FAZ O FTP PARA A MAQUINA HOMOLOGAùﬁO BENNER 10.1.1.92 E ***        
+//** E ENVIA EMAIL DE TABELAS QUE NﬁO ESTﬁO EM ROTINAS DE BACKUP***             
+//**********************************************************************        
+//STEP02   EXEC PGM=FTP,REGION=4096K,                                           
+//             PARM='10.1.1.92 (TIMEOUT 20 EXIT'                                
+//STEPLIB  DD  DSN=TCPIP.SEZALINK,DISP=SHR                                      
+//SYSMDUMP DD  SYSOUT=Z                                                         
+//SYSPRINT DD  SYSOUT=*                                                         
+//OUTPUT   DD  SYSOUT=*                                                         
+//INPUT    DD  DISP=SHR,DSN=JONAS.DBA.JOB(FTPPRD)                               

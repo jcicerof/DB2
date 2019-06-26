@@ -1,0 +1,18 @@
+//DBPLOAD  JOB MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID TYPRUN=HOLD                    
+//STEP1     EXEC PGM=DSNUTILB,PARM='DB2P,TBCTRBCO',REGION=0M                    
+//SYSPRINT  DD   SYSOUT=*                                                       
+//UTPRINT   DD   SYSOUT=*                                                       
+//SYSUDUMP  DD   SYSOUT=*                                                       
+//SYSPUNCH  DD   DSN=JJ7.DB2P.DBNOVA.TBCTRBCO.PUNCH,                            
+//          DISP=(NEW,CATLG,DELETE),                                            
+//          UNIT=SYSDBA,SPACE=(TRK,(1,1),RLSE)                                  
+//*         UNIT=SYSDA,SPACE=(TRK,(1,1),RLSE),VOL=SER=(SHR006)                  
+//SYSREC    DD   DSN=JJ7.DB2P.DBNOVA.TBCTRBCO.DADOS,                            
+//          DISP=(NEW,CATLG,DELETE),                                            
+//          SPACE=(TRK,(30000,30000),RLSE),                                     
+//          UNIT=SYSDBA                                                         
+//*         UNIT=SYSDA,VOL=SER=(SHR006)                                         
+//SYSIN     DD *                                                                
+UNLOAD TABLESPACE DBNOVA.TBCTRBCO                                               
+FROMCOPY DB2PCOPY.FS1.DBNOVA.TBCTRBCO.P0.G0567V00                               
+//*                                                                             

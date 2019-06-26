@@ -1,0 +1,18 @@
+//DBBDSNTI JOB 'JONAS',MSGCLASS=T,CLASS=T,NOTIFY=&SYSUID                        
+//*                                                                             
+//*------------------------------------------------------------------           
+//* RECOVER                                                                     
+//*------------------------------------------------------------------           
+//RECOVER  EXEC PGM=DSNUTILB,PARM='DB2P,RECOVER.JONAS'                          
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSOUT   DD  SYSOUT=*                                                         
+//SYSIN    DD  *                                                                
+  RECOVER TABLESPACE DBNOVA.CORRETOR TOLASTFULLCOPY                             
+  RECOVER TABLESPACE DBMA02.CORRFENA TOLASTFULLCOPY                             
+  RECOVER TABLESPACE DBMA02.CORRTCOM TOLASTFULLCOPY                             
+  RECOVER TABLESPACE DBMA02.CORRTSUS TOLASTFULLCOPY                             
+  RECOVER TABLESPACE DBWPC1.WPCPERFI TOLASTFULLCOPY                             
+  RECOVER TABLESPACE DBWPC1.WPCUSRPF TOLASTFULLCOPY                             
+  RECOVER TABLESPACE DBWPC1.WPCUSUAR TOLASTFULLCOPY                             

@@ -1,0 +1,28 @@
+---                                                                     00001003
+--- JONAS, EU ALTEREI A CRIACAO DOS STOGROUP                            00002003
+---                                                                     00003003
+                                                                        00004003
+--SET CURRENT SQLID='SYSADM';                                           00010004
+--COMMIT;                                                               00020004
+--CREATE DATABASE DBRE99;                                               00030002
+--COMMIT;                                                               00040002
+ALTER STOGROUP SGPRE99D                                                 00041003
+ REMOVE VOLUMES (DB2CB1, DB2CB2, DB2CB3, DB2CB4, DB2CB5);               00042003
+COMMIT;                                                                 00042103
+                                                                        00042203
+ALTER STOGROUP SGPRE99I                                                 00043003
+ REMOVE VOLUMES (DB2CB1, DB2CB2, DB2CB3, DB2CB4, DB2CB5);               00044003
+COMMIT;                                                                 00045003
+                                                                        00046003
+DROP STOGROUP SGPRE99D;                                                 00047003
+COMMIT;                                                                 00048003
+DROP STOGROUP SGPRE99I;                                                 00049003
+COMMIT;                                                                 00049103
+                                                                        00049203
+CREATE STOGROUP SGPRE99D VOLUMES                                        00050001
+(DB2CB1, DB2CB2, DB2CB3, DB2CB4, DB2CB5) VCAT DB2PCAT;                  00051003
+COMMIT;                                                                 00052000
+                                                                        00053003
+CREATE STOGROUP SGPRE99I VOLUMES                                        00060001
+(DB2CB5, DB2CB4, DB2CB3, DB2CB2, DB2CB1) VCAT DB2PCAT;                  00070003
+COMMIT;                                                                 00080000

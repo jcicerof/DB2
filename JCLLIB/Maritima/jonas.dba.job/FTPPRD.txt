@@ -1,0 +1,5 @@
+DB2ADMIN                                                                        
+bennerhom                                                                       
+ascii                                                                           
+PUT 'P.DBA.LSTCPY.MRTP(0)' JONAS\PRODUCAO.TXT                                   
+QUIT                                                                            

@@ -1,0 +1,601 @@
+--                                                                      00010000
+-- CREATE  TABLESPACE SSCOREPE                                          00020000
+-- IN      DB2ADM                                                       00030000
+-- USING   STOGROUP DB2DATA                                             00040000
+--                                     PRIQTY 71280                     00050000
+--                                     SECQTY 7128                      00060000
+--                                     ERASE NO                         00070000
+--                      FREEPAGE 0                                      00080000
+--                      PCTFREE 0                                       00090000
+--                      COMPRESS YES                                    00100000
+--            BUFFERPOOL BP1                                            00110000
+--            LOCKSIZE ANY                                              00120000
+--            CLOSE YES                                                 00130000
+--            SEGSIZE 4                                                 00140000
+--            LOCKMAX SYSTEM                                            00150000
+--            CCSID EBCDIC                                              00160000
+--     ;                                                                00170000
+--                                                                      00180000
+--                                                                      00190000
+--                                                                      00200000
+--                                                                      00210000
+--    COMMIT WORK;                                                      00220000
+--                                                                      00230000
+--                                                                      00240000
+-- CREATE  TABLESPACE SSSEGTIT                                          00250000
+-- IN      DB2ADM                                                       00260000
+-- USING   STOGROUP DB2DATA                                             00270000
+--                                     PRIQTY 103680                    00280000
+--                                     SECQTY 10320                     00290000
+--                                     ERASE NO                         00300000
+--                      FREEPAGE 0                                      00310000
+--                      PCTFREE  0                                      00320000
+--            BUFFERPOOL BP1                                            00330000
+--            LOCKSIZE ANY                                              00340000
+--            CLOSE YES                                                 00350000
+--            SEGSIZE 4                                                 00360000
+--            LOCKMAX SYSTEM                                            00370000
+--            CCSID EBCDIC                                              00380000
+--     ;                                                                00390000
+--                                                                      00400000
+--                                                                      00410000
+--                                                                      00420000
+--                                                                      00430000
+--    COMMIT WORK;                                                      00440000
+                                                                        00450000
+-- MARITIMA.SSCOREPE0908 WILL BE CREATED VIA THESE NATIVE DB2 COMMANDS. 00460003
+                                                                        00470000
+                                                                        00480000
+CREATE  TABLE MARITIMA.SSCOREPE0908                                     00490003
+(       NRESTIPU SMALLINT NOT NULL                                      00500000
+,       NRSUBEST SMALLINT NOT NULL                                      00510000
+,       NRSEGURA INTEGER NOT NULL                                       00520000
+,       NRCARNE SMALLINT NOT NULL                                       00530000
+,       NRPARCEL SMALLINT NOT NULL                                      00540000
+,       NRNOSNUM INTEGER NOT NULL                                       00550000
+,       CDBANCO SMALLINT NOT NULL                                       00560000
+,       QTUSM DECIMAL ( 9 , 2 ) NOT NULL                                00570000
+,       VRPAGAME DECIMAL ( 11 , 2 ) NOT NULL                            00580000
+,       DTINIVIG DATE NOT NULL                                          00590000
+,       DTTERVIG DATE NOT NULL                                          00600000
+,       VREMITID DECIMAL ( 11 , 2 ) NOT NULL                            00610000
+,       VRJUROS DECIMAL ( 9 , 2 ) NOT NULL                              00620000
+,       VRMULTA DECIMAL ( 9 , 2 ) NOT NULL                              00630000
+,       NMDEPTO CHAR ( 10 ) NOT NULL                                    00640000
+,       CDUSUAR CHAR ( 10 ) NOT NULL                                    00650000
+,       CDSUCURS SMALLINT NOT NULL                                      00660000
+,       CDINTCOB CHAR ( 1 ) NOT NULL                                    00670000
+,       FKESTIPU SMALLINT                                               00680000
+,       FKSUBEST SMALLINT                                               00690000
+,       FKSEGURA INTEGER                                                00700000
+,       DTEMISSA DATE                                                   00710000
+,       DTPAGAME DATE                                                   00720000
+,       DTDOCOV2 DATE                                                   00730000
+,       DTPROPAG DATE                                                   00740000
+,       DTDEVOLU DATE                                                   00750000
+,       DTVENCIM DATE                                                   00760000
+,       DTCANCEL DATE                                                   00770000
+,       NRLOTE INTEGER                                                  00780000
+,       DTPAAGCO DATE                                                   00790000
+,       QTVIDAS SMALLINT                                                00800000
+,       NMDESOAL CHAR ( 10 )                                            00810000
+,       CDUSSOAL CHAR ( 10 )                                            00820000
+,       NRPROPO DECIMAL ( 11 , 0 )                                      00830000
+,       DTCHQPRE DATE                                                   00840000
+,       VRCHQPRE DECIMAL ( 11 , 2 )                                     00850000
+,       VRAGEPAG DECIMAL ( 11 , 2 )                                     00860000
+,       VRCOMPAG DECIMAL ( 11 , 2 )                                     00870000
+,       DTREFEMI DATE NOT NULL                                          00880000
+          WITH DEFAULT                                                  00890000
+,       PCIOF DECIMAL ( 7 , 4 )                                         00900000
+   )                                                                    00910000
+IN      DB2ADM.SSCOREPE                                                 00920000
+   CCSID         EBCDIC                                                 00930000
+   ;                                                                    00940000
+                                                                        00950000
+COMMENT ON MARITIMA.SSCOREPE0908                                        00960003
+(       NRESTIPU IS 'NUMERO DO ESTIPULANTE'                             00970000
+,       NRSUBEST IS 'NUMERO DO SUB-ESTIPULANTE'                         00980000
+,       NRSEGURA IS 'NUMERO DO SEGURADO'                                00990000
+,       NRCARNE IS 'NUMERO DO CARNE'                                    01000000
+,       NRPARCEL IS 'NUMERO DA PARCELA'                                 01010000
+,       NRNOSNUM IS 'NUMERO DO NOSSO NUMERO'                            01020000
+,       CDBANCO IS 'CODIGO DO BANCO'                                    01030000
+,       QTUSM IS 'QUANTIDADE DE U.S.M.'                                 01040000
+,       VRPAGAME IS 'VALOR DO PAGAMENTO'                                01050000
+,       DTINIVIG IS 'DATA DE INICIO DE VIGENCIA'                        01060000
+,       DTTERVIG IS 'DATA DE TERMINO DE VIGENCIA'                       01070000
+,       VREMITID IS 'VALOR EMITIDO'                                     01080000
+,       VRJUROS IS 'VALOR DOS JUROS'                                    01090000
+,       VRMULTA IS 'VALOR DA MULTA'                                     01100000
+,       NMDEPTO IS 'NOME DO DEPARTAMENTO'                               01110000
+,       CDUSUAR IS 'CODIGO DO USUARIO'                                  01120000
+,       CDSUCURS IS 'CODIGO DA SUCURSAL'                                01130000
+,       CDINTCOB IS 'CODIGO DE INTERFACE DE COBRANCA BANCARIA'          01140000
+,       FKESTIPU IS 'NUMERO DO ESTIPULANTE'                             01150000
+,       FKSUBEST IS 'NUMERO DO SUB-ESTIPULANTE'                         01160000
+,       FKSEGURA IS 'NUMERO DO SEGURADO'                                01170000
+,       DTEMISSA IS 'DATA DA EMISSAO'                                   01180000
+,       DTPAGAME IS 'DATA DO PAGAMENTO'                                 01190000
+,       DTDOCOV2 IS 'DATA DO DOCUMENTO DE COBRANCA VIA 2'               01200000
+,       DTPROPAG IS 'DATA DO PROCESSAMENTO DO PAGAMENTO'                01210000
+,       DTDEVOLU IS 'DATA DE DEVOLUCAO'                                 01220000
+,       DTVENCIM IS 'DATA DO VENCIMENTO'                                01230000
+,       DTCANCEL IS 'DATA DE CANCELAMENTO'                              01240000
+,       NRLOTE IS 'NUMERO DO LOTE'                                      01250000
+,       DTPAAGCO IS 'DATA DE PAGAMENTO DE AGENCIAMENTO OU COMISSAO'     01260000
+,       QTVIDAS IS 'QUANTIDADE DE VIDAS'                                01270000
+,       NMDESOAL IS 'NOME DO DEPARTAMENTO SOLICITANTE DA ALTERACAO'     01280000
+,       CDUSSOAL IS 'CODIGO DO USUARIO SOLICITANTE DA ALTERACAO PARC.'  01290000
+,       NRPROPO IS 'NUMERO DA PROPOSTA'                                 01300000
+,       DTCHQPRE IS 'DATA DO CHEQUE PRE-DATADO'                         01310000
+,       VRCHQPRE IS 'VALOR DO CHEQUE PRE-DATADO'                        01320000
+,       VRAGEPAG IS 'VALOR DE AGENCMTO PAGO'                            01330000
+,       VRCOMPAG IS 'VALOR DE COMISSAO PAGO'                            01340000
+,       DTREFEMI IS 'DATA DE REFERENCIA DA        EMISSAO'              01350000
+,       PCIOF IS 'PERCENTUAL DE IOF.'                                   01360000
+                ) ;                                                     01370000
+COMMENT ON TABLE MARITIMA.SSCOREPE0908 IS 'COMPROVANTE DE RECEBIMENTO' ;01380003
+                                                                        01390000
+                                                                        01400000
+                                                                        01410000
+                                                                        01420000
+   COMMIT WORK;                                                         01430000
+-- SQLUSER.SSCOREPE0908 WILL BE CREATED VIA THESE NATIVE DB2 COMMANDS.  01440003
+                                                                        01450000
+                                                                        01460000
+CREATE  TABLE MARITIMA.SSSEGTIT0908                                     01470003
+(       NRESTIPU SMALLINT NOT NULL                                      01480000
+,       NRSUBEST SMALLINT NOT NULL                                      01490000
+,       NRSEGURA INTEGER NOT NULL                                       01500000
+,       CDGRAPAR SMALLINT NOT NULL                                      01510000
+,       DGCHASEG SMALLINT NOT NULL                                      01520000
+,       NMSEGURA CHAR ( 30 ) NOT NULL                                   01530000
+,       CDFONETI CHAR ( 8 ) NOT NULL                                    01540000
+,       CDSITSEG CHAR ( 1 ) NOT NULL                                    01550000
+,       CDMOTCAN SMALLINT NOT NULL                                      01560000
+,       CDSITAPO CHAR ( 1 ) NOT NULL                                    01570000
+,       CDCONANT SMALLINT NOT NULL                                      01580000
+,       CDMOTSAI SMALLINT NOT NULL                                      01590000
+,       CDSEXO CHAR ( 1 ) NOT NULL                                      01600000
+,       NRRG DECIMAL ( 12 , 0 ) NOT NULL                                01610000
+,       NRCPFSEG DECIMAL ( 11 , 0 ) NOT NULL                            01620000
+,       CDLOENCO CHAR ( 1 ) NOT NULL                                    01630000
+,       CDBANREE SMALLINT NOT NULL                                      01640000
+,       CDAGEREE CHAR ( 6 ) NOT NULL                                    01650000
+,       NRCCOREE CHAR ( 13 ) NOT NULL                                   01660000
+,       DGCCOREE CHAR ( 2 ) NOT NULL                                    01670000
+,       CDBANCOB SMALLINT NOT NULL                                      01680000
+,       CDIDSEES DECIMAL ( 15 , 0 ) NOT NULL                            01690000
+,       DSCARSEG CHAR ( 15 ) NOT NULL                                   01700000
+,       NRCARPRO INTEGER NOT NULL                                       01710000
+,       NRSECAPR CHAR ( 4 ) NOT NULL                                    01720000
+,       CDTABCAR SMALLINT NOT NULL                                      01730000
+,       DDESCVEN SMALLINT NOT NULL                                      01740000
+,       CDCONVIN CHAR ( 1 ) NOT NULL                                    01750000
+,       DTNASCIM DATE NOT NULL                                          01760000
+,       DTADMISS DATE NOT NULL                                          01770000
+,       DTRECPRO DATE NOT NULL                                          01780000
+,       DTINCSIS DATE NOT NULL                                          01790000
+,       DTPREMCV DATE NOT NULL                                          01800000
+,       CDLOENCR CHAR ( 1 ) NOT NULL                                    01810000
+,       FKESTIPU SMALLINT                                               01820000
+,       FKSUBEST SMALLINT                                               01830000
+,       DTDEMISS DATE                                                   01840000
+,       DTINSESA DATE                                                   01850000
+,       DTTECOPR DATE                                                   01860000
+,       DTTESESA DATE                                                   01870000
+,       DTRESESA DATE                                                   01880000
+,       DTALTSIS DATE                                                   01890000
+,       DTEXCSIS DATE                                                   01900000
+,       DTEMCAID DATE                                                   01910000
+,       DTEM2VCI DATE                                                   01920000
+,       DTASSPRO DATE                                                   01930000
+,       DTOBITO DATE                                                    01940000
+,       DTMOVIME DATE                                                   01950000
+,       CDTABPAR SMALLINT                                               01960000
+,       CDEMICAR SMALLINT                                               01970000
+,       NRPROPO DECIMAL ( 11 , 0 )                                      01980000
+,       DTEMCAGE DATE                                                   01990000
+,       NMDEPTO CHAR ( 10 )                                             02000000
+,       CDUSUAR CHAR ( 10 )                                             02010000
+,       CDSUCUR SMALLINT                                                02020000
+,       NRCORRET INTEGER NOT NULL                                       02030000
+,       NRINSPIA SMALLINT                                               02040000
+,       NRINSPTR SMALLINT                                               02050000
+,       DDESCREA SMALLINT                                               02060000
+,       DGAGEREE CHAR ( 2 ) NOT NULL                                    02070000
+          WITH DEFAULT                                                  02080000
+,       DTEMICAR DATE                                                   02090000
+,       CDIDCCUS CHAR ( 15 ) NOT NULL                                   02100000
+          WITH DEFAULT                                                  02110000
+,       NMMAESGR CHAR ( 30 ) NOT NULL                                   02120000
+          WITH DEFAULT                                                  02130000
+,       NRPISSGR DECIMAL ( 12 , 0 ) NOT NULL                            02140000
+          WITH DEFAULT                                                  02150000
+,       TPVINSGR SMALLINT NOT NULL                                      02160000
+          WITH DEFAULT                                                  02170000
+1                                                                       02180000
+,       CDPAIORI SMALLINT                                               02190000
+,       TPESTCIV SMALLINT                                               02200000
+,       CDESTADO CHAR ( 2 )                                             02210000
+,       CDCIDADE SMALLINT                                               02220000
+,       CDORGEMR SMALLINT                                               02230000
+,       DTEPDRG DATE                                                    02240000
+,       NRCRONALSAU DECIMAL ( 15 , 0 )                                  02250000
+,       NRDOC CHAR ( 30 )                                               02260000
+,       TPDOC SMALLINT                                                  02270000
+,       SGUFEMIDOC CHAR ( 2 )                                           02280000
+,       DTVLDDOC DATE                                                   02290000
+,       CDCBO CHAR ( 5 )                                                02300000
+,       IDRPNLEG CHAR ( 1 ) NOT NULL                                    02310000
+          WITH DEFAULT                                                  02320000
+'N'                                                                     02330000
+,       IDCFMENRDOC CHAR ( 1 )                                          02340000
+,       CDIDFSGRRDE CHAR ( 30 )                                         02350000
+,       NRSEQRDECPM INTEGER                                             02360000
+,       DTENVRDECPM DATE                                                02370000
+   )                                                                    02380000
+IN      DB2ADM.SSSEGTIT                                                 02390000
+   CCSID         EBCDIC                                                 02400000
+   ;                                                                    02410000
+                                                                        02420000
+COMMENT ON MARITIMA.SSSEGTIT0908                                        02430003
+(       NRESTIPU IS 'NUMERO DO ESTIPULANTE'                             02440000
+,       NRSUBEST IS 'NUMERO DO SUB-ESTIPULANTE'                         02450000
+,       NRSEGURA IS 'NUMERO DO SEGURADO'                                02460000
+,       CDGRAPAR IS 'CODIGO DO GRAU DE PARENTESCO'                      02470000
+,       DGCHASEG IS 'DIGITO DA CHAVE DO SEGURADO'                       02480000
+,       NMSEGURA IS 'NOME DO SEGURADO'                                  02490000
+,       CDFONETI IS 'CODIGO FONETICO'                                   02500000
+,       CDSITSEG IS 'CODIGO DA SITUACAO DO SEGURADO'                    02510000
+,       CDMOTCAN IS 'CODIGO DO MOTIVO DO CANCELAMENTO'                  02520000
+,       CDSITAPO IS 'CODIGO DA SITUACAO DE APOSENTADORIA'               02530000
+,       CDCONANT IS 'CODIGO DO CONCORRENTE ANTERIOR'                    02540000
+,       CDMOTSAI IS 'CODIGO DO MOTIVO DA SAIDA'                         02550000
+,       CDSEXO IS 'CODIGO DO SEXO'                                      02560000
+,       NRRG IS 'NUMERO DO R.G. (REGISTRO GERAL)'                       02570000
+,       NRCPFSEG IS 'NUMERO DO CPF DO SEGURADO'                         02580000
+,       CDLOENCO IS 'CODIGO DO LOCAL P/ ENTREGA DE CORRESPONDENCIA'     02590000
+,       CDBANREE IS 'CODIGO DO BANCO P/ REEMBOLSO'                      02600000
+,       CDAGEREE IS 'CODIGO DE AGENCIA P/ REEMBOLSO'                    02610000
+,       NRCCOREE IS 'NUMERO DA C.CORRENTE P/ REEMBOLSO'                 02620000
+,       DGCCOREE IS 'DIGITO DA C.CORRENTE P/ REEMBOLSO'                 02630000
+,       CDBANCOB IS 'CODIGO DO BANCO P/ COBRANCA DE PREMIO'             02640000
+,       CDIDSEES IS 'CODIGO DA IDENTIFICACAO DO SEGURADO NO ESTIPULANTE'02650000
+,       DSCARSEG IS 'DESCRICAO DO CARGO DO SEGURADO'                    02660000
+,       NRCARPRO IS 'NUMERO DA CARTEIRA PROFISSIONAL'                   02670000
+,       NRSECAPR IS 'NUMERO DA SERIE DA CARTEIRA PROFISSIONAL'          02680000
+,       CDTABCAR IS 'CODIGO DA TABELA DE CARENCIAS'                     02690000
+,       DDESCVEN IS 'DIA ESCOLHIDO PARA VENCIMENTO'                     02700000
+,       CDCONVIN IS 'CONDICAO DE VINCULO "D", "R", "C", "N"'            02710000
+,       DTNASCIM IS 'DATA DO NASCIMENTO'                                02720000
+,       DTADMISS IS 'DATA DA ADMISSAO'                                  02730000
+,       DTRECPRO IS 'DATA DO RECEBIMENTO DA PRODUCAO'                   02740000
+,       DTINCSIS IS 'DATA DA INCLUSAO NO SISTEMA'                       02750000
+,       DTPREMCV IS 'DATA DA PROXIMA EMISSAO DO COMPROVANTE DE VALIDADE'02760000
+,       CDLOENCR IS 'CODIGO DO LOCAL P/ ENTREGA DE COBRANCA'            02770000
+,       FKESTIPU IS 'NUMERO DO ESTIPULANTE'                             02780000
+,       FKSUBEST IS 'NUMERO DO SUB-ESTIPULANTE'                         02790000
+,       DTEM2VCI IS 'DATA EMISSAO DA 2A.VIA CARTAO IDENTIFICACAO'       02800000
+,       DTASSPRO IS 'DATA DE ASSINATURA DA PROPOSTA'                    02810000
+,       DTOBITO IS 'DATA DE OBITO'                                      02820000
+,       DTMOVIME IS 'DATA DO MOVIMENTO'                                 02830000
+,       CDTABPAR IS 'CODIGO TABELA PARAMETRO COMISSAO/AGENCIAM.'        02840000
+,       CDEMICAR IS 'CODIGO EMISSAO CARTA DE PARCELA EM ATRASO'         02850000
+,       NRPROPO IS 'NUMERO DA PROPOSTA DO SEGURADO'                     02860000
+,       DTEMCAGE IS 'DATA EMISSAO CARTEIRINHA GESA'                     02870000
+,       NMDEPTO IS 'NOME DO DEPARTAMENTO'                               02880000
+,       CDUSUAR IS 'CODIGO DO USUARIO'                                  02890000
+,       CDSUCUR IS 'CODIGO DA SUCURSAL'                                 02900000
+,       NRCORRET IS 'NUMERO DO CORRETOR'                                02910000
+,       NRINSPIA IS 'NUMERO DA INSPETORIA'                              02920000
+,       NRINSPTR IS 'NUMERO DO INSPETOR'                                02930000
+,       DDESCREA IS 'DATA DE ESCOLHA DO VENCTO'                         02940000
+,       DGAGEREE IS 'DIGITO DA AGENCIA'                                 02950000
+,       DTEMICAR IS 'DATA DE EMISSAO CARTA DE PARCELA EM ATRASO'        02960000
+,       CDIDCCUS IS 'CODIGO CENTRO DE CUSTO DA EMPRESA'                 02970000
+,       NMMAESGR IS 'NOME MAE SEGURADO'                                 02980000
+,       NRPISSGR IS 'NUMERO PIS SEGURADO'                               02990000
+,       TPVINSGR IS 'TIPO VINCULO EMPREGATICIO'                         03000000
+,       CDPAIORI IS 'CODIGO DO PAIS DE ORIGEM'                          03010000
+,       TPESTCIV IS 'TIPO ESTADO CIVIL'                                 03020000
+,       CDESTADO IS 'CODIGO DO ESTADO'                                  03030000
+,       CDCIDADE IS 'CODIGO DA CIDADE'                                  03040000
+,       CDORGEMR IS 'CODIGO ORGAO EMISSOR'                              03050000
+,       DTEPDRG IS 'DATA EXPEDICAO RG'                                  03060000
+,       NRCRONALSAU IS 'NUM.CARTAO NACIONAL SAUDE'                      03070000
+,       NRDOC IS 'NUMERO DOCUMENTO'                                     03080000
+,       TPDOC IS 'TIPO DOCUMENTO'                                       03090000
+,       SGUFEMIDOC IS 'SIGLA UF EMISSAO DOCUMENTO'                      03100000
+,       DTVLDDOC IS 'DATA VALIDADE DOCUMENTO'                           03110000
+,       CDCBO IS 'COD CLASSIF BRAS OCUPACAO'                            03120000
+,       IDRPNLEG IS 'INDIC REPRESENTANTE LEGAL'                         03130000
+,       IDCFMENRDOC IS 'INDIC CONFIRMA ENTREGA DOC'                     03140000
+,       CDIDFSGRRDE IS                                                  03150000
+        'CODIGO IDENTIFICACAO SEGURADO REDE COMPLEMENTAR.'              03160000
+,       NRSEQRDECPM IS 'NUM. SEQ. REDE COMPLEMENTAR SEGURADO TITULAR.'  03170000
+,       DTENVRDECPM IS 'DATA DE ENVIO A REDE COMPLEMENTAR.'             03180000
+                ) ;                                                     03190000
+COMMENT ON TABLE MARITIMA.SSSEGTIT0908                                  03200003
+IS 'CADASTRO DE SEGURADO TITULAR' ;                                     03210000
+                                                                        03220000
+                                                                        03230000
+                                                                        03240000
+                                                                        03250000
+   COMMIT WORK;                                                         03260000
+-- SQLUSER.SSSEGTIT0908 WILL BE CREATED VIA THESE NATIVE DB2 COMMANDS.  03270003
+                                                                        03280000
+                                                                        03290000
+   COMMIT WORK;                                                         03300000
+                                                                        03310000
+-- **************************************************************       03320000
+-- *                                                            *       03330000
+-- * INDEX CREATE AND ALTER STATEMENTS                          *       03340000
+-- *                                                            *       03350000
+-- **************************************************************       03360000
+                                                                        03370000
+                                                                        03380000
+-- MARITIMA.SSCOREPE0908_IX2 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN03390003
+                                                                        03400000
+                                                                        03410000
+                                                                        03420000
+CREATE  INDEX MARITIMA.SSCOREPE0908_IX2 ON MARITIMA.SSCOREPE0908        03430003
+(       NRNOSNUM ASC                                                    03440000
+          )                                                             03450000
+USING   STOGROUP DB2DATA                                                03460000
+                                    PRIQTY 17280                        03470000
+                                    SECQTY 1728                         03480000
+                                    ERASE NO                            03490000
+                     FREEPAGE 0                                         03500000
+                     PCTFREE  0                                         03510000
+           BUFFERPOOL BP2                                               03520000
+           CLOSE YES                                                    03530000
+    ;                                                                   03540000
+                                                                        03550000
+                                                                        03560000
+                                                                        03570000
+   COMMIT WORK;                                                         03580000
+                                                                        03590000
+-- MARITIMA.SSCOREPE0908_IX3 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN03600003
+                                                                        03610000
+                                                                        03620000
+                                                                        03630000
+CREATE  INDEX MARITIMA.SSCOREPE0908_IX3 ON MARITIMA.SSCOREPE0908        03640003
+(       DTPAGAME ASC                                                    03650000
+          )                                                             03660000
+USING   STOGROUP DB2DATA                                                03670000
+                                    PRIQTY 4800                         03680000
+                                    SECQTY 480                          03690000
+                                    ERASE NO                            03700000
+                     FREEPAGE 0                                         03710000
+                     PCTFREE 0                                          03720000
+           BUFFERPOOL BP2                                               03730000
+           CLOSE YES                                                    03740000
+           PIECESIZE 2G                                                 03750000
+    ;                                                                   03760000
+                                                                        03770000
+                                                                        03780000
+                                                                        03790000
+   COMMIT WORK;                                                         03800000
+                                                                        03810000
+-- MARITIMA.SSSEGTIT0908_IX2 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN03820003
+                                                                        03830000
+                                                                        03840000
+                                                                        03850000
+CREATE  INDEX MARITIMA.SSSEGTIT0908_IX2 ON MARITIMA.SSSEGTIT0908        03860003
+(       CDFONETI ASC                                                    03870000
+,       NMSEGURA ASC                                                    03880000
+          )                                                             03890000
+USING   STOGROUP DB2DATA                                                03900000
+                                    PRIQTY 10944                        03910000
+                                    SECQTY 1056                         03920000
+                                    ERASE NO                            03930000
+                     FREEPAGE 0                                         03940000
+                     PCTFREE 0                                          03950000
+           CLUSTER                                                      03960000
+           BUFFERPOOL BP2                                               03970000
+           CLOSE YES                                                    03980000
+           PIECESIZE 2G                                                 03990000
+    ;                                                                   04000000
+                                                                        04010000
+                                                                        04020000
+                                                                        04030000
+   COMMIT WORK;                                                         04040000
+                                                                        04050000
+-- MARITIMA.SSSEGTIT0908_IX3 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN04060003
+                                                                        04070000
+                                                                        04080000
+                                                                        04090000
+CREATE  INDEX MARITIMA.SSSEGTIT0908_IX3 ON MARITIMA.SSSEGTIT0908        04100003
+(       NRCPFSEG ASC                                                    04110000
+,       DTNASCIM ASC                                                    04120000
+          )                                                             04130000
+USING   STOGROUP DB2DATA                                                04140000
+                                    PRIQTY 3888                         04150000
+                                    SECQTY 384                          04160000
+                                    ERASE NO                            04170000
+                     FREEPAGE 0                                         04180000
+                     PCTFREE 0                                          04190000
+           BUFFERPOOL BP2                                               04200000
+           CLOSE YES                                                    04210000
+           PIECESIZE 2G                                                 04220000
+    ;                                                                   04230000
+                                                                        04240000
+                                                                        04250000
+                                                                        04260000
+   COMMIT WORK;                                                         04270000
+                                                                        04280000
+-- MARITIMA.SSSEGTIT0908_IX4 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN04290003
+                                                                        04300000
+                                                                        04310000
+                                                                        04320000
+CREATE  INDEX MARITIMA.SSSEGTIT0908_IX4 ON MARITIMA.SSSEGTIT0908        04330003
+(       NRPROPO ASC                                                     04340000
+,       CDSITSEG ASC                                                    04350000
+,       DTTESESA ASC                                                    04360000
+          )                                                             04370000
+USING   STOGROUP DB2DATA                                                04380000
+                                    PRIQTY 2448                         04390000
+                                    SECQTY 240                          04400000
+                                    ERASE NO                            04410000
+                     FREEPAGE 0                                         04420000
+                     PCTFREE 0                                          04430000
+           BUFFERPOOL BP2                                               04440000
+           CLOSE YES                                                    04450000
+           PIECESIZE 2G                                                 04460000
+    ;                                                                   04470000
+                                                                        04480000
+                                                                        04490000
+                                                                        04500000
+   COMMIT WORK;                                                         04510000
+                                                                        04520000
+-- MARITIMA.SSSEGTIT0908_IX5 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN04530003
+                                                                        04540000
+                                                                        04550000
+                                                                        04560000
+CREATE  INDEX MARITIMA.SSSEGTIT0908_IX5 ON MARITIMA.SSSEGTIT0908        04570003
+(       DTINCSIS ASC                                                    04580000
+          )                                                             04590000
+USING   STOGROUP DB2DATA                                                04600000
+                                    PRIQTY 1200                         04610000
+                                    SECQTY 96                           04620000
+                                    ERASE NO                            04630000
+                     FREEPAGE 0                                         04640000
+                     PCTFREE 0                                          04650000
+           BUFFERPOOL BP2                                               04660000
+           CLOSE YES                                                    04670000
+           PIECESIZE 2G                                                 04680000
+    ;                                                                   04690000
+                                                                        04700000
+                                                                        04710000
+                                                                        04720000
+   COMMIT WORK;                                                         04730000
+                                                                        04740000
+-- MARITIMA.SSSEGTIT0908_IX6 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN04750003
+                                                                        04760000
+                                                                        04770000
+                                                                        04780000
+CREATE  INDEX MARITIMA.SSSEGTIT0908_IX6 ON MARITIMA.SSSEGTIT0908        04790003
+(       NMSEGURA ASC                                                    04800000
+,       CDSITSEG ASC                                                    04810000
+          )                                                             04820000
+USING   STOGROUP DB2DATA                                                04830000
+                                    PRIQTY 8880                         04840000
+                                    SECQTY 864                          04850000
+                                    ERASE NO                            04860000
+                     FREEPAGE 0                                         04870000
+                     PCTFREE 0                                          04880000
+           BUFFERPOOL BP2                                               04890000
+           CLOSE YES                                                    04900000
+           PIECESIZE 2G                                                 04910000
+    ;                                                                   04920000
+                                                                        04930000
+                                                                        04940000
+                                                                        04950000
+   COMMIT WORK;                                                         04960000
+                                                                        04970000
+-- MARITIMA.SSSEGTIT0908_IX7 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN04980003
+                                                                        04990000
+                                                                        05000000
+                                                                        05010000
+CREATE  INDEX MARITIMA.SSSEGTIT0908_IX7 ON MARITIMA.SSSEGTIT0908        05020003
+(       CDIDFSGRRDE ASC                                                 05030000
+          )                                                             05040000
+USING   STOGROUP DB2DATA                                                05050000
+                                    PRIQTY 2448                         05060000
+                                    SECQTY 240                          05070000
+                                    ERASE NO                            05080000
+                     FREEPAGE 0                                         05090000
+                     PCTFREE 0                                          05100000
+           BUFFERPOOL BP2                                               05110000
+           CLOSE YES                                                    05120000
+           PIECESIZE 2G                                                 05130000
+    ;                                                                   05140000
+                                                                        05150000
+                                                                        05160000
+                                                                        05170000
+   COMMIT WORK;                                                         05180000
+                                                                        05190000
+-- MARITIMA.SSSEGTIT0908_IX8 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN05200003
+                                                                        05210000
+                                                                        05220000
+                                                                        05230000
+CREATE  INDEX MARITIMA.SSSEGTIT0908_IX8 ON MARITIMA.SSSEGTIT0908        05240003
+(       NRSEQRDECPM ASC                                                 05250000
+          )                                                             05260000
+USING   STOGROUP DB2DATA                                                05270000
+                                    PRIQTY 2448                         05280000
+                                    SECQTY 240                          05290000
+                                    ERASE NO                            05300000
+                     FREEPAGE 0                                         05310000
+                     PCTFREE 0                                          05320000
+           BUFFERPOOL BP2                                               05330000
+           CLOSE YES                                                    05340000
+           PIECESIZE 2G                                                 05350000
+    ;                                                                   05360000
+                                                                        05370000
+                                                                        05380000
+                                                                        05390000
+   COMMIT WORK;                                                         05400000
+                                                                        05410000
+-- MARITIMA.SSCOREPE0908_IX1 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN05420003
+                                                                        05430000
+                                                                        05440000
+                                                                        05450000
+CREATE  UNIQUE INDEX MARITIMA.SSCOREPE0908_IX1                          05460003
+ON MARITIMA.SSCOREPE0908                                                05470003
+(       NRESTIPU ASC                                                    05480000
+,       NRSUBEST ASC                                                    05490000
+,       NRSEGURA ASC                                                    05500000
+,       NRCARNE ASC                                                     05510000
+,       NRPARCEL ASC                                                    05520000
+          )                                                             05530000
+USING   STOGROUP DB2DATA                                                05540000
+                                    PRIQTY 19440                        05550000
+                                    SECQTY 1920                         05560000
+                                    ERASE NO                            05570000
+                     FREEPAGE 0                                         05580000
+                     PCTFREE 0                                          05590000
+           CLUSTER                                                      05600000
+           BUFFERPOOL BP2                                               05610000
+           CLOSE YES                                                    05620000
+    ;                                                                   05630000
+                                                                        05640000
+                                                                        05650000
+                                                                        05660000
+   COMMIT WORK;                                                         05670000
+                                                                        05680000
+-- MARITIMA.SSSEGTIT0908_IX1 WILL BE CREATED VIA THESE NATIVE DB2 COMMAN05690003
+                                                                        05700000
+                                                                        05710000
+                                                                        05720000
+CREATE  UNIQUE INDEX MARITIMA.SSSEGTIT0908_IX1                          05730003
+ON MARITIMA.SSSEGTIT0908                                                05740003
+(       NRESTIPU ASC                                                    05750000
+,       NRSUBEST ASC                                                    05760000
+,       NRSEGURA ASC                                                    05770000
+,       CDGRAPAR ASC                                                    05780000
+          )                                                             05790000
+USING   STOGROUP DB2DATA                                                05800000
+                                    PRIQTY 4272                         05810000
+                                    SECQTY 384                          05820000
+                                    ERASE NO                            05830000
+                     FREEPAGE 0                                         05840000
+                     PCTFREE 0                                          05850000
+           BUFFERPOOL BP2                                               05860000
+           CLOSE YES                                                    05870000
+           PIECESIZE 2G                                                 05880000
+    ;                                                                   05890000
+                                                                        05900000
+   COMMIT WORK;                                                         05910000
+                                                                        05920000
+    GRANT SELECT                                                        05930000
+                    ON TABLE MARITIMA.SSCOREPE0908 TO PUBLIC;           05940003
+                                                                        05950000
+   COMMIT WORK;                                                         05960000
+                                                                        05970000
+    GRANT SELECT                                                        05980000
+                    ON TABLE MARITIMA.SSSEGTIT0908 TO PUBLIC;           05990003
+                                                                        06000000
+   COMMIT WORK;                                                         06010000

@@ -1,0 +1,409 @@
+CREATE TABLE ANO2000.CADAPOL                                                    
+    ( CDSUCUR            SMALLINT NOT NULL ,                                    
+      CDRMBAS            SMALLINT NOT NULL ,                                    
+      NRAPOLI            INTEGER  NOT NULL ,                                    
+      NRENDOS            INTEGER  NOT NULL ,                                    
+      TPINDXIS           SMALLINT NOT NULL ,                                    
+      TPINDXPR           SMALLINT NOT NULL ,                                    
+      TPDOCTO            SMALLINT NOT NULL ,                                    
+      CDAUINS            SMALLINT NOT NULL ,                                    
+      CDAUMES            SMALLINT NOT NULL ,                                    
+      NMDIGIT            CHAR     (6) NOT NULL ,                                
+      CDSEGUR            INTEGER  NOT NULL ,                                    
+      CDENDSEG           SMALLINT NOT NULL ,                                    
+      CDRENOV            SMALLINT NOT NULL ,                                    
+      NRRENOV            INTEGER  NOT NULL ,                                    
+      CDTRCIA            INTEGER  NOT NULL ,                                    
+      NRAPOTRF           DECIMAL  (15,0) NOT NULL ,                             
+      NREDSOR            INTEGER  NOT NULL ,                                    
+      NRPROPO            DECIMAL  (11,0) NOT NULL ,                             
+      NRPROMI            DECIMAL  (11,0) NOT NULL ,                             
+      VRCHEQUE           DECIMAL  (11,2) NOT NULL ,                             
+      NRRCPROV           DECIMAL  (11,0) NOT NULL ,                             
+      NRINSPA            SMALLINT NOT NULL ,                                    
+      NRINSPR            SMALLINT NOT NULL ,                                    
+      NRCORRT            INTEGER  NOT NULL ,                                    
+      NRCOLAB            INTEGER  NOT NULL ,                                    
+      QTCORRT            SMALLINT NOT NULL ,                                    
+      CDCOMESP           SMALLINT NOT NULL ,                                    
+      CDCOMADT           SMALLINT NOT NULL ,                                    
+      CDBANCO            SMALLINT NOT NULL ,                                    
+      CDAGBCO            SMALLINT NOT NULL ,                                    
+      NRCANCE            INTEGER  NOT NULL ,                                    
+      TPCANCE            SMALLINT NOT NULL ,                                    
+      CDUSCAN            SMALLINT NOT NULL ,                                    
+      CDMTCAN            CHAR     (2) NOT NULL ,                                
+      FLAGCAN            CHAR     (1) NOT NULL ,                                
+      NRREATI            INTEGER  NOT NULL ,                                    
+      CDUSREA            SMALLINT NOT NULL ,                                    
+      DIASDEC            SMALLINT NOT NULL ,                                    
+      DIASVIG            SMALLINT NOT NULL ,                                    
+      TPPAGTO            SMALLINT NOT NULL ,                                    
+      CDPRZPGT           SMALLINT NOT NULL ,                                    
+      CDVECTO            SMALLINT NOT NULL ,                                    
+      CDADICI            SMALLINT NOT NULL ,                                    
+      CDCUSTO            SMALLINT NOT NULL ,                                    
+      VRCUSEMI           DECIMAL  (11,2) NOT NULL ,                             
+      VRCUSCOB           DECIMAL  (11,2) NOT NULL ,                             
+      CDIOF              SMALLINT NOT NULL ,                                    
+      VRACRES            DECIMAL  (11,2) NOT NULL ,                             
+      QTPARCL            SMALLINT NOT NULL ,                                    
+      NREDSAM            INTEGER  NOT NULL ,                                    
+      CDDSCATM           SMALLINT NOT NULL ,                                    
+      TPAUTOIC           CHAR     (1) NOT NULL ,                                
+      VRVARJUR           DECIMAL  (13,2) NOT NULL ,                             
+      CDDSCPRM           SMALLINT NOT NULL ,                                    
+      CDENDEXT           SMALLINT NOT NULL ,                                    
+      CDTECNIC           SMALLINT NOT NULL ,                                    
+      NRAPOATU           INTEGER  NOT NULL ,                                    
+      CDSTRENA           SMALLINT NOT NULL ,                                    
+      CDCUSPAR           SMALLINT NOT NULL ,                                    
+      CDAGEPAG           CHAR     (6) NOT NULL ,                                
+      NRCCOPAG           CHAR     (13) NOT NULL ,                               
+      CDJUROS            SMALLINT NOT NULL ,                                    
+      VRCUSDSL           DECIMAL  (11,2) NOT NULL ,                             
+      VRCUSDSC           DECIMAL  (11,2) NOT NULL ,                             
+      NRAPOEMI           INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTEMIAP_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTEMISS_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTMVEMI_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTPREMI_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTREMIS_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTMVREM_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTPRREM_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTINIVG_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTTERVG_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTINIAM_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTTERAM_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTCANCE_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTMVCAN_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTREATI_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTMVREA_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTVISAPG_CNV       INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTCONTRL_CNV       INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTSUSAM_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTLIBAM_CNV        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DTCUSTOI_CNV       INTEGER  NOT NULL WITH DEFAULT ,                       
+      NRPROPCR           DECIMAL  (11,0) NOT NULL WITH DEFAULT ,                
+      CDEMPMAR           SMALLINT NOT NULL WITH DEFAULT ,                       
+      CDORIAPO           SMALLINT NOT NULL WITH DEFAULT ,                       
+      CDAGT              INTEGER  NOT NULL WITH DEFAULT ,                       
+      CDPES              INTEGER  NOT NULL WITH DEFAULT ,                       
+      TPLOCEND           SMALLINT NOT NULL WITH DEFAULT ,                       
+      CDEND              INTEGER  NOT NULL WITH DEFAULT ,                       
+      IDORC              CHAR     (1) NOT NULL WITH DEFAULT ,                   
+      CDGRPRMO           SMALLINT NOT NULL WITH DEFAULT ,                       
+      NRPPSRET           DECIMAL  (11,0) ,                                      
+      STACTDIF           CHAR     (1) ,                                         
+      SGUFLOCRIS         CHAR     (2) NOT NULL WITH DEFAULT 'SP' ,              
+      CDPROMAR           INTEGER  ,                                             
+      CDPROEXT           INTEGER  ,                                             
+      CDPRO              INTEGER  NOT NULL WITH DEFAULT 0 ,                     
+      PCIOF              DECIMAL  (7,4)  )                                      
+    IN DBNOVA  .CADAPOL                                                         
+    DATA CAPTURE CHANGES                                                        
+    WITH RESTRICT ON DROP                                                       
+    CCSID EBCDIC                                                                
+  AUDIT NONE;                                                                   
+-- ***** CARD= 3413979 NPAGES= 126745                                           
+-- **************************                                                   
+-- ***** CREATE INDEXES *****                                                   
+-- **************************                                                   
+CREATE TYPE 2  INDEX ANO2000.CADAPOL_IE4 ON ANO2000.CADAPOL                     
+      ( DTMVEMI_CNV DESC  )                                                     
+    USING STOGROUP STGP08I  PRIQTY 21600 SECQTY 2160 ERASE NO                   
+    FREEPAGE 0 PCTFREE 10                                                       
+    BUFFERPOOL BP2                                                              
+    PIECESIZE 2097152 K                                                         
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 4717 NLEVELS= 3                                                 
+-- ***** FIRSTKEYCARD= 3393 FULLKEYCARD= 3393                                   
+CREATE TYPE 2 UNIQUE INDEX ANO2000.CADAPOL_IX1 ON ANO2000.CADAPOL               
+      ( CDSUCUR ASC ,                                                           
+        CDRMBAS ASC ,                                                           
+        NRAPOLI ASC ,                                                           
+        NRENDOS ASC  )                                                          
+    CLUSTER                                                                     
+     (PART 1 VALUES(1,31,500000,2147483647)                                     
+        USING STOGROUP STGP09I  PRIQTY 42480 SECQTY 4272 ERASE NO               
+        FREEPAGE 0 PCTFREE 10 ,                                                 
+      PART 2 VALUES(1,31,999999,2147483647)                                     
+        USING STOGROUP STGP11I  PRIQTY 42480 SECQTY 4272 ERASE NO               
+        FREEPAGE 0 PCTFREE 10 ,                                                 
+      PART 3 VALUES(99,99,999999,2147483647)                                    
+        USING STOGROUP STGP15I  PRIQTY 46800 SECQTY 4704 ERASE NO               
+        FREEPAGE 0 PCTFREE 10  )                                                
+    BUFFERPOOL BP2                                                              
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 17876 NLEVELS= 3                                                
+-- ***** FIRSTKEYCARD= 14 FULLKEYCARD= 3413979                                  
+CREATE TYPE 2 UNIQUE INDEX ANO2000.CADAPOL_IX2 ON ANO2000.CADAPOL               
+      ( CDSEGUR ASC ,                                                           
+        CDSUCUR ASC ,                                                           
+        CDRMBAS ASC ,                                                           
+        NRAPOLI ASC ,                                                           
+        NRENDOS ASC  )                                                          
+    USING STOGROUP STGP09I  PRIQTY 89280 SECQTY 8928 ERASE NO                   
+    FREEPAGE 0 PCTFREE 10                                                       
+    BUFFERPOOL BP2                                                              
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 21608 NLEVELS= 3                                                
+-- ***** FIRSTKEYCARD= 1007630 FULLKEYCARD= 3413979                             
+CREATE TYPE 2  INDEX ANO2000.CADAPOL_IX3 ON ANO2000.CADAPOL                     
+      ( CDSUCUR ASC ,                                                           
+        NRCORRT ASC ,                                                           
+        NRCOLAB ASC  )                                                          
+    USING STOGROUP STGP07I  PRIQTY 21600 SECQTY 2160 ERASE NO                   
+    FREEPAGE 0 PCTFREE 10                                                       
+    BUFFERPOOL BP2                                                              
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 4802 NLEVELS= 3                                                 
+-- ***** FIRSTKEYCARD= 14 FULLKEYCARD= 22036                                    
+CREATE TYPE 2  INDEX ANO2000.CADAPOL_IX4 ON ANO2000.CADAPOL                     
+      ( CDSUCUR ASC ,                                                           
+        NRCORRT ASC ,                                                           
+        NRCOLAB ASC ,                                                           
+        CDRMBAS ASC ,                                                           
+        NRAPOLI ASC  )                                                          
+    USING STOGROUP STGP82I  PRIQTY 64080 SECQTY 6432 ERASE NO                   
+    FREEPAGE 0 PCTFREE 5                                                        
+    BUFFERPOOL BP30                                                             
+    PIECESIZE 2097152 K                                                         
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 15347 NLEVELS= 3                                                
+-- ***** FIRSTKEYCARD= 14 FULLKEYCARD= 2080734                                  
+CREATE TYPE 2  INDEX ANO2000.CADAPOL_IX5 ON ANO2000.CADAPOL                     
+      ( CDSUCUR ASC ,                                                           
+        NRCORRT ASC ,                                                           
+        NRCOLAB ASC ,                                                           
+        DTMVEMI_CNV ASC  )                                                      
+    USING STOGROUP STGP82I  PRIQTY 54000 SECQTY 5424 ERASE NO                   
+    FREEPAGE 0 PCTFREE 5                                                        
+    BUFFERPOOL BP2                                                              
+    PIECESIZE 2097152 K                                                         
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 12528 NLEVELS= 3                                                
+-- ***** FIRSTKEYCARD= 14 FULLKEYCARD= 1713277                                  
+CREATE TYPE 2  INDEX ANO2000.CADAPOL_IX6 ON ANO2000.CADAPOL                     
+      ( NRPROPO ASC  )                                                          
+    USING STOGROUP STGP41I  PRIQTY 43200 SECQTY 4320 ERASE NO                   
+    FREEPAGE 0 PCTFREE 5                                                        
+    BUFFERPOOL BP2                                                              
+    PIECESIZE 2097152 K                                                         
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 10471 NLEVELS= 3                                                
+-- ***** FIRSTKEYCARD= 2299774 FULLKEYCARD= 2299774                             
+-- **************************                                                   
+-- ***** ALTER TABLE - FOREIGN KEYS*****                                        
+-- **************************                                                   
+-- **************************                                                   
+-- ***** CREATE VIEWS   *****                                                   
+-- **************************                                                   
+CREATE VIEW DB2PDPRC.V_CADAPCHQ AS Select TAB.* from                            
+        ANO2000.CADAPCHQ TAB INNER JOIN ANO2000.CADAPOL CAD ON (                
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAPCOB AS Select TAB.* from                            
+        MARITIMA.CADAPCOB TAB INNER JOIN ANO2000.CADAPOL CAD ON (               
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAPCOR AS Select TAB.* from                            
+        ANO2000.CADAPCOR TAB INNER JOIN ANO2000.CADAPOL CAD ON (                
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAPLCR AS Select TAB.* from                            
+        MARITIMA.CADAPLCR TAB INNER JOIN ANO2000.CADAPOL CAD ON (               
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAPOL AS Select * from ANO2000.CADAPOL CAD             
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAPRMO AS Select TAB.* from                            
+        MARITIMA.CADAPRMO TAB INNER JOIN ANO2000.CADAPOL CAD ON (               
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAUAPP AS Select TAB.* from                            
+        ANO2000.CADAUAPP TAB INNER JOIN ANO2000.CADAPOL CAD ON (                
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAUASS AS Select TAB.* from                            
+        ANO2000.CADAUASS TAB INNER JOIN ANO2000.CADAPOL CAD ON (                
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAUAUT AS SELECT TAB.* FROM                            
+        ANO2000.CADAUAUT TAB INNER JOIN ANO2000.CADAPOL CAD ON (                
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.CDSUCUR = 04 AND                       
+        CAD.CDRMBAS IN (35,40,75,87,96)) OR (CAD.CDSUCUR = 01 AND               
+        CAD.CDRMBAS = 31 AND CAD.NRCORRT = 137 AND CAD.NRCOLAB IN (1,           
+        207,7376)) OR (CAD.CDSUCUR = 01 AND CAD.CDRMBAS = 31 AND                
+        CAD.NRCORRT = 140 AND CAD.NRCOLAB IN (14,50,7376)) OR                   
+        (CAD.CDSUCUR = 01 AND CAD.CDRMBAS = 31 AND CAD.NRCORRT = 148            
+        AND CAD.NRCOLAB IN (1,189,7376)) )  ;                                   
+CREATE VIEW DB2PDPRC.V_CADAURCF AS Select TAB.* from                            
+        ANO2000.CADAURCF TAB INNER JOIN ANO2000.CADAPOL CAD ON (                
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAURSM AS Select TAB.* from                            
+        ANO2000.CADAURSM TAB INNER JOIN ANO2000.CADAPOL CAD ON (                
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAUVID AS Select TAB.* from                            
+        ANO2000.CADAUVID TAB INNER JOIN ANO2000.CADAPOL CAD ON (                
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAUVIS AS Select TAB.* from                            
+        ANO2000.CADAUVIS TAB INNER JOIN ANO2000.CADAPOL CAD ON (                
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADAUXIL AS Select TAB.* from                            
+        MARITIMA.CADAUXIL TAB INNER JOIN ANO2000.CADAPOL CAD ON (               
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADBILHE AS Select TAB.* from                            
+        MARITIMA.CADBILHE TAB INNER JOIN ANO2000.CADAPOL CAD ON (               
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADLCRIS AS Select TAB.* from                            
+        MARITIMA.CADLCRIS TAB INNER JOIN ANO2000.CADAPOL CAD ON (               
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADPARCL AS Select TAB.* from                            
+        ANO2000.CADPARCL TAB INNER JOIN ANO2000.CADAPOL CAD ON (                
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS )              
+        WHERE ( CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and                       
+        CAD.cdrmbas in (35,40,75,87,96)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 137 and CAD.nrcolab in (1,           
+        207,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and                
+        CAD.nrcorrt = 140 and CAD.nrcolab in (14,50,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 148            
+        and CAD.nrcolab in (1,189,7376)) ) ;                                    
+CREATE VIEW DB2PDPRC.V_CADPERFIL AS Select TAB.* from                           
+        MARITIMA.CADPERFIL TAB INNER JOIN ANO2000.CADAPOL CAD ON (              
+        TAB.CDSUCUR = CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND             
+        TAB.NRAPOLI = CAD.NRAPOLI ) WHERE ( CAD.CDSUCUR = 03 OR                 
+        (CAD.cdsucur = 04 and CAD.cdrmbas in (35,40,75,87,96)) OR               
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 137            
+        and CAD.nrcolab in (1,207,7376)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 140 and CAD.nrcolab in               
+        (14,50,7376)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and             
+        CAD.nrcorrt = 148 and CAD.nrcolab in (1,189,7376)) ) ;                  
+CREATE VIEW DB2PDPRC.V_CADVIDA AS Select TAB.* from MARITIMA.CADVIDA            
+        TAB INNER JOIN ANO2000.CADAPOL CAD ON ( TAB.CDSUCUR =                   
+        CAD.CDSUCUR AND TAB.CDRMBAS = CAD.CDRMBAS AND TAB.NRAPOLI =             
+        CAD.NRAPOLI AND TAB.NRENDOS = CAD. NRENDOS ) WHERE (                    
+        CAD.CDSUCUR = 03 OR (CAD.cdsucur = 04 and CAD.cdrmbas in (35,           
+        40,75,87,96)) OR (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and             
+        CAD.nrcorrt = 137 and CAD.nrcolab in (1,207,7376)) OR                   
+        (CAD.cdsucur = 01 and CAD.cdrmbas = 31 and CAD.nrcorrt = 140            
+        and CAD.nrcolab in (14,50,7376)) OR (CAD.cdsucur = 01 and               
+        CAD.cdrmbas = 31 and CAD.nrcorrt = 148 and CAD.nrcolab in (1,           
+        189,7376)) ) ;                                                          
+-- **************************                                                   
+-- *****     DDL END    *****                                                   
+-- **************************                                                   

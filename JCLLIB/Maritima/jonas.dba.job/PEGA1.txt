@@ -1,0 +1,14 @@
+SELECT  T2.CDEMP, T2.SISTEMA, T1.NMPRESTA,  T1.NRCGCCPF, T1.CIDADE,             
+T2.DTLCT,                                                                       
+         T2.VLBRTPGT, T2.TPIMO, T2.VLRTNIMO                                     
+  FROM  SQLUSER.SNPRESTA T1,                                                    
+        SQLUSER.PAGAMENTO  T2                                                   
+  WHERE  T1.NRCGCCPF  = T2.NRCGCCPF                                             
+    AND  T2.TPOPE    = 'C'                                                      
+    AND  T2.SISTEMA  = 6                                                        
+    AND  T2.DTLCT   >= '2007-10-01'                                             
+    AND  T2.DTLCT   <= '2008-05-31'                                             
+    AND  T2.VLBRTPGT > 0                                                        
+    AND  T2.NRCGCCPF IN                                                         
+    (SELECT NRCGCCPF FROM SQLUSER.SNPRESTA                                      
+WHERE CIDADE LIKE '%TATUI%' ) WITH UR;                                          

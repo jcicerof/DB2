@@ -1,0 +1,12 @@
+SET CURRENT SQLID='SYSADM';                                                     
+COMMIT;                                                                         
+GRANT EXECUTE ON PROCEDURE AUTODC.SPDC001 TO WPCP01;                            
+COMMIT;                                                                         
+GRANT EXECUTE ON PROCEDURE AUTODC.SPDC002 TO WPCP01;                            
+COMMIT;                                                                         
+GRANT EXECUTE ON PROCEDURE AUTODC.SPDC003 TO WPCP01;                            
+COMMIT;                                                                         
+GRANT EXECUTE ON PROCEDURE AUTODC.SPDC004 TO WPCP01;                            
+COMMIT;                                                                         
+GRANT EXECUTE ON PROCEDURE AUTODC.SPDC005 TO WPCP01;                            
+COMMIT;                                                                         

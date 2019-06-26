@@ -1,0 +1,16 @@
+//DBPIEBGE JOB CLASS=A,MSGCLASS=S,NOTIFY=&SYSUID                        00010000
+//*                                                                     00020000
+//IEBGENER EXEC PGM=IEBGENER                                            00030000
+//SYSPRINT DD SYSOUT=*                                                  00040000
+//SYSIN    DD DUMMY                                                     00050000
+//SYSUT1   DD DSN=DBA.SSSINSAU.LOADSTMT.ANO2005,DISP=SHR                00060001
+//SYSUT2   DD DSN=JONAS.DBSS01.SSSINSAU.PUNCH,DISP=(,CATLG,DELETE),     00070001
+//            SPACE=(TRK,(1,1)),UNIT=SYSDBA                             00080000
+//DBPIEBG1 JOB CLASS=A,MSGCLASS=S,NOTIFY=&SYSUID                        00090001
+//*                                                                     00100001
+//IEBGENER EXEC PGM=IEBGENER                                            00110001
+//SYSPRINT DD SYSOUT=*                                                  00120001
+//SYSIN    DD DUMMY                                                     00130001
+//SYSUT1   DD DSN=DBA.SSSINSAU.EDILSON.G0006V00,DISP=SHR                00140001
+//SYSUT2   DD DSN=JONAS.DBSS01.SSSINSAU.DADOS,DISP=(,CATLG,DELETE),     00150001
+//            SPACE=(TRK,(30000,30000),RLSE),UNIT=SYSDBA                00160001

@@ -1,0 +1,120 @@
+1                       J E S 2  J O B  L O G  --  S Y S T E M  M R T P  --  N O
+0                                                                               
+ 18.08.23 JOB02572 ---- WEDNESDAY, 07 MAY 2008 ----                             
+ 18.08.23 JOB02572  IRR010I  USERID JONAS    IS ASSIGNED TO THIS JOB.           
+ 18.08.23 JOB02572  ICH70001I JONAS    LAST ACCESS AT 18:07:26 ON WEDNESDAY, MAY
+ 18.08.23 JOB02572  $HASP373 DBPDSNTP STARTED - INIT 0002 - CLASS A - SYS MRTP  
+ 18.08.23 JOB02572  IEF403I DBPDSNTP - STARTED - TIME=18.08.23                  
+ 18.08.23 JOB02572  -                                                --TIMINGS (
+ 18.08.23 JOB02572  -JOBNAME  STEPNAME PROCSTEP    RC   EXCP   CONN    TCB    SR
+ 18.08.23 JOB02572  -DBPDSNTP QUERY01              00     58     19    .00    .0
+ 18.08.23 JOB02572  IEF404I DBPDSNTP - ENDED - TIME=18.08.23                    
+ 18.08.23 JOB02572  -DBPDSNTP ENDED.  NAME-                     TOTAL TCB CPU TI
+ 18.08.23 JOB02572  $HASP395 DBPDSNTP ENDED                                     
+0------ JES2 JOB STATISTICS ------                                              
+-  07 MAY 2008 JOB EXECUTION DATE                                               
+-           10 CARDS READ                                                       
+-          120 SYSOUT PRINT RECORDS                                             
+-            0 SYSOUT PUNCH RECORDS                                             
+-            6 SYSOUT SPOOL KBYTES                                              
+-         0.00 MINUTES EXECUTION TIME                                           
+         1 //DBPDSNTP JOB MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID                     
+           IEFC653I SUBSTITUTION JCL - MSGCLASS=P,CLASS=A,NOTIFY=JONAS          
+         2 //QUERY01 EXEC PGM=IKJEFT01,DYNAMNBR=20                              
+         3 //SYSTSPRT DD SYSOUT=*                                               
+         4 //SYSTSIN DD *                                                       
+         5 //SYSPRINT DD SYSOUT=*                                               
+         6 //SYSUDUMP DD SYSOUT=*                                               
+         7 //SYSIN    DD DISP=SHR,DSN=JONAS.DBA.JOB(A1385663)                   
+ ICH70001I JONAS    LAST ACCESS AT 18:07:26 ON WEDNESDAY, MAY 7, 2008           
+ IEF236I ALLOC. FOR DBPDSNTP QUERY01                                            
+ IEF237I JES2 ALLOCATED TO SYSTSPRT                                             
+ IEF237I JES2 ALLOCATED TO SYSTSIN                                              
+ IEF237I JES2 ALLOCATED TO SYSPRINT                                             
+ IEF237I JES2 ALLOCATED TO SYSUDUMP                                             
+ IEF237I 9913 ALLOCATED TO SYSIN                                                
+ IEF237I 992B ALLOCATED TO SYS00001                                             
+ IEF285I   DB2.DB2P.RUNLIB.LOAD                         KEPT                    
+ IEF285I   VOL SER NOS= MRT009.                                                 
+ IEF142I DBPDSNTP QUERY01 - STEP WAS EXECUTED - COND CODE 0000                  
+ IEF285I   JONAS.DBPDSNTP.JOB02572.D0000102.?           SYSOUT                  
+ IEF285I   JONAS.DBPDSNTP.JOB02572.D0000101.?           SYSIN                   
+ IEF285I   JONAS.DBPDSNTP.JOB02572.D0000103.?           SYSOUT                  
+ IEF285I   JONAS.DBPDSNTP.JOB02572.D0000104.?           SYSOUT                  
+ IEF285I   JONAS.DBA.JOB                                KEPT                    
+ IEF285I   VOL SER NOS= TSO000.                                                 
+ IEF373I STEP/QUERY01 /START 2008128.1808                                       
+ IEF374I STEP/QUERY01 /STOP  2008128.1808 CPU    0MIN 00.03SEC SRB    0MIN 00.00
+ IEF375I  JOB/DBPDSNTP/START 2008128.1808                                       
+ IEF376I  JOB/DBPDSNTP/STOP  2008128.1808 CPU    0MIN 00.03SEC SRB    0MIN 00.00
+1READY                                                                          
+   DSN SYSTEM(DB2P)                                                             
+ DSN                                                                            
+   RUN PROGRAM(DSNTEP2) PLAN(DSNTEP71) PARMS('/ALIGN(LHS) MIXED')       LIB('DB2
+ DSN                                                                            
+ END                                                                            
+1                                                                               
+1PAGE    1                                                                      
+ ***INPUT STATEMENT:                                                            
+  SET CURRENT SQLID='SYSADM';                                                   
+  RESULT OF SQL STATEMENT:                                                      
+  DSNT400I SQLCODE = 000,  SUCCESSFUL EXECUTION                                 
+  DSNT418I SQLSTATE   = 00000 SQLSTATE RETURN CODE                              
+  DSNT416I SQLERRD    = 0  0  0  -1  0  0 SQL DIAGNOSTIC INFORMATION            
+  DSNT416I SQLERRD    = X'00000000'  X'00000000'  X'00000000'  X'FFFFFFFF'  X'00
+           INFORMATION                                                          
+ SET       SUCCESSFUL                                                           
+1PAGE    1                                                                      
+ ***INPUT STATEMENT:                                                            
+  COMMIT;                                                                       
+  RESULT OF SQL STATEMENT:                                                      
+  DSNT400I SQLCODE = 000,  SUCCESSFUL EXECUTION                                 
+  DSNT418I SQLSTATE   = 00000 SQLSTATE RETURN CODE                              
+  DSNT416I SQLERRD    = 0  0  0  -1  0  0 SQL DIAGNOSTIC INFORMATION            
+  DSNT416I SQLERRD    = X'00000000'  X'00000000'  X'00000000'  X'FFFFFFFF'  X'00
+           INFORMATION                                                          
+ COMMIT    SUCCESSFUL                                                           
+1PAGE    1                                                                      
+ ***INPUT STATEMENT:                                                            
+  UPDATE MARITIMA.SEGURADO                                                      
+  SET NMSEGUR = NMSEGUR                                                         
+  WHERE CDSEGUR = 8551;                                                         
+  RESULT OF SQL STATEMENT:                                                      
+  DSNT400I SQLCODE = 000,  SUCCESSFUL EXECUTION                                 
+  DSNT418I SQLSTATE   = 00000 SQLSTATE RETURN CODE                              
+  DSNT416I SQLERRD    = 0  0  1  -1  0  0 SQL DIAGNOSTIC INFORMATION            
+  DSNT416I SQLERRD    = X'00000000'  X'00000000'  X'00000001'  X'FFFFFFFF'  X'00
+           INFORMATION                                                          
+ SUCCESSFUL UPDATE    OF        1 ROW(S)                                        
+1PAGE    1                                                                      
+ ***INPUT STATEMENT:                                                            
+  COMMIT;                                                                       
+  RESULT OF SQL STATEMENT:                                                      
+  DSNT400I SQLCODE = 000,  SUCCESSFUL EXECUTION                                 
+  DSNT418I SQLSTATE   = 00000 SQLSTATE RETURN CODE                              
+  DSNT416I SQLERRD    = 0  0  0  -1  0  0 SQL DIAGNOSTIC INFORMATION            
+  DSNT416I SQLERRD    = X'00000000'  X'00000000'  X'00000000'  X'FFFFFFFF'  X'00
+           INFORMATION                                                          
+ COMMIT    SUCCESSFUL                                                           
+1PAGE    1                                                                      
+ ***INPUT STATEMENT:                                                            
+  UPDATE MARITIMA.SEGURADO                                                      
+  SET NMSEGUR = NMSEGUR                                                         
+  WHERE CDSEGUR = 5296732;                                                      
+  RESULT OF SQL STATEMENT:                                                      
+  DSNT400I SQLCODE = 000,  SUCCESSFUL EXECUTION                                 
+  DSNT418I SQLSTATE   = 00000 SQLSTATE RETURN CODE                              
+  DSNT416I SQLERRD    = 0  0  1  -1  0  0 SQL DIAGNOSTIC INFORMATION            
+  DSNT416I SQLERRD    = X'00000000'  X'00000000'  X'00000001'  X'FFFFFFFF'  X'00
+           INFORMATION                                                          
+ SUCCESSFUL UPDATE    OF        1 ROW(S)                                        
+1PAGE    1                                                                      
+ ***INPUT STATEMENT:                                                            
+  COMMIT;                                                                       
+  RESULT OF SQL STATEMENT:                                                      
+  DSNT400I SQLCODE = 000,  SUCCESSFUL EXECUTION                                 
+  DSNT418I SQLSTATE   = 00000 SQLSTATE RETURN CODE                              
+  DSNT416I SQLERRD    = 0  0  0  -1  0  0 SQL DIAGNOSTIC INFORMATION            
+  DSNT416I SQLERRD    = X'00000000'  X'00000000'  X'00000000'  X'FFFFFFFF'  X'00
+           INFORMATION                                                          
+ COMMIT    SUCCESSFUL                                                           

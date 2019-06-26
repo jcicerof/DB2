@@ -1,0 +1,20 @@
+--SELECT TIMESTAMP FROM SYSIBM.SYSCOPY WHERE TSNAME = 'JONAS'                   
+--AND ICTYPE = 'F' AND TIMESTAMP <(CURRENT_TIMESTAMP - 45 DAYS);                
+SELECT DISTINCT * FROM SYSIBM.SYSCOPY WHERE TSNAME IN (                         
+'SNETDNFS',                                                                     
+'FCACMPSG',                                                                     
+'CTLARQDE',                                                                     
+'CTLARQIT',                                                                     
+'PROPCTLO',                                                                     
+'SNITFDSP',                                                                     
+'SSMOVKIT',                                                                     
+'SSSENDEN',                                                                     
+'SSSKIT' ,                                                                      
+'SSSMANLO',                                                                     
+'TBCONFIC',                                                                     
+'CLFCOR' ,                                                                      
+'CLFCORPR',                                                                     
+'SSGRPANA',                                                                     
+'SSORIRMS',                                                                     
+'TSCDSSE',                                                                      
+'TSCDSSES') AND ICTYPE='F'                                                      

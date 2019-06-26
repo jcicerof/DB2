@@ -1,0 +1,11 @@
+//DBPDSN1C JOB MSGCLASS=P,CLASS=A,NOTIFY=JONAS                                  
+//S01      EXEC PGM=DSN1COPY,PARM='OBIDXLAT,RESET,FULLCOPY'                     
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSUT1   DD DSN=DB2PCOPY.FE1.DB2ADM.EXCPARCL.D190407,                         
+//         DISP=OLD                                                             
+//SYSUT2   DD DSN=DB2PCAT.DSNDBD.DB2ADM.EXCPARCL.I0001.A001,DISP=OLD            
+//SYSXLAT DD *                                                                  
+285,285                                                                         
+82,82                                                                           
+83,83                                                                           
+//*                                                                             

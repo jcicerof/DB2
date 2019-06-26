@@ -1,0 +1,43 @@
+//DBBDSNTI JOB 'JONAS',MSGCLASS=T,CLASS=T,NOTIFY=&SYSUID,TYPRUN=SCAN            
+//*                                                                             
+//*------------------------------------------------------------------           
+//* RECOVER                                                                     
+//*------------------------------------------------------------------           
+//RECOVER  EXEC PGM=DSNUTILB,PARM='DB2P,RECOVER.COREMAIL'                       
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSOUT   DD  SYSOUT=*                                                         
+//SYSIN    DD  *                                                                
+  RECOVER TABLESPACE DBMA02.COREMAIL TOLASTFULLCOPY                             
+//*                                                                             
+//REBUILD  EXEC PGM=DSNUTILB,PARM='DB2P,REBUILD.COREMAIL'                       
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSOUT   DD  SYSOUT=*                                                         
+//SYSIN    DD  *                                                                
+  REBUILD INDEX (MARITIMA.CORRETOREMAIL_PK) SORTKEYS STATISTICS                 
+  UPDATE ALL                                                                    
+  REBUILD INDEX (MARITIMA.CORRETOREMAIL_IX1) SORTKEYS STATISTICS                
+  UPDATE ALL                                                                    
+//*                                                                             
+//*------------------------------------------------------------------           
+//* RECOVER                                                                     
+//*------------------------------------------------------------------           
+//RECOVER  EXEC PGM=DSNUTILB,PARM='DB2P,RECOVER.CORRTCAL'                       
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSOUT   DD  SYSOUT=*                                                         
+//SYSIN    DD  *                                                                
+  RECOVER TABLESPACE DBMA02.CORRTCAL TOLASTFULLCOPY                             
+//*                                                                             
+//REBUILD  EXEC PGM=DSNUTILB,PARM='DB2P,REBUILD.CORRTCAL'                       
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSOUT   DD  SYSOUT=*                                                         
+//SYSIN    DD  *                                                                
+  REBUILD INDEX (MARITIMA.CORRTCAL_IX1) SORTKEYS STATISTICS                     
+  UPDATE ALL                                                                    

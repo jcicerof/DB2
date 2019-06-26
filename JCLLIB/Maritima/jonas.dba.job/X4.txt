@@ -1,0 +1,8 @@
+--SELECT * FROM SYSIBM.SYSROUTINES WHERE NAME LIKE 'SPTISS00%';                 
+--SELECT * FROM SYSIBM.SYSPROCEDURES;                                           
+--SELECT * FROM SYSIBM.SYSPACKAGE WHERE NAME = 'SQL82367';                      
+SELECT COUNT(*) FROM ANO2000.TBAMFRQ WITH UR;                                   
+--SELECT COUNT(*) FROM DB2ADM.SSLOGRED1 WITH UR;                                
+--SELECT COUNT(*) FROM DB2ADM.SSLOGCPL1 WITH UR;                                
+--SELECT * FROM SYSIBM.SYSINDEXES WHERE INDEXSPACE = 'IXCDSSSE';                
+--ALTER PROCEDURE TISS.SPTISS004 WLM ENVIRONMENT   DB2PWLM ;                    

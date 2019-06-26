@@ -1,0 +1,3 @@
+SELECT DSNAME,EXTENTS FROM DB2ADM.HSTVSAM                               00010003
+WHERE EXTENTS >=10                                                      00020004
+ORDER BY EXTENTS DESC;                                                  00030001

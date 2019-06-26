@@ -1,0 +1,1 @@
+DROP INDEX TECINFOR.CONDICAOGERENQ1_I5;                                 00010000

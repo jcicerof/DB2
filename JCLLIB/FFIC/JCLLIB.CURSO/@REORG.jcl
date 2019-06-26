@@ -1,0 +1,96 @@
+//IBM1JCFA JOB (T00101,520,AU88100,658,000,581),'DB2 TOOLS',
+//         MSGLEVEL=(1,1),MSGCLASS=X,      USER=DB2TEST,
+//         CLASS=L,NOTIFY=IBM1JCF
+/*JOBPARM Z=O,HOLD=ALL,S=ESYS,T=1439
+//*------------------------------------------------------------------
+//*  DB2A - DB2A.DB2LOAD/DB2A.DB2RUNLB
+//*  DB2D - DB2S.DB2LOAD/DB2S.DB2RUNLB
+//*  DB2J - DB2K.DB2LOAD/DB2S.DB2RUNLB
+//*  DB2E - DB2F.DB2LOAD/DB2F.DB2RUNLB
+//*  DB2H - DB2H.DB2LOAD/DB2H.DB2RUNLB
+//*  DB2P - DB2C.DB2LOAD/DB2C.DB2RUNLB
+//*  DB2Q - DB2R.DB2LOAD/DB2R.DB2RUNLB
+//*------------------------------------------------------------------
+//        JCLLIB ORDER=(DBA5.DB2.PROCLIB)
+//*------------------------------------------------------------------
+//*
+//*------------------------------------------------------------------
+//DISDB   EXEC PGM=IKJEFT01,DYNAMNBR=100
+//STEPLIB   DD DSN=DB2S.DB2RUNLB,DISP=SHR
+//          DD DISP=SHR,DSN=DB2S.DB2EXIT
+//          DD DISP=SHR,DSN=DB2S.DB2LOAD
+//SYSTSPRT  DD SYSOUT=*
+//SYSPRINT  DD SYSOUT=*
+//SYSTSIN   DD *
+ DSN SYSTEM(DB2D)
+ -DIS DB (DCBR0T00) SP(*) LIMIT(*) RESTRICT
+ END
+//SYSPUNCH  DD SYSOUT=*
+//SYSREC00  DD SYSOUT=*
+//SYSIN     DD DUMMY
+//*------------------------------------------------------------------
+//*
+//*------------------------------------------------------------------
+//REORG    EXEC REORG,DSN=DB2J,LIB=DB2K
+//SYSIN DD *
+  LISTDEF LISTDB
+          INCLUDE TABLESPACE DPER0B0V.SCVS0B0V
+
+  TEMPLATE DDPUNCH
+     DSN 'DBA5.&SSID..PUN.&DB..&TS..&UQ.'
+     UNIT SYSDA SPACE (1,1) TRK
+     DISP (NEW,DELETE,CATLG)
+
+  TEMPLATE DDREC
+     DSN 'DBA5.&SSID..UNL.&DB..&TS..&UQ.'
+     UNIT MAGV  RETPD 7
+     STACK YES
+     DISP (NEW,DELETE,CATLG)
+
+  TEMPLATE DDCOPY
+     DSN 'DBA5.&SSID..&DB..&TS..&UQ.'
+     UNIT MAGV  RETPD 30
+     STACK YES
+     DISP (NEW,CATLG,DELETE)
+
+  REORG TABLESPACE LIST LISTDB
+    LOG NO
+    SORTDATA
+    SHRLEVEL REFERENCE
+    UNLDDN(DDREC)
+    PUNCHDDN(DDPUNCH)
+    COPYDDN(DDCOPY)
+    FASTSWITCH NO
+    STATISTICS TABLE(ALL) INDEX(ALL) UPDATE ALL KEYCARD
+//*
+//
+//
+//REBIND  EXEC PGM=IKJEFT01,DYNAMNBR=100
+//STEPLIB   DD DSN=DB2S.DB2RUNLB,DISP=SHR
+//          DD DISP=SHR,DSN=DB2S.DB2EXIT
+//          DD DISP=SHR,DSN=DB2S.DB2LOAD
+//SYSTSPRT  DD SYSOUT=*
+//SYSPRINT  DD SYSOUT=*
+//SYSTSIN   DD *
+ DSN SYSTEM(DB2D)
+ REBIND PACKAGE (PER7_HOME.UDTPR310)
+ END
+//SYSPUNCH  DD SYSOUT=*
+//SYSREC00  DD SYSOUT=*
+//SYSIN     DD DUMMY
+//*------------------------------------------------------------------
+//*
+//*------------------------------------------------------------------
+//DISDB   EXEC PGM=IKJEFT01,DYNAMNBR=100
+//STEPLIB   DD DSN=DB2S.DB2RUNLB,DISP=SHR
+//          DD DISP=SHR,DSN=DB2S.DB2EXIT
+//          DD DISP=SHR,DSN=DB2S.DB2LOAD
+//SYSTSPRT  DD SYSOUT=*
+//SYSPRINT  DD SYSOUT=*
+//SYSTSIN   DD *
+ DSN SYSTEM(DB2D)
+ -DIS DB (DCBR0T00) SP(*) LIMIT(*) RESTRICT
+ END
+//SYSPUNCH  DD SYSOUT=*
+//SYSREC00  DD SYSOUT=*
+//SYSIN     DD DUMMY

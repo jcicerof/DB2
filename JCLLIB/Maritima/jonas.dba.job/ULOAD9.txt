@@ -1,0 +1,74 @@
+//DBPULOAD JOB MSGCLASS=X,CLASS=A,NOTIFY=&SYSUID                        JOB02386
+//*                                                                     00020002
+//UNLOAD   EXEC PGM=DSNUTILB,PARM='DB2P,DEBLRARG.LOAD'                  00030005
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00040005
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00050005
+//SYSPRINT DD   SYSOUT=*                                                00060001
+//SYSOUT   DD   SYSOUT=*                                                00070001
+//SYSPUNCH DD   DSN=JONAS.DBWPC1.DEPARAPO.P,DISP=(NEW,CATLG,DELETE),    00080010
+//         SPACE=(TRK,(1,1),RLSE),UNIT=SYSDBA                           00090008
+//SYSREC   DD   DSN=JONAS.DBWPC1.DEPARAPO.D,DISP=(NEW,CATLG,DELETE),    00100010
+//         UNIT=SYSDBA,SPACE=(TRK,(999,999),RLSE)                       00101008
+//SYSIN    DD   *                                                       00140001
+  UNLOAD TABLESPACE DBWPC1.DEPARAPO   PUNCHDDN SYSPUNCH UNLDDN SYSREC   00170010
+  FROM TABLE MARITIMA.DEPARAPOLICE                                      00180009
+//UNLOAD1  EXEC PGM=DSNUTILB,PARM='DB2P,DEBLRARG.LOAD'                  00030005
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00040005
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00050005
+//SYSPRINT DD   SYSOUT=*                                                00060001
+//SYSOUT   DD   SYSOUT=*                                                00070001
+//SYSPUNCH DD   DSN=JONAS.DBWPC1.ORIGAPOL.P,DISP=(NEW,CATLG,DELETE),    00080010
+//         SPACE=(TRK,(1,1),RLSE),UNIT=SYSDBA                           00090008
+//SYSREC   DD   DSN=JONAS.DBWPC1.ORIGAPOL.D,DISP=(NEW,CATLG,DELETE),    00100010
+//         UNIT=SYSDBA,SPACE=(TRK,(999,999),RLSE)                       00101008
+//SYSIN    DD   *                                                       00140001
+  UNLOAD TABLESPACE DBWPC1.ORIGAPOL   PUNCHDDN SYSPUNCH UNLDDN SYSREC   00170010
+  FROM TABLE MARITIMA.ORIGINFORMACAO                                    00180009
+//UNLOAD2  EXEC PGM=DSNUTILB,PARM='DB2P,DEBLRARG.LOAD'                  00030005
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00040005
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00050005
+//SYSPRINT DD   SYSOUT=*                                                00060001
+//SYSOUT   DD   SYSOUT=*                                                00070001
+//SYSPUNCH DD   DSN=JONAS.DBWPC1.PARAMAPO.P,DISP=(NEW,CATLG,DELETE),    00080010
+//         SPACE=(TRK,(1,1),RLSE),UNIT=SYSDBA                           00090008
+//SYSREC   DD   DSN=JONAS.DBWPC1.PARAMAPO.D,DISP=(NEW,CATLG,DELETE),    00100010
+//         UNIT=SYSDBA,SPACE=(TRK,(999,999),RLSE)                       00101008
+//SYSIN    DD   *                                                       00140001
+  UNLOAD TABLESPACE DBWPC1.PARAMAPO   PUNCHDDN SYSPUNCH UNLDDN SYSREC   00170010
+  FROM TABLE MARITIMA.PARAMAPOLICE                                      00180009
+//UNLOAD3  EXEC PGM=DSNUTILB,PARM='DB2P,DEBLRARG.LOAD'                  00030005
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00040005
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00050005
+//SYSPRINT DD   SYSOUT=*                                                00060001
+//SYSOUT   DD   SYSOUT=*                                                00070001
+//SYSPUNCH DD   DSN=JONAS.DBWPC1.PARAPORE.P,DISP=(NEW,CATLG,DELETE),    00080010
+//         SPACE=(TRK,(1,1),RLSE),UNIT=SYSDBA                           00090008
+//SYSREC   DD   DSN=JONAS.DBWPC1.PARAPORE.D,DISP=(NEW,CATLG,DELETE),    00100010
+//         UNIT=SYSDBA,SPACE=(TRK,(999,999),RLSE)                       00101008
+//SYSIN    DD   *                                                       00140001
+  UNLOAD TABLESPACE DBWPC1.PARAPORE   PUNCHDDN SYSPUNCH UNLDDN SYSREC   00170010
+  FROM TABLE MARITIMA.PARAMAPOLICERE                                    00180009
+//UNLOAD4  EXEC PGM=DSNUTILB,PARM='DB2P,DEBLRARG.LOAD'                  00030005
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00040005
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00050005
+//SYSPRINT DD   SYSOUT=*                                                00060001
+//SYSOUT   DD   SYSOUT=*                                                00070001
+//SYSPUNCH DD   DSN=JONAS.DBWPC1.PARGERAL.P,DISP=(NEW,CATLG,DELETE),    00080010
+//         SPACE=(TRK,(1,1),RLSE),UNIT=SYSDBA                           00090008
+//SYSREC   DD   DSN=JONAS.DBWPC1.PARGERAL.D,DISP=(NEW,CATLG,DELETE),    00100010
+//         UNIT=SYSDBA,SPACE=(TRK,(999,999),RLSE)                       00101008
+//SYSIN    DD   *                                                       00140001
+  UNLOAD TABLESPACE DBWPC1.PARGERAL   PUNCHDDN SYSPUNCH UNLDDN SYSREC   00170010
+  FROM TABLE MARITIMA.PARAMETROGERAL                                    00180009
+//UNLOAD5  EXEC PGM=DSNUTILB,PARM='DB2P,DEBLRARG.LOAD'                  00030005
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00040005
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00050005
+//SYSPRINT DD   SYSOUT=*                                                00060001
+//SYSOUT   DD   SYSOUT=*                                                00070001
+//SYSPUNCH DD   DSN=JONAS.DBWPC1.TIPOINFO.P,DISP=(NEW,CATLG,DELETE),    00080010
+//         SPACE=(TRK,(1,1),RLSE),UNIT=SYSDBA                           00090008
+//SYSREC   DD   DSN=JONAS.DBWPC1.TIPOINFO.D,DISP=(NEW,CATLG,DELETE),    00100010
+//         UNIT=SYSDBA,SPACE=(TRK,(999,999),RLSE)                       00101008
+//SYSIN    DD   *                                                       00140001
+  UNLOAD TABLESPACE DBWPC1.TIPOINFO   PUNCHDDN SYSPUNCH UNLDDN SYSREC   00170010
+  FROM TABLE MARITIMA.TIPOINFORMACAO                                    00180009

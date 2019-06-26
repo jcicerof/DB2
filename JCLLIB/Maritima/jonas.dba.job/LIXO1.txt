@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM DB2PDPRC.CDSEGURADO WITH UR;                               

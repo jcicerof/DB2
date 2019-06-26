@@ -1,0 +1,57 @@
+//#REFSAUD PROC TS=NONE                                                 00001001
+//*------------------------------------------------------------------   00001400
+//* RECOVER                                                             00001500
+//*------------------------------------------------------------------   00001600
+//RECOVER  EXEC PGM=DSNUTILB,PARM='DB2P'                                00001702
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00001806
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00001906
+//SYSPRINT DD   SYSOUT=*                                                00002006
+//SYSOUT   DD   SYSOUT=*                                                00003006
+//SYSIN    DD   DSN=JONAS.DBA.RECOVER(&TS),DISP=SHR                     00004006
+//*------------------------------------------------------------------   00005002
+//* REBUILD                                                             00006006
+//*------------------------------------------------------------------   00007002
+//REBUILD  EXEC PGM=DSNUTILB,PARM='DB2P'                                00008002
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00009002
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00010002
+//SYSPRINT DD   SYSOUT=*                                                00020002
+//UTPRINT  DD   SYSOUT=*                                                00030002
+//SYSUDUMP DD   SYSOUT=*                                                00040002
+//SYSMAP   DD   UNIT=SYSDA,SPACE=(CYL,(700,700),RLSE)                   00050003
+//SYSERR   DD   UNIT=SYSDA,SPACE=(CYL,(700,700),RLSE)                   00060003
+//SYSUT1   DD   UNIT=SYSDA,SPACE=(CYL,(1500,700),RLSE)                  00070002
+//SORTOUT  DD   UNIT=SYSDA,SPACE=(CYL,(1500,700),RLSE)                  00080002
+//SYSDISC  DD   DUMMY                                                   00090002
+//SYSREC   DD   DUMMY                                                   00100002
+//SYSIN    DD   DSN=JONAS.DBA.REBUILD(&TS),DISP=SHR                     00110002
+//*------------------------------------------------------------------   00120004
+//* RUNSTATS                                                            00130004
+//*------------------------------------------------------------------   00140004
+//RUNSTATS EXEC PGM=DSNUTILB,PARM='DB2P'                                00150004
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00160004
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00170004
+//SYSPRINT DD   SYSOUT=*                                                00180004
+//UTPRINT  DD   SYSOUT=*                                                00190004
+//SYSUDUMP DD   SYSOUT=*                                                00200004
+//SYSIN    DD   DSN=JONAS.DBA.RUNSTATS(&TS),DISP=SHR                    00201004
+//*------------------------------------------------------------------   00202004
+//* COPY                                                                00203004
+//*------------------------------------------------------------------   00204004
+//COPY     EXEC PGM=DSNUTILB,PARM='DB2P'                                00205004
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00206006
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00207006
+//SYSPRINT DD   SYSOUT=*                                                00208006
+//SYSOUT   DD   SYSOUT=*                                                00209006
+//SYSIN    DD   DSN=JONAS.DBA.COPY(&TS),DISP=SHR                        00210006
+//         DD   DSN=JONAS.DBA.COPY(TEMPLATE),DISP=SHR                   00210106
+//         DD   DSN=JONAS.DBA.COPY(COPY),DISP=SHR                       00211006
+//*-------------------------------------------------------------------  00220004
+//* REBIND                                                              00230004
+//*-------------------------------------------------------------------  00240004
+//REBIND   EXEC PGM=IKJEFT01,DYNAMNBR=20                                00250004
+//SYSTSPRT DD   SYSOUT=*                                                00260006
+//SYSPRINT DD   SYSOUT=*                                                00270006
+//SYSUDUMP DD   SYSOUT=*                                                00280006
+//SYSOUT   DD   SYSOUT=*                                                00290006
+//SYSTSIN  DD   DSN=JONAS.DBA.REBIND(REBIND),DISP=SHR                   00300007
+// PEND                                                                 00310004

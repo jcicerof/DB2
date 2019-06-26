@@ -1,0 +1,4 @@
+ DSN SYSTEM(D2P1)
+ -DIS UTILITY(*)
+ END
+

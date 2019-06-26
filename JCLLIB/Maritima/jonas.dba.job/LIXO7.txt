@@ -1,0 +1,11 @@
+SELECT COUNT(*) FROM MARITIMA.SSPRECADPARCL WITH UR;                            
+SELECT COUNT(*) FROM MARITIMA.SSCOBSUP  WITH UR;                                
+SELECT COUNT(*) FROM MARITIMA.SSCOBSUPCPM  WITH UR;                             
+SELECT * FROM SYSIBM.SYSTABLES WHERE NAME IN (                                  
+'SSPRECADPARCL','SSCOBSUP','SSCOBSUPCPM');                                      
+--SELECT DISTINCT A.DBNAME,A.TSNAME                                             
+--FROM SYSIBM.SYSTABLES A,SYSIBM.SYSTABLEPART B                                 
+--WHERE A.DBNAME = B.DBNAME                                                     
+--AND A.TSNAME =B.TSNAME                                                        
+--AND A.DBNAME ='DBSS01'                                                        
+--AND COMPRESS = 'Y' WITH UR;                                                   

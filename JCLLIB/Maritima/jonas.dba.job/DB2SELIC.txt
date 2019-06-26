@@ -1,0 +1,15 @@
+--                                                                              
+--  SELECIONA TODOS OS TABLESPACES QUE NAO TEM IMAGE COPY                       
+--                                                                              
+     SELECT A.DBNAME, A.NAME,                                                   
+            B.TIMESTAMP                                                         
+       FROM SYSIBM.SYSTABLESPACE A LEFT OUTER JOIN                              
+                                                                                
+           (SELECT C.DBNAME, C.TSNAME, MAX(TIMESTAMP) AS TIMESTAMP              
+              FROM SYSIBM.SYSCOPY C                                             
+             WHERE ICTYPE = 'F'                                                 
+             GROUP BY DBNAME, TSNAME) AS B                                      
+                                                                                
+         ON A.DBNAME = B.DBNAME                                                 
+        AND A.NAME   = B.TSNAME                                                 
+                                                                                

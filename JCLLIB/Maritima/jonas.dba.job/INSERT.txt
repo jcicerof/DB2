@@ -1,0 +1,20 @@
+SELECT * FROM SYSIBM.LOCATIONS;                                         00001004
+SELECT * FROM SYSIBM.IPNAMES;                                           00002004
+SELECT * FROM SYSIBM.USERNAMES;                                         00003004
+--SET CURRENT SQLID='SYSADM';                                           00010004
+--INSERT INTO SYSIBM.LOCATIONS (LOCATION,LINKNAME,PORT)                 00010104
+--VALUES ('POPERP','POPERP','50020');                                   00010204
+--INSERT INTO SYSIBM.USERNAMES                                          00010303
+--(TYPE,AUTHID,LINKNAME,NEWAUTHID,PASSWORD,IBMREQD)                     00010403
+--VALUES ('O','','POPERP','ERPPUSER','POPERP','N');                     00010503
+--INSERT INTO SYSIBM.IPNAMES                                            00011001
+--(LINKNAME,SECURITY_OUT,USERNAMES,IBMREQD,IPADDR)                      00012001
+--VALUES ('POPERP','P','O','N','10.1.1.40');                            00013001
+--DELETE FROM SYSIBM.USERNAMES                                          00070000
+--WHERE LINKNAME = 'ERPPRO';                                            00080000
+--UPDATE SYSIBM.USERNAMES                                               00120000
+--SET NEWAUTHID = 'ERPUSERP'                                            00130000
+--SET PASSWORD = 'ERP01PRD'                                             00140000
+--WHERE LINKNAME = 'ERPPRO';                                            00150000
+--INSERT INTO SYSIBM.LOCATIONS (LOCATION,LINKNAME,PORT)                 00160000
+--VALUES ('ERPPRO','ERPPRO','50011');                                   00170000

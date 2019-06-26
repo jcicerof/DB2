@@ -1,0 +1,68 @@
+//DB@UNLOA JOB 'JUNIOR',MSGCLASS=P,CLASS=A,NOTIFY=JONAS,TYPRUN=HOLD             
+//*                                                                             
+//UNLOAD   EXEC PGM=DSNUTILB,PARM='DB2P'                                        
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                  
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                  
+//SYSPRINT DD   SYSOUT=*                                                        
+//SYSOUT   DD   SYSOUT=*                                                        
+//SYSIN    DD   *                                                               
+OPTIONS EVENT(ITEMERROR, SKIP)                                                  
+TEMPLATE DDPUNCH DSN(JUNIOR.UNL.&DB..&TS..PUNCH.D&DT.)                          
+   UNIT SYSDBA SPACE (1,0) TRK DISP (NEW,CATLG,DELETE)                          
+                                                                                
+TEMPLATE DDREC DSN(JUNIOR.UNL.&DB..&TS..REC.D&DT.)                              
+   UNIT SYSDBA SPACE (1000,500) TRK DISP (NEW,CATLG,DELETE)                     
+                                                                                
+UNLOAD DATA FROM TABLE SQLUSER.CORRTREC                                         
+  WHEN (                                                                        
+  CDSUCUR = 1                                                                   
+  AND   NRCORRT IN (978, 79000, 75)                                             
+  AND   DTRECCOM >= '2008-07-01'                                                
+  AND   DTRECCOM <= '2008-09-30'                                                
+       )                                                                        
+  UNLDDN DDREC                                                                  
+  PUNCHDDN DDPUNCH                                                              
+  SHRLEVEL CHANGE ISOLATION UR                                                  
+                                                                                
+UNLOAD DATA FROM TABLE SQLUSER.TBCMRET                                          
+  WHEN (                                                                        
+  CDSUCUR = 1                                                                   
+  AND   NRCORRT IN (978, 79000, 75)                                             
+  AND   DTMVPRD >= 20080701                                                     
+  AND   DTMVPRD <= 20080930                                                     
+       )                                                                        
+  UNLDDN DDREC                                                                  
+  PUNCHDDN DDPUNCH                                                              
+  SHRLEVEL CHANGE ISOLATION UR                                                  
+                                                                                
+UNLOAD DATA FROM TABLE SQLUSER.CORRTVAL                                         
+  WHEN (                                                                        
+  CDSUCUR = 1                                                                   
+  AND   NRCORRT IN (978, 79000, 75)                                             
+  AND   AMMOVTO_CNV >= 200807                                                   
+  AND   AMMOVTO_CNV <= 200809                                                   
+       )                                                                        
+  UNLDDN DDREC                                                                  
+  PUNCHDDN DDPUNCH                                                              
+  SHRLEVEL CHANGE ISOLATION UR                                                  
+UNLOAD DATA FROM TABLE SQLUSER.CMACETOT                                         
+  WHEN (                                                                        
+  CDSUCUR = 1                                                                   
+  AND   NRCORRT IN (978, 79000, 75)                                             
+  AND   DTMOVIME >= '2008-07-01'                                                
+  AND   DTMOVIME <= '2008-09-30'                                                
+       )                                                                        
+  UNLDDN DDREC                                                                  
+  PUNCHDDN DDPUNCH                                                              
+  SHRLEVEL CHANGE ISOLATION UR                                                  
+UNLOAD DATA FROM TABLE SQLUSER.CORCOMIS                                         
+  WHEN (                                                                        
+  CDSUCUR = 1                                                                   
+  AND NRRECCOM IN (044710,                                                      
+  047715, 054216)                                                               
+  AND DTRECCOM >= '2008-07-01'                                                  
+  AND DTRECCOM <= '2008-09-30'                                                  
+       )                                                                        
+  UNLDDN DDREC                                                                  
+  PUNCHDDN DDPUNCH                                                              
+  SHRLEVEL CHANGE ISOLATION UR                                                  

@@ -1,0 +1,41 @@
+//DBRTMP02 JOB MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID,TIME=1440                      
+//**********************************************************************        
+//* SUBSYS: DB2P      REORGANIZACAO DE TABLESPACES                     *        
+//*                                                                    *        
+//* JOB: DBRTMP02     DATABASE: DBRE04     ROTINA: MENSAL              *        
+//*                           E DBNOVA                                 *        
+//* VARIAVEIS:                                                         *        
+//*    &JOB=JOB='DBRTMP02'        - IDENTIFICACAO DO JOB               *        
+//*    &SYS=SYS='DB2P'            - SUB-SYSTEM: DB2 PRODUCAO           *        
+//*    &UID=UID='DBRTMP02.SXXSYY' - UTILIARIO ID: &JOB + SXXSYY=STEP   *        
+//*    &RST=RST=''                - PARAMETRO PARA RESTART:            *        
+//*                                 'RESTART' OU 'RESTART(PHASE)'      *        
+//*                                                                    *        
+//* JONAS 07/11/07    - INCLUIDO QUIESCE PARA CONTROLE DE RESTART      *        
+//*                                                                    *        
+//*                                                                    *        
+//**********************************************************************        
+//DBPREORG PROC JOB='DBRTMP02',SYS='DB2P',UID='SXXSYY',RST=''                   
+//DBPREORG EXEC PGM=DSNUTILB,REGION=3M,PARM='&SYS,&JOB..&UID,&RST'              
+//SYSPRINT DD SYSOUT=*                                                          
+//UTPRINT  DD SYSOUT=*                                                          
+//SYSREC   DD DSN=DB2PWRK.&JOB..&UID..SYSREC,DISP=(MOD,CATLG,CATLG),            
+//         UNIT=VSM                                                             
+//SYSUT1   DD DSN=DB2PWRK.&JOB..&UID..SYSUT1,DISP=(MOD,CATLG,CATLG),            
+//         SPACE=(CYL,(1600,400)),UNIT=SYSWDB                                   
+//SORTOUT  DD DSN=DB2PWRK.&JOB..&UID..SORTOUT,DISP=(MOD,CATLG,CATLG),           
+//         UNIT=VSM                                                             
+//*                                                                             
+//         IF (RC LE 04) THEN                                                   
+//UNCATLG  EXEC PGM=IEFBR14                                                     
+//SYSREC   DD DSN=DB2PWRK.&JOB..&UID..SYSREC,DISP=(OLD,DELETE)                  
+//SYSUT1   DD DSN=DB2PWRK.&JOB..&UID..SYSUT1,DISP=(OLD,DELETE)                  
+//SORTOUT  DD DSN=DB2PWRK.&JOB..&UID..SORTOUT,DISP=(OLD,DELETE)                 
+//         ENDIF                                                                
+//         PEND                                                                 
+//*                                                                             
+//S01S01   EXEC DBPREORG,UID='S01S01',RST=''                                    
+//SYSIN  DD   *                                                                 
+  QUIESCE TABLESPACE DBNOVA.BANCOS                                              
+  REORG TABLESPACE(DBNOVA.TBAMFRQ)  LOG NO  KEEPDICTIONARY                      
+//*                                                                             

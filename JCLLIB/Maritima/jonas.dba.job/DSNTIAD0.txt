@@ -1,0 +1,82 @@
+//JONASTRG JOB   MSGCLASS=X,CLASS=S,NOTIFY=&SYSUID,REGION=40M                   
+//*****************************************************                         
+//DSNTIAD1  EXEC  PGM=IKJEFT01,DYNAMNBR=20                                      
+//STEPLIB DD  DISP=SHR,                                                         
+//            DSN=DB2.DB2P.SDSNLOAD                                             
+//SYSTSPRT DD  SYSOUT=*                                                         
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSUDUMP DD  SYSOUT=*                                                         
+//SYSTSIN  DD  *                                                                
+  DSN SYSTEM(DB2P)                                                              
+  RUN PROGRAM(DSNTIAD) PLAN(DSNTIA00) -                                         
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+  END                                                                           
+//SYSIN    DD  *                                                                
+   INSERT INTO MARITIMA.SSATUCADPES                                             
+          (CDCADORI,NRESTIPU,NRSUBEST,NRSEGURA,CDGRAPAR)                        
+          SELECT 9,NRESTIPU,NRSUBEST,NRSEGURA,CDGRAPAR                          
+            FROM MARITIMA.SSSEGDEP;                                             
+//DSNTIAD2  EXEC  PGM=IKJEFT01,DYNAMNBR=20                                      
+//STEPLIB DD  DISP=SHR,                                                         
+//            DSN=DB2.DB2P.SDSNLOAD                                             
+//SYSTSPRT DD  SYSOUT=*                                                         
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSUDUMP DD  SYSOUT=*                                                         
+//SYSTSIN  DD  *                                                                
+  DSN SYSTEM(DB2P)                                                              
+  RUN PROGRAM(DSNTIAD) PLAN(DSNTIA00) -                                         
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+  END                                                                           
+//SYSIN    DD  *                                                                
+   INSERT INTO MARITIMA.SSATUCADPES                                             
+          (CDCADORI,NRESTIPU,NRSUBEST,NRSEGURA,CDGRAPAR)                        
+          SELECT 8,NRESTIPU,NRSUBEST,NRSEGURA,CDGRAPAR                          
+            FROM MARITIMA.SSSEGTIT;                                             
+//DSNTIAD3  EXEC  PGM=IKJEFT01,DYNAMNBR=20                                      
+//STEPLIB DD  DISP=SHR,                                                         
+//            DSN=DB2.DB2P.SDSNLOAD                                             
+//SYSTSPRT DD  SYSOUT=*                                                         
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSUDUMP DD  SYSOUT=*                                                         
+//SYSTSIN  DD  *                                                                
+  DSN SYSTEM(DB2P)                                                              
+  RUN PROGRAM(DSNTIAD) PLAN(DSNTIA00) -                                         
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+  END                                                                           
+//SYSIN    DD  *                                                                
+   INSERT INTO MARITIMA.SSATUCADPES                                             
+          (CDCADORI,NRESTIPU,NRSUBEST)                                          
+          SELECT 13,NRESTIPU,NRSUBEST                                           
+            FROM MARITIMA.SSESTIPU;                                             
+//DSNTIAD4  EXEC  PGM=IKJEFT01,DYNAMNBR=20                                      
+//STEPLIB DD  DISP=SHR,                                                         
+//            DSN=DB2.DB2P.SDSNLOAD                                             
+//SYSTSPRT DD  SYSOUT=*                                                         
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSUDUMP DD  SYSOUT=*                                                         
+//SYSTSIN  DD  *                                                                
+  DSN SYSTEM(DB2P)                                                              
+  RUN PROGRAM(DSNTIAD) PLAN(DSNTIA00) -                                         
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+  END                                                                           
+//SYSIN    DD  *                                                                
+   INSERT INTO MARITIMA.SSATUCADPES                                             
+          (CDCADORI,NRCPCGPR,NRCGFIPR,DGCPCGPR)                                 
+          SELECT 7,NRCPCGPR,NRCGFIPR,DGCPCGPR                                   
+            FROM MARITIMA.SSPRESTA;                                             
+//DSNTIAD5  EXEC  PGM=IKJEFT01,DYNAMNBR=20                                      
+//STEPLIB DD  DISP=SHR,                                                         
+//            DSN=DB2.DB2P.SDSNLOAD                                             
+//SYSTSPRT DD  SYSOUT=*                                                         
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSUDUMP DD  SYSOUT=*                                                         
+//SYSTSIN  DD  *                                                                
+  DSN SYSTEM(DB2P)                                                              
+  RUN PROGRAM(DSNTIAD) PLAN(DSNTIA00) -                                         
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+  END                                                                           
+//SYSIN    DD  *                                                                
+   INSERT INTO MARITIMA.SSATUCADPES                                             
+          (CDCADORI,NRCPCGPR,NRCGFIPR,DGCPCGPR)                                 
+          SELECT 10,NRCPCGPR,NRCGFIPR,DGCPCGPR                                  
+            FROM MARITIMA.SSSUBPRE;                                             

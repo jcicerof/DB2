@@ -1,0 +1,10 @@
+SELECT 'UPDATE MCORRETOR SET COD_SUC_RENOV = ' CONCAT                   00010000
+                               VARCHAR(CDSUCURATU) CONCAT               00020000
+                         ', COD_CORRETOR_RENOV = ' CONCAT               00030000
+                         VARCHAR(NRCORRTATU) CONCAT                     00040000
+                         ', COD_COLABORADOR_RENOV = ' CONCAT            00050000
+                         VARCHAR(NRCOLABATU) CONCAT                     00060000
+        ' WHERE COD_SUC = ' CONCAT VARCHAR(CDSUCUR) CONCAT              00070000
+        ' AND COD_CORRETOR = ' CONCAT VARCHAR(NRCORRT) CONCAT           00080000
+        ' AND COD_COLABORADOR = ' CONCAT VARCHAR(NRCOLAB)               00090000
+FROM SQLUSER.CORATU WITH UR;                                            00100000

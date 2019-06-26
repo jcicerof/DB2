@@ -1,0 +1,5 @@
+DB2ADMIN                                                                        
+bennerhom                                                                       
+ascii                                                                           
+PUT 'P.DBA.EXTTBIND.MRTP(0)' JONAS\EXTTBINDPROD.TXT                             
+QUIT                                                                            

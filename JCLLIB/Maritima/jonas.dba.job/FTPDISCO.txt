@@ -1,0 +1,5 @@
+DB2ADMIN                                                                        
+bennerhom                                                                       
+ascii                                                                           
+PUT 'DBA.DB2P.DISCOS' JONAS\DISCOSPRODUCAO.TXT                                  
+QUIT                                                                            

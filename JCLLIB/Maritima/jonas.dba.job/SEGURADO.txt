@@ -1,0 +1,123 @@
+CREATE TABLE MARITIMA.SEGURADO                                                  
+    ( CDSEGUR            INTEGER  NOT NULL ,                                    
+      CDFONET            CHAR     (8) NOT NULL ,                                
+      NMSEGUR            CHAR     (35) NOT NULL ,                               
+      DTNASCIM           DATE     NOT NULL ,                                    
+      CDPESFJ            CHAR     (1) NOT NULL ,                                
+      NRCGCPF            DECIMAL  (15,0) NOT NULL ,                             
+      CDINBETQ           SMALLINT NOT NULL ,                                    
+      CDEMPRE            INTEGER  NOT NULL ,                                    
+      CDIDENT            DECIMAL  (11,0) NOT NULL ,                             
+      CDSEXO             CHAR     (1) NOT NULL ,                                
+      DDD                SMALLINT NOT NULL ,                                    
+      TELEFONE           INTEGER  NOT NULL ,                                    
+      RAMAL              SMALLINT NOT NULL ,                                    
+      QTDENDER           SMALLINT NOT NULL ,                                    
+      TPSINIS            SMALLINT NOT NULL ,                                    
+      CDENDPRI           SMALLINT NOT NULL ,                                    
+      CDSEGPRI           INTEGER  NOT NULL ,                                    
+      CDSISTEM           CHAR     (2) NOT NULL ,                                
+      CDUSUAR            CHAR     (10) NOT NULL ,                               
+      NMDEPTO            CHAR     (10) NOT NULL ,                               
+      DTCADSIS           DATE     NOT NULL ,                                    
+      DTALTSIS           DATE     NOT NULL ,                                    
+      DTALTMAN           DATE     NOT NULL ,                                    
+      CDSTATU            CHAR     (1) NOT NULL ,                                
+      DTALTSIN           DATE     NOT NULL WITH DEFAULT ,                       
+      DDDFAX             SMALLINT NOT NULL WITH DEFAULT ,                       
+      FAX                INTEGER  NOT NULL WITH DEFAULT ,                       
+      EMAIL              CHAR     (60) NOT NULL WITH DEFAULT ,                  
+      CDAFBESP           SMALLINT NOT NULL WITH DEFAULT ,                       
+      DATMOVTO           DATE     NOT NULL WITH DEFAULT ,                       
+      DTDEMISS           DATE     NOT NULL WITH DEFAULT '0001-01-01' ,          
+      CDESTCIV           SMALLINT NOT NULL WITH DEFAULT ,                       
+      CDRG               CHAR     (15) NOT NULL WITH DEFAULT ,                  
+      DSORGEPDRG         CHAR     (20) NOT NULL WITH DEFAULT ,                  
+      DTEPDRG            DATE     NOT NULL WITH DEFAULT '0001-01-01' ,          
+      DDDRED             SMALLINT NOT NULL WITH DEFAULT ,                       
+      TELEFONERED        INTEGER  NOT NULL WITH DEFAULT ,                       
+      DSEMLPES           CHAR     (60) NOT NULL WITH DEFAULT ,                  
+      CDATI              INTEGER  NOT NULL WITH DEFAULT ,                       
+      TPDOCIDF           SMALLINT NOT NULL WITH DEFAULT ,                       
+      TPCLIBSP           SMALLINT NOT NULL WITH DEFAULT ,                       
+      CDBCOPFRSGR        SMALLINT ,                                             
+      CDCLFPJ            SMALLINT NOT NULL WITH DEFAULT 1 ,                     
+     PRIMARY KEY ( CDSEGUR ) )                                                  
+    IN DBMA02  .SEGURADO                                                        
+    DATA CAPTURE CHANGES                                                        
+    WITH RESTRICT ON DROP                                                       
+    CCSID EBCDIC                                                                
+  AUDIT NONE;                                                                   
+-- ***** CARD= 1573463 NPAGES= 45820                                            
+-- **************************                                                   
+-- ***** CREATE INDEXES *****                                                   
+-- **************************                                                   
+CREATE TYPE 2 UNIQUE INDEX MARITIMA.SEGURADO_IX1 ON MARITIMA.SEGURADO           
+      ( CDSEGUR ASC  )                                                          
+    USING STOGROUP STGP17I  PRIQTY 20160 SECQTY 2016 ERASE NO                   
+    FREEPAGE 0 PCTFREE 10                                                       
+    BUFFERPOOL BP2                                                              
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 4769 NLEVELS= 3                                                 
+-- ***** FIRSTKEYCARD= 1573463 FULLKEYCARD= 1573463                             
+CREATE TYPE 2 UNIQUE INDEX MARITIMA.SEGURADO_IX2 ON MARITIMA.SEGURADO           
+      ( CDFONET ASC ,                                                           
+        NMSEGUR ASC ,                                                           
+        CDSEGUR ASC  )                                                          
+     CLUSTER                                                                    
+    USING STOGROUP STGP17I  PRIQTY 90000 SECQTY 9024 ERASE NO                   
+    FREEPAGE 0 PCTFREE 10                                                       
+    BUFFERPOOL BP2                                                              
+    PIECESIZE 2097152 K                                                         
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 23485 NLEVELS= 4                                                
+-- ***** FIRSTKEYCARD= 480989 FULLKEYCARD= 1573463                              
+CREATE TYPE 2  INDEX MARITIMA.SEGURADO_IX3 ON MARITIMA.SEGURADO                 
+      ( NRCGCPF ASC  )                                                          
+    USING STOGROUP STGP17I  PRIQTY 25920 SECQTY 2592 ERASE NO                   
+    FREEPAGE 0 PCTFREE 0                                                        
+    BUFFERPOOL BP2                                                              
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 5908 NLEVELS= 3                                                 
+-- ***** FIRSTKEYCARD= 1328100 FULLKEYCARD= 1328100                             
+CREATE TYPE 2  INDEX MARITIMA.SEGURADO_IX4 ON MARITIMA.SEGURADO                 
+      ( NMSEGUR ASC ,                                                           
+        CDPESFJ ASC  )                                                          
+    USING STOGROUP STGP33I  PRIQTY 70560 SECQTY 7056 ERASE NO                   
+    FREEPAGE 0 PCTFREE 10                                                       
+    BUFFERPOOL BP2                                                              
+    PIECESIZE 2097152 K                                                         
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= 17630 NLEVELS= 3                                                
+-- ***** FIRSTKEYCARD= 1393668 FULLKEYCARD= 1396856                             
+-- **************************                                                   
+-- ***** ALTER TABLE - FOREIGN KEYS*****                                        
+-- **************************                                                   
+-- **************************                                                   
+-- ***** CREATE VIEWS   *****                                                   
+-- **************************                                                   
+CREATE VIEW DB2PDPRC.V_SEGURADO ( ABERTURA , CGCCPF , CNAE ,                    
+        CODIGOEMISSAOETIQ , CODIGOENDERECOCOB , CODIGOENDERECOCOR ,             
+        CODIGOENTREGACOB , DATACANCELCADAST , DDD , EMAIL ,                     
+        IDENTIDADE , NASCIMENTO , NOME , NUMEROFAX , TIPO ) AS                  
+        SELECT SUBSTR(CHAR(DTCADSIS),1,8), REPLACE(CHAR(NRCGCPF),'.',           
+        ''), CHAR(CDATI), INTEGER(CDINBETQ), INTEGER(CDENDPRI),                 
+        INTEGER(CDENDPRI), INTEGER(CDENDPRI), DTDEMISS,                         
+        SUBSTR(CHAR(DDD),1,4), SUBSTR(EMAIL,1,50), CDRG,                        
+        SUBSTR(CHAR(DTNASCIM),1,8), NMSEGUR, CHAR(FAX), CDPESFJ FROM            
+        MARITIMA.SEGURADO ;                                                     
+CREATE VIEW DB2USER.CONVENIOETPSEG AS SELECT A.CDCNV,A.DTINIVIG,                
+        A.DTLIMENQ,A.DSCNV,A.TPSIT, A.NRSEQTAB, A.DSTXTOBSCNV,                  
+        B.CDSGR, C.NMSEGUR, B.CDCNVEMPEXT, B.TPCNV, D.DSTIPCNV,                 
+        B.IDCNVUNF,B.IDLSG, B.QTDIARNV, B.QTDIAREV,B.SGCNVETP,                  
+        B.CDPESAPV, E.NMPES, B.DTAPVCNVETP, B. DSTXTOBSETP, F.CDSUC,            
+        F.CDCOR, F.CDCOL FROM DB2USER.CONVENIOVIG A LEFT JOIN                   
+        DB2USER.CONVENIOETPVIG B ON B.CDCNV=A.CDCNV LEFT JOIN                   
+        SQLUSER.SEGURADO C ON C.CDSEGUR=B.CDSGR LEFT JOIN                       
+        DB2USER.TIPOCONVENIO D ON D.TPCNV=B.TPCNV LEFT JOIN                     
+        DB2USER.PESSOA E ON E.CDPES=B.CDPESAPV LEFT JOIN                        
+        DB2USER.CONVENIOETPCOR F ON F.CDCNV=A.CDCNV AND                         
+        F.CDSGR=B.CDSGR ;                                                       
+-- **************************                                                   
+-- *****     DDL END    *****                                                   
+-- **************************                                                   

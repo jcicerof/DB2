@@ -1,0 +1,12 @@
+//DBBDSNTI JOB 'JONAS',MSGCLASS=T,CLASS=T,NOTIFY=&SYSUID                        
+//*                                                                             
+//*------------------------------------------------------------------           
+//* RECOVER                                                                     
+//*------------------------------------------------------------------           
+//RECOVER  EXEC PGM=DSNUTILB,PARM='DB2P,RECOVER.PRODAPOL'                       
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSOUT   DD  SYSOUT=*                                                         
+//SYSIN    DD  *                                                                
+  RECOVER TABLESPACE DBMA01.PRODAPOL TOLASTFULLCOPY                             

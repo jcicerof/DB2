@@ -1,0 +1,12 @@
+//DBPLIST  JOB MSGCLASS=X,CLASS=A,NOTIFY=JONAS                                  
+//SELECT   EXEC PGM=IKJEFT01,DYNAMNBR=20                                        
+//SYSTSPRT DD SYSOUT=*                                                          
+//SYSTSIN DD *                                                                  
+  DSN SYSTEM(DB2P)                                                              
+  RUN PROGRAM(DSNTEP2) PLAN(DSNTEP00) PARMS('/ALIGN(LHS) MIXED') -              
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSUDUMP DD SYSOUT=*                                                          
+//SYSPUNCH DD SYSOUT=*                                                          
+//SYSREC00 DD SYSOUT=*                                                          
+//SYSIN DD DSN=JONAS.DBA.JOB(LISTAUOW),DISP=SHR                                 

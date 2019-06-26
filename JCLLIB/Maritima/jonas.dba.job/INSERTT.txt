@@ -1,0 +1,8 @@
+--SELECT * FROM JONAS.JONASDPROP WITH UR;                               00000135
+--SELECT * FROM JONAS.CDJONASDPROP WITH UR;                             00000238
+--SELECT * FROM SYSIBM.SYSTABLES WHERE NAME LIKE '%JONAS%';             00000319
+UPDATE JONAS.JONASDPROP SET CD2=CD2;                                    00001038
+COMMIT;                                                                 00002038
+--INSERT INTO jonas.jonasdprop                                          00010037
+--(cd1,cd2,cd3)                                                         00020037
+--VALUES (1,001,'teste');                                               00030037

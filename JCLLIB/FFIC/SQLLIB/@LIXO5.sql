@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM VINVAL.VIN.MANUFACTURER                            00010001

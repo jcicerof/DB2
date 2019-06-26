@@ -1,0 +1,26 @@
+//DBPUNFTB JOB MSGCLASS=X,CLASS=A,NOTIFY=JONAS                          00010000
+//*------------------------------------------------------------------   00020000
+//UTILB01  EXEC PGM=DSNUTILB,                                           00030000
+//       PARM='DB2P,UNLFTB1',                                           00040000
+//       REGION=0M,DYNAMNBR=20                                          00050000
+//SYSPRINT DD  SYSOUT=*                                                 00060000
+//SYSUDUMP DD  SYSOUT=*                                                 00070000
+//SYSIN    DD *                                                         00080000
+TEMPLATE UNLDDS                                                         00090000
+         DSN(JONAS.&SSID..&DB..&TS..D&UT.)                              00100000
+         UNIT SYSDBA                                                    00111002
+         SPACE (700,700) TRK                                            00120000
+         DISP(NEW,CATLG,DELETE)                                         00130000
+TEMPLATE PUNCHDS                                                        00140000
+         DSN(JONAS.&SSID..&DB..&TS..P&UT.)                              00150000
+         UNIT SYSDBA                                                    00160000
+         SPACE (1,1) TRK                                                00170000
+         DISP(NEW,CATLG,DELETE)                                         00180000
+UNLOAD UNLDDN UNLDDS PUNCHDDN PUNCHDS                                   00190000
+         FROM TABLE SQLUSER.PROPOSTA                                    00200001
+         WHEN                                                           00210000
+                  (                                                     00210300
+NRPROPO  IN (71417186,36626254,36578922)                                00210501
+)                                                                       00210900
+         SHRLEVEL CHANGE                                                00250000
+         ISOLATION UR                                                   00260000

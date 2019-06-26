@@ -1,0 +1,43 @@
+-- SELECT * FROM SYSIBM.SYSTABAUTH                                              
+-- WHERE SCREATOR = 'TECINFOR'                                                  
+--   AND STNAME   = 'MOVSOLPCS'                                                 
+--   AND GRANTEETYPE  <> 'P'                                                    
+-- WITH UR;                                                                     
+                                                                                
+ SELECT DISTINCT B.CREATOR, B.NAME FROM SYSIBM.SYSTABLES B,                     
+               SYSIBM.SYSTABAUTH C                                              
+  WHERE C.SCREATOR = B.CREATOR                                                  
+    AND C.STNAME   = B.NAME                                                     
+    AND B.TYPE = 'T'                                                            
+    AND C.GRANTOR <> 'PUBLIC'                                                   
+    AND C.GRANTEE <> 'PUBLIC'                                                   
+    AND C.GRANTEETYPE  <> 'P'                                                   
+    AND B.CREATOR NOT IN                                                        
+        ('SYSIBM', 'PTI', 'LANDMARK', 'DSNACC', 'DSNRGCOL', 'ASN')              
+    AND NOT EXISTS (SELECT '1' FROM SYSIBM.SYSTABAUTH A                         
+                     WHERE A.SCREATOR = B.CREATOR                               
+                       AND A.STNAME   = B.NAME                                  
+                       AND A.GRANTEETYPE  <> 'P'                                
+                       AND A.GRANTOR <> 'PUBLIC'                                
+                       AND A.GRANTEE IN (                                       
+  'MVSPUSER', 'CSPPUSER', 'INFORMIX', 'IFXPUSER', 'CA7ONL')                     
+                    )                                                           
+ WITH UR;                                                                       
+ FIM                                                                            
+SELECT * FROM SYSIBM.SYSTABAUTH A                                               
+ WHERE NOT EXISTS (SELECT '1' FROM SYSIBM.SYSTABLES B                           
+                    WHERE A.SCREATOR = B.CREATOR                                
+                      AND A.STNAME   = B.NAME                                   
+                      AND B.TYPE = 'T')                                         
+WITH UR;                                                                        
+SELECT * FROM SYSIBM.SYSTABAUTH A                                               
+ WHERE NOT EXISTS (SELECT '1' FROM SYSIBM.SYSTABLES B                           
+                    WHERE A.SCREATOR = B.CREATOR                                
+                      AND A.STNAME   = B.NAME                                   
+                      AND B.TYPE = 'T')                                         
+WITH UR;                                                                        
+  'MVSPUSER', 'CSPPUSER', 'INFORMIX', 'IFXPUSER', 'CA7ONL')                     
+SELECT * FROM SYSIBM.SYSTABAUTH                                                 
+ WHERE GRANTEE IN (                                                             
+  'MVSPUSER', 'CSPPUSER', 'INFORMIX', 'IFXPUSER', 'CA7ONL')                     
+WITH UR;                                                                        

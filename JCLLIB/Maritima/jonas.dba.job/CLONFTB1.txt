@@ -1,0 +1,173 @@
+//DBACLONE JOB MSGCLASS=X,CLASS=A,COND=(4,LT),NOTIFY=JONAS              JOB00855
+//*------------------------------------------------------------------           
+//ADR001   EXEC PGM=ADRDSSU                                                     
+//SAIDA    DD  DUMMY                                                            
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSIN    DD  DSN=DBA.CLONE.SYSIN(DELARF),DISP=SHR                             
+//*------------------------------------------------------------------           
+//UTILB01  EXEC PGM=DSNUTILB,                                                   
+//       PARM='DB2P,CLONEF',                                                    
+//       REGION=0M,DYNAMNBR=20                                                  
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSUDUMP DD  SYSOUT=*                                                         
+//SYSIN    DD *                                                                 
+TEMPLATE UNLDDS                                                                 
+         DSN(DBA.&SSID..&DB..&TS..D&UT.)                                        
+         UNIT=SYSDA                                                             
+         VOLUMES (SHR004)                                                       
+         DISP(NEW,CATLG,DELETE)                                                 
+TEMPLATE PUNCHDS                                                                
+         DSN(DBA.&SSID..&DB..&TS..P&UT.)                                        
+         UNIT=SYSDA                                                             
+         VOLUMES (SHR004)                                                       
+         DISP(NEW,CATLG,DELETE)                                                 
+UNLOAD UNLDDN UNLDDS PUNCHDDN PUNCHDS                                           
+         FROM TABLE MARITIMA.WEBLOCALRISCO                                      
+         WHEN                                                                   
+SELECT *                                                                        
+FROM   MARITIMA.MOVPROPOSTA   T1                                                
+,      MARITIMA.WEBLOCALRISCO T2                                                
+WHERE  ( T1.NRCAL = T2.CDCAL                                                    
+AND      T1.NRPROPO IN                                                          
+(085764640,704480423,312435624,706407448,311343467,                             
+704816030,704881630,706737090,706952748,707578785,                              
+080152035,082510907,361403770,085256262,084268097,                              
+010870720,085727354,083431881,811085528))                                       
+         SHRLEVEL CHANGE                                                        
+         ISOLATION UR                                                           
+//*----------------------------------------------------------------             
+//*  STEP PARA ENVIAR O JOB PARA A INTERNAL READER DA LPAR DE TESTE             
+//*-------------------------------------------------------------------          
+//IEB02    EXEC  PGM=IEBGENER                                                   
+//SYSIN    DD  DUMMY                                                            
+//SYSPRINT DD  SYSOUT=S                                                         
+//SYSUT2   DD  SYSOUT=(A,INTRDR)                                                
+//SYSUT1   DD  DATA,DLM=$$                                                      
+//DBACLONE JOB MSGCLASS=X,CLASS=A,COND=(4,LT)                                   
+//*-------------------------------------------------------------------*         
+//*  CONTINUACAO DO JOB DBACLONE PROCESSADO NA LPAR DE PRODUCAO       *         
+//*-------------------------------------------------------------------*         
+/*XEQ MRTT                                                                      
+//*--------------------------------------------------------------------         
+//IEF01    EXEC PGM=IEFBR14                                                     
+//D01      DD  DSN=DBA.CLONE.DB2P.TABELAS.TCLONEF,                              
+//        DISP=(OLD,DELETE,DELETE), E                                           
+//        VOL=SER=(SHR004),UNIT=SYSDA                                           
+//*--------------------------------------------------------------------         
+//IEH01    EXEC PGM=IEHPROGM                                                    
+//SYSPRINT DD  SYSOUT=*                                                         
+//DD1      DD  DISP=OLD,UNIT=SYSDA,VOL=SER=SHR004                               
+//SYSIN    DD  DSN=DBA.CLONE.SYSIN(UNCTLGPO),DISP=SHR                           
+//*--------------------------------------------------------------------         
+//IEF02    EXEC PGM=IEFBR14                                                     
+//D01      DD  DSN=DBA.CLONE.DB2P.TABELAS.TCLONEF,                              
+//        DISP=(,CATLG,DELETE),                                                 
+//        VOL=SER=(SHR004),UNIT=SYSDA,                                          
+//        DCB=(DSORG=PO,LRECL=80,BLKSIZE=27920,RECFM=FB),                       
+//        SPACE=(TRK,(10,1,10))                                                 
+//IEB01    EXEC  PGM=IEBCOPY                                                    
+//SYSPRINT DD  SYSOUT=*                                                         
+//IN       DD  DSN=DBA.CLONE.SYSIN,DISP=SHR                                     
+//OUT      DD  DSN=DBA.CLONE.DB2P.TABELAS.TCLONEF,DISP=SHR,                     
+//         UNIT=SYSDA,VOL=SER=(SHR004)                                          
+//SYSIN    DD  DSN=DBA.CLONE.SYSIN(COPY$$$$),DISP=SHR                           
+//*-----------------------------------------------------------------            
+//ICEGENER PROC DB=ESQUECEU                                                     
+//ICE01    EXEC PGM=ICEGENER,COND=EVEN                                          
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSUT1   DD  DSN=DBA.DB2P.&DB..&TS..PCLONEF,DISP=SHR,                         
+//         VOL=SER=SHR004,UNIT=SYSDA                                            
+//SYSUT2   DD  DSN=DBA.CLONE.DB2P.TABELAS.TCLONEF(&TS),DISP=SHR,                
+//         VOL=SER=SHR004,UNIT=SYSDA                                            
+//SYSIN    DD  DUMMY                                                            
+//         PEND                                                                 
+//ICEGE001 EXEC  ICEGENER,DB=DBKIT1,TS=WEBLRISC                                 
+//*-----------------------------------------------------------------            
+//IPO01    EXEC PGM=IPOUPDTE,PARM=UPDATE                                        
+//SYSPRINT DD  SYSOUT=*                                                         
+//@SIMULA  DD  DSN=DBA.CLONE.DB2P.TABELAS.TCLONEF,                              
+//         DISP=SHR,VOL=SER=SHR004,UNIT=SYSDA                                   
+//SYSIN    DD  DSN=DBA.CLONE.SYSIN(IPOUDAT2),DISP=SHR                           
+//*-------------------------------------------------------------------*         
+//*  CARREGA TABELAS DE PRODUCAO EM AMBIENTE DE DESENVOLVIMENTO       *         
+//*-------------------------------------------------------------------*         
+//LOAD     PROC      DB=ESQUECEU,TS=ESQUECEU                                    
+//CARGAT   EXEC PGM=DSNUTILB,                                                   
+//         PARM='DB2T,CLONET',COND=EVEN,                                        
+//         REGION=0M                                                            
+//SYSPRINT DD  SYSOUT=*                                                         
+//UTPRINT  DD  SYSOUT=*                                                         
+//SYSUT1   DD  DSN=DBA.CLONE.SYSUT1,                                            
+//             DISP=(,DELETE),                                                  
+//             UNIT=3390,SPACE=(TRK,(100,230),RLSE)                             
+//SORTOUT  DD  DSN=DBA.CLONE.SORTOUT,                                           
+//             DISP=(,DELETE),                                                  
+//             UNIT=3390,SPACE=(TRK,(100,230),RLSE)                             
+//SYSERR   DD  DSN=DBA.CLONE.SYSERR,                                            
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDA,SPACE=(TRK,(100,220),RLSE)                            
+//SYSMAP   DD  DSN=DBA.CLONE.SYSMAP,                                            
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDA,SPACE=(TRK,(100,215),RLSE)                            
+//SYSDISC  DD  DSN=DBA.CLONE.SYSDISC,                                           
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDA,SPACE=(TRK,(100,215),RLSE)                            
+//SYSREC00 DD  DSN=DBA.DB2P.&DB..&TS..DCLONEF,DISP=SHR,                         
+//            VOL=SER=(SHR004),UNIT=SYSDA                                       
+//SYSIN    DD  DISP=SHR,DSN=DBA.CLONE.DB2P.TABELAS.TCLONEF(&TS),                
+//            VOL=SER=(SHR004),UNIT=SYSDA                                       
+//  PEND                                                                        
+//CARGAT   EXEC LOAD,DB=DBKIT1,TS=WEBLRISC                                      
+//*-------------------------------------------------------------------          
+//*  STEP PARA ENVIAR O JOB PARA A INTERNAL READER DA LPAR DE PRODUCAO          
+//*-------------------------------------------------------------------          
+//S0314    EXEC  PGM=IEBGENER                                                   
+//SYSIN    DD  DUMMY                                                            
+//SYSPRINT DD  SYSOUT=S                                                         
+//SYSUT2   DD  SYSOUT=(A,INTRDR)                                                
+//SYSUT1   DD  DATA,DLM=$$                                                      
+//DBACLONE JOB MSGCLASS=X,CLASS=A,COND=(4,LT)                                   
+//*-------------------------------------------------------------------*         
+//*  CONTINUACAO DO JOB DBACLONE PROCESSADO NA LPAR DE PRODUCAO       *         
+//*-------------------------------------------------------------------*         
+/*XEQ MRTP                                                                      
+//*-------------------------------------------------------------------*         
+//*  DBACLONE DELETA ARQUIVOS EM LPAR DE PRODUCAO                     *         
+//*-------------------------------------------------------------------*         
+//ADR02    EXEC PGM=ADRDSSU                                                     
+//SAIDA    DD  DUMMY                                                            
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSIN    DD  DSN=DBA.CLONE.SYSIN(DELARF),DISP=SHR                             
+//*----------------------------------------                                     
+$$                                                                              
+//                                                                              
+//*-------------------------------------------------------------------*         
+//*  CARREGA TABELAS DE PRODUCAO EM AMBIENTE DE HOMOLOGACAO           *         
+//*-------------------------------------------------------------------*         
+//LOAD     PROC      DB=ESQUECEU,TS=ESQUECEU                                    
+//CARGAH   EXEC PGM=DSNUTILB,                                                   
+//         PARM='DB2T,CLONET',COND=EVEN,                                        
+//         REGION=0M                                                            
+//SYSPRINT DD  SYSOUT=*                                                         
+//UTPRINT  DD  SYSOUT=*                                                         
+//SYSUT1   DD  DSN=DBA.CLONE.SYSUT1,                                            
+//             DISP=(,DELETE),                                                  
+//             UNIT=3390,SPACE=(TRK,(100,230),RLSE)                             
+//SORTOUT  DD  DSN=DBA.CLONE.SORTOUT,                                           
+//             DISP=(,DELETE),                                                  
+//             UNIT=3390,SPACE=(TRK,(100,230),RLSE)                             
+//SYSERR   DD  DSN=DBA.CLONE.SYSERR,                                            
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDA,SPACE=(TRK,(100,220),RLSE)                            
+//SYSMAP   DD  DSN=DBA.CLONE.SYSMAP,                                            
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDA,SPACE=(TRK,(100,215),RLSE)                            
+//SYSDISC  DD  DSN=DBA.CLONE.SYSDISC,                                           
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDA,SPACE=(TRK,(100,215),RLSE)                            
+//SYSREC00 DD  DSN=DBA.DB2P.&DB..&TS..DCLONEF,DISP=SHR,                         
+//        UNIT=SYSDA,VOL=SER=SHR004                                             
+//SYSIN    DD  DISP=SHR,DSN=DBA.CLONE.DB2P.TABELAS.TCLONEF(&TS),                
+//        UNIT=SYSDA,VOL=SER=SHR004                                             
+//  PEND                                                                        
+//CARGAH   EXEC LOAD,DB=DBKIT1,TS=WEBLRISC                                      

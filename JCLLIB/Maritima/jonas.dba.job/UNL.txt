@@ -1,0 +1,29 @@
+//DBPUNLPD JOB   MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID,TYPRUN=HOLD          JOB00524
+//**************************************************************                
+//*   UNLOAD DE TABELAS PRODUZINDO AS INSTRUCOES PARA LOAD                      
+//**************************************************************                
+//UNLOAD   EXEC PGM=IKJEFT01,DYNAMNBR=20,COND=(4,LT)                            
+//SYSTSPRT DD  SYSOUT=*                                                         
+//SYSTSIN  DD  *                                                                
+ DSN SYSTEM(DB2P)                                                               
+ RUN  PROGRAM(DSNTIAUL) PLAN(DSNTIB00) PARMS('SQL') -                           
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSPUNCH DD DSN=JONAS.DBA.LOGTRNARQ.PUNCH,                                    
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(TRK,(1,1),RLSE),                                              
+//         UNIT=SYSDBA                                                          
+//SYSREC00 DD DSN=JONAS.DBA.LOGTRNARQ.REC,                                      
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         SPACE=(CYL,(10,10),RLSE),                                            
+//         UNIT=SYSDBA                                                          
+//SYSIN    DD *                                                                 
+SELECT TPARQ, DHENVARQ, DSCHVENV,                                               
+SGSISORI, SGSUBSISORI, DTRETMOV,                                                
+DSDETRGT,NRPPSCOR, CDSUC, CDRMO, NRAPO                                          
+FROM SQLUSER.LOGTRNARQ                                                          
+WHERE TPARQ IN(4006,4106)                                                       
+AND DATE(DHENVARQ) > '2008-07-01'                                               
+AND SGSISORI = 'RE'                                                             
+AND SGSUBSISORI = 'PRI'                                                         
+AND SGSUBSISORI = 'PRI' WITH UR;                                                

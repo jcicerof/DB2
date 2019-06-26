@@ -1,0 +1,61 @@
+//DBPLOAD JOB MSGCLASS=X,CLASS=T,NOTIFY=&SYSUID                                 
+//DSNUPROC EXEC PGM=DSNUTILB,PARM='DB2P,LOAD.TESTE'                             
+//SYSPRINT DD   SYSOUT=*                                                        
+//UTPRINT  DD   SYSOUT=*                                                        
+//SYSUT1   DD  UNIT=VSM                                                         
+//SORTOUT  DD  UNIT=VSM                                                         
+//SYSERR   DD  DSN=&&SYSERR,                                                    
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDBA,SPACE=(TRK,(100,220),RLSE)                           
+//SYSMAP   DD  DSN=&SYSMAP,                                                     
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDBA,SPACE=(TRK,(100,215),RLSE)                           
+//SYSDISC  DD  DSN=&&SYSDISC,                                                   
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDBA,SPACE=(TRK,(100,215),RLSE)                           
+//SYSIN     DD *                                                                
+TEMPLATE CEREZEM4                                                               
+     DSN('JUNIOR.UNL.DBMA02.CORCOOLD.REC0107.D2009161')                         
+     DISP(OLD,KEEP,KEEP)                                                        
+LOAD DATA INDDN CEREZEM4 LOG NO  RESUME YES NOCOPYPEND                          
+ EBCDIC  CCSID(00037,00000,00000)                                               
+ SORTKEYS             7929648                                                   
+ INTO TABLE "RECUPERA"."CORCOOLD13"                                             
+ WHEN(00001:00002) = X'0029'                                                    
+ ( "DTRECCOM"                                                                   
+        POSITION(  00003:00012) DATE EXTERNAL                                   
+ , "NRRECCOM"                                                                   
+        POSITION(  00013:00016) INTEGER                                         
+ , "NRSEQ"                                                                      
+        POSITION(  00017:00020) INTEGER                                         
+ , "CDSUCUR"                                                                    
+        POSITION(  00021:00022) SMALLINT                                        
+ , "CDRMBAS"                                                                    
+        POSITION(  00023:00024) SMALLINT                                        
+ , "NRAPOLI"                                                                    
+        POSITION(  00025:00028) INTEGER                                         
+ , "NRENDOS"                                                                    
+        POSITION(  00029:00032) INTEGER                                         
+ , "NRPARCL"                                                                    
+        POSITION(  00033:00034) SMALLINT                                        
+ , "CDRMRMO"                                                                    
+        POSITION(  00035:00036) SMALLINT                                        
+ , "IDRECCOM"                                                                   
+        POSITION(  00037:00037) CHAR(00001)                                     
+ , "IDDOCCOM"                                                                   
+        POSITION(  00038:00040) CHAR(00003)                                     
+ , "NMSEGUR"                                                                    
+        POSITION(  00041:00075) CHAR(00035)                                     
+ , "PRLIQUI"                                                                    
+        POSITION(  00076:00082) DECIMAL                                         
+ , "VRCOMISS"                                                                   
+        POSITION(  00083:00089) DECIMAL                                         
+ , "VRADIANT"                                                                   
+        POSITION(  00090:00095) DECIMAL                                         
+ , "TPLANCTO"                                                                   
+        POSITION(  00096:00096) CHAR(00001)                                     
+ , "NRPAGINA"                                                                   
+        POSITION(  00097:00098) SMALLINT                                        
+ , "SIGLARMO"                                                                   
+        POSITION(  00099:00101) CHAR(00003)                                     
+ )                                                                              

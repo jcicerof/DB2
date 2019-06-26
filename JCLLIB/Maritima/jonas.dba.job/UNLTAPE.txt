@@ -1,0 +1,24 @@
+//DB@UNLOA JOB 'JONAS',MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID,TYPRUN=HOLD    00010001
+//*------------------------------------------------------------------   00020000
+//* UNLOAD    - RETORNO DE DADOS                                        00030000
+//*------------------------------------------------------------------   00040000
+//UNLOAD   EXEC PGM=DSNUTILB,PARM='DB2P'                                00050000
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00060000
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00070000
+//SYSPRINT DD   SYSOUT=*                                                00080000
+//SYSOUT   DD   SYSOUT=*                                                00090000
+//SYSIN    DD   *                                                       00100000
+OPTIONS EVENT(ITEMERROR, SKIP)                                          00110000
+LISTDEF DBLIST INCLUDE TABLESPACE DBNOVA.CADAPOL                        00130001
+               INCLUDE TABLESPACE DBNOVA.CADPARCL                       00130101
+               INCLUDE TABLESPACE DBNOVA.CORRETOR                       00130201
+TEMPLATE DDPUNCH DSN(JJ20.UNL.&DB..&TS..PUNCH)                          00280001
+   UNIT SYSDBA SPACE (1,0) TRK DISP (NEW,CATLG,DELETE)                  00290000
+                                                                        00300000
+TEMPLATE DDREC DSN(JJ20.UNL.&DB..&TS..&UNIQ..TAPE)                      00310001
+   UNIT VSM DISP (NEW,CATLG,DELETE) VOLCNT(255) STACK YES               00320000
+                                                                        00330000
+UNLOAD LIST DBLIST                                                      00340000
+       PUNCHDDN DDPUNCH                                                 00350000
+       UNLDDN   DDREC                                                   00360000
+       SHRLEVEL CHANGE ISOLATION UR                                     00370000

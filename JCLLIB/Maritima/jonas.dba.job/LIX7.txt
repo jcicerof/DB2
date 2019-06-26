@@ -1,0 +1,15 @@
+SELECT DISTINCT A.DBNAME,A.TSNAME                                               
+'INCLUDE TABLESPACE '                                                           
+||STRIP(A.DBNAME)||'.'||STRIP(A.TSNAME)||                                       
+' COMPRESS YES;'                                                                
+ FROM SYSIBM.SYSTABLES A                                                        
+    , SYSIBM.SYSTABLEPART B                                                     
+    , SYSIBM.SYSCOLUMNS   C                                                     
+WHERE A.NAME = C.TBNAME                                                         
+  AND A.TSNAME  = B.TSNAME                                                      
+  AND C.TBCREATOR  = A.CREATOR                                                  
+  AND A.DBNAME  = B.DBNAME                                                      
+  AND B.DBNAME  LIKE 'DB%'                                                      
+  AND B.COMPRESS <> 'Y'                                                         
+  AND C.LENGTH > 50                                                             
+--ORDER BY C.LENGTH DESC WITH UR;                                               

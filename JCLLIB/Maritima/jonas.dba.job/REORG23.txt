@@ -1,0 +1,123 @@
+1OPTIONS EVENT(ITEMERROR, SKIP)                                                 
+ LISTDEF DBLIST                                                                 
+             INCLUDE TABLESPACE DPROPR.TSCDCACS                                 
+             INCLUDE TABLESPACE DPROPR.TSCDCAD1                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDCCHQ                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCCOB                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCCOR                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCADA                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCRMO                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCAUA                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCASS                                
+             INCLUDE TABLESPACE CDDPROP.TSCADAUT                                
+             INCLUDE TABLESPACE DPROPR.TSCDCACX                                 
+             INCLUDE TABLESPACE DPROPR.TSCDCADA                                 
+             INCLUDE TABLESPACE DPROPR.TSCADAUD                                 
+             INCLUDE TABLESPACE DBNOVA.TSCDCADA                                 
+             INCLUDE TABLESPACE DPROPR.TSCADURE                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDCRSM                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCSOL                                
+             INCLUDE TABLESPACE CDDPROP.TSCADAUV                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCUVI                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCUXI                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCBIL                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCOCE                                
+             INCLUDE TABLESPACE DPROPR.TSCDCADC                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDCPAR                                
+             INCLUDE TABLESPACE DPROPR.TSCDCADP                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDCADV                                
+             INCLUDE TABLESPACE DPROPR.TSCDCOAC                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDCOAP                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCONG                                
+             INCLUDE TABLESPACE CDDPROP.TSCDCORR                                
+             INCLUDE TABLESPACE DPROPR.TSCDCRCM                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDINSP                                
+             INCLUDE TABLESPACE CDDPROP.TSCDMOVP                                
+             INCLUDE TABLESPACE DPROPR.TSCDMOVT                                 
+             INCLUDE TABLESPACE DPROPR.TSCDMOVP                                 
+             INCLUDE TABLESPACE DPROPR.TSCDNOTA                                 
+             INCLUDE TABLESPACE DPROPR.TSCDNITM                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDPROP                                
+             INCLUDE TABLESPACE DPROPR.TSCDREGI                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDRSPC                                
+             INCLUDE TABLESPACE CDDPROP.TSCDSPGT                                
+             INCLUDE TABLESPACE CDDPROP.TSCDSTEI                                
+             INCLUDE TABLESPACE CDDPROP.TSCDSEGU                                
+             INCLUDE TABLESPACE DPROPR.TSCDSINT                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDSNPR                                
+             INCLUDE TABLESPACE DPROPR.TSCDSSAS                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSCR                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSRR                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSCA                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSCO                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSCO                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSCS                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSDO                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSDV                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSDG                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSEN                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSES                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSTIP                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSHM                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSHR                                 
+             INCLUDE TABLESPACE DPROPR.TSCDGRPE                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSME                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSMD                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSMO                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSOS                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSOB                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSPN                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSPC                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSPU                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSPB                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSPL                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSP2                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSPG                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSPM                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSRN                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSRD                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSSE                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDSSSE                                
+             INCLUDE TABLESPACE DPROPR.TSCDSSSG                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDSEGT                                
+             INCLUDE TABLESPACE DPROPR.TSCDSEXC                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSSR                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSSU                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSTE                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSTD                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSEX                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSTI                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSTP                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSTL                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSTU                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSUN                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSVI                                 
+             INCLUDE TABLESPACE DPROPR.TSCDSSVU                                 
+             INCLUDE TABLESPACE CDDPROP.TSCDSSVL                                
+             INCLUDE TABLESPACE DPROPR.TSCDUF                                   
+ TEMPLATE DDCOPY                                                                
+          DSN('DB2PCOPY.FD1.&DB..&TS..P0(+1)')                                  
+          UNIT=VSM                                                              
+          VOLCNT(255)                                                           
+          DISP(NEW,CATLG,DELETE)                                                
+          STACK YES                                                             
+          GDGLIMIT(5)                                                           
+                                                                                
+ TEMPLATE DDDISC DSN(DB2PWRK.UNL.&DB..&TS..DISC.D&DT.)                          
+    DISP (NEW,DELETE,CATLG)                                                     
+    UNIT VSM  VOLCNT(255) RETPD 5                                               
+                                                                                
+ TEMPLATE DDPUNCH DSN(DB2PWRK.UNL.&DB..&TS..PUNCH.D&DT.)                        
+    UNIT SYSDA SPACE (1,0) TRK DISP (NEW,DELETE,CATLG)                          
+                                                                                
+ TEMPLATE DDREC DSN(DB2PWRK.UNL.&DB..&TS..REC.D&DT.)                            
+    DISP (NEW,DELETE,CATLG)                                                     
+    UNIT VSM  VOLCNT(255) RETPD 5                                               
+                                                                                
+ QUIESCE LIST DBLIST                                                            
+ REORG TABLESPACE LIST DBLIST LOG NO                                            
+       SORTDATA SORTKEYS                                                        
+       PUNCHDDN(DDPUNCH) COPYDDN(DDCOPY) UNLDDN(DDREC) DISCARDDN(DDDISC)        
+       FASTSWITCH NO                                                            
+       SHRLEVEL CHANGE MAPPINGTABLE SYSADM.MAPTABLE                             
+       STATISTICS TABLE(ALL) INDEX(ALL) UPDATE ALL                              

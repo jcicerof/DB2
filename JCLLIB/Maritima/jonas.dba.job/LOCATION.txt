@@ -1,0 +1,37 @@
+SELECT * FROM SYSIBM.USERNAMES;                                         00000141
+SELECT * FROM SYSIBM.IPNAMES;                                           00000241
+SELECT * FROM SYSIBM.LOCATIONS;                                         00000341
+--INSERT INTO SYSIBM.USERNAMES                                          00000440
+--(TYPE,AUTHID,LINKNAME,NEWAUTHID,PASSWORD,IBMREQD)                     00000540
+--VALUES ('O','','ERPDES','erpuser','erpddb2','N');                     00000640
+--COMMIT;                                                               00000740
+--INSERT INTO SYSIBM.IPNAMES                                            00000838
+--(LINKNAME,SECURITY_OUT,USERNAMES,IBMREQD,IPADDR)                      00000938
+--VALUES ('ERPDES','P','O','N','10.1.1.153');                           00001038
+--COMMIT;                                                               00001138
+--INSERT INTO SYSIBM.LOCATIONS (LOCATION,LINKNAME,PORT)                 00001335
+--VALUES ('ERPDES','ERPDES','50020');                                   00001435
+--COMMIT;                                                               00001535
+--UPDATE SYSIBM.USERNAMES SET NEWAUTHID='erpuserp',                     00001632
+--password ='erp01prd'                                                  00001732
+--WHERE LINKNAME = 'JURPRO' AND NEWAUTHID ='erpuser' AND                00001832
+--PASSWORD = 'erp01prod';                                               00001932
+--COMMIT;                                                               00002032
+--INSERT INTO SYSIBM.LOCATIONS (LOCATION,LINKNAME,PORT)                 00011003
+--VALUES ('ERPPOP','ERPPOP','50000');                                   00012003
+--INSERT INTO SYSIBM.IPNAMES                                            00021008
+--(LINKNAME,SECURITY_OUT,USERNAMES,IBMREQD,IPADDR)                      00022008
+--VALUES ('ERPPOP','P','O','N','10.1.1.101');                           00023008
+--INSERT INTO SYSIBM.USERNAMES                                          00031010
+--(TYPE,AUTHID,LINKNAME,NEWAUTHID,PASSWORD,IBMREQD)                     00032010
+--VALUES ('O','','ERPPOP','ERPPUSER','POPERP','N');                     00033012
+--COMMIT;                                                               00034010
+--GRANT EXECUTE ON PACKAGE DSNESPRR.DSNESM68 TO PUBLIC;                 00040000
+--COMMIT;                                                               00050000
+--DELETE FROM SYSIBM.USERNAMES                                          00080000
+--SET CURRENT SQLID='SYSADM';                                           00090000
+--SET NEWAUTHID = 'ERPUSERP'                                            00210000
+--SET PASSWORD = 'ERP01PRD'                                             00220000
+--WHERE LINKNAME = 'ERPPRO';                                            00230000
+--INSERT INTO SYSIBM.LOCATIONS (LOCATION,LINKNAME,PORT)                 00240000
+--VALUES ('ERPPRO','ERPPRO','50011');                                   00250000

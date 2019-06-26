@@ -1,0 +1,7 @@
+SET CURRENT SQLID='SYSADM';                                                     
+COMMIT;                                                                         
+                                                                                
+UPDATE ASN.IBMSNAP_CAPPARMS SET RETENTION_LIMIT=10080,                          
+LAG_LIMIT=10080                                                                 
+WHERE RETENTION_LIMIT=28800 AND LAG_LIMIT=28800;                                
+COMMIT;                                                                         

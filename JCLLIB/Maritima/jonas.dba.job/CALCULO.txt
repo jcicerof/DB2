@@ -1,0 +1,22 @@
+  SELECT A.CREATOR, A.NAME,                                             00001009
+         B.DBNAME, B.TSNAME, B.PARTITION, (B.SPACE / 4) / 180 AS CYL    00002009
+    FROM SYSIBM.SYSTABLES    A,                                         00003009
+         SYSIBM.SYSTABLEPART B                                          00004009
+   WHERE A.NAME  IN                                                     00005009
+('CADAPOL',                                                             00005112
+'SSESTIPU')                                                             00005211
+     AND A.TYPE   = 'T'                                                 00009609
+     AND A.DBNAME = B.DBNAME                                            00009709
+     AND A.TSNAME = B.TSNAME                                            00009809
+UNION ALL                                                               00009909
+  SELECT A.CREATOR, A.NAME, A.DBNAME, A.INDEXSPACE,                     00010009
+         B.PARTITION, (B.SPACE / 4) / 180 AS CYL                        00010109
+    FROM SYSIBM.SYSINDEXES   A,                                         00010209
+         SYSIBM.SYSINDEXPART B                                          00010309
+   WHERE A.TBNAME  IN                                                   00010409
+('CADAPOL',                                                             00010512
+'SSESTIPU')                                                             00010710
+     AND A.NAME    = B.IXNAME                                           00015009
+     AND A.CREATOR = B.IXCREATOR                                        00015109
+ORDER BY 3, 4, 5, 1, 2                                                  00016009
+                                                                        00020009

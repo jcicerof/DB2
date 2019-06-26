@@ -1,0 +1,22 @@
+//DB@COPY  JOB 'JONAS',MSGCLASS=P,CLASS=A,NOTIFY=JONAS TYPRUN=HOLD              
+//PRDDIAIN EXEC PGM=DSNUTILB,PARM='DB2P,COPY.EXTRA'                             
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSOUT   DD  SYSOUT=*                                                         
+//SYSIN    DD  *                                                                
+OPTIONS EVENT(ITEMERROR, SKIP)                                                  
+LISTDEF LISTA   INCLUDE TABLESPACE DBMA02.ENDERSEG                              
+                INCLUDE TABLESPACE DBMA02.ENSEGURA                              
+                INCLUDE TABLESPACE DBNOVA.EVERELSG                              
+                INCLUDE TABLESPACE DBMA02.SEGURADO                              
+TEMPLATE DDCOPY                                                                 
+         DSN(DB2PCOPY.&DB..&TS..D&DT..H&TIME.)                                  
+         UNIT=VSM                                                               
+         VOLCNT(255)                                                            
+         DISP(NEW,CATLG,DELETE)                                                 
+         STACK YES                                                              
+COPY LIST LISTA                                                                 
+     SHRLEVEL REFERENCE                                                         
+     FULL YES                                                                   
+     COPYDDN DDCOPY                                                             

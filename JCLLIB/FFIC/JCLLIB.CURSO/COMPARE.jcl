@@ -1,0 +1,203 @@
+//IBM1JCFA JOB (T00101,520,AU88100,658,000,581),'DB2 TOOLS',
+//*       RESTART=STEPNAME, <== FOR RESTART REMOVE * AND ENTER STEP NAME
+//         MSGLEVEL=(1,1),MSGCLASS=X,
+//         CLASS=L,NOTIFY=IBM1JCF
+/*JOBPARM Z=G,HOLD=ALL,S=ESYS,T=1439
+//*
+//**********************************************************************
+//*
+//* DB2 OBJECT COMPARISON TOOL
+//*
+//* STEP S01DB2: EXTRACT DB2 CATALOG OBJECTS FOR SOURCE
+//*
+//******************************************************GOCDB2**********
+//        IF (RC GT 7) THEN
+//        ELSE
+//S01DB2   EXEC PGM=IKJEFT01,DYNAMNBR=100
+//STEPLIB  DD DISP=SHR,DSN=DB2D.DB2.IBMTOOLS.SGOCLLIB
+//         DD DISP=SHR,DSN=DB2D.DB2.IBMTOOLS.SADBLLIB
+//         DD DISP=SHR,DSN=DB2S.DB2EXIT
+//         DD DISP=SHR,DSN=DB2S.DB2LOAD
+//         DD DISP=SHR,DSN=DB2D.DB2.IBMTOOLS.SADBLINK
+//SYSTSPRT DD SYSOUT=*
+//SYSTSIN  DD *
+  DSN SYSTEM(DB2D)
+  RUN PROG(ADB2GEN) PLAN(ADB2GEN) PARM('/WRTCAT,NOGEN,REBIND,')
+  END
+//SYSPRINT DD SYSOUT=*
+//SQLOUT   DD DUMMY
+//CAT      DD DSN=IBM1JCF.COMPARE.SOURCE,
+//            DISP=OLD
+//IN       DD *
+  DB2SYS   = 'DB2D',
+  DB2ALOC  = 'DB2D',
+  DB2SERV  = 'DB2D',
+  DB2AUTH  = 'IBM1JCF',
+  DB2REL   = '815',
+  GENDB    = 'N',
+  GENTS    = 'Y',
+  GENTABLE = 'Y',
+  GENVIEW  = 'Y',
+  GENINDEX = 'Y',
+  GENSYN   = 'Y',
+  GENALIAS = 'Y',
+  GENLABEL = 'Y',
+  GENCOMM  = 'Y',
+  GENRELS  = 'D',
+  GENTRIG  = 'Y',
+  GENSG    = 'N',
+  GRANTDB  = 'Y',
+  GRANTTS  = 'Y',
+  GRANTTAB = 'Y',
+  GRANTVW  = 'Y',
+  GENUDT   = 'N',
+  GENUDF   = 'N',
+  GENSTP   = 'N',
+  GENSEQ   = 'N',
+  GRANTSCH = 'N',
+  GRANTUDT = 'N',
+  GRANTUDF = 'N',
+  GRANTSTP = 'N',
+  GRANTSEQ = 'N',
+  GRANTSG  = 'N',
+  NEWDB    = '',
+  NEWTSSG  = '',
+  NEWIXSG  = '',
+  NEWSQLID = '',
+  NEWSCH   = '',
+  SPCALLOC = 'DEFINED',
+  DESCRIPT = '',
+  TGTDB2   = '815';
+  DB='',         TS='',
+  OWN=
+'DB2TEST'
+ ,TB=
+'BUSINESS_TASK'
+   ;
+//    ENDIF
+/*
+//**********************************************************************
+//*
+//* DB2 OBJECT COMPARISON TOOL
+//*
+//* STEP T02DB2: EXTRACT DB2 CATALOG OBJECTS FOR TARGET
+//*
+//******************************************************GOCDB2**********
+//        IF (RC GT 7) THEN
+//        ELSE
+//T02DB2   EXEC PGM=IKJEFT01,DYNAMNBR=100
+//STEPLIB  DD DISP=SHR,DSN=DB2D.DB2.IBMTOOLS.SGOCLLIB
+//         DD DISP=SHR,DSN=DB2D.DB2.IBMTOOLS.SADBLLIB
+//         DD DISP=SHR,DSN=DB2S.DB2EXIT
+//         DD DISP=SHR,DSN=DB2S.DB2LOAD
+//         DD DISP=SHR,DSN=DB2D.DB2.IBMTOOLS.SADBLINK
+//SYSTSPRT DD SYSOUT=*
+//SYSTSIN  DD *
+  DSN SYSTEM(DB2D)
+  RUN PROG(ADB2GEN) PLAN(ADB2GEN) PARM('/WRTCAT,NOGEN,REBIND,')
+  END
+//SYSPRINT DD SYSOUT=*
+//SQLOUT   DD DUMMY
+//CAT      DD DSN=IBM1JCF.COMPARE.TARGET,
+//            DISP=OLD
+//IN       DD *
+  DB2SYS   = 'DB2D',
+  DB2ALOC  = 'DB2D',
+  DB2SERV  = 'DB2D',
+  DB2AUTH  = 'IBM1JCF',
+  DB2REL   = '815',
+  GENDB    = 'N',
+  GENTS    = 'Y',
+  GENTABLE = 'Y',
+  GENVIEW  = 'Y',
+  GENINDEX = 'Y',
+  GENSYN   = 'Y',
+  GENALIAS = 'Y',
+  GENLABEL = 'Y',
+  GENCOMM  = 'Y',
+  GENRELS  = 'D',
+  GENTRIG  = 'Y',
+  GENSG    = 'N',
+  GRANTDB  = 'Y',
+  GRANTTS  = 'Y',
+  GRANTTAB = 'Y',
+  GRANTVW  = 'Y',
+  GENUDT   = 'N',
+  GENUDF   = 'N',
+  GENSTP   = 'N',
+  GENSEQ   = 'N',
+  GRANTSCH = 'N',
+  GRANTUDT = 'N',
+  GRANTUDF = 'N',
+  GRANTSTP = 'N',
+  GRANTSEQ = 'N',
+  GRANTSG  = 'N',
+  NEWDB    = '',
+  NEWTSSG  = '',
+  NEWIXSG  = '',
+  NEWSQLID = '',
+  NEWSCH   = '',
+  SPCALLOC = 'DEFINED',
+  DESCRIPT = '',
+  TGTDB2   = '815';
+  DB='',         TS='',
+  OWN=
+'DB2ACPT'
+ ,TB=
+'BUSINESS_TASK'
+   ;
+//    ENDIF
+/*
+//**********************************************************************
+//*
+//* DB2 OBJECT COMPARISON TOOL
+//*
+//* STEP T03COMP: COMPARE
+//*
+//***********************************************************GOCCMP*****
+//        IF (RC GT 7) THEN
+//        ELSE
+//T03COMP  EXEC PGM=GOC2CMP,PARM='/;'
+//STEPLIB  DD DISP=SHR,DSN=DB2D.DB2.IBMTOOLS.SGOCLLIB
+//         DD DISP=SHR,DSN=DB2D.DB2.IBMTOOLS.SADBLLIB
+//         DD DISP=SHR,DSN=DB2S.DB2EXIT
+//         DD DISP=SHR,DSN=DB2S.DB2LOAD
+//         DD DISP=SHR,DSN=DB2D.DB2.IBMTOOLS.SADBLINK
+//REPORT   DD SYSOUT=*
+//SYSPRINT DD SYSOUT=*
+//PLIDUMP  DD SYSOUT=*
+//SYSOUT   DD DUMMY
+//MASKS    DD DUMMY
+//IGNORES  DD DUMMY
+//SRC      DD DISP=SHR,
+//          DSN=IBM1JCF.COMPARE.SOURCE
+//SRCSIN   DD DSN=&SRCSIN,DISP=(,DELETE),
+//            DCB=(LRECL=16384,RECFM=VB,BLKSIZE=27998),
+//            SPACE=(CYL,(10,20),RLSE),
+//            UNIT=SYSDA
+//SRCSOUT  DD DSN=&SRCSOUT,DISP=(,DELETE),
+//            DCB=(LRECL=16384,RECFM=VB,BLKSIZE=27998),
+//            SPACE=(CYL,(10,20),RLSE),
+//            UNIT=SYSDA
+//TGT      DD DISP=SHR,
+//          DSN=IBM1JCF.COMPARE.TARGET
+//TGT2IN   DD DISP=(SHR,PASS),
+//          DSN=*.TGT,VOL=REF=*.TGT
+//TGTSIN   DD DSN=&TGTSIN,DISP=(,DELETE),
+//            DCB=(LRECL=16384,RECFM=VB,BLKSIZE=27998),
+//            SPACE=(CYL,(10,20),RLSE),
+//            UNIT=SYSDA
+//TGTSOUT  DD DSN=&TGTSOUT,DISP=(,DELETE),
+//            DCB=(LRECL=16384,RECFM=VB,BLKSIZE=27998),
+//            SPACE=(CYL,(10,20),RLSE),
+//            UNIT=SYSDA
+//TGT2OUT  DD DSN=*.TGTSOUT,VOL=REF=*.TGTSOUT,DISP=(SHR,DELETE)
+//SRTBOUT  DD DSN=&SRTBOUT,DISP=(,DELETE),
+//            SPACE=(CYL,(10,20),RLSE),
+//            DCB=(LRECL=16384,RECFM=VB,BLKSIZE=27998),
+//            UNIT=SYSDA
+//CHANGES  DD DSN=IBM1JCF.TEST.CHANGES,
+//            DISP=OLD
+//IFF      DD DSN=IBM1JCF.TEST.IFF,
+//            DISP=OLD
+//   ENDIF

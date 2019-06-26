@@ -1,0 +1,14 @@
+//DBA1024X JOB (PRD20,DB2),'SQL GGM',CLASS=U,MSGCLASS=X,NOTIFY=&SYSUID  JOB04896
+//LISTCAT  EXEC PGM=IDCAMS
+//SYSPRINT  DD  DSN=&LISTC,DISP=(,PASS),SPACE=(CYL,(5,5))
+//SYSIN     DD  *
+ LISTC ALL CDILVL LVL(PRDDB2.DSNDBC)
+//*----------------------------------------------------------------*
+//* GERA UMA RELACAO DOS DATASETS COM HI-U-RBA ACIMA DE 80% DSSIZE *
+//*----------------------------------------------------------------*
+//REXXSEL   EXEC  PGM=IKJEFT01,COND=(0,NE)
+//SYSTSIN    DD   *
+ EX 'DBA1024.DB2.CNTL.CHG39939(SEL)' 'DB2P'
+//SYSTSPRT   DD   SYSOUT=*
+//INPUT      DD   DSN=&&LISTC,DISP=(OLD,DELETE)
+//OUTPUT     DD   SYSOUT=*

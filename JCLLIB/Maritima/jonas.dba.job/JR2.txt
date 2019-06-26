@@ -1,0 +1,10 @@
+    SELECT  COUNT(*)                                                            
+          FROM    SQLUSER.CADASEMI                                              
+          WHERE   CDRMBAS  = 31                                                 
+          AND     NRAPOLI  IN                                                   
+    (534757,456291,415591,404366,484297,456456,448136)                          
+          AND     CDSUCUR  = 01                                                 
+          AND     NRITEM   = 01                                                 
+          AND     NRENDOS >= 0                                                  
+          AND     CDCOBER IN (07,09)                                            
+    WITH  UR;                                                                   

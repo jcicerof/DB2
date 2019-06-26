@@ -1,0 +1,51 @@
+//IBM1JCF0 JOB (T00101,520,AU88100,658,000,581),'DB2 TOOLS',
+//         MSGLEVEL=(1,1),MSGCLASS=X,
+//         CLASS=L,NOTIFY=IBM1JCF
+/*JOBPARM Z=O,HOLD=ALL,S=ESYS,T=1439
+//*--------------------------------------------------------------------
+//* DB2A DB2A.DB2RUNLB
+//* DB2D DB2S.DB2RUNLB
+//* DB2J DB2K.DB2RUNLB
+//* DB2E DB2F.DB2RUNLB
+//* DB2H DB2H.DB2RUNLB
+//* DB2P DB2C.DB2RUNLB
+//* DB2Q DB2R.DB2RUNLB
+//*--------------------------------------------------------------------
+//UNLOAD    EXEC PGM=DSNUTILB,REGION=0M,COND=(4,LT),
+//          PARM=('DB2A')
+//STEPLIB   DD   DSN=DB2A.DB2LOAD,DISP=SHR
+//SYSPRINT  DD   SYSOUT=*
+//UTPRINT   DD   SYSOUT=*
+//SYSREC    DD   DUMMY
+//SYSIN    DD  *
+  TEMPLATE DDREC
+     DSN 'DBA5.TEST2.REC.&DB..&TS.'
+     UNIT SYSDA SPACE (10,10) TRK
+--   UNIT MAGV STACK YES RETPD 5
+     DISP (NEW,CATLG,DELETE)
+--
+  TEMPLATE DDPUNCH
+     DSN 'DBA5.TEST2.PUN.&DB..&TS.'
+     UNIT SYSDA SPACE (1,1) TRK
+     DISP (NEW,CATLG,DELETE)
+--
+  UNLOAD DATA FROM TABLE SYSIBM.SYSPACKAGE HEADER NONE
+         (COLLID       CHAR(18),
+          NAME         CHAR(18),
+          OWNER        CHAR(18),
+          CREATOR      CHAR(18),
+          QUALIFIER    CHAR(18),
+          TIMESTAMP    DATE EXTERNAL,
+          BINDTIME     DATE EXTERNAL,
+          VALID        CHAR(18),
+          OPERATIVE    CHAR(18),
+          VALIDATE     CHAR(18),
+          ISOLATION    CHAR(18),
+          PDSNAME      CHAR(44) )
+    WHEN (NAME = 'CDITUCLU')
+         PUNCHDDN DDPUNCH
+         UNLDDN   DDREC
+    EBCDIC DELIMITED
+    SHRLEVEL CHANGE ISOLATION UR
+
+/*

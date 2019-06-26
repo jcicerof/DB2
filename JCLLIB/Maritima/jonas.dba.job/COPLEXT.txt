@@ -1,0 +1,123 @@
+//DBPCOPY  JOB 'JONAS',MSGCLASS=P,CLASS=A,NOTIFY=JONAS,TYPRUN=HOLD              
+//PRDDIAIN EXEC PGM=DSNUTILB,PARM='DB2P,COPY.EXTRA'                             
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSPRINT DD  SYSOUT=*                                                         
+//SYSOUT   DD  SYSOUT=*                                                         
+//SYSIN    DD  *                                                                
+OPTIONS EVENT(ITEMERROR, SKIP)                                                  
+LISTDEF SAUDE                                                                   
+ INCLUDE TABLESPACE DSNRTSDB.TABLESPA                                           
+ INCLUDE TABLESPACE DSNRTSDB.INDEXSPA                                           
+ INCLUDE TABLESPACE DSNDB06.SYSINDEX                                            
+ INCLUDE TABLESPACE DSNDB06.SYSFOREI                                            
+ INCLUDE TABLESPACE DSNDB04.MOVPROPO                                            
+ INCLUDE TABLESPACE DSNDB04.MARCELO                                             
+ INCLUDE TABLESPACE DBWPC1.WPCPTLSO                                             
+ INCLUDE TABLESPACE DBVD01.TMPRSEGU                                             
+ INCLUDE TABLESPACE DBSS05.SSUSRITE                                             
+ INCLUDE TABLESPACE DBSS05.SSENELEN                                             
+ INCLUDE TABLESPACE DBSS05.SSEN1OCH                                             
+ INCLUDE TABLESPACE DBSS05.SSEN10OF                                             
+ INCLUDE TABLESPACE DBSS02.SSMVDRRF                                             
+ INCLUDE TABLESPACE DBSS01.SSTABCID                                             
+ INCLUDE TABLESPACE DBSS01.SSPL194Z                                             
+ INCLUDE TABLESPACE BMCACT91.IXDLG                                              
+ INCLUDE TABLESPACE DBSS01.SSGLOSAS                                             
+ INCLUDE TABLESPACE DBRE06.EXCA1$1K                                             
+ INCLUDE TABLESPACE DBRE03.TBSO1P96                                             
+ INCLUDE TABLESPACE DBRE03.TBSO1EJ6                                             
+ INCLUDE TABLESPACE DBRE03.TBSO13R7                                             
+ INCLUDE TABLESPACE DBRE03.TBSO1$67                                             
+ INCLUDE TABLESPACE DBRE02.TMPRINSP                                             
+ INCLUDE TABLESPACE DBRE02.TBAUVIST                                             
+ INCLUDE TABLESPACE DBRE01.MOVT1JIC                                             
+ INCLUDE TABLESPACE DBRE01.GPTVERSA                                             
+ INCLUDE TABLESPACE DBNOVA.TBRC148$                                             
+ INCLUDE TABLESPACE DBNOVA.TBPBRCFR                                             
+ INCLUDE TABLESPACE DBMT01.AGRA15M2                                             
+ INCLUDE TABLESPACE DBMP01.TEXTOS                                               
+ INCLUDE TABLESPACE DBMP01.PROP1Q0N                                             
+ INCLUDE TABLESPACE DBMP01.PROP13N2                                             
+ INCLUDE TABLESPACE DBMP01.PKITCARG                                             
+ INCLUDE TABLESPACE DBMP01.PCONCARG                                             
+ INCLUDE TABLESPACE DBMA02.SSTREPTR                                             
+ INCLUDE TABLESPACE DBMA02.SSTR1FZJ                                             
+ INCLUDE TABLESPACE DBMA02.SENH1QMV                                             
+ INCLUDE TABLESPACE DBMA02.MSGNEGOC                                             
+ INCLUDE TABLESPACE DBMA02.ITFOCICS                                             
+ INCLUDE TABLESPACE DBMA02.CORR1ZFO                                             
+ INCLUDE TABLESPACE DBMA01.SNMSGRNS                                             
+ INCLUDE TABLESPACE DBMA01.RNSREGIM                                             
+ INCLUDE TABLESPACE DBMA01.NOTF1PLQ                                             
+ INCLUDE TABLESPACE DBEEVT.MVSTONBL                                             
+ INCLUDE TABLESPACE DBEEVT.MRCTPVEI                                             
+ INCLUDE TABLESPACE DBEEVT.MRCT1P8T                                             
+ INCLUDE TABLESPACE DBEEVT.LAVSTACE                                             
+ INCLUDE TABLESPACE DBEEVT.LAUVSTAV                                             
+ INCLUDE TABLESPACE DBEEVT.LAUDOVST                                             
+ INCLUDE TABLESPACE DBEEVT.LAUD1HR8                                             
+ INCLUDE TABLESPACE DBEEVT.LAUD1HG4                                             
+ INCLUDE TABLESPACE DBEEVT.DOMV1#2G                                             
+ INCLUDE TABLESPACE DBEEVT.CORO1K5Q                                             
+ INCLUDE TABLESPACE DBEETA.VRSPFLVG                                             
+ INCLUDE TABLESPACE DBEETA.VERS1R04                                             
+ INCLUDE TABLESPACE DBEETA.VERS1NK5                                             
+ INCLUDE TABLESPACE DBEETA.VERS1M93                                             
+ INCLUDE TABLESPACE DBEETA.TPALCVTV                                             
+ INCLUDE TABLESPACE DBEETA.TPACEVIG                                             
+ INCLUDE TABLESPACE DBEETA.PRCSANVG                                             
+ INCLUDE TABLESPACE DBEETA.PONT1R0T                                             
+ INCLUDE TABLESPACE DBEETA.NAOACPVG                                             
+ INCLUDE TABLESPACE DBEETA.LMACTVIG                                             
+ INCLUDE TABLESPACE DBEETA.GRVEICUL                                             
+ INCLUDE TABLESPACE DBEETA.DESC1PR7                                             
+ INCLUDE TABLESPACE DBEETA.CONV1DFV                                             
+ INCLUDE TABLESPACE DBEETA.CLFRAVIG                                             
+ INCLUDE TABLESPACE DBEEPR.PROP1JQO                                             
+ INCLUDE TABLESPACE DBEEPR.PROITOBS                                             
+ INCLUDE TABLESPACE DBEEPE.PESS1Z0C                                             
+ INCLUDE TABLESPACE DBEEOR.ORCITVEI                                             
+ INCLUDE TABLESPACE DBEEOR.ORCITEIS                                             
+ INCLUDE TABLESPACE DBEEOR.ORCA19J@                                             
+ INCLUDE TABLESPACE DBEELO.FAIXASNU                                             
+ INCLUDE TABLESPACE DBEEBM.BEMVSACH                                             
+ INCLUDE TABLESPACE DBEEBM.BEMVELSE                                             
+ INCLUDE TABLESPACE DBEEBM.BEMV1EKL                                             
+ INCLUDE TABLESPACE DBEEAL.USUARIPR                                             
+ INCLUDE TABLESPACE DBEEAL.USUARIOI                                             
+ INCLUDE TABLESPACE DBAD01.ADTIPMNT                                             
+ INCLUDE TABLESPACE DBAD01.ADTIPCCD                                             
+ INCLUDE TABLESPACE DBAD01.ADSST                                                
+ INCLUDE TABLESPACE DBAD01.ADSIS                                                
+ INCLUDE TABLESPACE DBAD01.ADDMIFRE                                             
+ INCLUDE TABLESPACE DBAD01.ADBCODAD                                             
+ INCLUDE TABLESPACE DBAD01.ADABI                                                
+ INCLUDE TABLESPACE DB2ADM.DBLO1WQK                                             
+ INCLUDE TABLESPACE DB2ADM.DBLO1#EI                                             
+ INCLUDE TABLESPACE CDDPROP.TSCDWRSS                                            
+ INCLUDE TABLESPACE CDDPROP.TSCDSNSA                                            
+ INCLUDE TABLESPACE CDDPROP.IXCDSNVI                                            
+ INCLUDE TABLESPACE CDDPROP.IXCDSNSA                                            
+ INCLUDE TABLESPACE CC390.UTTEMPL                                               
+ INCLUDE TABLESPACE CC390.UTRSTRT                                               
+ INCLUDE TABLESPACE CC390.UTPROC                                                
+ INCLUDE TABLESPACE CADB.PTQRR115                                               
+ INCLUDE TABLESPACE CADB.PTQRK115                                               
+ INCLUDE TABLESPACE CADB.PTQRJ115                                               
+ INCLUDE TABLESPACE CADB.PTITSSPS                                               
+ INCLUDE TABLESPACE CADB.PTITSSEC                                               
+ INCLUDE TABLESPACE CADB.PTITSRU1                                               
+ INCLUDE TABLESPACE CADB.PTITSRCE                                               
+ INCLUDE TABLESPACE CADB.PTITSRAG                                               
+TEMPLATE DDCOPY                                                                 
+         DSN(DB2PCOPY.&DB..&TS..D&DT..H&TIME.)                                  
+         UNIT=VSM                                                               
+         VOLCNT(255)                                                            
+         RETPD 30                                                               
+         DISP(NEW,CATLG,DELETE)                                                 
+         STACK YES                                                              
+COPY LIST SAUDE                                                                 
+     SHRLEVEL REFERENCE                                                         
+     FULL YES                                                                   
+     COPYDDN DDCOPY                                                             

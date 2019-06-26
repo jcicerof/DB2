@@ -1,0 +1,25 @@
+//DBBCOPY  JOB 'JONAS',MSGCLASS=T,CLASS=A                                       
+//*                                                                             
+//         SET DSN=DB2P                                                         
+//*------------------------------------------------------------------           
+//* COPY                                                                        
+//*------------------------------------------------------------------           
+//COPY     EXEC PGM=DSNUTILB,PARM='&DSN'                                        
+//STEPLIB  DD   DSN=DB2.&DSN..SDSNEXIT,DISP=SHR                                 
+//         DD   DSN=DB2.&DSN..SDSNLOAD,DISP=SHR                                 
+//SYSPRINT DD   SYSOUT=*                                                        
+//UTPRINT  DD   SYSOUT=*                                                        
+//SYSUDUMP DD   SYSOUT=*                                                        
+//SYSIN    DD   *                                                               
+--OPTIONS EVENT(ITEMERROR, SKIP)                                                
+OPTIONS PREVIEW                                                                 
+LISTDEF LISTA                                                                   
+        INCLUDE TABLESPACES DATABASE DBSS01                                     
+TEMPLATE SCOPY                                                                  
+         DSN(DB2PCOPY.FE.&DB..&TS..D&DT.)                                       
+         UNIT=TAPV                                                              
+         VOLCNT(255)                                                            
+         RETPD 30                                                               
+         DISP(NEW,CATLG,DELETE)                                                 
+         STACK YES                                                              
+COPY   LIST LISTA  COPYDDN SCOPY SHRLEVEL REFERENCE                             

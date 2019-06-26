@@ -1,0 +1,17 @@
+SET CURRENT SQLID='SYSADM';                                                     
+COMMIT;                                                                         
+DROP INDEX MARITIMA.PROPKITWCONTR_IX1;                                          
+;                                                                               
+COMMIT;                                                                         
+CREATE UNIQUE INDEX MARITIMA.PROPKITWCONTR_IX1                                  
+    ON MARITIMA.PROPKITWCONTR(NRPPS,TPESTPPS)                                   
+    USING STOGROUP STGP10I                                                      
+        PRIQTY 4704                                                             
+        SECQTY 480                                                              
+    PCTFREE 10                                                                  
+    BUFFERPOOL BP2                                                              
+    CLOSE NO                                                                    
+    COPY NO                                                                     
+    PIECESIZE 2097152 K                                                         
+;                                                                               
+COMMIT;                                                                         

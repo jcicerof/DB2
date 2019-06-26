@@ -1,0 +1,25 @@
+//DBBCOPY  JOB MSGCLASS=X,CLASS=A,NOTIFY=ROSDDBA                                
+//**********************************************************************        
+//*  RECUPERACAO DE TABLESPACES                                        *        
+//*  NESTE EXEMPLO, ESTAMOS BAIXANDO A TABELA SSMEDFUN DE PRODUCAO PARA*        
+//*  TESTE.                                                            *        
+//*  ANTES DE RODAR ESTE JOB, DEVE-SE FAZER UM SPUFI DO DBA.DB2P.QUE-  *        
+//*  RIES(SELDBID) NOS AMBIENTES DE PRODUCAO E TESTE PARA SELECIONAR   *        
+//*  OS CAMPOS DBID, PSID E OBID;                                      *        
+//*  EM SEGUIDA, DAR STOP NO TABLESPACE SSMEDFUN NO AMBIENTE DE TESTE; *        
+//*  SUBMETER ESTE JOB APOS DEVIDOS ACERTOS;                           *        
+//*  DAR START NO TABLESPACE SSMEDFUN NO AMBIENTE DE TESTE;            *        
+//*  PREPARAR E SUBMETER O DBB.JOBS.RECOVER(RECUPDIX);                 *        
+//*  FAZER SELECT NA TABELA E VER SE ESTA' OK;                         *        
+//*  SE NAO, TALVEZ PRECISE FAZER UM REPAIR LEVELID (OPCIONAL).        *        
+//**********************************************************************        
+//S01      EXEC PGM=DSN1COPY,PARM='OBIDXLAT,RESET,FULLCOPY'                     
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSUT1   DD DSN=DB2PCOPY.FS1.DBSS01.SSMEDFUN.P0.G0345V00,UNIT=CART,           
+//         DCB=GDG,VOL=SER=(MA6077),LABEL=(62,SL)                               
+//SYSUT2   DD DSN=DB2TCAT.DSNDBC.DBSS01.SSMEDFUN.I0001.A001,DISP=SHR            
+//SYSXLAT DD *                                                                  
+269,268      ==>  DBID DE PRODUCAO , DBID DE TESTE                              
+350,360      ==>  PSID DE PRODUCAO , PSID DE TESTE                              
+351,361      ==>  OBID DE PRODUCAO , OBID DE TESTE                              
+//*                                                                             

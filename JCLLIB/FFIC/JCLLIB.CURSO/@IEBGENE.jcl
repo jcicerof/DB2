@@ -1,0 +1,20 @@
+//IBM1JCF0 JOB (T00101,520,AU88100,658,000,581),'DB2 TOOLS',            JOB01274
+//         MSGLEVEL=(1,1),MSGCLASS=X,
+//         CLASS=L,NOTIFY=IBM1JCF
+/*JOBPARM Z=O,HOLD=ALL,S=ASYS,T=1439
+//*------------------------------------------------------------------
+//*
+//*------------------------------------------------------------------
+//IEBGENER EXEC PGM=IEBGENER
+//SYSPRINT DD SYSOUT=*
+//SYSIN    DD *
+//SYSUT1   DD DISP=OLD,DSN=IBM1JCF.SAIDA.DB2P
+//         DD DISP=OLD,DSN=IBM1JCF.SAIDA.DB2Q
+//         DD DISP=OLD,DSN=IBM1JCF.SAIDA.DB2D
+//         DD DISP=OLD,DSN=IBM1JCF.SAIDA.DB2J
+//SYSUT2   DD SYSOUT=*
+//
+//
+//SYSUT2   DD DSN=DBA5.DDL.DMAC1T01.SCDS1T01.D2016355,
+//         DCB=(RECFM=FB,LRECL=80),
+//         UNIT=MAGV,RETPD=180,DISP=(NEW,CATLG,DELETE)

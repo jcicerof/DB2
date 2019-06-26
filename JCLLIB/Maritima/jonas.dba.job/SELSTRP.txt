@@ -1,0 +1,17 @@
+--SELECT                                                                        
+--'GRANT SELECT,INSERT,UPDATE,DELETE ON '                                       
+--||STRIP(CREATOR)||'.'||STRIP(NAME)||                                          
+--' TO AUTOCIR;'                                                                
+--FROM SYSIBM.SYSTABLES WHERE NAME IN (                                         
+--'CADAURES',                                                                   
+--'CADPERFIL',                                                                  
+--'CADACESS',                                                                   
+--'AVARIAVIGENCIA',                                                             
+--'CUSTODOCVIG',                                                                
+--'CUSTOMAOOBRA',                                                               
+--'MOTIVOSLIB',                                                                 
+--'MOTIVOSRECUSA',                                                              
+--'PARAMGERENQ',                                                                
+--'PROVIDENCIAS',                                                               
+--'RECUSAPRV',                                                                  
+--'TABELAAPOIO') AND TYPE ='T' WITH UR;                                         

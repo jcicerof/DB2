@@ -1,0 +1,15 @@
+SELECT CHAR(                                                            00010064
+       'CHECK DATA TABLESPACE '||STRIP(DBNAME)||'.'||STRIP(NAME)||      00020064
+       ' SCOPE ALL AUXERROR REPORT', 80), NAME                          00030064
+  FROM SYSIBM.SYSTABLESPACE                                             00040064
+ WHERE SUBSTR(DBNAME, 4, 2) IN ('BP', 'BD')                             00050066
+   AND SUBSTR(DBNAME, 1, 2) NOT IN ('SU', 'SY', 'ZZ')                   00050168
+   AND SUBSTR(NAME, 1, 2) NOT IN ('SU', 'SY', 'ZZ')                     00051066
+UNION ALL                                                               00060064
+SELECT CHAR(                                                            00070064
+       'CHECK DATA TABLESPACE '||STRIP(DBNAME)||'.'||STRIP(NAME)||      00080064
+       ' SCOPE ALL AUXERROR REPORT', 80), NAME                          00090064
+  FROM SYSIBM.SYSTABLESPACE                                             00100064
+ WHERE NAME IN ('SU000T', 'SU001T', 'SU006T', 'SU008T')                 00110065
+   AND DBNAME <> 'AISERIES'                                             00111066
+;                                                                       00120064

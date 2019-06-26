@@ -1,0 +1,2 @@
+SELECT MIN(NRSEQRPL), MAX(NRSEQRPL) FROM                                00010000
+MARITIMA.SSATUCADPES FOR READ ONLY WITH UR;                             00020000

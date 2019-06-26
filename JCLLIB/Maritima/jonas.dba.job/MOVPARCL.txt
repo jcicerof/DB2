@@ -1,0 +1,49 @@
+CREATE TABLE MARITIMA.RSSCOM                                                    
+    ( CDSUCUR            SMALLINT NOT NULL ,                                    
+      CDRMRMO            SMALLINT NOT NULL ,                                    
+      NRAPOLI            INTEGER  NOT NULL ,                                    
+      NRENDOS            INTEGER  NOT NULL ,                                    
+      DTINIVG_CNV        INTEGER  NOT NULL ,                                    
+      DTTERVG_CNV        INTEGER  NOT NULL ,                                    
+      DTCNB              INTEGER  NOT NULL ,                                    
+      CDRSG              INTEGER  NOT NULL WITH DEFAULT 0 ,                     
+      DTEMISS_CNV        INTEGER  NOT NULL ,                                    
+      VLPRERSS           DECIMAL  (13,2) NOT NULL ,                             
+      VLCOMRSS           DECIMAL  (13,2) NOT NULL ,                             
+      VLCAPSGR           DECIMAL  (13,2) NOT NULL WITH DEFAULT 0 ,              
+     PRIMARY KEY (CDSUCUR ,CDRMRMO ,NRAPOLI ,NRENDOS ,DTINIVG_CNV ,             
+        DTTERVG_CNV ,DTCNB , CDRSG ) )                                          
+    IN DBNOVA.RSSCOM                                                            
+    WITH RESTRICT ON DROP                                                       
+    CCSID EBCDIC                                                                
+  AUDIT NONE;                                                                   
+-- ***** CARD= 146815 NPAGES= 2331                                              
+-- **************************                                                   
+-- ***** CREATE INDEXES *****                                                   
+-- **************************                                                   
+CREATE TYPE 2 UNIQUE INDEX MARITIMA.RSSCOM_PK ON MARITIMA.RSSCOM                
+      ( CDSUCUR ASC ,                                                           
+        CDRMRMO ASC ,                                                           
+        NRAPOLI ASC ,                                                           
+        NRENDOS ASC ,                                                           
+        DTINIVG_CNV ASC ,                                                       
+        DTTERVG_CNV ASC ,                                                       
+        DTCNB ASC ,                                                             
+        CDRSG ASC  )                                                            
+    USING STOGROUP STGP94I PRIQTY 24000 SECQTY 24000 ERASE NO                   
+    FREEPAGE 0 PCTFREE 5                                                        
+    BUFFERPOOL BP2                                                              
+    PIECESIZE 2097152 K                                                         
+    CLOSE NO ;                                                                  
+-- ***** NLEAF= 1347 NLEVELS= 3                                                 
+-- ***** FIRSTKEYCARD= 9 FULLKEYCARD= 146815                                    
+-- **************************                                                   
+-- ***** ALTER TABLE - FOREIGN KEYS*****                                        
+-- **************************                                                   
+-- **************************                                                   
+-- ***** CREATE VIEWS   *****                                                   
+-- **************************                                                   
+-- *****   NO RELATED VIEWS                                                     
+-- **************************                                                   
+-- *****     DDL END    *****                                                   
+-- **************************                                                   

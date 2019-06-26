@@ -1,0 +1,2 @@
+CREATE TABLE RECUPERA.CORCOOLD01 LIKE MARITIMA.CORCOOLD;                00010000
+COMMIT;                                                                 00020000

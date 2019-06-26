@@ -1,0 +1,8 @@
+SET CURRENT SQLID='SYSADM';                                                     
+COMMIT;                                                                         
+GRANT EXECUTE ON PROCEDURE TISS.SPTISS004 TO PUBLIC;                            
+COMMIT;                                                                         
+--GRANT EXECUTE ON PROCEDURE REFSAUD.SPTISS034 TO ONBASEP;                      
+--COMMIT;                                                                       
+--GRANT EXECUTE ON PROCEDURE REFSAUD.SPTISS035 TO ONBASEP;                      
+--COMMIT;                                                                       

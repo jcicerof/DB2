@@ -1,0 +1,66 @@
+//DBPSTOP  JOB MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID                        JOB01546
+//*                                                                             
+//DSNTEP2  EXEC PGM=IKJEFT01,DYNAMNBR=20                                        
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSTSPRT DD SYSOUT=*                                                          
+//SYSTSIN  DD *                                                                 
+  DSN SYSTEM(DB2P)                                                              
+  -STOP DB(DBEEAE) SPACENAM(*)                                                  
+  -STOP DB(DBAD01) SPACENAM(*)                                               000
+  -STOP DB(DBAJAIR) SPACENAM(*)                                                 
+  -STOP DB(DBCO01) SPACENAM(*)                                                  
+  -STOP DB(DBECCOX) SPACENAM(*)                                                 
+  -STOP DB(DBEEAC) SPACENAM(*)                                                  
+  -STOP DB(DBEEAE) SPACENAM(*)                                                  
+  -STOP DB(DBEEAL) SPACENAM(*)                                                  
+  -STOP DB(DBEEBM) SPACENAM(*)                                                  
+  -STOP DB(DBEEGD) SPACENAM(*)                                                  
+  -STOP DB(DBEELO) SPACENAM(*)                                                  
+  -STOP DB(DBEEOR) SPACENAM(*)                                                  
+  -STOP DB(DBEEPE) SPACENAM(*)                                                  
+  -STOP DB(DBEEPR) SPACENAM(*)                                                  
+  -STOP DB(DBEESP) SPACENAM(*)                                                  
+  -STOP DB(DBEESR) SPACENAM(*)                                                  
+  -STOP DB(DBEETA) SPACENAM(*)                                                  
+  -STOP DB(DBEEVT) SPACENAM(*)                                                  
+  -STOP DB(DBER01) SPACENAM(*)                                                  
+  -STOP DB(DBINFOR) SPACENAM(*)                                                 
+  -STOP DB(DBKIT1) SPACENAM(*)                                                  
+  -STOP DB(DBLG01) SPACENAM(*)                                                  
+  -STOP DB(DBMA01) SPACENAM(*)                                                  
+  -STOP DB(DBMA02) SPACENAM(*)                                                  
+  -STOP DB(DBMA03) SPACENAM(*)                                                  
+  -STOP DB(DBMO01) SPACENAM(*)                                                  
+  -STOP DB(DBMP01) SPACENAM(*)                                                  
+  -STOP DB(DBMP02) SPACENAM(*)                                                  
+  -STOP DB(DBMT01) SPACENAM(*)                                                  
+  -STOP DB(DBNA01) SPACENAM(*)                                                  
+  -STOP DB(DBNOVA) SPACENAM(*)                                                  
+  -STOP DB(DBPOLEN) SPACENAM(*)                                                 
+  -STOP DB(DBRE01) SPACENAM(*)                                                  
+  -STOP DB(DBRE02) SPACENAM(*)                                                  
+  -STOP DB(DBRE03) SPACENAM(*)                                                  
+  -STOP DB(DBRE04) SPACENAM(*)                                                  
+  -STOP DB(DBRE05) SPACENAM(*)                                                  
+  -STOP DB(DBRE06) SPACENAM(*)                                                  
+  -STOP DB(DBRS01) SPACENAM(*)                                                  
+  -STOP DB(DBSMLA) SPACENAM(*)                                                  
+  -STOP DB(DBSS01) SPACENAM(*)                                                  
+  -STOP DB(DBSS02) SPACENAM(*)                                                  
+  -STOP DB(DBSS03) SPACENAM(*)                                                  
+  -STOP DB(DBSS04) SPACENAM(*)                                                  
+  -STOP DB(DBSS05) SPACENAM(*)                                                  
+  -STOP DB(DBVD01) SPACENAM(*)                                                  
+  -STOP DB(DBVD02) SPACENAM(*)                                                  
+  -STOP DB(DBWAP1) SPACENAM(*)                                                  
+  -STOP DB(DBWDC1) SPACENAM(*)                                                  
+  -STOP DB(DBWGAT) SPACENAM(*)                                                  
+  -STOP DB(DBWL01) SPACENAM(*)                                                  
+  -STOP DB(DBWL02) SPACENAM(*)                                                  
+  -STOP DB(DBWPC1) SPACENAM(*)                                                  
+  -STOP DB(DB2ADM) SPACENAM(*)                                                  
+  END                                                                           
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSUDUMP DD SYSOUT=*                                                          
+//SYSIN    DD DUMMY                                                             

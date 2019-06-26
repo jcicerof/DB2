@@ -1,0 +1,10 @@
+//DBPLIST  JOB MSGCLASS=X,CLASS=A,NOTIFY=JONAS,TYPRUN=HOLD                      
+//S04S04 EXEC PGM=IKJEFT01,DYNAMNBR=20                                          
+//SYSTSPRT DD SYSOUT=*                                                          
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSTSIN DD *                                                                  
+ DSN SYSTEM(DB2P)                                                               
+-DIS UTIL(*)                                                                    
+-DIS DB(*) SPACE (*) LIMIT (*) RESTRICT                                         
+-DIS GROUP                                                                      
+ END                                                                            

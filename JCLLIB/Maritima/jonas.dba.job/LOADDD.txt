@@ -1,0 +1,112 @@
+//DBPLOAD JOB 'JONAS',MSGCLASS=T,CLASS=T,NOTIFY=&SYSUID                 00010000
+//*                                                                     00020000
+//         SET DSN=DB2P                                                 00030000
+//         SET LIB=DB2.DB2P                                             00040000
+//*------------------------------------------------------------------   00050000
+//* LOAD                                                                00060000
+//*------------------------------------------------------------------   00070000
+//LOAD     EXEC PGM=DSNUTILB,PARM='&DSN'                                00080000
+//STEPLIB  DD   DSN=&LIB..SDSNEXIT,DISP=SHR                             00090000
+//         DD   DSN=&LIB..SDSNLOAD,DISP=SHR                             00100000
+//SYSPRINT DD   SYSOUT=*                                                00110000
+//UTPRINT  DD   SYSOUT=*                                                00120000
+//SYSUDUMP DD   SYSOUT=*                                                00130000
+//SYSMAP   DD   UNIT=SYSDA,SPACE=(CYL,(1000,1000),RLSE)                 00140000
+//SYSUT1   DD   UNIT=VSM                                                00150000
+//SYSERR   DD   UNIT=SYSDA,SPACE=(CYL,(1000,1000),RLSE)                 00160000
+//SORTOUT  DD   UNIT=VSM                                                00170000
+//SYSDISC  DD   UNIT=SYSDA,SPACE=(CYL,(1000,1000),RLSE)                 00180000
+//SYSREC   DD   DSN=JUNIOR.DB2P.DBNOVA.TBCTRBCO.DADOS,DISP=SHR          00190001
+//SYSIN    DD   *                                                       00209100
+LOAD DATA INDDN SYSREC   LOG NO  REPLACE NOCOPYPEND                     00209205
+ EBCDIC  CCSID(00037,00000,00000)                                       00209305
+ SORTKEYS             7185340                                           00209405
+ INTO TABLE "RECUPERA."TBCTRBCO"                                        00209505
+ WHEN(00001:00002) = X'010D'                                            00209605
+ ( "CDBANCO"                                                            00209705
+        POSITION(  00003:00004) SMALLINT                                00209805
+ , "DATMVEMI"                                                           00209905
+        POSITION(  00005:00014) DATE EXTERNAL                           00210005
+ , "CDSUCUR"                                                            00220005
+        POSITION(  00015:00016) SMALLINT                                00230005
+ , "CDRMBAS"                                                            00240005
+        POSITION(  00017:00018) SMALLINT                                00250005
+ , "NRAPOLI"                                                            00260005
+        POSITION(  00019:00022) INTEGER                                 00270005
+ , "NRENDOS"                                                            00280005
+        POSITION(  00023:00026) INTEGER                                 00290005
+ , "NRPARCL"                                                            00300005
+        POSITION(  00027:00028) SMALLINT                                00310005
+ , "TPCOBR"                                                             00320005
+        POSITION(  00029:00030) CHAR(00002)                             00330005
+ , "PRTOTAL"                                                            00340005
+        POSITION(  00031:00037) DECIMAL                                 00350005
+ , "VALDEBI"                                                            00360005
+        POSITION(  00038:00045) DECIMAL                                 00370005
+ , "VRIOFCOB"                                                           00380005
+        POSITION(  00046:00051) DECIMAL                                 00390005
+ , "CDCONVE"                                                            00400005
+        POSITION(  00052:00055) INTEGER                                 00410005
+ , "DATVECTO"                                                           00420005
+        POSITION(  00056:00065) DATE EXTERNAL                           00430005
+ , "DATLNCTO"                                                           00440005
+        POSITION(  00066:00075) DATE EXTERNAL                           00450005
+ , "DATREMES"                                                           00460005
+        POSITION(  00076:00085) DATE EXTERNAL                           00470005
+ , "DATRETOR"                                                           00480005
+        POSITION(  00086:00095) DATE EXTERNAL                           00490005
+ , "DATMVPGT"                                                           00500005
+        POSITION(  00096:00105) DATE EXTERNAL                           00510005
+ , "DATPAGTO"                                                           00520005
+        POSITION(  00106:00115) DATE EXTERNAL                           00530005
+ , "DGDOCTO"                                                            00540005
+        POSITION(  00116:00117) SMALLINT                                00550005
+ , "CDRMCJ"                                                             00560005
+        POSITION(  00118:00119) SMALLINT                                00570005
+ , "CDRETOR"                                                            00580005
+        POSITION(  00120:00121) SMALLINT                                00590005
+ , "CDREMES"                                                            00600005
+        POSITION(  00122:00123) SMALLINT                                00610005
+ , "NRSQREM"                                                            00620005
+        POSITION(  00124:00125) SMALLINT                                00630005
+ , "NRNOSSO"                                                            00640005
+        POSITION(  00126:00135) DECIMAL                                 00650005
+ , "CDSITBCO"                                                           00660005
+        POSITION(  00136:00136) CHAR(00001)                             00670005
+ , "CDSTATU"                                                            00680005
+        POSITION(  00137:00137) CHAR(00001)                             00690005
+ , "INDPGTO"                                                            00700005
+        POSITION(  00138:00139) SMALLINT                                00710005
+ , "CDUSUAR"                                                            00720005
+        POSITION(  00140:00149) CHAR(00010)                             00730005
+ , "QTREAPRE"                                                           00740005
+        POSITION(  00150:00151) SMALLINT                                00750005
+ , "CDSEGUR"                                                            00760005
+        POSITION(  00152:00155) INTEGER                                 00770005
+ , "CDAGEPAG"                                                           00780005
+        POSITION(  00156:00161) CHAR(00006)                             00790005
+ , "NRCCOPAG"                                                           00800005
+        POSITION(  00162:00174) CHAR(00013)                             00810005
+ , "CDSISTE"                                                            00820005
+        POSITION(  00175:00176) CHAR(00002)                             00830005
+ , "NRCCRED"                                                            00840005
+        POSITION(  00177:00185) DECIMAL                                 00850005
+ , "NRNOSSO_DIG"                                                        00860005
+        POSITION(  00186:00187) CHAR(00002)                             00870005
+ , "VALCCRED_CNV"                                                       00880005
+        POSITION(  00188:00191) INTEGER                                 00890005
+ , "CDEMPMAR"                                                           00900005
+        POSITION(  00192:00193) SMALLINT                                00910005
+ , "DTCOBERT"                                                           00920005
+        POSITION(  00194:00203) DATE EXTERNAL                           00930005
+ , "CDFATOR"                                                            00940005
+        POSITION(  00204:00207) INTEGER                                 00950005
+ , "DTREPIQ1"                                                           00960005
+        POSITION(  00208:00217) DATE EXTERNAL                           00970005
+ , "DTREPIQ2"                                                           00980005
+        POSITION(  00218:00227) DATE EXTERNAL                           00990005
+ , "DTREPIQ3"                                                           01000005
+        POSITION(  00228:00237) DATE EXTERNAL                           01010005
+ , "VLCST"                                                              01020005
+        POSITION(  00238:00246) DECIMAL                                 01030005
+ )                                                                      01040005

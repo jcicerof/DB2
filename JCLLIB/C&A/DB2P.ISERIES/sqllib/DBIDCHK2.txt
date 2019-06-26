@@ -1,0 +1,63 @@
+--                                                                      00010003
+-- TABLESPACE                                                           00020003
+--                                                                      00030003
+SELECT CHAR(S.NAME, 8),                                                 00290002
+       CHAR(STRIP(CHAR(S.DBID))||','||STRIP(CHAR(D.DBID)), 20), 1       00300002
+  FROM SYSIBM.SYSTABLESPACE S                                           00310002
+     , SYSIBM.SYSTABLESPACE D                                           00320002
+ WHERE                                                                  00330002
+       SUBSTR(S.DBNAME, 4, 2) IN ('BD', 'BP') AND                       00340006
+       D.NAME = S.NAME       AND                                        00350002
+       D.DBNAME = 'AISERIES'                                            00360002
+UNION ALL                                                               00370002
+SELECT CHAR(S.NAME, 8),                                                 00380002
+       CHAR(STRIP(CHAR(S.PSID))||','||STRIP(CHAR(D.PSID)), 20), 2       00390002
+  FROM SYSIBM.SYSTABLESPACE S                                           00400002
+     , SYSIBM.SYSTABLESPACE D                                           00410002
+ WHERE                                                                  00420002
+       SUBSTR(S.DBNAME, 4, 2) IN ('BD', 'BP') AND                       00421006
+       D.NAME = S.NAME       AND                                        00440002
+       D.DBNAME = 'AISERIES'                                            00450002
+UNION ALL                                                               00460002
+SELECT CHAR(S.TSNAME, 8),                                               00470002
+       CHAR(STRIP(CHAR(S.OBID))||','||STRIP(CHAR(D.OBID)), 20), 3       00480002
+  FROM SYSIBM.SYSTABLES S                                               00490002
+     , SYSIBM.SYSTABLES D                                               00500002
+ WHERE                                                                  00510002
+       S.CREATOR = 'PROD'   AND                                         00520002
+       D.TSNAME = S.TSNAME  AND                                         00530002
+       D.CREATOR = 'SUPPROD'                                            00540002
+ORDER BY 1, 3;                                                          00550002
+--                                                                      00560003
+-- INDICES                                                              00570003
+--                                                                      00580003
+SELECT CHAR(S.NAME, 8),                                                 00590005
+       CHAR(STRIP(CHAR(S.DBID))||','||STRIP(CHAR(D.DBID)), 20), 1       00600005
+  FROM SYSIBM.SYSINDEXES S                                              00610005
+     , SYSIBM.SYSINDEXES D                                              00620005
+ WHERE                                                                  00630005
+       S.CREATOR = 'PROD'                                               00640005
+   AND LENGTH(S.NAME) = 6                                               00650005
+   AND D.NAME = SUBSTR(S.NAME, 1, 2)||'9'||SUBSTR(S.NAME, 4, 2)||'T'    00660005
+   AND D.CREATOR = 'SUPPROD'                                            00670005
+UNION ALL                                                               00680005
+SELECT CHAR(S.NAME, 8),                                                 00690005
+       CHAR(STRIP(CHAR(S.ISOBID))||','||STRIP(CHAR(D.ISOBID)), 20), 2   00700005
+  FROM SYSIBM.SYSINDEXES S                                              00710005
+     , SYSIBM.SYSINDEXES D                                              00720005
+ WHERE                                                                  00730005
+       S.CREATOR = 'PROD'                                               00740005
+   AND LENGTH(S.NAME) = 6                                               00750005
+   AND D.NAME = SUBSTR(S.NAME, 1, 2)||'9'||SUBSTR(S.NAME, 4, 2)||'T'    00760005
+   AND D.CREATOR = 'SUPPROD'                                            00770005
+UNION ALL                                                               00780005
+SELECT CHAR(S.NAME, 8),                                                 00790005
+       CHAR(STRIP(CHAR(S.OBID))||','||STRIP(CHAR(D.OBID)), 20), 3       00800005
+  FROM SYSIBM.SYSINDEXES S                                              00810005
+     , SYSIBM.SYSINDEXES D                                              00820005
+ WHERE                                                                  00830005
+       S.CREATOR = 'PROD'                                               00840005
+   AND LENGTH(S.NAME) = 6                                               00850005
+   AND D.NAME = SUBSTR(S.NAME, 1, 2)||'9'||SUBSTR(S.NAME, 4, 2)||'T'    00860005
+   AND D.CREATOR = 'SUPPROD'                                            00870005
+ORDER BY 1, 3                                                           00880005

@@ -1,0 +1,6 @@
+--ALTER STOGROUP STGP75I REMOVE VOLUMES (DB2P91);                               
+--COMMIT;                                                                       
+ALTER STOGROUP STGP74D ADD VOLUMES (DB2P90);                                    
+COMMIT;                                                                         
+--ALTER STOGROUP STGP74I ADD VOLUMES (DB2P91);                                  
+--COMMIT;                                                                       

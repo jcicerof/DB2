@@ -1,0 +1,23 @@
+//DBPREORG JOB MSGCLASS=T,CLASS=T,NOTIFY=ROSSDBA                        JOB00046
+//DBPREORG PROC JOB='DBPREORG',SYS='DB2P',UID='SXXSYY',RST=''                   
+//DBPREORG EXEC PGM=DSNUTILB,REGION=3M,PARM='&SYS,&JOB..&UID,&RST'              
+//SYSPRINT DD SYSOUT=*                                                          
+//UTPRINT  DD SYSOUT=*                                                          
+//SYSREC   DD DSN=DB2PWRK.&JOB..&UID..SYSREC,DISP=(MOD,CATLG,CATLG),            
+//         UNIT=VSM                                                             
+//SYSUT1   DD DSN=DB2PWRK.&JOB..&UID..SYSUT1,DISP=(MOD,CATLG,CATLG),            
+//         UNIT=VSM                                                             
+//SORTOUT  DD DSN=DB2PWRK.&JOB..&UID..SORTOUT,DISP=(MOD,CATLG,CATLG),           
+//         UNIT=VSM                                                             
+//*                                                                             
+//         IF (RC LE 04) THEN                                                   
+//UNCATLG  EXEC PGM=IEFBR14                                                     
+//SYSREC   DD DSN=DB2PWRK.&JOB..&UID..SYSREC,DISP=(OLD,DELETE)                  
+//SYSUT1   DD DSN=DB2PWRK.&JOB..&UID..SYSUT1,DISP=(OLD,DELETE)                  
+//SORTOUT  DD DSN=DB2PWRK.&JOB..&UID..SORTOUT,DISP=(OLD,DELETE)                 
+//         ENDIF                                                                
+//         PEND                                                                 
+//*                                                                             
+//S01S01   EXEC DBPREORG,UID='S01S01',RST=''                                    
+//SYSIN    DD *                                                                 
+  REORG TABLESPACE(DBMT01.DEBLRARG)  LOG NO KEEPDICTIONARY                      

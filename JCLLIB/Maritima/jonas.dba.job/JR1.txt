@@ -1,0 +1,7 @@
+SELECT DISTINCT 'GRANT INSERT ON TECINFOR.MOVSOLPCS TO', 1                      
+  FROM SYSIBM.SYSTABAUTH WHERE STNAME = 'PROPOSTA'                              
+                           AND GRANTEETYPE='' AND INSERTAUTH='Y'                
+SELECT DISTINCT GRANTEE||',',2                                                  
+ FROM SYSIBM.SYSTABAUTH WHERE STNAME = 'PROPOSTA'                               
+AND GRANTEETYPE='' AND INSERTAUTH='Y';                                          
+ORDER BY 2                                                                      

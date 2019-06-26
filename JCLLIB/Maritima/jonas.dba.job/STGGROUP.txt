@@ -1,0 +1,11 @@
+--SELECT * FROM SYSIBM.SYSVOLUMES WHERE SGNAME LIKE 'STGP63%';                  
+--SET CURRENT SQLID='SYSADM';                                                   
+--COMMIT;                                                                       
+--ALTER STOGROUP STGP63D                                                        
+--  ADD VOLUMES (DB2P89);                                                       
+--ALTER STOGROUP STGP63I                                                        
+--  ADD VOLUMES (DB2P89);                                                       
+--ALTER STOGROUP STGP63D                                                        
+--  REMOVE VOLUMES (DB2P89);                                                    
+--ALTER STOGROUP STGP63I                                                        
+--  REMOVE VOLUMES (DB2P89);                                                    

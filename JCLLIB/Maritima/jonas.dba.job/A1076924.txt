@@ -1,0 +1,73 @@
+                                                                                
+      --                                                                        
+      --CHANGE REPORT for Table PROPCONVITEM                                    
+      --    - Adding column IDSLOCTR                                            
+      --    - Adding column definition to IDSLOCTR                              
+      --ACTION is ALTER or modify Table PROPCONVITEM                            
+      --                                                                        
+                                                                                
+ALTER TABLE MARHISTO.PROPCONVITEM ADD IDSLOCTR CHAR(1) NOT                      
+NULL DEFAULT 'N';                                                               
+                                                                                
+                                                                                
+COMMENT ON COLUMN MARHISTO.PROPCONVITEM.IDSLOCTR IS                             
+'INDICATIVO DE SELO CONTRATADO';                                                
+                                                                                
+                                                                                
+      --                                                                        
+      --CHANGE REPORT for Table PROPKITWITEM                                    
+      --    - Adding column IDLOCCTR                                            
+      --    - Adding column definition to IDLOCCTR                              
+      --ACTION is ALTER or modify Table PROPKITWITEM                            
+      --                                                                        
+                                                                                
+ALTER TABLE MARHISTO.PROPKITWITEM ADD IDLOCCTR CHAR(1);                         
+                                                                                
+                                                                                
+COMMENT ON COLUMN MARHISTO.PROPKITWITEM.IDLOCCTR IS                             
+'INDICATIVO DE SELO CONTRATADO';                                                
+                                                                                
+                                                                                
+      --                                                                        
+      --CHANGE REPORT for Table PROPCONVITEM                                    
+      --    - Adding column IDSLOCTR                                            
+      --    - Adding column definition to IDSLOCTR                              
+      --ACTION is ALTER or modify Table PROPCONVITEM                            
+      --                                                                        
+                                                                                
+ALTER TABLE MARITIMA.PROPCONVITEM ADD IDSLOCTR  CHAR(1) NOT                     
+NULL     DEFAULT 'N';                                                           
+                                                                                
+                                                                                
+COMMENT ON COLUMN MARITIMA.PROPCONVITEM.IDSLOCTR IS                             
+'INDICATIVO DE SELO CONTRATO';                                                  
+                                                                                
+                                                                                
+      --                                                                        
+      --CHANGE REPORT for Table PROPKITWITEM                                    
+      --    - Adding column IDLOCCTR                                            
+      --    - Adding column definition to IDLOCCTR                              
+      --ACTION is ALTER or modify Table PROPKITWITEM                            
+      --                                                                        
+                                                                                
+ALTER TABLE MARITIMA.PROPKITWITEM ADD IDLOCCTR CHAR(1);                         
+                                                                                
+                                                                                
+COMMENT ON COLUMN MARITIMA.PROPKITWITEM.IDLOCCTR IS                             
+'INDICATIVO DE SELO CONTRATADO';                                                
+                                                                                
+                                                                                
+      --                                                                        
+      --CHANGE REPORT for Table ORCAMENTOITEM                                   
+      --    - Adding column IDSLOCTR                                            
+      --    - Adding column definition to IDSLOCTR                              
+      --ACTION is ALTER or modify Table ORCAMENTOITEM                           
+      --                                                                        
+                                                                                
+ALTER TABLE TECINFOR.ORCAMENTOITEM ADD IDSLOCTR CHAR(1) NOT                     
+NULL  DEFAULT 'N';                                                              
+                                                                                
+                                                                                
+COMMENT ON COLUMN TECINFOR.ORCAMENTOITEM.IDSLOCTR IS 'INDICATIVO DE SELO        
+ CONTRATADO';                                                                   
+                                                                                

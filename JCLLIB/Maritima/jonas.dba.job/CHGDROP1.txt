@@ -1,0 +1,98 @@
+1                       J E S 2  J O B  L O G  --  S Y S T E M  M R T P  --  N O
+0                                                                               
+ 16.43.32 JOB01328 ---- THURSDAY,  08 MAY 2008 ----                             
+ 16.43.32 JOB01328  IRR010I  USERID JONAS    IS ASSIGNED TO THIS JOB.           
+ 20.00.00 JOB01328  ICH70001I JONAS    LAST ACCESS AT 17:28:02 ON THURSDAY, MAY 
+ 20.00.00 JOB01328  $HASP373 DBPDSNTP STARTED - INIT 0001 - CLASS A - SYS MRTP  
+ 20.00.00 JOB01328  IEF403I DBPDSNTP - STARTED - TIME=20.00.00                  
+ 20.00.02 JOB01328  -                                                --TIMINGS (
+ 20.00.02 JOB01328  -JOBNAME  STEPNAME PROCSTEP    RC   EXCP   CONN    TCB    SR
+ 20.00.02 JOB01328  -DBPDSNTP QUERY01              00     64     37    .00    .0
+ 20.00.02 JOB01328  IEF404I DBPDSNTP - ENDED - TIME=20.00.02                    
+ 20.00.02 JOB01328  -DBPDSNTP ENDED.  NAME-                     TOTAL TCB CPU TI
+ 20.00.02 JOB01328  $HASP395 DBPDSNTP ENDED                                     
+0------ JES2 JOB STATISTICS ------                                              
+-  08 MAY 2008 JOB EXECUTION DATE                                               
+-           10 CARDS READ                                                       
+-           98 SYSOUT PRINT RECORDS                                             
+-            0 SYSOUT PUNCH RECORDS                                             
+-            5 SYSOUT SPOOL KBYTES                                              
+-         0.03 MINUTES EXECUTION TIME                                           
+         1 //DBPDSNTP JOB MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID,TYPRUN=HOLD         
+           IEFC653I SUBSTITUTION JCL - MSGCLASS=P,CLASS=A,NOTIFY=JONAS,TYPRUN=HO
+         2 //QUERY01 EXEC PGM=IKJEFT01,DYNAMNBR=20                              
+         3 //SYSTSPRT DD SYSOUT=*                                               
+         4 //SYSTSIN DD *                                                       
+         5 //SYSPRINT DD SYSOUT=*                                               
+         6 //SYSUDUMP DD SYSOUT=*                                               
+         7 //SYSIN    DD DISP=SHR,DSN=JONAS.DBA.JOB(CHGDPROP)                   
+ ICH70001I JONAS    LAST ACCESS AT 17:28:02 ON THURSDAY, MAY 8, 2008            
+ IEF236I ALLOC. FOR DBPDSNTP QUERY01                                            
+ IEF237I JES2 ALLOCATED TO SYSTSPRT                                             
+ IEF237I JES2 ALLOCATED TO SYSTSIN                                              
+ IEF237I JES2 ALLOCATED TO SYSPRINT                                             
+ IEF237I JES2 ALLOCATED TO SYSUDUMP                                             
+ IEF237I 9913 ALLOCATED TO SYSIN                                                
+ IEF237I 992B ALLOCATED TO SYS00001                                             
+ IEF285I   DB2.DB2P.RUNLIB.LOAD                         KEPT                    
+ IEF285I   VOL SER NOS= MRT009.                                                 
+ IEF142I DBPDSNTP QUERY01 - STEP WAS EXECUTED - COND CODE 0000                  
+ IEF285I   JONAS.DBPDSNTP.JOB01328.D0000102.?           SYSOUT                  
+ IEF285I   JONAS.DBPDSNTP.JOB01328.D0000101.?           SYSIN                   
+ IEF285I   JONAS.DBPDSNTP.JOB01328.D0000103.?           SYSOUT                  
+ IEF285I   JONAS.DBPDSNTP.JOB01328.D0000104.?           SYSOUT                  
+ IEF285I   JONAS.DBA.JOB                                KEPT                    
+ IEF285I   VOL SER NOS= TSO000.                                                 
+ IEF373I STEP/QUERY01 /START 2008129.2000                                       
+ IEF374I STEP/QUERY01 /STOP  2008129.2000 CPU    0MIN 00.03SEC SRB    0MIN 00.00
+ IEF375I  JOB/DBPDSNTP/START 2008129.2000                                       
+ IEF376I  JOB/DBPDSNTP/STOP  2008129.2000 CPU    0MIN 00.03SEC SRB    0MIN 00.00
+1READY                                                                          
+   DSN SYSTEM(DB2P)                                                             
+ DSN                                                                            
+   RUN PROGRAM(DSNTEP2) PLAN(DSNTEP71) PARMS('/ALIGN(LHS) MIXED')       LIB('DB2
+ DSN                                                                            
+ END                                                                            
+1                                                                               
+1PAGE    1                                                                      
+ ***INPUT STATEMENT:                                                            
+  SET CURRENT SQLID='SYSADM';                                                   
+  RESULT OF SQL STATEMENT:                                                      
+  DSNT400I SQLCODE = 000,  SUCCESSFUL EXECUTION                                 
+  DSNT418I SQLSTATE   = 00000 SQLSTATE RETURN CODE                              
+  DSNT416I SQLERRD    = 0  0  0  -1  0  0 SQL DIAGNOSTIC INFORMATION            
+  DSNT416I SQLERRD    = X'00000000'  X'00000000'  X'00000000'  X'FFFFFFFF'  X'00
+           INFORMATION                                                          
+ SET       SUCCESSFUL                                                           
+1PAGE    1                                                                      
+ ***INPUT STATEMENT:                                                            
+  COMMIT;                                                                       
+  RESULT OF SQL STATEMENT:                                                      
+  DSNT400I SQLCODE = 000,  SUCCESSFUL EXECUTION                                 
+  DSNT418I SQLSTATE   = 00000 SQLSTATE RETURN CODE                              
+  DSNT416I SQLERRD    = 0  0  0  -1  0  0 SQL DIAGNOSTIC INFORMATION            
+  DSNT416I SQLERRD    = X'00000000'  X'00000000'  X'00000000'  X'FFFFFFFF'  X'00
+           INFORMATION                                                          
+ COMMIT    SUCCESSFUL                                                           
+1PAGE    1                                                                      
+ ***INPUT STATEMENT:                                                            
+  UPDATE ASN.IBMSNAP_CAPPARMS SET RETENTION_LIMIT=10080,                        
+  LAG_LIMIT=10080                                                               
+  WHERE RETENTION_LIMIT=28800 AND LAG_LIMIT=28800;                              
+  RESULT OF SQL STATEMENT:                                                      
+  DSNT400I SQLCODE = 000,  SUCCESSFUL EXECUTION                                 
+  DSNT418I SQLSTATE   = 00000 SQLSTATE RETURN CODE                              
+  DSNT416I SQLERRD    = 0  0  1  -1  0  0 SQL DIAGNOSTIC INFORMATION            
+  DSNT416I SQLERRD    = X'00000000'  X'00000000'  X'00000001'  X'FFFFFFFF'  X'00
+           INFORMATION                                                          
+ SUCCESSFUL UPDATE    OF        1 ROW(S)                                        
+1PAGE    1                                                                      
+ ***INPUT STATEMENT:                                                            
+  COMMIT;                                                                       
+  RESULT OF SQL STATEMENT:                                                      
+  DSNT400I SQLCODE = 000,  SUCCESSFUL EXECUTION                                 
+  DSNT418I SQLSTATE   = 00000 SQLSTATE RETURN CODE                              
+  DSNT416I SQLERRD    = 0  0  0  -1  0  0 SQL DIAGNOSTIC INFORMATION            
+  DSNT416I SQLERRD    = X'00000000'  X'00000000'  X'00000000'  X'FFFFFFFF'  X'00
+           INFORMATION                                                          
+ COMMIT    SUCCESSFUL                                                           

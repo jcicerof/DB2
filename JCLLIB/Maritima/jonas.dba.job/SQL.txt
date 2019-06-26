@@ -1,0 +1,3 @@
+SELECT NAME,EXTERNAL_NAME                                                       
+FROM SYSIBM.SYSROUTINES WHERE EXTERNAL_NAME IN                                  
+('SQL77117');                                                                   

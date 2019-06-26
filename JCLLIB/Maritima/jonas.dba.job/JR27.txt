@@ -1,0 +1,8 @@
+SELECT DBNAME,TSNAME FROM SYSIBM.SYSTABLES WHERE NAME IN (                      
+'WPCPERFIL',                                                                    
+'WPCUSRPERFIL',                                                                 
+'CORRTSUS',                                                                     
+'CORRTCOM',                                                                     
+'CORRETOR',                                                                     
+'WPCUSUARIO',                                                                   
+'CORRFENA') AND TYPE='T' WITH UR;                                               

@@ -1,0 +1,10 @@
+SELECT DISTINCT 'REBIND PACKAGE ('||SUBSTR(COLLID,1,8)||'.'||GRANTEE||          
+') ISOLATION(CS) EXPLAIN(YES)'                                                  
+FROM SYSIBM.SYSTABAUTH WHERE TCREATOR = 'MARITIMA'         AND                  
+STNAME = 'SEGURADO'                                                             
+--AND GRANTEETYPE = 'P' ORDER BY 1 WITH UR;                                     
+--COLLID='MATCCOLE' WITH UR;                                                    
+--VALID='N'                                                                     
+--STNAME='MOVAPALT'                                                             
+--AND GRANTEETYPE = 'P' AND TCREATOR='MARITIMA';                                
+--STNAME LIKE 'CSP%'                                                            

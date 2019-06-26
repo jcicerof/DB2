@@ -1,0 +1,126 @@
+//DBPLOAD JOB MSGCLASS=X,CLASS=T,NOTIFY=&SYSUID                                 
+//DSNUPROC EXEC PGM=DSNUTILB,PARM='DB2P,LOAD.TESTE'                             
+//SYSPRINT DD   SYSOUT=*                                                        
+//UTPRINT  DD   SYSOUT=*                                                        
+//SYSUT1   DD  UNIT=VSM                                                         
+//SORTOUT  DD  UNIT=VSM                                                         
+//SYSERR   DD  DSN=&&SYSERR,                                                    
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDBA,SPACE=(TRK,(100,220),RLSE)                           
+//SYSMAP   DD  DSN=&SYSMAP,                                                     
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDBA,SPACE=(TRK,(100,215),RLSE)                           
+//SYSDISC  DD  DSN=&&SYSDISC,                                                   
+//             DISP=(,DELETE),                                                  
+//             UNIT=SYSDBA,SPACE=(TRK,(100,215),RLSE)                           
+//SYSIN     DD *                                                                
+TEMPLATE B15AHFBK                                                               
+     DSN('JJONAS.UNL.DBSS02.SSCOREPE.REC.D2008275')                             
+     DISP(OLD,KEEP,KEEP)                                                        
+LOAD DATA INDDN B15AHFBK LOG NO  RESUME YES NOCOPYPEND                          
+ EBCDIC  CCSID(00037,00000,00000)                                               
+ SORTKEYS             3086535                                                   
+ INTO TABLE "MARITIMA"."SSCOREPE0908"                                           
+ WHEN(00001:00002) = X'0031'                                                    
+ ( "NRESTIPU"                                                                   
+        POSITION(  00003:00004) SMALLINT                                        
+ , "NRSUBEST"                                                                   
+        POSITION(  00005:00006) SMALLINT                                        
+ , "NRSEGURA"                                                                   
+        POSITION(  00007:00010) INTEGER                                         
+ , "NRCARNE"                                                                    
+        POSITION(  00011:00012) SMALLINT                                        
+ , "NRPARCEL"                                                                   
+        POSITION(  00013:00014) SMALLINT                                        
+ , "NRNOSNUM"                                                                   
+        POSITION(  00015:00018) INTEGER                                         
+ , "CDBANCO"                                                                    
+        POSITION(  00019:00020) SMALLINT                                        
+ , "QTUSM"                                                                      
+        POSITION(  00021:00025) DECIMAL                                         
+ , "VRPAGAME"                                                                   
+        POSITION(  00026:00031) DECIMAL                                         
+ , "DTINIVIG"                                                                   
+        POSITION(  00032:00041) DATE EXTERNAL                                   
+ , "DTTERVIG"                                                                   
+        POSITION(  00042:00051) DATE EXTERNAL                                   
+ , "VREMITID"                                                                   
+        POSITION(  00052:00057) DECIMAL                                         
+ , "VRJUROS"                                                                    
+        POSITION(  00058:00062) DECIMAL                                         
+ , "VRMULTA"                                                                    
+        POSITION(  00063:00067) DECIMAL                                         
+ , "NMDEPTO"                                                                    
+        POSITION(  00068:00077) CHAR(00010)                                     
+ , "CDUSUAR"                                                                    
+        POSITION(  00078:00087) CHAR(00010)                                     
+ , "CDSUCURS"                                                                   
+        POSITION(  00088:00089) SMALLINT                                        
+ , "CDINTCOB"                                                                   
+        POSITION(  00090:00090) CHAR(00001)                                     
+ , "FKESTIPU"                                                                   
+        POSITION(  00092:00093) SMALLINT                                        
+                          NULLIF(00091)=X'FF'                                   
+ , "FKSUBEST"                                                                   
+        POSITION(  00095:00096) SMALLINT                                        
+                          NULLIF(00094)=X'FF'                                   
+ , "FKSEGURA"                                                                   
+        POSITION(  00098:00101) INTEGER                                         
+                          NULLIF(00097)=X'FF'                                   
+ , "DTEMISSA"                                                                   
+        POSITION(  00103:00112) DATE EXTERNAL                                   
+                          NULLIF(00102)=X'FF'                                   
+ , "DTPAGAME"                                                                   
+        POSITION(  00114:00123) DATE EXTERNAL                                   
+                          NULLIF(00113)=X'FF'                                   
+ , "DTDOCOV2"                                                                   
+        POSITION(  00125:00134) DATE EXTERNAL                                   
+                          NULLIF(00124)=X'FF'                                   
+ , "DTPROPAG"                                                                   
+        POSITION(  00136:00145) DATE EXTERNAL                                   
+                          NULLIF(00135)=X'FF'                                   
+ , "DTDEVOLU"                                                                   
+        POSITION(  00147:00156) DATE EXTERNAL                                   
+                          NULLIF(00146)=X'FF'                                   
+ , "DTVENCIM"                                                                   
+        POSITION(  00158:00167) DATE EXTERNAL                                   
+                          NULLIF(00157)=X'FF'                                   
+ , "DTCANCEL"                                                                   
+        POSITION(  00169:00178) DATE EXTERNAL                                   
+                          NULLIF(00168)=X'FF'                                   
+ , "NRLOTE"                                                                     
+        POSITION(  00180:00183) INTEGER                                         
+                          NULLIF(00179)=X'FF'                                   
+ , "DTPAAGCO"                                                                   
+        POSITION(  00185:00194) DATE EXTERNAL                                   
+                          NULLIF(00184)=X'FF'                                   
+ , "QTVIDAS"                                                                    
+        POSITION(  00196:00197) SMALLINT                                        
+                          NULLIF(00195)=X'FF'                                   
+ , "NMDESOAL"                                                                   
+        POSITION(  00199:00208) CHAR(00010)                                     
+                          NULLIF(00198)=X'FF'                                   
+ , "CDUSSOAL"                                                                   
+        POSITION(  00210:00219) CHAR(00010)                                     
+                          NULLIF(00209)=X'FF'                                   
+ , "NRPROPO"                                                                    
+        POSITION(  00221:00226) DECIMAL                                         
+                          NULLIF(00220)=X'FF'                                   
+ , "DTCHQPRE"                                                                   
+        POSITION(  00228:00237) DATE EXTERNAL                                   
+                          NULLIF(00227)=X'FF'                                   
+ , "VRCHQPRE"                                                                   
+        POSITION(  00239:00244) DECIMAL                                         
+                          NULLIF(00238)=X'FF'                                   
+ , "VRAGEPAG"                                                                   
+        POSITION(  00246:00251) DECIMAL                                         
+                          NULLIF(00245)=X'FF'                                   
+ , "VRCOMPAG"                                                                   
+        POSITION(  00253:00258) DECIMAL                                         
+                          NULLIF(00252)=X'FF'                                   
+ , "DTREFEMI"                                                                   
+        POSITION(  00259:00268) DATE EXTERNAL                                   
+ , "PCIOF"                                                                      
+        POSITION(  00270:00273) DECIMAL                                         
+                          NULLIF(00269)=X'FF'                                   
+ )                                                                              

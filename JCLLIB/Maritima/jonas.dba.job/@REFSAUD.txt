@@ -1,0 +1,46 @@
+//DBPREFSA JOB 'JONAS',MSGCLASS=T,CLASS=A,NOTIFY=&SYSUID                00010013
+//*                                                                     00020000
+//         JCLLIB ORDER=(JONAS.DBA.JOB)                                 00030002
+//*------------------------------------------------------------------   00050000
+//* REFSAUD                                                             00060006
+//*------------------------------------------------------------------   00070000
+//*CADAPCHQ EXEC PROC=#REFSAUD,TS=CADAPCHQ                              00771018
+//*CADAPCOR EXEC PROC=#REFSAUD,TS=CADAPCOR                              00780018
+//*CADAPOL  EXEC PROC=#REFSAUD,TS=CADAPOL                               00790018
+//*CADAUAPP EXEC PROC=#REFSAUD,TS=CADAUAPP                              00800018
+//*CADAUASS EXEC PROC=#REFSAUD,TS=CADAUASS                              00810018
+//*CADAUAUT EXEC PROC=#REFSAUD,TS=CADAUAUT                              00820018
+//*CADAUDIS EXEC PROC=#REFSAUD,TS=CADAUDIS                              00830018
+//*CADAUPCL EXEC PROC=#REFSAUD,TS=CADAUPCL                              00840018
+//*CADAURCF EXEC PROC=#REFSAUD,TS=CADAURCF                              00850018
+//*CADAURES EXEC PROC=#REFSAUD,TS=CADAURES                              00860018
+//*CADAURSM EXEC PROC=#REFSAUD,TS=CADAURSM                              00870018
+//*CADAUVID EXEC PROC=#REFSAUD,TS=CADAUVID                              00880018
+//*CADPARCL EXEC PROC=#REFSAUD,TS=CADPARCL                              00890018
+//*CADAMCOB EXEC PROC=#REFSAUD,TS=CADAMCOB                              00900018
+//*CADAMRSM EXEC PROC=#REFSAUD,TS=CADAMRSM                              00910018
+//*CADAPCOB EXEC PROC=#REFSAUD,TS=CADAPCOB                              00920018
+//*CADAPEMI EXEC PROC=#REFSAUD,TS=CADAPEMI                              00930018
+//*CADAPFRA EXEC PROC=#REFSAUD,TS=CADAPFRA                              00940018
+//*CADAPLCR EXEC PROC=#REFSAUD,TS=CADAPLCR                              00950018
+//*CADAPLIB EXEC PROC=#REFSAUD,TS=CADAPLIB                              00960018
+//*CADAPMES EXEC PROC=#REFSAUD,TS=CADAPMES                              00970018
+//*CADAPPCP EXEC PROC=#REFSAUD,TS=CADAPPCP                              00980018
+//*CADAPRMO EXEC PROC=#REFSAUD,TS=CADAPRMO                              00990018
+//*CADAUCEX EXEC PROC=#REFSAUD,TS=CADAUCEX                              01000018
+//*CADAUCOP EXEC PROC=#REFSAUD,TS=CADAUCOP                              01010018
+//*CADAUOPC EXEC PROC=#REFSAUD,TS=CADAUOPC                              01020018
+//*CADAUPCP EXEC PROC=#REFSAUD,TS=CADAUPCP                              01030018
+//*CADAUTXE EXEC PROC=#REFSAUD,TS=CADAUTXE                              01040018
+//*CADAUXIL EXEC PROC=#REFSAUD,TS=CADAUXIL                              01050018
+//*CADBANES EXEC PROC=#REFSAUD,TS=CADBANES                              01060018
+//*CADBCOFX EXEC PROC=#REFSAUD,TS=CADBCOFX                              01070018
+//*CADCAPRN EXEC PROC=#REFSAUD,TS=CADCAPRN                              01080018
+//*CADCOMIS EXEC PROC=#REFSAUD,TS=CADCOMIS                              01090018
+//*CADCOMPL EXEC PROC=#REFSAUD,TS=CADCOMPL                              01100018
+//*CADDESAG EXEC PROC=#REFSAUD,TS=CADDESAG                              01110018
+//*CADLEASI EXEC PROC=#REFSAUD,TS=CADLEASI                              01120018
+//*CADOBSER EXEC PROC=#REFSAUD,TS=CADOBSER                              01130018
+//*CADPERFI EXEC PROC=#REFSAUD,TS=CADPERFI                              01140018
+//*CADTRCIA EXEC PROC=#REFSAUD,TS=CADTRCIA                              01150018
+//*CADVIDA EXEC PROC=#REFSAUD,TS=CADVIDA                                01160018

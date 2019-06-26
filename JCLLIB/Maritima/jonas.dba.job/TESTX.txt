@@ -1,0 +1,20 @@
+--GRANT INSERT ON  MAREXCLU.SSCAAMEMCPM                TO SAUDRF1;              
+SELECT 'GRANT SELECT ON '||STRIP(SCREATOR)||'.'||STRIP(STNAME)||                
+' TO TISSWEB;'                                                                  
+FROM SYSIBM.SYSTABAUTH WHERE GRANTEE = 'TISSFAT'                                
+AND SELECTAUTH = 'Y'                                                            
+UNION                                                                           
+SELECT 'GRANT DELETE ON '||STRIP(SCREATOR)||'.'||STRIP(STNAME)||                
+' TO TISSWEB;'                                                                  
+FROM SYSIBM.SYSTABAUTH WHERE GRANTEE = 'TISSFAT'                                
+AND DELETEAUTH = 'Y'                                                            
+UNION                                                                           
+SELECT 'GRANT UPDATE ON '||STRIP(SCREATOR)||'.'||STRIP(STNAME)||                
+' TO TISSWEB;'                                                                  
+FROM SYSIBM.SYSTABAUTH WHERE GRANTEE = 'TISSFAT'                                
+AND UPDATEAUTH = 'Y'                                                            
+UNION                                                                           
+SELECT 'GRANT INSERT ON '||STRIP(SCREATOR)||'.'||STRIP(STNAME)||                
+' TO TISSWEB;'                                                                  
+FROM SYSIBM.SYSTABAUTH WHERE GRANTEE = 'TISSFAT'                                
+AND INSERTAUTH = 'Y';                                                           

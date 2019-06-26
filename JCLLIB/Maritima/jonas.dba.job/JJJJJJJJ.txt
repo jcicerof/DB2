@@ -1,0 +1,55 @@
+CREATE TABLE GIST.TGEX_DATATYPE                                                 
+    ( E_VARCHAR2         VARCHAR  (4000) ,                                      
+      E_NUMBER           DOUBLE ,                                               
+      E_DATE             TIMESTAMP ,                                            
+      E_CHAR             VARCHAR  (2000) ,                                      
+      E_RAW              VARCHAR  (2000) ,                                      
+      E_FLOAT            DOUBLE ,                                               
+      E_INTEGER          DOUBLE ,                                               
+      XE_VARCHAR2        VARCHAR  (4000) ,                                      
+      XE_NUMBER          DOUBLE ,                                               
+      XE_DATE            TIMESTAMP ,                                            
+      XE_CHAR            VARCHAR  (2000) ,                                      
+      XE_RAW             VARCHAR  (2000) ,                                      
+      XE_FLOAT           DOUBLE ,                                               
+      XE_INTEGER         DOUBLE ,                                               
+      IBMSNAP_COMMITSEQ  CHAR     (10) NOT NULL ,                               
+      IBMSNAP_INTENTSEQ  CHAR     (10) NOT NULL ,                               
+      IBMSNAP_OPERATION  CHAR     (1) NOT NULL ,                                
+      IBMSNAP_LOGMARKER  TIMESTAMP NOT NULL  )                                  
+    IN DPROPR.TSPOC                                                             
+    CCSID EBCDIC                                                                
+  AUDIT NONE;                                                                   
+-- ***** CARD= -1 NPAGES= -1                                                    
+-- **************************                                                   
+-- ***** CREATE INDEXES *****                                                   
+-- **************************                                                   
+CREATE TYPE 2  INDEX GIST.CCDIX_TGEX_DATATYPE ON GIST.TGEX_DATATYPE             
+      ( IBMSNAP_COMMITSEQ ASC ,                                                 
+        IBMSNAP_INTENTSEQ ASC  )                                                
+    USING STOGROUP STGDPROP PRIQTY -4 SECQTY -4 ERASE NO                        
+    FREEPAGE 0 PCTFREE 10                                                       
+    BUFFERPOOL BP2                                                              
+    PIECESIZE 2097152 K                                                         
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= -1 NLEVELS= -1                                                  
+-- ***** FIRSTKEYCARD= -1 FULLKEYCARD= -1                                       
+CREATE TYPE 2 UNIQUE INDEX GIST.IXTGEX_DATATYPE ON GIST.TGEX_DATATYPE           
+      ( E_INTEGER ASC  )                                                        
+    USING STOGROUP STGDPROP PRIQTY -4 SECQTY -4 ERASE NO                        
+    FREEPAGE 0 PCTFREE 10                                                       
+    BUFFERPOOL BP2                                                              
+    PIECESIZE 2097152 K                                                         
+    CLOSE YES ;                                                                 
+-- ***** NLEAF= -1 NLEVELS= -1                                                  
+-- ***** FIRSTKEYCARD= -1 FULLKEYCARD= -1                                       
+-- **************************                                                   
+-- ***** ALTER TABLE - FOREIGN KEYS*****                                        
+-- **************************                                                   
+-- **************************                                                   
+-- ***** CREATE VIEWS   *****                                                   
+-- **************************                                                   
+-- *****   NO RELATED VIEWS                                                     
+-- **************************                                                   
+-- *****     DDL END    *****                                                   
+-- **************************                                                   

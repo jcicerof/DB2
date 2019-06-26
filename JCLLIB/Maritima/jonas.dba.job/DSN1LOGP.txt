@@ -1,0 +1,19 @@
+//DBP1LOGP JOB 'JONAS',MSGCLASS=T,CLASS=A,NOTIFY=&SYSUID                00010001
+//*-------------------------------------------------------------------  00020000
+//*                                                                     00030000
+//*-------------------------------------------------------------------  00040000
+//DSN1LOGP EXEC PGM=DSN1LOGP                                            00050000
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                          00060000
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                          00070000
+//SYSABEND DD   SYSOUT=*                                                00080000
+//SYSPRINT DD   DSN=JONAS2.DSN1LOGP.SYSPRINT,DISP=(NEW,CATLG,CATLG),    00090002
+//         UNIT=SYSDBA,SPACE=(TRK,(10000,1000),RLSE),OUTLIM=6000000     00100000
+//SYSSUMRY DD   DSN=JONAS2.DSN1LOGP.SYSSUMRY,DISP=(NEW,CATLG,CATLG),    00110002
+//         UNIT=SYSDBA,SPACE=(TRK,(10000,1000),RLSE),OUTLIM=3000000     00120000
+//*BSDS     DD   DSN=DB2PCAT.BSDS01,DISP=SHR                            00130000
+//ARCHIVE  DD   DSN=DB2PCAT.ARCHLOG2.A0013410,DISP=SHR                  00140001
+//         DD   DSN=DB2PCAT.ARCHLOG2.A0013411,DISP=SHR                  00141002
+//SYSIN    DD   *                                                       00150000
+RBASTART(0A561E68F2BD) DBID(120) OBID(186)                              00160001
+SUMMARY(NO) DATAONLY(YES)                                               00170002
+/*                                                                      00180000

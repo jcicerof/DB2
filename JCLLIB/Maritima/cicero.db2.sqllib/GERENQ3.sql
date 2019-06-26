@@ -1,0 +1,69 @@
+                                                                                
+--==============================================================================
+--  r11.5 SP0   CA-DB2   RC/MIGRATOR   ANALYSIS REPORT      08/01/02 18:15      
+--==============================================================================
+--STRATEGY INFORMATION:                                                         
+--STRATEGY ==> EXPORT    DESCRIPTION  ===> EXPORT DDL                           
+--CREATOR  ==> CICERO    SHARE OPTION ===> U (U,Y,N,X,L)  SRC SSID ===> DB2P    
+--                                                                              
+--IMPLODE/EXPLODE OPTIONS:                                                      
+--                                                                              
+-- +--- PRIMARY OBJECT --------------------------------------------------------+
+--                                                                              
+--   +-- IMPLODE OPTIONS ---+ +- EXPLODE OPTIONS --+                            
+--S  STOGRP DATABASE TBLSPACE INDEX VIEW SYN/AL TRIG                            
+--_     _      _        _       A     A     _     A                             
+--                                                                              
+-- EDIT TABLE NAME                       CREATOR                                
+--      CONDICAOGERENQ3                  TECINFOR                               
+-- +---------------------------------------------------------------------------+
+--                                                                              
+--                                                                              
+--OTHER MIGRATION OPTIONS:                                                      
+--  AUX RTN             ALL  NUMBER                                             
+--S IMP IMP RI SECURITY ROWS OF ROWS  WHERE                                     
+--_  _   _  G     Y      _   ________ _ ________                                
+--                                                                              
+-- EDIT TABLE NAME                       CREATOR                                
+--      CONDICAOGERENQ3                  TECINFOR                               
+-- +---------------------------------------------------------------------------+
+--                                                                              
+--CREATED OBJECTS:                                                              
+-- OBJECT TYPE NAME                             CREATOR                         
+-- INDEX       CADAPOL_IE4                      ANO2000                         
+--                                                                              
+--                                                                              
+--ANALYSIS OPTIONS:                                                             
+--  EXECUTION MODE    ===> O (O - ONLINE, B - BATCH)                            
+--  ANALYSIS OVERRIDE ===> N                                                    
+--  ACCESS MODE       ===> CATALOG                                              
+--  MODEL ID          ===> @DEFAULT                                             
+--  MODEL CREATOR     ===> AXW0311                                              
+--  TARGET SSID       ===> DB2P                                                 
+--  GLOBAL CHANGES    ===> N                                                    
+--                                                                              
+--  AUX IMPLODE       ===> N             STATISTICS    ===> N                   
+--  RI(LOCAL/GLOBAL)  ===> L             CHECK DATA    ===> N                   
+--  SECURITY          ===> Y             IMAGE COPY    ===> Y                   
+--  DROP OBJECTS      ===> N             BIND/REBIND   ===> R                   
+--  LOB OBJECTS       ===> N             RECOVER IX    ===> Y                   
+--  DEFAULT SQLID     ===>                                                      
+--  ALIAS SQLID       ===>                                                      
+--  TABLE OBID        ===> N                                                    
+--  RTN IMPLODE       ===>                                                      
+--  RTN INTERACTION   ===> N                                                    
+--                                                                              
+--  ALL ROWS          ===> Y             VSAM DEFINES  ===> N                   
+--  NUMBER ROWS       ===>               VSAM DELETES  ===> N                   
+--  DATA STATISTICS   ===> N                                                    
+--  TRUNCATE          ===> N                                                    
+--                                                                              
+--  NO .AUTHS               ===> N                                              
+--  NO SET SQLID STMTS      ===> N                                              
+--  BND/DAT/SQL/STAT/GRNT/RI===> S  (B nd, D at, R -Stat, S QL, G rnt, R I or N)
+--  COMMIT ASAP             ===> Y                                              
+--                                                                              
+--  DELETE UNLOAD DATASETS    ===> N                                            
+--  DELETE TEMPORARY DATASETS ===> N                                            
+--                                                                              
+--********************** END OF ANALYSIS HEADER ********************************

@@ -1,0 +1,9 @@
+SELECT HEX(DBID),HEX(PSID)                                                      
+  FROM SYSIBM.SYSTABLESPACE                                                     
+ WHERE NAME='MOVPARCL'                                                          
+   AND DBNAME='DBNOVA';                                                         
+                                                                                
+SELECT NAME, HEX(OBID)                                                          
+ FROM SYSIBM.SYSTABLES                                                          
+ WHERE TSNAME='MOVPARCL'                                                        
+ AND CREATOR='ANO2000';                                                         

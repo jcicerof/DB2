@@ -1,0 +1,2 @@
+SELECT COUNT(*) FROM TECINFOR.CNDGERENQVAL WITH UR;                             
+SELECT COUNT(*) FROM TECINFOR.CONDICAOGERENQ1 WITH UR;                          

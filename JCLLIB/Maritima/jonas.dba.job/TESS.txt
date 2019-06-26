@@ -1,0 +1,2 @@
+DROP TABLE RECUPERA.CORCOOLD;                                           00010000
+COMMIT;                                                                 00020000

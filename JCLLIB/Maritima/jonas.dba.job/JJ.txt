@@ -1,0 +1,2 @@
+--SELECT * FROM SYSIBM.SYSTABLES WHERE TSNAME = 'TSCDSSMO';                     
+SELECT COUNT(*) FROM DB2PDPRC.CDSSMOVSEGANS WITH UR;                            

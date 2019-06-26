@@ -1,0 +1,36 @@
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD01                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD02                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD03                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD04                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD05                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD06                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD07                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD08                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD09                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD10                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD11                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         
+GRANT SELECT,INSERT,UPDATE,DELETE ON RECUPERA.CORCOOLD12                        
+TO BSI12,PWORK35,PWORK17;                                                       
+COMMIT;                                                                         

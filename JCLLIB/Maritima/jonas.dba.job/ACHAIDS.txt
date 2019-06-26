@@ -1,0 +1,10 @@
+SELECT DBNAME,NAME,CREATOR,HEX(DBID),HEX(PSID)                                  
+FROM SYSIBM.SYSTABLESPACE                                                       
+WHERE NAME='PPONBASE'                                                           
+AND DBNAME='DBEETA'                                                             
+WITH UR;                                                                        
+                                                                                
+SELECT DBNAME,NAME,TSNAME,CREATOR,HEX(OBID) FROM SYSIBM.SYSTABLES               
+WHERE NAME='PROPOSTAONBASE'                                                     
+AND CREATOR='TECINFOR'                                                          
+WITH UR;                                                                        

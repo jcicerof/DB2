@@ -1,0 +1,9 @@
+//DBPJONAS JOB ,MSGCLASS=Q,CLASS=A,NOTIFY=JONAS                                 
+// JCLLIB   ORDER=SYS8.PROCLIB                                                  
+// INCLUDE  MEMBER=JOBLIBS                                                      
+/*JOBPARM  LINECT=0                                                             
+//STEP0101 EXEC PGM=IDCAMS                                                      
+//SYSPRINT  DD  SYSOUT=*                                                        
+//SYSIN     DD  *                                                               
+  DEF GDG (NAME(P.DBA.EXTTBIND.MRTP)  -                                         
+      NEMP LIMIT(5) SCR ) ;                                                     

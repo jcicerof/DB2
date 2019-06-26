@@ -1,0 +1,15 @@
+ SELECT  'GRANT'||                                                      00010000
+         CASE WHEN SELECTAUTH='Y' THEN ' SELECT' ELSE '' END||          00020000
+         CASE WHEN INSERTAUTH='Y' THEN ',INSERT' ELSE '' END||          00030000
+         CASE WHEN DELETEAUTH='Y' THEN ',DELETE' ELSE '' END||          00040000
+         CASE WHEN UPDATEAUTH='Y' THEN ',UPDATE' ELSE '' END||          00050000
+         ' ON '||STRIP(TCREATOR)||'.'||STRIP(TTNAME)||                  00060000
+         ' TO AUTOCIR;'                                                 00070000
+   FROM SYSIBM.SYSTABAUTH                                               00080000
+  WHERE STNAME = 'PROPOSTA'                                             00090002
+    AND (SELECTAUTH = 'Y' OR                                            00100000
+         INSERTAUTH = 'Y' OR                                            00110000
+         DELETEAUTH = 'Y' OR                                            00120000
+         UPDATEAUTH = 'Y')                                              00130000
+FOR READ ONLY WITH UR;                                                  00150000
+--FETCH FIRST 50 ROWS ONLY                                              00160000

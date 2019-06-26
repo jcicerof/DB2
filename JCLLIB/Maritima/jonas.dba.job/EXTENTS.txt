@@ -1,0 +1,12 @@
+-- LISTA DE EXTENTS                                                     00010005
+  SELECT NAME,B.DBNAME,B.TSNAME,IXNAME,PQTY,SQTY,STORNAME,EXTENTS,      00020011
+  RECLENGTH,CREATEDTS,A.ALTEREDTS                                       00020110
+  FROM SYSIBM.SYSTABLEPART  A,                                          00021006
+                SYSIBM.SYSTABLES     B                                  00030000
+   WHERE B.NAME LIKE '%%'                                               00040004
+     AND B.CREATOR  = 'DB2ADM'                                          00050000
+     AND B.TYPE ='T'                                                    00060002
+     AND A.EXTENTS > 2                                                  00061002
+     AND A.TSNAME = B.TSNAME                                            00070000
+     AND A.DBNAME  = B.DBNAME                                           00080000
+  WITH UR;                                                              00090000

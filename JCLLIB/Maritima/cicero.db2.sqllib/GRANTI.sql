@@ -1,0 +1,3 @@
+GRANT SELECT ON ANO2000.CADAPOL TO AUTOCIR;                                     
+GRANT SELECT ON ANO2000.CADAURSM TO AUTOCIR;                                    
+GRANT SELECT,INSERT,DELETE,UPDATE ON ANO2000.CADAPOL TO AUTOCIR;                

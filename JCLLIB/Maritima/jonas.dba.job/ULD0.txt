@@ -1,0 +1,19 @@
+//DBPUNLD  JOB MSGCLASS=P,CLASS=A,NOTIFY=JONAS                                  
+//ST10    EXEC PGM=IKJEFT01,DYNAMNBR=20                                         
+//SYSTSPRT  DD SYSOUT=U                                                         
+//SYSPRINT  DD SYSOUT=U                                                         
+//SYSUDUMP  DD SYSOUT=U                                                         
+//SYSREC00  DD DSN=JONAS.DB2P.DEBLRARG.D,                                       
+//             VOL=SER=SHR003,                                                  
+//             DISP=(NEW,CATLG,DELETE),                                         
+//             UNIT=3390,SPACE=(CYL,(50,55),RLSE)                               
+//SYSPUNCH  DD DSN=JONAS.DB2P.DEBLRARG.P,                                       
+//             VOL=SER=SHR003,                                                  
+//             DISP=(NEW,CATLG,DELETE),                                         
+//             UNIT=3390,SPACE=(CYL,(1,1),RLSE)                                 
+//SYSTSIN   DD *                                                                
+  DSN SYSTEM(DB2P)                                                              
+  RUN  PROGRAM(DSNTIAUL) PLAN(DSNTIB71)                                         
+       LIB('DB2.DB2P.RUNLIB.LOAD')                                              
+//SYSIN     DD *                                                                
+MARITIMA.DESCBLQRASREG                                                          

@@ -1,0 +1,5 @@
+SELECT CDSUC, CDRMO, NRAPONOV, NRITE, COUNT(*)                                  
+  FROM MARITIMA.AVISRENOVAPOL                                                   
+ GROUP BY CDSUC, CDRMO, NRAPONOV, NRITE                                         
+ ORDER BY 5 DESC                                                                
+   FOR READ ONLY WITH UR;                                                       

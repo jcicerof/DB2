@@ -1,0 +1,4 @@
+SELECT                                                                          
+'INCLUDE TABLESPACE '||STRIP(DBNAME)||'.'||STRIP(TSNAME)||''                    
+FROM SYSIBM.SYSTABLES WHERE                                                     
+CARDF= -1 AND DBNAME LIKE 'DB%';                                                

@@ -1,0 +1,44 @@
+//DBRTSP77 JOB MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID,TIME=1440                      
+//**********************************************************************        
+//* SUBSYS: DB2P      REORGANIZACAO DE TABLESPACES                     *        
+//*                                                                    *        
+//* JOB: DBRTSP77     DATABASE:DBMA01  GENIS 1347625                            
+//* SOLICITACAO SOLANGE (R.1218)                                                
+//* VARIAVEIS:                                                         *        
+//*    &JOB=JOB='DBRTSP77'        - IDENTIFICACAO DO JOB               *        
+//*    &SYS=SYS='DB2P'            - SUB-SYSTEM: DB2 PRODUCAO           *        
+//*    &UID=UID='DBRTSP77.SXXSYY' - UTILIARIO ID: &JOB + SXXSYY=STEP   *        
+//*    &RST=RST=''                - PARAMETRO PARA RESTART:            *        
+//*                                 'RESTART' OU 'RESTART(PHASE)'      *        
+//*                                                                    *        
+//* JONAS 07/11/07    - INCLUIDO QUIESCE PARA CONTROLE DE RESTART      *        
+//*                                                                    *        
+//*                                                                    *        
+//**********************************************************************        
+//DBPREORG PROC JOB='DBRTSP77',SYS='DB2P',UID='SXXSYY',RST=''                   
+//DBPREORG EXEC PGM=DSNUTILB,REGION=5M,PARM='&SYS,&JOB..&UID,&RST'              
+//SYSPRINT DD SYSOUT=*                                                          
+//UTPRINT  DD SYSOUT=*                                                          
+//SYSREC   DD DSN=DB2PWRK.&JOB..&UID..SYSREC,DISP=(MOD,CATLG,CATLG),            
+//         SPACE=(CYL,(500,250),RLSE),UNIT=SYSWDB                               
+//SYSUT1   DD DSN=DB2PWRK.&JOB..&UID..SYSUT1,DISP=(MOD,CATLG,CATLG),            
+//         SPACE=(CYL,(300,300),RLSE),UNIT=SYSWDB                               
+//SORTOUT  DD DSN=DB2PWRK.&JOB..&UID..SORTOUT,DISP=(MOD,CATLG,CATLG),           
+//         SPACE=(CYL,(300,300),RLSE),UNIT=SYSWDB                               
+//*                                                                             
+//         IF (RC LE 04) THEN                                                   
+//UNCATLG  EXEC PGM=IEFBR14                                                     
+//SYSREC   DD DSN=DB2PWRK.&JOB..&UID..SYSREC,DISP=(OLD,DELETE)                  
+//SYSUT1   DD DSN=DB2PWRK.&JOB..&UID..SYSUT1,DISP=(OLD,DELETE)                  
+//SORTOUT  DD DSN=DB2PWRK.&JOB..&UID..SORTOUT,DISP=(OLD,DELETE)                 
+//         ENDIF                                                                
+//         PEND                                                                 
+//*                                                                             
+//S01S01   EXEC DBPREORG,UID='S01S01',RST=''                                    
+//SYSIN    DD *                                                                 
+  QUIESCE TABLESPACE DBMA01.RNSREGES                                            
+  REORG TABLESPACE(DBMA01.RNSREGES)  LOG NO  UNLOAD CONTINUE                    
+  REORG TABLESPACE(DBMA01.RNSINCPF)  LOG NO  UNLOAD CONTINUE                    
+  REORG TABLESPACE(DBMA01.RNSSINPT)  LOG NO  UNLOAD CONTINUE                    
+  REORG TABLESPACE(DBMA01.RNSSINTE)  LOG NO  UNLOAD CONTINUE                    
+//*                                                                             

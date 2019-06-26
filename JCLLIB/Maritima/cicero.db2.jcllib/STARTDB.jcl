@@ -1,0 +1,1320 @@
+//DB@TEP2  JOB MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID                                
+//*                                                                             
+//DSNTEP2  EXEC PGM=IKJEFT01,DYNAMNBR=20                                        
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSTSPRT DD SYSOUT=*                                                          
+//SYSTSIN  DD *                                                                 
+  DSN SYSTEM(DB2P)                                                              
+  -STOP DB(DBEEAE) SPACE(CTLIBDOC)                                             D
+  -START DB(DBEEAE) SPACE(CTLIBDOC) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(CTLIBRTI)                                             D
+  -START DB(DBEEAE) SPACE(CTLIBRTI) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(DOCANAEL)                                             D
+  -START DB(DBEEAE) SPACE(DOCANAEL) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(DOCDAEAN)                                             D
+  -START DB(DBEEAE) SPACE(DOCDAEAN) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(DOCDANEL)                                             D
+  -START DB(DBEEAE) SPACE(DOCDANEL) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(INFORDOC)                                             D
+  -START DB(DBEEAE) SPACE(INFORDOC) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(MOVANELA)                                             D
+  -START DB(DBEEAE) SPACE(MOVANELA) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(MVAELTRD)                                             D
+  -START DB(DBEEAE) SPACE(MVAELTRD) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(PRDVIANE)                                             D
+  -START DB(DBEEAE) SPACE(PRDVIANE) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(TIPOVINC)                                             D
+  -START DB(DBEEAE) SPACE(TIPOVINC) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(TPDIRALC)                                             D
+  -START DB(DBEEAE) SPACE(TPDIRALC) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(TPPRDVIN)                                             D
+  -START DB(DBEEAE) SPACE(TPPRDVIN) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(TPSITDOC)                                             D
+  -START DB(DBEEAE) SPACE(TPSITDOC) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(TPSITRTI)                                             D
+  -START DB(DBEEAE) SPACE(TPSITRTI) ACC(RW)                                    D
+  -STOP DB(DBEEAE) SPACE(VINCLIB)                                              D
+  -START DB(DBEEAE) SPACE(VINCLIB) ACC(RW)                                     D
+  -STOP DB(DBEEAE) SPACE(VINCPRD)                                              D
+  -START DB(DBEEAE) SPACE(VINCPRD) ACC(RW)                                     D
+  -STOP DB(DBEEAL) SPACE(CELRESPO)                                             D
+  -START DB(DBEEAL) SPACE(CELRESPO) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(CONTEXTO)                                             D
+  -START DB(DBEEAL) SPACE(CONTEXTO) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(CTTRCSNH)                                             D
+  -START DB(DBEEAL) SPACE(CTTRCSNH) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(DPTRESPO)                                             D
+  -START DB(DBEEAL) SPACE(DPTRESPO) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(FILAANAL)                                             D
+  -START DB(DBEEAL) SPACE(FILAANAL) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(FILACELU)                                             D
+  -START DB(DBEEAL) SPACE(FILACELU) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(FILADEPT)                                             D
+  -START DB(DBEEAL) SPACE(FILADEPT) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(FILAPESS)                                             D
+  -START DB(DBEEAL) SPACE(FILAPESS) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(FUNCIONL)                                             D
+  -START DB(DBEEAL) SPACE(FUNCIONL) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(FUNCPROG)                                             D
+  -START DB(DBEEAL) SPACE(FUNCPROG) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(GPACECTX)                                             D
+  -START DB(DBEEAL) SPACE(GPACECTX) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(GPACEFNC)                                             D
+  -START DB(DBEEAL) SPACE(GPACEFNC) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(GPACEFUN)                                             D
+  -START DB(DBEEAL) SPACE(GPACEFUN) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(GPACESSO)                                             D
+  -START DB(DBEEAL) SPACE(GPACESSO) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(GPACICTX)                                             D
+  -START DB(DBEEAL) SPACE(GPACICTX) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(IMPRESSO)                                             D
+  -START DB(DBEEAL) SPACE(IMPRESSO) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(ITCONPRM)                                             D
+  -START DB(DBEEAL) SPACE(ITCONPRM) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(ITEMCONT)                                             D
+  -START DB(DBEEAL) SPACE(ITEMCONT) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(NIVELALC)                                             D
+  -START DB(DBEEAL) SPACE(NIVELALC) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(PREAUMSG)                                             D
+  -START DB(DBEEAL) SPACE(PREAUMSG) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(PREAUTOR)                                             D
+  -START DB(DBEEAL) SPACE(PREAUTOR) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(PROGRAMA)                                             D
+  -START DB(DBEEAL) SPACE(PROGRAMA) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(SENHAUSU)                                             D
+  -START DB(DBEEAL) SPACE(SENHAUSU) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(SNHAUUSR)                                             D
+  -START DB(DBEEAL) SPACE(SNHAUUSR) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(TMPFCPGM)                                             D
+  -START DB(DBEEAL) SPACE(TMPFCPGM) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(TPFUNPGM)                                             D
+  -START DB(DBEEAL) SPACE(TPFUNPGM) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(TPLNGPGM)                                             D
+  -START DB(DBEEAL) SPACE(TPLNGPGM) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(USCTLSNH)                                             D
+  -START DB(DBEEAL) SPACE(USCTLSNH) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(USGPOACE)                                             D
+  -START DB(DBEEAL) SPACE(USGPOACE) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(USHISSNH)                                             D
+  -START DB(DBEEAL) SPACE(USHISSNH) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(USMARPRM)                                             D
+  -START DB(DBEEAL) SPACE(USMARPRM) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(USMGPACE)                                             D
+  -START DB(DBEEAL) SPACE(USMGPACE) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(USUARIO)                                              D
+  -START DB(DBEEAL) SPACE(USUARIO) ACC(RW)                                     D
+  -STOP DB(DBEEAL) SPACE(USUARIPR)                                             D
+  -START DB(DBEEAL) SPACE(USUARIPR) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(USUARMAR)                                             D
+  -START DB(DBEEAL) SPACE(USUARMAR) ACC(RW)                                    D
+  -STOP DB(DBEEAL) SPACE(USUARNEG)                                             D
+  -START DB(DBEEAL) SPACE(USUARNEG) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(OBITFSIN)                                             D
+  -START DB(DBEEOR) SPACE(OBITFSIN) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(OBVDAPPS)                                             D
+  -START DB(DBEEOR) SPACE(OBVDAPPS) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(OBVDDTSN)                                             D
+  -START DB(DBEEOR) SPACE(OBVDDTSN) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ONVDDTAP)                                             D
+  -START DB(DBEEOR) SPACE(ONVDDTAP) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCAITEM)                                             D
+  -START DB(DBEEOR) SPACE(ORCAITEM) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCAMEND)                                             D
+  -START DB(DBEEOR) SPACE(ORCAMEND) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCAMETO)                                             D
+  -START DB(DBEEOR) SPACE(ORCAMETO) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCAMPPS)                                             D
+  -START DB(DBEEOR) SPACE(ORCAMPPS) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCCPCOR)                                             D
+  -START DB(DBEEOR) SPACE(ORCCPCOR) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCCTALT)                                             D
+  -START DB(DBEEOR) SPACE(ORCCTALT) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCCTATD)                                             D
+  -START DB(DBEEOR) SPACE(ORCCTATD) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCCTPDC)                                             D
+  -START DB(DBEEOR) SPACE(ORCCTPDC) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCGCRSS)                                             D
+  -START DB(DBEEOR) SPACE(ORCGCRSS) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCIACVE)                                             D
+  -START DB(DBEEOR) SPACE(ORCIACVE) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCICDIF)                                             D
+  -START DB(DBEEOR) SPACE(ORCICDIF) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCICOBE)                                             D
+  -START DB(DBEEOR) SPACE(ORCICOBE) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCICTEN)                                             D
+  -START DB(DBEEOR) SPACE(ORCICTEN) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCIFPGT)                                             D
+  -START DB(DBEEOR) SPACE(ORCIFPGT) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCIOPVE)                                             D
+  -START DB(DBEEOR) SPACE(ORCIOPVE) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCIPCDT)                                             D
+  -START DB(DBEEOR) SPACE(ORCIPCDT) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCIPNIV)                                             D
+  -START DB(DBEEOR) SPACE(ORCIPNIV) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCIPQST)                                             D
+  -START DB(DBEEOR) SPACE(ORCIPQST) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCIPTOT)                                             D
+  -START DB(DBEEOR) SPACE(ORCIPTOT) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCISQCA)                                             D
+  -START DB(DBEEOR) SPACE(ORCISQCA) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCISSGU)                                             D
+  -START DB(DBEEOR) SPACE(ORCISSGU) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITACE)                                             D
+  -START DB(DBEEOR) SPACE(ORCITACE) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITAVA)                                             D
+  -START DB(DBEEOR) SPACE(ORCITAVA) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITBNF)                                             D
+  -START DB(DBEEOR) SPACE(ORCITBNF) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITCLA)                                             D
+  -START DB(DBEEOR) SPACE(ORCITCLA) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITCOB)                                             D
+  -START DB(DBEEOR) SPACE(ORCITCOB) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITEND)                                             D
+  -START DB(DBEEOR) SPACE(ORCITEND) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITPFL)                                             D
+  -START DB(DBEEOR) SPACE(ORCITPFL) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITPRO)                                             D
+  -START DB(DBEEOR) SPACE(ORCITPRO) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITREF)                                             D
+  -START DB(DBEEOR) SPACE(ORCITREF) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITRNV)                                             D
+  -START DB(DBEEOR) SPACE(ORCITRNV) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITSEG)                                             D
+  -START DB(DBEEOR) SPACE(ORCITSEG) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITVEI)                                             D
+  -START DB(DBEEOR) SPACE(ORCITVEI) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCITXEN)                                             D
+  -START DB(DBEEOR) SPACE(ORCITXEN) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCLOGEE)                                             D
+  -START DB(DBEEOR) SPACE(ORCLOGEE) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORCPRTOT)                                             D
+  -START DB(DBEEOR) SPACE(ORCPRTOT) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORFOPGRM)                                             D
+  -START DB(DBEEOR) SPACE(ORFOPGRM) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORFORPGT)                                             D
+  -START DB(DBEEOR) SPACE(ORFORPGT) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORICPEBN)                                             D
+  -START DB(DBEEOR) SPACE(ORICPEBN) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORIFPGRM)                                             D
+  -START DB(DBEEOR) SPACE(ORIFPGRM) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORITCBCA)                                             D
+  -START DB(DBEEOR) SPACE(ORITCBCA) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORITCGVE)                                             D
+  -START DB(DBEEOR) SPACE(ORITCGVE) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORITCVED)                                             D
+  -START DB(DBEEOR) SPACE(ORITCVED) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORITEOBS)                                             D
+  -START DB(DBEEOR) SPACE(ORITEOBS) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORITMTGE)                                             D
+  -START DB(DBEEOR) SPACE(ORITMTGE) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORITPRAN)                                             D
+  -START DB(DBEEOR) SPACE(ORITPRAN) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORITPROB)                                             D
+  -START DB(DBEEOR) SPACE(ORITPROB) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORITQSUT)                                             D
+  -START DB(DBEEOR) SPACE(ORITQSUT) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(ORITVLED)                                             D
+  -START DB(DBEEOR) SPACE(ORITVLED) ACC(RW)                                    D
+  -STOP DB(DBEEOR) SPACE(SISGRCVG)                                             D
+  -START DB(DBEEOR) SPACE(SISGRCVG) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(CONVAVAR)                                             D
+  -START DB(DBEEPR) SPACE(CONVAVAR) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(CTLBXANE)                                             D
+  -START DB(DBEEPR) SPACE(CTLBXANE) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(CTPRORNV)                                             D
+  -START DB(DBEEPR) SPACE(CTPRORNV) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(DIARNVEM)                                             D
+  -START DB(DBEEPR) SPACE(DIARNVEM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(DIARNVPD)                                             D
+  -START DB(DBEEPR) SPACE(DIARNVPD) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(EEPROPOS)                                             D
+  -START DB(DBEEPR) SPACE(EEPROPOS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(ETAPARNV)                                             D
+  -START DB(DBEEPR) SPACE(ETAPARNV) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(FASEETRN)                                             D
+  -START DB(DBEEPR) SPACE(FASEETRN) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(GPTXPAVG)                                             D
+  -START DB(DBEEPR) SPACE(GPTXPAVG) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(GPTXTPAD)                                             D
+  -START DB(DBEEPR) SPACE(GPTXTPAD) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PPSCBCPM)                                             D
+  -START DB(DBEEPR) SPACE(PPSCBCPM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PPSIPRCD)                                             D
+  -START DB(DBEEPR) SPACE(PPSIPRCD) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PPSITCBC)                                             D
+  -START DB(DBEEPR) SPACE(PPSITCBC) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PPSITVLI)                                             D
+  -START DB(DBEEPR) SPACE(PPSITVLI) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PPSPRECD)                                             D
+  -START DB(DBEEPR) SPACE(PPSPRECD) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PPSVLINF)                                             D
+  -START DB(DBEEPR) SPACE(PPSVLINF) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRCOCBRM)                                             D
+  -START DB(DBEEPR) SPACE(PRCOCBRM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRCORADI)                                             D
+  -START DB(DBEEPR) SPACE(PRCORADI) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRCORRET)                                             D
+  -START DB(DBEEPR) SPACE(PRCORRET) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRCREEDS)                                             D
+  -START DB(DBEEPR) SPACE(PRCREEDS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRCTLALT)                                             D
+  -START DB(DBEEPR) SPACE(PRCTLALT) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRCTPCVS)                                             D
+  -START DB(DBEEPR) SPACE(PRCTPCVS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRFOPGRM)                                             D
+  -START DB(DBEEPR) SPACE(PRFOPGRM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRFPGCRM)                                             D
+  -START DB(DBEEPR) SPACE(PRFPGCRM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRIAAVAN)                                             D
+  -START DB(DBEEPR) SPACE(PRIAAVAN) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRIAPANT)                                             D
+  -START DB(DBEEPR) SPACE(PRIAPANT) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRICCBRM)                                             D
+  -START DB(DBEEPR) SPACE(PRICCBRM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRICPEBN)                                             D
+  -START DB(DBEEPR) SPACE(PRICPEBN) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRIFOPRM)                                             D
+  -START DB(DBEEPR) SPACE(PRIFOPRM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRIFPCRM)                                             D
+  -START DB(DBEEPR) SPACE(PRIFPCRM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITANEL)                                             D
+  -START DB(DBEEPR) SPACE(PRITANEL) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITANEX)                                             D
+  -START DB(DBEEPR) SPACE(PRITANEX) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITAUEL)                                             D
+  -START DB(DBEEPR) SPACE(PRITAUEL) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITAVAR)                                             D
+  -START DB(DBEEPR) SPACE(PRITAVAR) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITCAPA)                                             D
+  -START DB(DBEEPR) SPACE(PRITCAPA) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITCEDS)                                             D
+  -START DB(DBEEPR) SPACE(PRITCEDS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITCLAU)                                             D
+  -START DB(DBEEPR) SPACE(PRITCLAU) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITCOBR)                                             D
+  -START DB(DBEEPR) SPACE(PRITCOBR) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITCVEI)                                             D
+  -START DB(DBEEPR) SPACE(PRITCVEI) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITLEVE)                                             D
+  -START DB(DBEEPR) SPACE(PRITLEVE) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITOBAN)                                             D
+  -START DB(DBEEPR) SPACE(PRITOBAN) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITPAUT)                                             D
+  -START DB(DBEEPR) SPACE(PRITPAUT) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITPVEI)                                             D
+  -START DB(DBEEPR) SPACE(PRITPVEI) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITSEQA)                                             D
+  -START DB(DBEEPR) SPACE(PRITSEQA) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITSITU)                                             D
+  -START DB(DBEEPR) SPACE(PRITSITU) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITSTMT)                                             D
+  -START DB(DBEEPR) SPACE(PRITSTMT) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITTXCP)                                             D
+  -START DB(DBEEPR) SPACE(PRITTXCP) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITTXEM)                                             D
+  -START DB(DBEEPR) SPACE(PRITTXEM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITVERS)                                             D
+  -START DB(DBEEPR) SPACE(PRITVERS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRITVRMX)                                             D
+  -START DB(DBEEPR) SPACE(PRITVRMX) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROITCRE)                                             D
+  -START DB(DBEEPR) SPACE(PROITCRE) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROITOBS)                                             D
+  -START DB(DBEEPR) SPACE(PROITOBS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROITSIT)                                             D
+  -START DB(DBEEPR) SPACE(PROITSIT) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPANEL)                                             D
+  -START DB(DBEEPR) SPACE(PROPANEL) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPANEX)                                             D
+  -START DB(DBEEPR) SPACE(PROPANEX) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPCLAU)                                             D
+  -START DB(DBEEPR) SPACE(PROPCLAU) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPCOBR)                                             D
+  -START DB(DBEEPR) SPACE(PROPCOBR) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPCOSS)                                             D
+  -START DB(DBEEPR) SPACE(PROPCOSS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPCRED)                                             D
+  -START DB(DBEEPR) SPACE(PROPCRED) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPITDU)                                             D
+  -START DB(DBEEPR) SPACE(PROPITDU) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPITEM)                                             D
+  -START DB(DBEEPR) SPACE(PROPITEM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPLEVE)                                             D
+  -START DB(DBEEPR) SPACE(PROPLEVE) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPNEGO)                                             D
+  -START DB(DBEEPR) SPACE(PROPNEGO) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPOAMS)                                             D
+  -START DB(DBEEPR) SPACE(PROPOAMS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPOOBS)                                             D
+  -START DB(DBEEPR) SPACE(PROPOOBS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPRENV)                                             D
+  -START DB(DBEEPR) SPACE(PROPRENV) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPSATU)                                             D
+  -START DB(DBEEPR) SPACE(PROPSATU) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPSITU)                                             D
+  -START DB(DBEEPR) SPACE(PROPSITU) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPVERS)                                             D
+  -START DB(DBEEPR) SPACE(PROPVERS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROPVRMX)                                             D
+  -START DB(DBEEPR) SPACE(PROPVRMX) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROSTMOT)                                             D
+  -START DB(DBEEPR) SPACE(PROSTMOT) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROTOCOL)                                             D
+  -START DB(DBEEPR) SPACE(PROTOCOL) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROTOHIS)                                             D
+  -START DB(DBEEPR) SPACE(PROTOHIS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROTOPRM)                                             D
+  -START DB(DBEEPR) SPACE(PROTOPRM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PROTXTEM)                                             D
+  -START DB(DBEEPR) SPACE(PROTXTEM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(PRTXTCPM)                                             D
+  -START DB(DBEEPR) SPACE(PRTXTCPM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(RNERREMI)                                             D
+  -START DB(DBEEPR) SPACE(RNERREMI) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(RNMSGEMI)                                             D
+  -START DB(DBEEPR) SPACE(RNMSGEMI) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(RNVPCPRV)                                             D
+  -START DB(DBEEPR) SPACE(RNVPCPRV) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(RNVPCREN)                                             D
+  -START DB(DBEEPR) SPACE(RNVPCREN) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(RNVPREVB)                                             D
+  -START DB(DBEEPR) SPACE(RNVPREVB) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(RNVPROAX)                                             D
+  -START DB(DBEEPR) SPACE(RNVPROAX) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(RNVPROCA)                                             D
+  -START DB(DBEEPR) SPACE(RNVPROCA) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(RNVRETOM)                                             D
+  -START DB(DBEEPR) SPACE(RNVRETOM) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(RNVRNBCO)                                             D
+  -START DB(DBEEPR) SPACE(RNVRNBCO) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(RVPRORET)                                             D
+  -START DB(DBEEPR) SPACE(RVPRORET) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(SITUPROC)                                             D
+  -START DB(DBEEPR) SPACE(SITUPROC) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(TPNUMPPS)                                             D
+  -START DB(DBEEPR) SPACE(TPNUMPPS) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(TPSELPRO)                                             D
+  -START DB(DBEEPR) SPACE(TPSELPRO) ACC(RW)                                    D
+  -STOP DB(DBEEPR) SPACE(TXTPANEG)                                             D
+  -START DB(DBEEPR) SPACE(TXTPANEG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ACETFVIG)                                             D
+  -START DB(DBEETA) SPACE(ACETFVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ALCCALVG)                                             D
+  -START DB(DBEETA) SPACE(ALCCALVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ANBXBASE)                                             D
+  -START DB(DBEETA) SPACE(ANBXBASE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ANEXO)                                                D
+  -START DB(DBEETA) SPACE(ANEXO) ACC(RW)                                       D
+  -STOP DB(DBEETA) SPACE(ANEXOVCL)                                             D
+  -START DB(DBEETA) SPACE(ANEXOVCL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ANEXOVIG)                                             D
+  -START DB(DBEETA) SPACE(ANEXOVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ANONBASE)                                             D
+  -START DB(DBEETA) SPACE(ANONBASE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(AVAVIGEN)                                             D
+  -START DB(DBEETA) SPACE(AVAVIGEN) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(BANMECBA)                                             D
+  -START DB(DBEETA) SPACE(BANMECBA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(BONUSEE)                                              D
+  -START DB(DBEETA) SPACE(BONUSEE) ACC(RW)                                     D
+  -STOP DB(DBEETA) SPACE(CADDIV)                                               D
+  -START DB(DBEETA) SPACE(CADDIV) ACC(RW)                                      D
+  -STOP DB(DBEETA) SPACE(CAMPODOC)                                             D
+  -START DB(DBEETA) SPACE(CAMPODOC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CATAUHIS)                                             D
+  -START DB(DBEETA) SPACE(CATAUHIS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CATAUTUT)                                             D
+  -START DB(DBEETA) SPACE(CATAUTUT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CATEAUTO)                                             D
+  -START DB(DBEETA) SPACE(CATEAUTO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CATGORCF)                                             D
+  -START DB(DBEETA) SPACE(CATGORCF) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CATRCFHI)                                             D
+  -START DB(DBEETA) SPACE(CATRCFHI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CDGEQCLS)                                             D
+  -START DB(DBEETA) SPACE(CDGEQCLS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CDGEQFIL)                                             D
+  -START DB(DBEETA) SPACE(CDGEQFIL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CDGEQPRR)                                             D
+  -START DB(DBEETA) SPACE(CDGEQPRR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CHTABAPI)                                             D
+  -START DB(DBEETA) SPACE(CHTABAPI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLAFRANQ)                                             D
+  -START DB(DBEETA) SPACE(CLAFRANQ) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLAOPVEI)                                             D
+  -START DB(DBEETA) SPACE(CLAOPVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLAPREMI)                                             D
+  -START DB(DBEETA) SPACE(CLAPREMI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLAUSTXT)                                             D
+  -START DB(DBEETA) SPACE(CLAUSTXT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLCNCOVG)                                             D
+  -START DB(DBEETA) SPACE(CLCNCOVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLCNVCOM)                                             D
+  -START DB(DBEETA) SPACE(CLCNVCOM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLCOBVIG)                                             D
+  -START DB(DBEETA) SPACE(CLCOBVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLFRAVIG)                                             D
+  -START DB(DBEETA) SPACE(CLFRAVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLOPCMTV)                                             D
+  -START DB(DBEETA) SPACE(CLOPCMTV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLOPVVIG)                                             D
+  -START DB(DBEETA) SPACE(CLOPVVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLPRMIVG)                                             D
+  -START DB(DBEETA) SPACE(CLPRMIVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLPROVIG)                                             D
+  -START DB(DBEETA) SPACE(CLPROVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CLTXTVIG)                                             D
+  -START DB(DBEETA) SPACE(CLTXTVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNDGEANE)                                             D
+  -START DB(DBEETA) SPACE(CNDGEANE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNDGEVAL)                                             D
+  -START DB(DBEETA) SPACE(CNDGEVAL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNGEQTAC)                                             D
+  -START DB(DBEETA) SPACE(CNGEQTAC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNGERQST)                                             D
+  -START DB(DBEETA) SPACE(CNGERQST) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNGQTPDT)                                             D
+  -START DB(DBEETA) SPACE(CNGQTPDT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVACECN)                                             D
+  -START DB(DBEETA) SPACE(CNVACECN) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVCBCOM)                                             D
+  -START DB(DBEETA) SPACE(CNVCBCOM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVCLAUS)                                             D
+  -START DB(DBEETA) SPACE(CNVCLAUS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVCONDI)                                             D
+  -START DB(DBEETA) SPACE(CNVCONDI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVDSFRO)                                             D
+  -START DB(DBEETA) SPACE(CNVDSFRO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVETCND)                                             D
+  -START DB(DBEETA) SPACE(CNVETCND) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVETPCO)                                             D
+  -START DB(DBEETA) SPACE(CNVETPCO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVETPVG)                                             D
+  -START DB(DBEETA) SPACE(CNVETPVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVFORPG)                                             D
+  -START DB(DBEETA) SPACE(CNVFORPG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVMEICB)                                             D
+  -START DB(DBEETA) SPACE(CNVMEICB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVNEGOC)                                             D
+  -START DB(DBEETA) SPACE(CNVNEGOC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVPROCP)                                             D
+  -START DB(DBEETA) SPACE(CNVPROCP) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CNVTXTOB)                                             D
+  -START DB(DBEETA) SPACE(CNVTXTOB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COBACEVG)                                             D
+  -START DB(DBEETA) SPACE(COBACEVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COBCALVG)                                             D
+  -START DB(DBEETA) SPACE(COBCALVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COBCNGVG)                                             D
+  -START DB(DBEETA) SPACE(COBCNGVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COBERCNG)                                             D
+  -START DB(DBEETA) SPACE(COBERCNG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COBERCOM)                                             D
+  -START DB(DBEETA) SPACE(COBERCOM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COBERTUE)                                             D
+  -START DB(DBEETA) SPACE(COBERTUE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COBERTVG)                                             D
+  -START DB(DBEETA) SPACE(COBERTVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COBERVCL)                                             D
+  -START DB(DBEETA) SPACE(COBERVCL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COBLNNEG)                                             D
+  -START DB(DBEETA) SPACE(COBLNNEG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COBPLOPC)                                             D
+  -START DB(DBEETA) SPACE(COBPLOPC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COEFRCF)                                              D
+  -START DB(DBEETA) SPACE(COEFRCF) ACC(RW)                                     D
+  -STOP DB(DBEETA) SPACE(COLCNSPA)                                             D
+  -START DB(DBEETA) SPACE(COLCNSPA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COLDESCR)                                             D
+  -START DB(DBEETA) SPACE(COLDESCR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COMPOVEI)                                             D
+  -START DB(DBEETA) SPACE(COMPOVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CONCISOL)                                             D
+  -START DB(DBEETA) SPACE(CONCISOL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CONGENQ1)                                             D
+  -START DB(DBEETA) SPACE(CONGENQ1) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CONGENQ2)                                             D
+  -START DB(DBEETA) SPACE(CONGENQ2) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CONGENQ3)                                             D
+  -START DB(DBEETA) SPACE(CONGENQ3) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CONVENEE)                                             D
+  -START DB(DBEETA) SPACE(CONVENEE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CONVENVG)                                             D
+  -START DB(DBEETA) SPACE(CONVENVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CONVEPRO)                                             D
+  -START DB(DBEETA) SPACE(CONVEPRO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COPLCDAU)                                             D
+  -START DB(DBEETA) SPACE(COPLCDAU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CORBSVEI)                                             D
+  -START DB(DBEETA) SPACE(CORBSVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CORPLVEI)                                             D
+  -START DB(DBEETA) SPACE(CORPLVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CORTPCOM)                                             D
+  -START DB(DBEETA) SPACE(CORTPCOM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CORVEICU)                                             D
+  -START DB(DBEETA) SPACE(CORVEICU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COTOFBVG)                                             D
+  -START DB(DBEETA) SPACE(COTOFBVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COTPVVIG)                                             D
+  -START DB(DBEETA) SPACE(COTPVVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COTREGVG)                                             D
+  -START DB(DBEETA) SPACE(COTREGVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COTREVIG)                                             D
+  -START DB(DBEETA) SPACE(COTREVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COTTPGEN)                                             D
+  -START DB(DBEETA) SPACE(COTTPGEN) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COTTPMTP)                                             D
+  -START DB(DBEETA) SPACE(COTTPMTP) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(COTVEICU)                                             D
+  -START DB(DBEETA) SPACE(COTVEICU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CPLECDAU)                                             D
+  -START DB(DBEETA) SPACE(CPLECDAU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CPLHCDAU)                                             D
+  -START DB(DBEETA) SPACE(CPLHCDAU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CPNAVVIG)                                             D
+  -START DB(DBEETA) SPACE(CPNAVVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CPNSSVVI)                                             D
+  -START DB(DBEETA) SPACE(CPNSSVVI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CPNVTVIG)                                             D
+  -START DB(DBEETA) SPACE(CPNVTVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CRBCPDVG)                                             D
+  -START DB(DBEETA) SPACE(CRBCPDVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CSTDPCVG)                                             D
+  -START DB(DBEETA) SPACE(CSTDPCVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CTLARQ)                                               D
+  -START DB(DBEETA) SPACE(CTLARQ) ACC(RW)                                      D
+  -STOP DB(DBEETA) SPACE(CTLPPGRN)                                             D
+  -START DB(DBEETA) SPACE(CTLPPGRN) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CTLRMS)                                               D
+  -START DB(DBEETA) SPACE(CTLRMS) ACC(RW)                                      D
+  -STOP DB(DBEETA) SPACE(CTPPGRIT)                                             D
+  -START DB(DBEETA) SPACE(CTPPGRIT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CUSDOCVG)                                             D
+  -START DB(DBEETA) SPACE(CUSDOCVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CUSDPRVG)                                             D
+  -START DB(DBEETA) SPACE(CUSDPRVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CUSMOBRA)                                             D
+  -START DB(DBEETA) SPACE(CUSMOBRA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(CUSTODOC)                                             D
+  -START DB(DBEETA) SPACE(CUSTODOC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(DCCPCMVG)                                             D
+  -START DB(DBEETA) SPACE(DCCPCMVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(DESCAVAR)                                             D
+  -START DB(DBEETA) SPACE(DESCAVAR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(DESCAVIG)                                             D
+  -START DB(DBEETA) SPACE(DESCAVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(DESCMSGS)                                             D
+  -START DB(DBEETA) SPACE(DESCMSGS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(DESFCNVG)                                             D
+  -START DB(DBEETA) SPACE(DESFCNVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(DESFCOVG)                                             D
+  -START DB(DBEETA) SPACE(DESFCOVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(DIRMOTVG)                                             D
+  -START DB(DBEETA) SPACE(DIRMOTVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(DIVPPSIT)                                             D
+  -START DB(DBEETA) SPACE(DIVPPSIT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(DUPLPROP)                                             D
+  -START DB(DBEETA) SPACE(DUPLPROP) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(EMPRESAE)                                             D
+  -START DB(DBEETA) SPACE(EMPRESAE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(EMPRMVIG)                                             D
+  -START DB(DBEETA) SPACE(EMPRMVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(FASESPPS)                                             D
+  -START DB(DBEETA) SPACE(FASESPPS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(FIPEBOOK)                                             D
+  -START DB(DBEETA) SPACE(FIPEBOOK) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(FIPEVALO)                                             D
+  -START DB(DBEETA) SPACE(FIPEVALO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(FIPEVIGE)                                             D
+  -START DB(DBEETA) SPACE(FIPEVIGE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(FORMAPGT)                                             D
+  -START DB(DBEETA) SPACE(FORMAPGT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(FORPCVIG)                                             D
+  -START DB(DBEETA) SPACE(FORPCVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(FORPGNVG)                                             D
+  -START DB(DBEETA) SPACE(FORPGNVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(FPPGJVIG)                                             D
+  -START DB(DBEETA) SPACE(FPPGJVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(FRCOBVIG)                                             D
+  -START DB(DBEETA) SPACE(FRCOBVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(FTJUPAVE)                                             D
+  -START DB(DBEETA) SPACE(FTJUPAVE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRAUREL)                                              D
+  -START DB(DBEETA) SPACE(GRAUREL) ACC(RW)                                     D
+  -STOP DB(DBEETA) SPACE(GRCAAUTI)                                             D
+  -START DB(DBEETA) SPACE(GRCAAUTI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRCAUTVI)                                             D
+  -START DB(DBEETA) SPACE(GRCAUTVI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRCLOPVE)                                             D
+  -START DB(DBEETA) SPACE(GRCLOPVE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRCOBERT)                                             D
+  -START DB(DBEETA) SPACE(GRCOBERT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRCOBVIG)                                             D
+  -START DB(DBEETA) SPACE(GRCOBVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRCRCFVI)                                             D
+  -START DB(DBEETA) SPACE(GRCRCFVI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRINFCOL)                                             D
+  -START DB(DBEETA) SPACE(GRINFCOL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRMOTRCS)                                             D
+  -START DB(DBEETA) SPACE(GRMOTRCS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRMTPVEI)                                             D
+  -START DB(DBEETA) SPACE(GRMTPVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRMTRCVG)                                             D
+  -START DB(DBEETA) SPACE(GRMTRCVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRPCAUVG)                                             D
+  -START DB(DBEETA) SPACE(GRPCAUVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRREGIAO)                                             D
+  -START DB(DBEETA) SPACE(GRREGIAO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRREGVIG)                                             D
+  -START DB(DBEETA) SPACE(GRREGVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRTXTEMI)                                             D
+  -START DB(DBEETA) SPACE(GRTXTEMI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRUCARCF)                                             D
+  -START DB(DBEETA) SPACE(GRUCARCF) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRUCATAU)                                             D
+  -START DB(DBEETA) SPACE(GRUCATAU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRUPEMIS)                                             D
+  -START DB(DBEETA) SPACE(GRUPEMIS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRUPINFO)                                             D
+  -START DB(DBEETA) SPACE(GRUPINFO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRVEICUL)                                             D
+  -START DB(DBEETA) SPACE(GRVEICUL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(GRVEIVIG)                                             D
+  -START DB(DBEETA) SPACE(GRVEIVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(HISEVTAB)                                             D
+  -START DB(DBEETA) SPACE(HISEVTAB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(INFATTAB)                                             D
+  -START DB(DBEETA) SPACE(INFATTAB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ITCONTAB)                                             D
+  -START DB(DBEETA) SPACE(ITCONTAB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ITFMVDIS)                                             D
+  -START DB(DBEETA) SPACE(ITFMVDIS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ITFONBAS)                                             D
+  -START DB(DBEETA) SPACE(ITFONBAS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(LGRGPSAT)                                             D
+  -START DB(DBEETA) SPACE(LGRGPSAT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(LIBERVIG)                                             D
+  -START DB(DBEETA) SPACE(LIBERVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(LITCOVCL)                                             D
+  -START DB(DBEETA) SPACE(LITCOVCL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(LITTPCVG)                                             D
+  -START DB(DBEETA) SPACE(LITTPCVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(LMACTVIG)                                             D
+  -START DB(DBEETA) SPACE(LMACTVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(LOGEANEL)                                             D
+  -START DB(DBEETA) SPACE(LOGEANEL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(LOGPRMVG)                                             D
+  -START DB(DBEETA) SPACE(LOGPRMVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(LOGSANEL)                                             D
+  -START DB(DBEETA) SPACE(LOGSANEL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MARCRVEI)                                             D
+  -START DB(DBEETA) SPACE(MARCRVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MARTLCVI)                                             D
+  -START DB(DBEETA) SPACE(MARTLCVI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MARTPVEI)                                             D
+  -START DB(DBEETA) SPACE(MARTPVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MARTPVRS)                                             D
+  -START DB(DBEETA) SPACE(MARTPVRS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MARVEICU)                                             D
+  -START DB(DBEETA) SPACE(MARVEICU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MATPVVIG)                                             D
+  -START DB(DBEETA) SPACE(MATPVVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MCTPVEDS)                                             D
+  -START DB(DBEETA) SPACE(MCTPVEDS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MECBPAVI)                                             D
+  -START DB(DBEETA) SPACE(MECBPAVI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MODVEICU)                                             D
+  -START DB(DBEETA) SPACE(MODVEICU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MODVESUS)                                             D
+  -START DB(DBEETA) SPACE(MODVESUS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MODVFDSC)                                             D
+  -START DB(DBEETA) SPACE(MODVFDSC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MODVFDSQ)                                             D
+  -START DB(DBEETA) SPACE(MODVFDSQ) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MODVSANT)                                             D
+  -START DB(DBEETA) SPACE(MODVSANT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MOLICARB)                                             D
+  -START DB(DBEETA) SPACE(MOLICARB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MOLIVIGE)                                             D
+  -START DB(DBEETA) SPACE(MOLIVIGE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MORSTSOL)                                             D
+  -START DB(DBEETA) SPACE(MORSTSOL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MOTIVLIB)                                             D
+  -START DB(DBEETA) SPACE(MOTIVLIB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MOTRECUS)                                             D
+  -START DB(DBEETA) SPACE(MOTRECUS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MRTPFQPM)                                             D
+  -START DB(DBEETA) SPACE(MRTPFQPM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MTVRECSA)                                             D
+  -START DB(DBEETA) SPACE(MTVRECSA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MTVRECSP)                                             D
+  -START DB(DBEETA) SPACE(MTVRECSP) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MTVRESPO)                                             D
+  -START DB(DBEETA) SPACE(MTVRESPO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(MVDTLDTV)                                             D
+  -START DB(DBEETA) SPACE(MVDTLDTV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NACCOEVG)                                             D
+  -START DB(DBEETA) SPACE(NACCOEVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NACOBCNE)                                             D
+  -START DB(DBEETA) SPACE(NACOBCNE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NAOACCVG)                                             D
+  -START DB(DBEETA) SPACE(NAOACCVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NAOACPVG)                                             D
+  -START DB(DBEETA) SPACE(NAOACPVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NAPROCNE)                                             D
+  -START DB(DBEETA) SPACE(NAPROCNE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NEGOCIO)                                              D
+  -START DB(DBEETA) SPACE(NEGOCIO) ACC(RW)                                     D
+  -STOP DB(DBEETA) SPACE(NEGPRVIG)                                             D
+  -START DB(DBEETA) SPACE(NEGPRVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NEGPTVIG)                                             D
+  -START DB(DBEETA) SPACE(NEGPTVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NGBCPDVG)                                             D
+  -START DB(DBEETA) SPACE(NGBCPDVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NIVALCVG)                                             D
+  -START DB(DBEETA) SPACE(NIVALCVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NIVELRCF)                                             D
+  -START DB(DBEETA) SPACE(NIVELRCF) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NIVRCFVG)                                             D
+  -START DB(DBEETA) SPACE(NIVRCFVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(NUMSQSOL)                                             D
+  -START DB(DBEETA) SPACE(NUMSQSOL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(OPCCALCV)                                             D
+  -START DB(DBEETA) SPACE(OPCCALCV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(OPCCALVG)                                             D
+  -START DB(DBEETA) SPACE(OPCCALVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ORAPTPDS)                                             D
+  -START DB(DBEETA) SPACE(ORAPTPDS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ORCITEQS)                                             D
+  -START DB(DBEETA) SPACE(ORCITEQS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PARAMGER)                                             D
+  -START DB(DBEETA) SPACE(PARAMGER) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PARAMSLN)                                             D
+  -START DB(DBEETA) SPACE(PARAMSLN) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PARGERSQ)                                             D
+  -START DB(DBEETA) SPACE(PARGERSQ) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PARMCBVG)                                             D
+  -START DB(DBEETA) SPACE(PARMCBVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PECAS)                                                D
+  -START DB(DBEETA) SPACE(PECAS) ACC(RW)                                       D
+  -STOP DB(DBEETA) SPACE(PERFTARI)                                             D
+  -START DB(DBEETA) SPACE(PERFTARI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PERGUNTA)                                             D
+  -START DB(DBEETA) SPACE(PERGUNTA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PFLTARVG)                                             D
+  -START DB(DBEETA) SPACE(PFLTARVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PLARIPES)                                             D
+  -START DB(DBEETA) SPACE(PLARIPES) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PLOREVIG)                                             D
+  -START DB(DBEETA) SPACE(PLOREVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PONTUACA)                                             D
+  -START DB(DBEETA) SPACE(PONTUACA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(POPULCID)                                             D
+  -START DB(DBEETA) SPACE(POPULCID) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PPIMOBSE)                                             D
+  -START DB(DBEETA) SPACE(PPIMOBSE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PPONBASE)                                             D
+  -START DB(DBEETA) SPACE(PPONBASE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PPSENVRE)                                             D
+  -START DB(DBEETA) SPACE(PPSENVRE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PPSONBAU)                                             D
+  -START DB(DBEETA) SPACE(PPSONBAU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRACNEVG)                                             D
+  -START DB(DBEETA) SPACE(PRACNEVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRACURVG)                                             D
+  -START DB(DBEETA) SPACE(PRACURVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRAZOCSI)                                             D
+  -START DB(DBEETA) SPACE(PRAZOCSI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRCSANEG)                                             D
+  -START DB(DBEETA) SPACE(PRCSANEG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRCSANVG)                                             D
+  -START DB(DBEETA) SPACE(PRCSANVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PREBARCF)                                             D
+  -START DB(DBEETA) SPACE(PREBARCF) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRESTSER)                                             D
+  -START DB(DBEETA) SPACE(PRESTSER) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRICOREM)                                             D
+  -START DB(DBEETA) SPACE(PRICOREM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRIEMIVI)                                             D
+  -START DB(DBEETA) SPACE(PRIEMIVI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRIINPEM)                                             D
+  -START DB(DBEETA) SPACE(PRIINPEM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PROCEVEI)                                             D
+  -START DB(DBEETA) SPACE(PROCEVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRODUTOS)                                             D
+  -START DB(DBEETA) SPACE(PRODUTOS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRODUVIG)                                             D
+  -START DB(DBEETA) SPACE(PRODUVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PROLIMRV)                                             D
+  -START DB(DBEETA) SPACE(PROLIMRV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PROLIRMT)                                             D
+  -START DB(DBEETA) SPACE(PROLIRMT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PROVIDEN)                                             D
+  -START DB(DBEETA) SPACE(PROVIDEN) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRSERREG)                                             D
+  -START DB(DBEETA) SPACE(PRSERREG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRZCSCOR)                                             D
+  -START DB(DBEETA) SPACE(PRZCSCOR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRZCSIVG)                                             D
+  -START DB(DBEETA) SPACE(PRZCSIVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PRZCURTO)                                             D
+  -START DB(DBEETA) SPACE(PRZCURTO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PTUQTRST)                                             D
+  -START DB(DBEETA) SPACE(PTUQTRST) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(PTUSQPTO)                                             D
+  -START DB(DBEETA) SPACE(PTUSQPTO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(QTARGQTA)                                             D
+  -START DB(DBEETA) SPACE(QTARGQTA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(QTRGRTCT)                                             D
+  -START DB(DBEETA) SPACE(QTRGRTCT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(QUESTAO)                                              D
+  -START DB(DBEETA) SPACE(QUESTAO) ACC(RW)                                     D
+  -STOP DB(DBEETA) SPACE(QUESTIDF)                                             D
+  -START DB(DBEETA) SPACE(QUESTIDF) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(QUESTION)                                             D
+  -START DB(DBEETA) SPACE(QUESTION) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(QUESTQTA)                                             D
+  -START DB(DBEETA) SPACE(QUESTQTA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(QUESTRGR)                                             D
+  -START DB(DBEETA) SPACE(QUESTRGR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(RAMGENER)                                             D
+  -START DB(DBEETA) SPACE(RAMGENER) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(RAMOCONG)                                             D
+  -START DB(DBEETA) SPACE(RAMOCONG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(RBONBASE)                                             D
+  -START DB(DBEETA) SPACE(RBONBASE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(REAPECAS)                                             D
+  -START DB(DBEETA) SPACE(REAPECAS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(RECUSPRV)                                             D
+  -START DB(DBEETA) SPACE(RECUSPRV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(REGCECID)                                             D
+  -START DB(DBEETA) SPACE(REGCECID) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(REGCEPAL)                                             D
+  -START DB(DBEETA) SPACE(REGCEPAL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(REGCEPPV)                                             D
+  -START DB(DBEETA) SPACE(REGCEPPV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(REGIAO)                                               D
+  -START DB(DBEETA) SPACE(REGIAO) ACC(RW)                                      D
+  -STOP DB(DBEETA) SPACE(REGIAVIG)                                             D
+  -START DB(DBEETA) SPACE(REGIAVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(REGVISTO)                                             D
+  -START DB(DBEETA) SPACE(REGVISTO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(REONBASE)                                             D
+  -START DB(DBEETA) SPACE(REONBASE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(RESPOCTU)                                             D
+  -START DB(DBEETA) SPACE(RESPOCTU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(RESPOSOL)                                             D
+  -START DB(DBEETA) SPACE(RESPOSOL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(RESPOSTA)                                             D
+  -START DB(DBEETA) SPACE(RESPOSTA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(RESPPSGR)                                             D
+  -START DB(DBEETA) SPACE(RESPPSGR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(RETONBAS)                                             D
+  -START DB(DBEETA) SPACE(RETONBAS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(ROTCADTB)                                             D
+  -START DB(DBEETA) SPACE(ROTCADTB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(RPONBASE)                                             D
+  -START DB(DBEETA) SPACE(RPONBASE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SEQPROPO)                                             D
+  -START DB(DBEETA) SPACE(SEQPROPO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SEQUECTX)                                             D
+  -START DB(DBEETA) SPACE(SEQUECTX) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SISGFOPG)                                             D
+  -START DB(DBEETA) SPACE(SISGFOPG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SISGUENQ)                                             D
+  -START DB(DBEETA) SPACE(SISGUENQ) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SISSACOV)                                             D
+  -START DB(DBEETA) SPACE(SISSACOV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SISSAVIG)                                             D
+  -START DB(DBEETA) SPACE(SISSAVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SISSPAUR)                                             D
+  -START DB(DBEETA) SPACE(SISSPAUR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SISSPINP)                                             D
+  -START DB(DBEETA) SPACE(SISSPINP) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SISSVCOV)                                             D
+  -START DB(DBEETA) SPACE(SISSVCOV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SISSVCST)                                             D
+  -START DB(DBEETA) SPACE(SISSVCST) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SISSVCVG)                                             D
+  -START DB(DBEETA) SPACE(SISSVCVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SITDISPO)                                             D
+  -START DB(DBEETA) SPACE(SITDISPO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SLPTRRPS)                                             D
+  -START DB(DBEETA) SPACE(SLPTRRPS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SUBCPAVG)                                             D
+  -START DB(DBEETA) SPACE(SUBCPAVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(SUCCORNE)                                             D
+  -START DB(DBEETA) SPACE(SUCCORNE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TABAPOIO)                                             D
+  -START DB(DBEETA) SPACE(TABAPOIO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TAXAMCTE)                                             D
+  -START DB(DBEETA) SPACE(TAXAMCTE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TAXAUVIG)                                             D
+  -START DB(DBEETA) SPACE(TAXAUVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TAXCMTIP)                                             D
+  -START DB(DBEETA) SPACE(TAXCMTIP) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TAXCRVIG)                                             D
+  -START DB(DBEETA) SPACE(TAXCRVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TDOCICVG)                                             D
+  -START DB(DBEETA) SPACE(TDOCICVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TEXTOEMI)                                             D
+  -START DB(DBEETA) SPACE(TEXTOEMI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TEXTOOBS)                                             D
+  -START DB(DBEETA) SPACE(TEXTOOBS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPANEXO)                                             D
+  -START DB(DBEETA) SPACE(TIPANEXO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPATFVI)                                             D
+  -START DB(DBEETA) SPACE(TIPATFVI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPCIDAD)                                             D
+  -START DB(DBEETA) SPACE(TIPCIDAD) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPCNDRG)                                             D
+  -START DB(DBEETA) SPACE(TIPCNDRG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPDTENQ)                                             D
+  -START DB(DBEETA) SPACE(TIPDTENQ) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPOBEM)                                              D
+  -START DB(DBEETA) SPACE(TIPOBEM) ACC(RW)                                     D
+  -STOP DB(DBEETA) SPACE(TIPOCSIP)                                             D
+  -START DB(DBEETA) SPACE(TIPOCSIP) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPODADO)                                             D
+  -START DB(DBEETA) SPACE(TIPODADO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPODIA)                                              D
+  -START DB(DBEETA) SPACE(TIPODIA) ACC(RW)                                     D
+  -STOP DB(DBEETA) SPACE(TIPODISP)                                             D
+  -START DB(DBEETA) SPACE(TIPODISP) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPOLCAL)                                             D
+  -START DB(DBEETA) SPACE(TIPOLCAL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPOQST)                                              D
+  -START DB(DBEETA) SPACE(TIPOQST) ACC(RW)                                     D
+  -STOP DB(DBEETA) SPACE(TIPOQUES)                                             D
+  -START DB(DBEETA) SPACE(TIPOQUES) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TIPPRR)                                               D
+  -START DB(DBEETA) SPACE(TIPPRR) ACC(RW)                                      D
+  -STOP DB(DBEETA) SPACE(TPA24HVG)                                             D
+  -START DB(DBEETA) SPACE(TPA24HVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPACEITE)                                             D
+  -START DB(DBEETA) SPACE(TPACEITE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPACERNV)                                             D
+  -START DB(DBEETA) SPACE(TPACERNV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPACEVEI)                                             D
+  -START DB(DBEETA) SPACE(TPACEVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPACEVIG)                                             D
+  -START DB(DBEETA) SPACE(TPACEVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPACVVIG)                                             D
+  -START DB(DBEETA) SPACE(TPACVVIG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPALCCTV)                                             D
+  -START DB(DBEETA) SPACE(TPALCCTV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPALCVDV)                                             D
+  -START DB(DBEETA) SPACE(TPALCVDV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPALCVTV)                                             D
+  -START DB(DBEETA) SPACE(TPALCVTV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPALITAB)                                             D
+  -START DB(DBEETA) SPACE(TPALITAB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPAMSGVG)                                             D
+  -START DB(DBEETA) SPACE(TPAMSGVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPAST24H)                                             D
+  -START DB(DBEETA) SPACE(TPAST24H) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPAVARIA)                                             D
+  -START DB(DBEETA) SPACE(TPAVARIA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCABVEI)                                             D
+  -START DB(DBEETA) SPACE(TPCABVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCALCCT)                                             D
+  -START DB(DBEETA) SPACE(TPCALCCT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCALDPC)                                             D
+  -START DB(DBEETA) SPACE(TPCALDPC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCALFRQ)                                             D
+  -START DB(DBEETA) SPACE(TPCALFRQ) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCALPRE)                                             D
+  -START DB(DBEETA) SPACE(TPCALPRE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCALPRO)                                             D
+  -START DB(DBEETA) SPACE(TPCALPRO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCALTAX)                                             D
+  -START DB(DBEETA) SPACE(TPCALTAX) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCAMBVE)                                             D
+  -START DB(DBEETA) SPACE(TPCAMBVE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCAPVEI)                                             D
+  -START DB(DBEETA) SPACE(TPCAPVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCARBUR)                                             D
+  -START DB(DBEETA) SPACE(TPCARBUR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCARVEI)                                             D
+  -START DB(DBEETA) SPACE(TPCARVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCATSUS)                                             D
+  -START DB(DBEETA) SPACE(TPCATSUS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCFMPFL)                                             D
+  -START DB(DBEETA) SPACE(TPCFMPFL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCILVEI)                                             D
+  -START DB(DBEETA) SPACE(TPCILVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCLAJAV)                                             D
+  -START DB(DBEETA) SPACE(TPCLAJAV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCLATXT)                                             D
+  -START DB(DBEETA) SPACE(TPCLATXT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCLSVEI)                                             D
+  -START DB(DBEETA) SPACE(TPCLSVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCNDANE)                                             D
+  -START DB(DBEETA) SPACE(TPCNDANE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCNDPGT)                                             D
+  -START DB(DBEETA) SPACE(TPCNDPGT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCNVCOM)                                             D
+  -START DB(DBEETA) SPACE(TPCNVCOM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCOBERT)                                             D
+  -START DB(DBEETA) SPACE(TPCOBERT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCOBSUS)                                             D
+  -START DB(DBEETA) SPACE(TPCOBSUS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCOMISS)                                             D
+  -START DB(DBEETA) SPACE(TPCOMISS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCOMVEI)                                             D
+  -START DB(DBEETA) SPACE(TPCOMVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCONCRA)                                             D
+  -START DB(DBEETA) SPACE(TPCONCRA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCONEVE)                                             D
+  -START DB(DBEETA) SPACE(TPCONEVE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCONSEG)                                             D
+  -START DB(DBEETA) SPACE(TPCONSEG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCONVEI)                                             D
+  -START DB(DBEETA) SPACE(TPCONVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCONVEN)                                             D
+  -START DB(DBEETA) SPACE(TPCONVEN) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCPNVEI)                                             D
+  -START DB(DBEETA) SPACE(TPCPNVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCPOCAL)                                             D
+  -START DB(DBEETA) SPACE(TPCPOCAL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCPSJUR)                                             D
+  -START DB(DBEETA) SPACE(TPCPSJUR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPCRAVEI)                                             D
+  -START DB(DBEETA) SPACE(TPCRAVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPDESCTO)                                             D
+  -START DB(DBEETA) SPACE(TPDESCTO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPDOCANE)                                             D
+  -START DB(DBEETA) SPACE(TPDOCANE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPDOCCBA)                                             D
+  -START DB(DBEETA) SPACE(TPDOCCBA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPDOCUME)                                             D
+  -START DB(DBEETA) SPACE(TPDOCUME) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPDSBLFB)                                             D
+  -START DB(DBEETA) SPACE(TPDSBLFB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPDSCCSV)                                             D
+  -START DB(DBEETA) SPACE(TPDSCCSV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPDSCTUR)                                             D
+  -START DB(DBEETA) SPACE(TPDSCTUR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPENDOSS)                                             D
+  -START DB(DBEETA) SPACE(TPENDOSS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPENQCAT)                                             D
+  -START DB(DBEETA) SPACE(TPENQCAT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPENQCOL)                                             D
+  -START DB(DBEETA) SPACE(TPENQCOL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPENQDEP)                                             D
+  -START DB(DBEETA) SPACE(TPENQDEP) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPENQPAR)                                             D
+  -START DB(DBEETA) SPACE(TPENQPAR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPESTINF)                                             D
+  -START DB(DBEETA) SPACE(TPESTINF) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPESTPPS)                                             D
+  -START DB(DBEETA) SPACE(TPESTPPS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPESTVEI)                                             D
+  -START DB(DBEETA) SPACE(TPESTVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPEVEDOC)                                             D
+  -START DB(DBEETA) SPACE(TPEVEDOC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPEVETAB)                                             D
+  -START DB(DBEETA) SPACE(TPEVETAB) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPFORCRA)                                             D
+  -START DB(DBEETA) SPACE(TPFORCRA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPFORPGT)                                             D
+  -START DB(DBEETA) SPACE(TPFORPGT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPFRANQU)                                             D
+  -START DB(DBEETA) SPACE(TPFRANQU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPFREVEI)                                             D
+  -START DB(DBEETA) SPACE(TPFREVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPFRQSUS)                                             D
+  -START DB(DBEETA) SPACE(TPFRQSUS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPFSCMVE)                                             D
+  -START DB(DBEETA) SPACE(TPFSCMVE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPFTOJUR)                                             D
+  -START DB(DBEETA) SPACE(TPFTOJUR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPGARANT)                                             D
+  -START DB(DBEETA) SPACE(TPGARANT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPGROPVE)                                             D
+  -START DB(DBEETA) SPACE(TPGROPVE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPGRPDOC)                                             D
+  -START DB(DBEETA) SPACE(TPGRPDOC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPGTVNOV)                                             D
+  -START DB(DBEETA) SPACE(TPGTVNOV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPIDFLIM)                                             D
+  -START DB(DBEETA) SPACE(TPIDFLIM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPILDPES)                                             D
+  -START DB(DBEETA) SPACE(TPILDPES) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPINFCPO)                                             D
+  -START DB(DBEETA) SPACE(TPINFCPO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPINFRES)                                             D
+  -START DB(DBEETA) SPACE(TPINFRES) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPINJVEI)                                             D
+  -START DB(DBEETA) SPACE(TPINJVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPISTRVE)                                             D
+  -START DB(DBEETA) SPACE(TPISTRVE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPLIMTEC)                                             D
+  -START DB(DBEETA) SPACE(TPLIMTEC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPLMPDOC)                                             D
+  -START DB(DBEETA) SPACE(TPLMPDOC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPLOCVST)                                             D
+  -START DB(DBEETA) SPACE(TPLOCVST) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPMATCRA)                                             D
+  -START DB(DBEETA) SPACE(TPMATCRA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPMEICBA)                                             D
+  -START DB(DBEETA) SPACE(TPMEICBA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPMOEDA)                                              D
+  -START DB(DBEETA) SPACE(TPMOEDA) ACC(RW)                                     D
+  -STOP DB(DBEETA) SPACE(TPMOTSOL)                                             D
+  -START DB(DBEETA) SPACE(TPMOTSOL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPNACION)                                             D
+  -START DB(DBEETA) SPACE(TPNACION) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPNIVLVE)                                             D
+  -START DB(DBEETA) SPACE(TPNIVLVE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPOAUTOR)                                             D
+  -START DB(DBEETA) SPACE(TPOAUTOR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPOEVDOC)                                             D
+  -START DB(DBEETA) SPACE(TPOEVDOC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPOPCCAL)                                             D
+  -START DB(DBEETA) SPACE(TPOPCCAL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPORANEX)                                             D
+  -START DB(DBEETA) SPACE(TPORANEX) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPORCAME)                                             D
+  -START DB(DBEETA) SPACE(TPORCAME) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPORCLAU)                                             D
+  -START DB(DBEETA) SPACE(TPORCLAU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPORDCAL)                                             D
+  -START DB(DBEETA) SPACE(TPORDCAL) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPORIMOV)                                             D
+  -START DB(DBEETA) SPACE(TPORIMOV) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPORISEG)                                             D
+  -START DB(DBEETA) SPACE(TPORISEG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPPARAME)                                             D
+  -START DB(DBEETA) SPACE(TPPARAME) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPPCHVEI)                                             D
+  -START DB(DBEETA) SPACE(TPPCHVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPPERIOD)                                             D
+  -START DB(DBEETA) SPACE(TPPERIOD) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPPESQUI)                                             D
+  -START DB(DBEETA) SPACE(TPPESQUI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPPGTCOM)                                             D
+  -START DB(DBEETA) SPACE(TPPGTCOM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPPINVEI)                                             D
+  -START DB(DBEETA) SPACE(TPPINVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPPLAOPC)                                             D
+  -START DB(DBEETA) SPACE(TPPLAOPC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPPOTVEI)                                             D
+  -START DB(DBEETA) SPACE(TPPOTVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPPRAZO)                                              D
+  -START DB(DBEETA) SPACE(TPPRAZO) ACC(RW)                                     D
+  -STOP DB(DBEETA) SPACE(TPPRIEMI)                                             D
+  -START DB(DBEETA) SPACE(TPPRIEMI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPPROVEI)                                             D
+  -START DB(DBEETA) SPACE(TPPROVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPQTDCSI)                                             D
+  -START DB(DBEETA) SPACE(TPQTDCSI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPRCFSUS)                                             D
+  -START DB(DBEETA) SPACE(TPRCFSUS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPRCOVEI)                                             D
+  -START DB(DBEETA) SPACE(TPRCOVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPREGTAR)                                             D
+  -START DB(DBEETA) SPACE(TPREGTAR) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPREPARO)                                             D
+  -START DB(DBEETA) SPACE(TPREPARO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPRSPPGT)                                             D
+  -START DB(DBEETA) SPACE(TPRSPPGT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPSISGVE)                                             D
+  -START DB(DBEETA) SPACE(TPSISGVE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPSITANE)                                             D
+  -START DB(DBEETA) SPACE(TPSITANE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPSITCLS)                                             D
+  -START DB(DBEETA) SPACE(TPSITCLS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPSITEXT)                                             D
+  -START DB(DBEETA) SPACE(TPSITEXT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPSITSER)                                             D
+  -START DB(DBEETA) SPACE(TPSITSER) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPSITUAC)                                             D
+  -START DB(DBEETA) SPACE(TPSITUAC) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPSOLICI)                                             D
+  -START DB(DBEETA) SPACE(TPSOLICI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPSOPRPS)                                             D
+  -START DB(DBEETA) SPACE(TPSOPRPS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPTABCOT)                                             D
+  -START DB(DBEETA) SPACE(TPTABCOT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPTARACE)                                             D
+  -START DB(DBEETA) SPACE(TPTARACE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPTONVEI)                                             D
+  -START DB(DBEETA) SPACE(TPTONVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPTRAVEI)                                             D
+  -START DB(DBEETA) SPACE(TPTRAVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPTXTANE)                                             D
+  -START DB(DBEETA) SPACE(TPTXTANE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPTXTEMI)                                             D
+  -START DB(DBEETA) SPACE(TPTXTEMI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPTXTIPS)                                             D
+  -START DB(DBEETA) SPACE(TPTXTIPS) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPUTIVEI)                                             D
+  -START DB(DBEETA) SPACE(TPUTIVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPUTVEIH)                                             D
+  -START DB(DBEETA) SPACE(TPUTVEIH) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPVALPRE)                                             D
+  -START DB(DBEETA) SPACE(TPVALPRE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPVALVEI)                                             D
+  -START DB(DBEETA) SPACE(TPVALVEI) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPVENPAG)                                             D
+  -START DB(DBEETA) SPACE(TPVENPAG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPVIGPRO)                                             D
+  -START DB(DBEETA) SPACE(TPVIGPRO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TPVMODVE)                                             D
+  -START DB(DBEETA) SPACE(TPVMODVE) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TSITICVG)                                             D
+  -START DB(DBEETA) SPACE(TSITICVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TXGRINCO)                                             D
+  -START DB(DBEETA) SPACE(TXGRINCO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(TXTPADRA)                                             D
+  -START DB(DBEETA) SPACE(TXTPADRA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VARCMMTP)                                             D
+  -START DB(DBEETA) SPACE(VARCMMTP) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VARCOMED)                                             D
+  -START DB(DBEETA) SPACE(VARCOMED) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VEIANUSO)                                             D
+  -START DB(DBEETA) SPACE(VEIANUSO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VERCALCO)                                             D
+  -START DB(DBEETA) SPACE(VERCALCO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VERCALCU)                                             D
+  -START DB(DBEETA) SPACE(VERCALCU) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VERSPERF)                                             D
+  -START DB(DBEETA) SPACE(VERSPERF) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VRSCALEM)                                             D
+  -START DB(DBEETA) SPACE(VRSCALEM) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VRSPFLCO)                                             D
+  -START DB(DBEETA) SPACE(VRSPFLCO) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VRSPFLPT)                                             D
+  -START DB(DBEETA) SPACE(VRSPFLPT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VRSPFLQT)                                             D
+  -START DB(DBEETA) SPACE(VRSPFLQT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VRSPFLTA)                                             D
+  -START DB(DBEETA) SPACE(VRSPFLTA) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VRSPFLVG)                                             D
+  -START DB(DBEETA) SPACE(VRSPFLVG) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VSTATALT)                                             D
+  -START DB(DBEETA) SPACE(VSTATALT) ACC(RW)                                    D
+  -STOP DB(DBEETA) SPACE(VSTRGCEP)                                             D
+  -START DB(DBEETA) SPACE(VSTRGCEP) ACC(RW)                                    D
+  END                                                                           
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSUDUMP DD SYSOUT=*                                                          
+//SYSIN    DD DUMMY                                                             
+//*                                                                             
+//DSNTEP2  EXEC PGM=IKJEFT01,DYNAMNBR=20                                        
+//STEPLIB  DD DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                    
+//         DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                    
+//SYSTSPRT DD SYSOUT=*                                                          
+//SYSTSIN  DD *                                                                 
+  DSN SYSTEM(DB2P)                                                              
+  -START DB(DBEEAL) SPACE(*) ACC(RW)                                           D
+  -START DB(DBEEPR) SPACE(*) ACC(RW)                                           D
+  -START DB(DBEEOR) SPACE(*) ACC(RW)                                           D
+  -START DB(DBEEAE) SPACE(*) ACC(RW)                                           D
+  -START DB(DBEETA) SPACE(*) ACC(RW)                                           D
+  END                                                                           
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSUDUMP DD SYSOUT=*                                                          
+//SYSIN    DD DUMMY                                                             

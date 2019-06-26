@@ -1,0 +1,116 @@
+--                                                                      00001000
+-- CHANGE TABLE NAME AND CREATOR                                        00002000
+--                                                                      00003000
+                                                                        00003100
+-- LISTA TABLESPACES                                                    00004000
+  SELECT * FROM SYSIBM.SYSTABLESPACE A,                                 00010000
+                SYSIBM.SYSTABLES     B                                  00010100
+   WHERE B.NAME = 'CDSSMOVSEGANS'                                       00011024
+     AND B.CREATOR  = 'DB2PDPRC'                                        00011124
+     AND B.TYPE ='T'                                                    00012000
+     AND A.NAME = B.TSNAME                                              00013000
+     AND A.DBNAME  = B.DBNAME                                           00015000
+  WITH UR;                                                              00030000
+                                                                        00040000
+-- LISTA PARTICOES DO TABLESPACE                                        00040100
+  SELECT * FROM SYSIBM.SYSTABLEPART  A,                                 00040200
+                SYSIBM.SYSTABLES     B                                  00040300
+   WHERE B.NAME = 'CDSSMOVSEGANS'                                       00040424
+     AND B.CREATOR  = 'DB2PDPRC'                                        00040524
+     AND B.TYPE ='T'                                                    00040600
+     AND A.TSNAME = B.TSNAME                                            00040700
+     AND A.DBNAME  = B.DBNAME                                           00040800
+  WITH UR;                                                              00040900
+                                                                        00041000
+-- LISTA TABELAS                                                        00041100
+  SELECT * FROM SYSIBM.SYSTABLES                                        00041200
+   WHERE NAME = 'CDSSMOVSEGANS'                                         00042024
+     AND CREATOR  = 'DB2PDPRC'                                          00043024
+     AND TYPE ='T'                                                      00044000
+  WITH UR;                                                              00045000
+                                                                        00046000
+-- LISTA COLUNAS                                                        00047000
+  SELECT * FROM SYSIBM.SYSCOLUMNS                                       00050000
+   WHERE TBNAME = 'CDSSMOVSEGANS'                                       00060024
+     AND TBCREATOR = 'DB2PDPRC'                                         00070024
+   ORDER BY COLNO                                                       00071000
+  WITH UR;                                                              00080000
+                                                                        00090000
+-- LISTA INDICES                                                        00100000
+  SELECT * FROM SYSIBM.SYSINDEXES                                       00141000
+   WHERE TBNAME = 'CDSSMOVSEGANS'                                       00142024
+     AND TBCREATOR = 'DB2PDPRC'                                         00143024
+  WITH UR;                                                              00144000
+                                                                        00145000
+-- LISTA INDEXPART                                                      00145100
+  SELECT * FROM SYSIBM.SYSINDEXES A                                     00146000
+              , SYSIBM.SYSINDEXPART B                                   00147000
+   WHERE A.TBNAME = 'CDSSMOVSEGANS'                                     00148024
+     AND A.TBCREATOR = 'DB2PDPRC'                                       00149024
+     AND B.IXNAME = A.NAME                                              00149100
+     AND B.IXCREATOR = A.CREATOR                                        00149200
+  WITH UR;                                                              00149300
+                                                                        00149400
+-- LISTA PRIMARY KEYS                                                   00149500
+  SELECT                                                                00150000
+       A.IXNAME, B.UNIQUERULE,                                          00150100
+       A.IXCREATOR, A.COLNAME, A.COLNO, A.COLSEQ, A.ORDERING,           00150200
+       B.CLUSTERING, B.CLUSTERED, B.INDEXSPACE,                         00150300
+       B.CLUSTERRATIO, B.STATSTIME                                      00150400
+    FROM SYSIBM.SYSKEYS    A                                            00151000
+       , SYSIBM.SYSINDEXES B                                            00152000
+       , SYSIBM.SYSTABLES  C                                            00153000
+   WHERE C.CREATOR = 'DB2PDPRC'                                         00160024
+     AND C.NAME    = 'CDSSMOVSEGANS'                                    00170024
+     AND C.TYPE    = 'T'                                                00170100
+     AND B.TBNAME  = C.NAME                                             00171000
+     AND B.TBCREATOR  = C.CREATOR                                       00172000
+     AND A.IXNAME  = B.NAME                                             00173000
+     AND A.IXCREATOR  = B.CREATOR                                       00174000
+   ORDER BY A.IXNAME, A.COLSEQ                                          00175000
+  WITH UR;                                                              00180000
+                                                                        00190000
+-- LISTA FOREIGN KEYS                                                   00200000
+SELECT * FROM SYSIBM.SYSRELS                                            00240000
+ WHERE RELNAME IN (SELECT RELNAME FROM SYSIBM.SYSFOREIGNKEYS            00250000
+                    WHERE CREATOR = 'DB2PDPRC'                          00260024
+                      AND TBNAME  = 'CDSSMOVSEGANS')                    00270024
+  ORDER BY CREATOR,TBNAME,RELNAME                                       00280000
+WITH UR;                                                                00290000
+                                                                        00291000
+-- LISTA COLUNAS FOREIGN KEYS                                           00292000
+SELECT * FROM SYSIBM.SYSFOREIGNKEYS                                     00300000
+ WHERE CREATOR = 'DB2PDPRC'                                             00310024
+   AND TBNAME  = 'CDSSMOVSEGANS'                                        00320024
+ ORDER BY CREATOR,TBNAME,RELNAME,COLSEQ                                 00330000
+WITH UR;                                                                00340000
+                                                                        00350000
+-- LISTA CONSTRAINTS                                                    00360000
+SELECT * FROM SYSIBM.SYSCHECKS                                          00370000
+ WHERE TBOWNER = 'DB2PDPRC'                                             00380024
+   AND TBNAME  = 'CDSSMOVSEGANS'                                        00390024
+WITH UR;                                                                00410000
+                                                                        00411000
+SELECT * FROM SYSIBM.SYSCHECKDEP                                        00420000
+ WHERE TBOWNER = 'DB2PDPRC'                                             00430024
+   AND TBNAME  = 'CDSSMOVSEGANS'                                        00440024
+WITH UR;                                                                00460000
+                                                                        00470000
+SELECT * FROM SYSIBM.SYSKEYCOLUSE                                       00480000
+ WHERE TBCREATOR = 'DB2PDPRC'                                           00490024
+   AND TBNAME  = 'CDSSMOVSEGANS'                                        00500024
+WITH UR;                                                                00510000
+                                                                        00520000
+-- LISTA IDENTITY                                                       00530000
+SELECT * FROM SYSIBM.SYSSEQUENCESDEP A,                                 00540000
+              SYSIBM.SYSSEQUENCES B                                     00550000
+ WHERE A.DCREATOR = 'DB2PDPRC'                                          00560024
+   AND A.DNAME    = 'CDSSMOVSEGANS'                                     00570024
+   AND B.SEQUENCEID = A.BSEQUENCEID                                     00580000
+;                                                                       00590000
+                                                                        00600000
+-- LISTA TRIGGERS                                                       00610000
+SELECT * FROM SYSIBM.SYSTRIGGERS                                        00620000
+ WHERE TBOWNER    = 'DB2PDPRC'                                          00630024
+   AND TBNAME     = 'CDSSMOVSEGANS'                                     00640024
+;                                                                       00650000

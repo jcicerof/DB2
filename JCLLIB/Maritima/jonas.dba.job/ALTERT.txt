@@ -1,0 +1,42 @@
+--SELECT COUNT(*) FROM DB2PDPRC.CDCADAUDIS WITH UR;                             
+--SELECT * FROM SYSIBM.SYSTABLES WHERE NAME = 'CDCADAUDIS';                     
+ALTER TABLE DB2PDPRC.CDCADAUDIS                                                 
+ADD STDTV CHAR ( 1 )  FOR SBCS DATA ;                                           
+COMMIT;                                                                         
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD XSTDTV CHAR ( 1 )  FOR SBCS DATA ;                                        
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD DTSTASITDTV DATE;                                                         
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD XDTSTASITDTV DATE;                                                        
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD CDMTVDTLDTV SMALLINT;                                                     
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD XCDMTVDTLDTV SMALLINT;                                                    
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD CDUSR CHAR ( 10 )  FOR SBCS DATA ;                                        
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD XCDUSR CHAR ( 10 )  FOR SBCS DATA ;                                       
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD NMPGMEFEATU CHAR ( 8 )  FOR SBCS DATA ;                                   
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD PRPAGOL DECIMAL ( 13 , 2 ) ;                                              
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD XPRPAGOL DECIMAL ( 13 , 2 ) ;                                             
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD PRPAGOC DECIMAL ( 13 , 2 ) ;                                              
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD XPRPAGOC DECIMAL ( 13 , 2 ) ;                                             
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD PRFATAML DECIMAL ( 13 , 2 ) ;                                             
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD XPRFATAML DECIMAL ( 13 , 2 ) ;                                            
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD PRFATAMC DECIMAL ( 13 , 2 ) ;                                             
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD XPRFATAMC DECIMAL ( 13 , 2 ) ;                                            
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD TPCALCUL SMALLINT;                                                        
+--ALTER TABLE DB2PDPRC.CDCADAUDIS                                               
+--ADD XTPCALCUL SMALLINT;                                                       
+--COMMIT;                                                                       

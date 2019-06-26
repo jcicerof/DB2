@@ -1,0 +1,25 @@
+--                                                                      00010000
+--  SELECT MAX(EXPLAIN_TIME),MAX(BIND_TIME)                             00020007
+--  FROM CSPPUSER.PLAN_TABLE A,                                         00030007
+--       CSPPUSER.DSN_STATEMNT_TABLE B                                  00040007
+--   WHERE                                                              00050007
+--       B.QUERYNO = A.QUERYNO                                          00060007
+--   AND A.COLLID   = 'MAPBCOLE'                                        00070007
+--   AND A.PROGNAME = 'SSR0133R'                                        00080007
+--   AND A.PROGNAME = B.PROGNAME                                        00090007
+--   AND A.COLLID   = B.COLLID                                          00100007
+--    ;                                                                 00110007
+--    FIM;                                                              00120007
+ SELECT *                                                               00130007
+   FROM MVSPUSER.PLAN_TABLE A,                                          00140007
+        MVSPUSER.DSN_STATEMNT_TABLE B                                   00150007
+  WHERE                                                                 00160007
+        B.QUERYNO = A.QUERYNO                                           00170007
+    AND A.COLLID   = 'MAPCCOLE'                                         00180007
+    AND A.PROGNAME = 'SSR0133R'                                         00190007
+    AND A.PROGNAME = B.PROGNAME                                         00200007
+    AND A.COLLID   = B.COLLID                                           00210007
+-- AND ACCESSNAME = 'CONDICAOGERENQ2_IX'                                00220007
+    AND EXPLAIN_TIME = '2008-11-07-18.17.15.012460'                     00230007
+    AND BIND_TIME = '2008-11-07-18.17.15.012460'                        00240007
+  ORDER BY A.QUERYNO, A.QBLOCKNO, A.PLANNO, A.MIXOPSEQ;                 00250007

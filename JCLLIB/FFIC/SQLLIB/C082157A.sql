@@ -1,0 +1,86 @@
+--
+-- LISTA DE UTILITARIOS
+--
+SELECT DISTINCT CHAR(STRIP(GETVARIABLE('SYSIBM.SSID')),4) AS SSID,
+       A.DBNAME,A.NAME AS TSNAME,
+       B.CREATOR,B.NAME,
+       C.JOBNAME,
+       CASE C.ICTYPE
+            WHEN 'I' THEN 'COPY'
+            WHEN 'F' THEN 'COPY'
+            WHEN 'M' THEN 'MODIFY'
+            WHEN 'Q' THEN 'QUIESCE'
+            WHEN 'R' THEN 'LOAD REPLACE'
+            WHEN 'S' THEN 'LOAD REPLACE'
+            WHEN 'W' THEN 'REORG'
+            WHEN 'X' THEN 'REORG'
+            WHEN 'Y' THEN 'LOAD RESUME'
+            WHEN 'Z' THEN 'LOAD RESUME'
+       END AS JOBTYPE
+  FROM SYSIBM.SYSTABLESPACE A,
+       SYSIBM.SYSTABLES     B,
+       SYSIBM.SYSCOPY   C
+ WHERE A.DBNAME = C.DBNAME
+   AND A.NAME = C.TSNAME
+   AND C.ICTYPE IN ('F')
+-- AND C.ICTYPE IN ('I','F','M','Q','R','S','W','X','Y','Z')
+   AND SUBSTR(C.JOBNAME,1,3) NOT IN ('IBM')
+   AND B.TYPE = 'T'
+   AND B.DBNAME = A.DBNAME
+   AND B.TSNAME = A.NAME
+   AND B.CREATOR IN ('QSTTEST', 'QSTPRVT')
+   AND B.NAME IN ('QSTT_COUNTY'
+                 ,'QSTT_ISO_ADDRESS'
+                 ,'QSTT_ISO_LAT_LONG'
+                 ,'QSTT_ISO_TABLE'
+                 ,'QSTT_OBJECT'
+                 ,'QSTT_PRIDE_CD_CONV'
+                 ,'QSTT_RISK_APPR'
+                 ,'QSTT_TERRITORY')
+GROUP BY CHAR(STRIP(GETVARIABLE('SYSIBM.SSID')),4),
+       A.DBNAME, A.NAME,
+       B.CREATOR,B.NAME,
+       C.JOBNAME,C.ICTYPE;
+FIM;
+--
+-- LISTA DE UTILITARIOS
+--
+SELECT DISTINCT CHAR(STRIP(GETVARIABLE('SYSIBM.SSID')),4) AS SSID,
+       A.DBNAME,A.NAME AS TSNAME,
+       B.CREATOR,B.NAME,
+       C.JOBNAME,
+       CASE C.ICTYPE
+            WHEN 'I' THEN 'COPY'
+            WHEN 'F' THEN 'COPY'
+            WHEN 'M' THEN 'MODIFY'
+            WHEN 'Q' THEN 'QUIESCE'
+            WHEN 'R' THEN 'LOAD REPLACE'
+            WHEN 'S' THEN 'LOAD REPLACE'
+            WHEN 'W' THEN 'REORG'
+            WHEN 'X' THEN 'REORG'
+            WHEN 'Y' THEN 'LOAD RESUME'
+            WHEN 'Z' THEN 'LOAD RESUME'
+       END AS JOBTYPE
+  FROM SYSIBM.SYSTABLESPACE A,
+       SYSIBM.SYSTABLES     B,
+       SYSIBM.SYSCOPY   C
+ WHERE A.DBNAME = C.DBNAME
+   AND A.NAME = C.TSNAME
+   AND C.ICTYPE IN ('I','F','M','Q','R','S','W','X','Y','Z')
+   AND SUBSTR(C.JOBNAME,1,3) NOT IN ('IBM')
+   AND B.TYPE = 'T'
+   AND B.DBNAME = A.DBNAME
+   AND B.TSNAME = A.NAME
+   AND B.CREATOR IN ('QSTTEST', 'QSTPRVT')
+   AND B.NAME IN ('QSTT_COUNTY'
+                 ,'QSTT_ISO_ADDRESS'
+                 ,'QSTT_ISO_LAT_LONG'
+                 ,'QSTT_ISO_TABLE'
+                 ,'QSTT_OBJECT'
+                 ,'QSTT_PRIDE_CD_CONV'
+                 ,'QSTT_RISK_APPR'
+                 ,'QSTT_TERRITORY')
+GROUP BY CHAR(STRIP(GETVARIABLE('SYSIBM.SSID')),4),
+       A.DBNAME, A.NAME,
+       B.CREATOR,B.NAME,
+       C.JOBNAME,C.ICTYPE;

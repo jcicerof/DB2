@@ -1,0 +1,20 @@
+OPTIONS EVENT(ITEMERROR, SKIP)                                                  
+LISTDEF SAUDE                                                                   
+ INCLUDE TABLESPACE DBNOVA.CADAPOL                                              
+ INCLUDE TABLESPACE DBNOVA.CADPARAM                                             
+ INCLUDE TABLESPACE DBNOVA.CADPARCL                                             
+ INCLUDE TABLESPACE DBSS01.SSAFESTI                                             
+ INCLUDE TABLESPACE DBSS01.SSCOBSUP                                             
+ INCLUDE TABLESPACE DBSS01.SSCOREFA                                             
+ INCLUDE TABLESPACE DBSS01.SSMOVPRM                                             
+ INCLUDE TABLESPACE DBSS01.SSPROEXC                                             
+TEMPLATE DDCOPY                                                                 
+         DSN(DB2PCOPY.&DB..&TS..D&DT..H&TIME.)                                  
+         UNIT=VSM                                                               
+         VOLCNT(255)                                                            
+         DISP(NEW,CATLG,DELETE)                                                 
+         STACK YES                                                              
+COPY LIST SAUDE                                                                 
+     SHRLEVEL REFERENCE                                                         
+     FULL YES                                                                   
+     COPYDDN DDCOPY                                                             

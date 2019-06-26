@@ -1,0 +1,27 @@
+//DBPUNFT1 JOB MSGCLASS=X,CLASS=A,NOTIFY=JONAS TYPRUN=HOLD              00010057
+//*------------------------------------------------------------------   00020000
+//UTILB01  EXEC PGM=DSNUTILB,                                           00030000
+//       PARM='DB2P,UNLFTB1',                                           00040000
+//       REGION=0M,DYNAMNBR=20                                          00050000
+//SYSPRINT DD  SYSOUT=*                                                 00060000
+//SYSUDUMP DD  SYSOUT=*                                                 00070000
+//SYSIN    DD *                                                         00080000
+TEMPLATE UNLDDS                                                         00090000
+         DSN(JJ99.&SSID..&DB..&TS..D&UT.)                               00100060
+         UNIT SYSDBA                                                    00111029
+         SPACE (700,700) TRK                                            00120008
+         DISP(NEW,CATLG,DELETE)                                         00130000
+TEMPLATE PUNCHDS                                                        00140000
+         DSN(JJ99.&SSID..&DB..&TS..P&UT.)                               00150060
+         UNIT SYSDBA                                                    00160027
+         SPACE (1,1) TRK                                                00170000
+         DISP(NEW,CATLG,DELETE)                                         00180000
+UNLOAD UNLDDN UNLDDS PUNCHDDN PUNCHDS                                   00190000
+         FROM TABLE DB2USER.PROPOSTA                                    00200060
+         WHEN                                                           00210000
+                  (                                                     00210322
+CDEMP=1 AND                                                             00210460
+NRPPS IN (875591657)                                                    00210560
+)                                                                       00212023
+         SHRLEVEL CHANGE                                                00250000
+         ISOLATION UR                                                   00260000

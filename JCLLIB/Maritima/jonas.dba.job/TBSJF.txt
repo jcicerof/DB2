@@ -1,0 +1,38 @@
+SET CURRENT SQLID='SYSADM';                                                     
+COMMIT;                                                                         
+                                                                                
+                                                                                
+CREATE TABLESPACE CADPARCL                                                      
+    IN DB2ADM                                                                   
+    USING STOGROUP STGPD1D                                                      
+        PRIQTY 720000                                                           
+        SECQTY 72000                                                            
+    PCTFREE 5                                                                   
+    TRACKMOD YES                                                                
+    COMPRESS YES                                                                
+    NUMPARTS 3                                                                  
+    (                                                                           
+    PART 1                                                                      
+    COMPRESS YES                                                                
+    ,                                                                           
+        PART 2                                                                  
+        USING STOGROUP STGPD1D                                                  
+            PRIQTY 835200                                                       
+            SECQTY 83520                                                        
+        COMPRESS YES                                                            
+        ,                                                                       
+        PART 3                                                                  
+        USING STOGROUP STGPD1D                                                  
+            PRIQTY 403200                                                       
+            SECQTY 40320                                                        
+        COMPRESS YES                                                            
+        )                                                                       
+        BUFFERPOOL BP1                                                          
+        LOCKSIZE  ROW                                                           
+        LOCKMAX SYSTEM                                                          
+        CLOSE NO                                                                
+        LOCKPART YES                                                            
+        CCSID EBCDIC                                                            
+            MAXROWS 255                                                         
+        ;                                                                       
+        COMMIT;                                                                 

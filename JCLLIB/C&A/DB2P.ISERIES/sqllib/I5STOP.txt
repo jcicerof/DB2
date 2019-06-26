@@ -1,0 +1,28 @@
+-- DSN SYSTEM(DB2T)                                                     00010000
+-- -START DB(EQ0BD) SPACE(EQ001T) ACCESS(RO)                            00020000
+-- -STOP  DB(I5)    SPACE(EQ001T)                                       00030000
+-- END                                                                  00040000
+--                                                                      00050000
+SELECT CHAR('DSN SYSTEM(DB2P)', 80), TSNAME, 1                          00060001
+  FROM SYSIBM.SYSTABLES                                                 00070000
+ WHERE CREATOR = 'PROD'                                                 00080000
+   AND SUBSTR(DBNAME, 4, 2) = 'BP'                                      00081002
+UNION ALL                                                               00090000
+SELECT '-STOP DB('||STRIP(DBNAME)||')    SPACE('||SUBSTR(TSNAME, 1, 5)||00100007
+       '*)', TSNAME, 2                                                  00110005
+  FROM SYSIBM.SYSTABLES                                                 00120000
+ WHERE CREATOR = 'PROD'                                                 00130000
+   AND SUBSTR(DBNAME, 4, 2) = 'BP'                                      00131002
+UNION                                                                   00140000
+SELECT '-STOP DB(AISERIES) SPACE('||SUBSTR(TSNAME, 1, 5)||              00141005
+       '*)', TSNAME, 3                                                  00142005
+  FROM SYSIBM.SYSTABLES                                                 00170000
+ WHERE CREATOR = 'PROD'                                                 00180000
+   AND SUBSTR(DBNAME, 4, 2) = 'BP'                                      00180102
+UNION ALL                                                               00181000
+SELECT CHAR('END', 80), TSNAME, 4                                       00190000
+  FROM SYSIBM.SYSTABLES                                                 00200000
+ WHERE CREATOR = 'PROD'                                                 00210000
+   AND SUBSTR(DBNAME, 4, 2) = 'BP'                                      00211002
+ORDER BY 2, 3                                                           00220000
+;                                                                       00230000

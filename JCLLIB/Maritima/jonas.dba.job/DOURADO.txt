@@ -1,0 +1,10 @@
+SET CURRENT SQLID='SYSADM';                                                     
+COMMIT;                                                                         
+ALTER TABLE MARITIMA.TMPWEBPROPOSTA                                             
+ADD TPCONSEG SMALLINT NOT NULL  DEFAULT 0                                       
+;                                                                               
+COMMIT;                                                                         
+COMMENT ON COLUMN MARITIMA.TMPWEBPROPOSTA.TPCONSEG IS                           
+'TIPO CONTATO DO SEGURADO'                                                      
+;                                                                               
+COMMIT;                                                                         

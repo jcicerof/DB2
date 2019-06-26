@@ -1,0 +1,28 @@
+OPTIONS EVENT(ITEMERROR, SKIP)                                                  
+LISTDEF SAUDE                                                                   
+ INCLUDE TABLESPACE DBSS01.SSCOBSUP                                             
+ INCLUDE TABLESPACE DBSS01.SSCOMPAG                                             
+ INCLUDE TABLESPACE DBSS01.SSFORPRE                                             
+ INCLUDE TABLESPACE DBSS01.SSPARAME                                             
+ INCLUDE TABLESPACE DBSS01.SSPROEXC                                             
+ INCLUDE TABLESPACE DBSS01.SSSICONT                                             
+ INCLUDE TABLESPACE DBSS01.SSSICRED                                             
+ INCLUDE TABLESPACE DBSS01.SSSIEMPR                                             
+ INCLUDE TABLESPACE DBSS01.SSSIGUIA                                             
+ INCLUDE TABLESPACE DBSS01.SSSILOCL                                             
+ INCLUDE TABLESPACE DBSS01.SSSINSAU                                             
+ INCLUDE TABLESPACE DBSS01.SSSIPLAN                                             
+ INCLUDE TABLESPACE DBSS01.SSSIPROC                                             
+ INCLUDE TABLESPACE DBSS01.SSSISINI                                             
+ INCLUDE TABLESPACE DBSS01.SSSIUSUA                                             
+TEMPLATE DDCOPY                                                                 
+         DSN(DB2PCOPY.&DB..&TS..D&DT..H&TIME.)                                  
+         UNIT=TAPV                                                              
+         VOLCNT(255)                                                            
+         RETPD 30                                                               
+         DISP(NEW,CATLG,DELETE)                                                 
+         STACK YES                                                              
+COPY LIST SAUDE                                                                 
+     SHRLEVEL REFERENCE                                                         
+     FULL YES                                                                   
+     COPYDDN DDCOPY                                                             

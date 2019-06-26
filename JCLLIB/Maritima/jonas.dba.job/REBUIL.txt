@@ -1,0 +1,6 @@
+//DBPRBL1  JOB 'JONAS',MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID TYPRUN=HOLD            
+//*                                                                             
+//         JCLLIB ORDER=(CICERO.DB2.PROCLIB)                                    
+//INDEX01  EXEC PROC=REBUILD,DSN=DB2P                                           
+//SYSIN    DD   *                                                               
+REBUILD (INDEX MARITIMA.RSSCOM_PK) STATISTICS KEYCARD UPDATE ALL                

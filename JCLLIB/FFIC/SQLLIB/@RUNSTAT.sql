@@ -1,0 +1,65 @@
+SELECT DISTINCT                                                         00001000
+       ' INCLUDE TABLESPACE '||STRIP(DBNAME)||'.'||STRIP(TSNAME)        00001100
+FROM SYSIBM.SYSTABLES                                                   00002000
+WHERE TYPE = 'T'                                                        00003000
+  AND NAME IN (                                                         00004000
+'MAPA_CP_INF',                                                          00010000
+'MAPA_HH_HSEHLD',                                                       00020000
+'MAPA_PA_PARR',                                                         00030000
+'MAPA_PC_POL_CUST',                                                     00040000
+'MAPA_PL_POL_LVL',                                                      00050000
+'MAPA_PP_PRIOR_POL',                                                    00060000
+'MAPA_RA_REINS_AFIL',                                                   00070000
+'MAPA_RR_REINS',                                                        00080000
+'MAPA_S1_COMM_EMPL',                                                    00090000
+'MAPA_S2_OCEAN',                                                        00100000
+'MAPA_S3_COMM_LIAB',                                                    00110000
+'MAPA_S4_GLASS',                                                        00120000
+'MAPA_S5_BOIL_MACH',                                                    00130000
+'MAPA_S6_BUS_ASSET',                                                    00140000
+'MAPA_S7_PERS_AUTO',                                                    00150000
+'MAPA_S8_COMM_AUTO',                                                    00160000
+'MAPA_S9_RES_EMPLOY',                                                   00170000
+'MAPA_SA_WEST_GENRL',                                                   00180000
+'MAPA_SB_ENTERTAIN',                                                    00190000
+'MAPA_SC_UNSPEC_SAR',                                                   00200000
+'MAPA_SD_OBLIGATION',                                                   00210000
+'MAPA_SE_COMM_FARM',                                                    00220000
+'MAPA_SF_RES_RISK',                                                     00230000
+'MAPA_SG_RES_BUS',                                                      00240000
+'MAPA_SH_WATERCRAFT',                                                   00250000
+'MAPA_SI_SCHED_PERS',                                                   00260000
+'MAPA_SJ_COMP_SAR',                                                     00270000
+'MAPA_SK_PERS_BUS',                                                     00280000
+'MAPA_SL_ANIMAL_RSK',                                                   00290000
+'MAPA_SM_EVENT',                                                        00300000
+'MAPA_SN_COV_PERSON',                                                   00310000
+'MAPA_SS_STAT_SURCH',                                                   00320000
+'MACA_A1_AMOUNT',                                                       00330000
+'MACA_AT_CLM_DESC',                                                     00340000
+'MACA_CD_CLM_DESC',                                                     00350000
+'MACA_CT_CLM_TRAUMA',                                                   00360000
+'MACA_CV_CLM_VEH',                                                      00370000
+'MACA_S1_COMM_EMPL',                                                    00380000
+'MACA_S2_OCEAN',                                                        00390000
+'MACA_S3_COMM_LIAB',                                                    00400000
+'MACA_S4_GLASS',                                                        00410000
+'MACA_S5_BOIL_MACH',                                                    00420000
+'MACA_S6_BUS_ASSET',                                                    00430000
+'MACA_S7_PERS_AUTO',                                                    00440000
+'MACA_S8_COMM_AUTO',                                                    00450000
+'MACA_S9_RES_EMPLOY',                                                   00460000
+'MACA_SA_WEST_GENRL',                                                   00470000
+'MACA_SB_ENTERTAIN',                                                    00480000
+'MACA_SC_UNSPEC_SAR',                                                   00490000
+'MACA_SD_OBLIGATION',                                                   00500000
+'MACA_SE_COMM_FARM',                                                    00510000
+'MACA_SF_RES_RISK',                                                     00520000
+'MACA_SG_RES_BUS',                                                      00530000
+'MACA_SH_WATERCRAFT',                                                   00540000
+'MACA_SI_SCHED_PERS',                                                   00550000
+'MACA_SJ_COMP_SAR',                                                     00560000
+'MACA_SK_PERS_BUS',                                                     00570000
+'MACA_SL_ANIMAL_RSK',                                                   00580000
+'MACA_SM_EVENT',                                                        00590000
+'MACA_SN_COV_PERSON')                                                   00600000

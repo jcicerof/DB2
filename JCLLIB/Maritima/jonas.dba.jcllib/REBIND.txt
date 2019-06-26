@@ -1,0 +1,23 @@
+//DBPRBINN JOB MSGCLASS=T,CLASS=A,NOTIFY=&SYSUID                                
+//*                                                                             
+//*-------------------------------------------------------------------          
+//* REBIND                                                                      
+//*-------------------------------------------------------------------          
+//REBIND   EXEC PGM=IKJEFT01,DYNAMNBR=20                                        
+//SYSTSPRT DD SYSOUT=*                                                          
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSUDUMP DD SYSOUT=*                                                          
+//SYSOUT   DD SYSOUT=*                                                          
+//SYSTSIN DD *                                                                  
+DSN SYSTEM(DB2P)                                                                
+REBIND PACKAGE (MAPBCOLE.REEM501A) ISOLATION(CS)                                
+REBIND PACKAGE (MAPBCOLE.RERV403A) ISOLATION(CS)                                
+REBIND PACKAGE (MAPBCOLE.SGSG472A) ISOLATION(CS)                                
+REBIND PACKAGE (MAPBCOLE.SGSG480A) ISOLATION(CS)                                
+REBIND PACKAGE (MAPCCOLE.GR180RB) ISOLATION(CS)                                 
+REBIND PACKAGE (MAPCCOLE.SE01R7) ISOLATION(CS)                                  
+REBIND PACKAGE (MAPCCOLE.SE02A) ISOLATION(CS)                                   
+REBIND PACKAGE (MAPCCOLE.SE03A) ISOLATION(CS)                                   
+REBIND PACKAGE (MAPCCOLE.SE05A) ISOLATION(CS)                                   
+REBIND PACKAGE (MAPCCOLE.SE06A) ISOLATION(CS)                                   
+REBIND PACKAGE (MAPCCOLE.SE07A) ISOLATION(CS)                                   

@@ -1,0 +1,18 @@
+SELECT IXCREATOR,IXNAME,PQTY,SQTY FROM SYSIBM.SYSINDEXPART                      
+WHERE IXNAME = 'RSSCOM_PK';                                                     
+--ALTER INDEX MARITIMA.VLHISRJU_PK PRIQTY 2160 SECQTY 240;                      
+--COMMIT;                                                                       
+--ALTER TABLESPACE DBMA01.VLHISRJU PRIQTY 4124 SECQTY 720;                      
+--COMMIT;                                                                       
+--'ORCAMENTOTOTAL_IPK',                                                         
+--'WEBCOBPREMIO_IPK');                                                          
+--SELECT * FROM SYSIBM.SYSINDEXES WHERE INDEXSPACE IN ('ORCC1FHB',              
+--'WEBC18CS') AND                                                               
+--DBNAME = 'DBKIT1';                                                            
+--FIM;                                                                          
+--SELECT DISTINCT DBNAME,TSNAME,PQTY,SQTY,SPACE                                 
+--FROM SYSIBM.SYSTABLEPART WHERE DBNAME = 'DBMA01'                              
+--AND TSNAME ='VLHISRJU';                                                       
+--'EMARPCON');                                                                  
+--'RMARITIM',                                                                   
+--'ORCPRODU');                                                                  

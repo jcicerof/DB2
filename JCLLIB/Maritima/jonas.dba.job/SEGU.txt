@@ -1,0 +1,2 @@
+GRANT SELECT ON MARITIMA.PECADCGO TO SUPKIT;                                    
+COMMIT;                                                                         

@@ -1,0 +1,66 @@
+SELECT DISTINCT                                                         00010000
+'DB2J',                                                                 00020001
+STRIP(A.VCATNAME)||'.DSNDBD.'||STRIP(A.DBNAME)||'.'||STRIP(A.TSNAME),   00030000
+MAX(A.PARTITION)                                                        00040000
+,B.TYPE, B.DSSIZE                                                       00050000
+  FROM SYSIBM.SYSTABLEPART A                                            00060000
+     , SYSIBM.SYSTABLESPACE B                                           00070000
+     , SYSIBM.SYSTABLES C                                               00080000
+ WHERE A.DBNAME = B.DBNAME                                              00090000
+   AND A.TSNAME = B.NAME                                                00100000
+   AND C.DBNAME = B.DBNAME                                              00110000
+   AND C.TSNAME = B.NAME                                                00120000
+-- AND B.PARTITIONS > 0                                                 00130000
+   AND (C.CREATOR ='DB2TEST' AND C.NAME ='CLIENT_POLICY'                00140003
+    OR C.CREATOR ='DB2TEST' AND C.NAME ='CLT_ADR_SEARCH'                00150003
+    OR C.CREATOR ='DB2TEST' AND C.NAME ='CLT_ADR_RELATION'              00160003
+    OR C.CREATOR ='DB2TEST' AND C.NAME ='CLIENT_TAB'                    00170003
+    OR C.CREATOR ='DB2TEST' AND C.NAME ='CLIENT_ADDRESS'                00180003
+    OR C.CREATOR ='DB2TEST' AND C.NAME ='CLFT_POLICY_TERM'              00190003
+    OR C.CREATOR ='DB2TEST' AND C.NAME ='CLT_CLT_RELATION'              00200003
+    OR C.CREATOR ='DB2TEST' AND C.NAME ='INDIVIDUAL_CLIENT'             00210003
+    OR C.CREATOR ='DB2TEST' AND C.NAME ='CLT_REF_RELATION'              00220003
+    OR C.CREATOR ='DB2PRVT' AND C.NAME ='CLIENT_TAB'                    00230003
+    OR C.CREATOR ='DB2PRVT' AND C.NAME ='CLT_ADR_RELATION'              00240003
+    OR C.CREATOR ='DB2PRVT' AND C.NAME ='CLIENT_ADDRESS'                00250003
+    OR C.CREATOR ='DB2PRVT' AND C.NAME ='CLT_OBJ_RELATION'              00251003
+    OR C.CREATOR ='DB2PRVT' AND C.NAME ='CLT_CLT_RELATION'              00252003
+    OR C.CREATOR ='DB2PRVT' AND C.NAME ='CLIENT_POLICY'                 00253003
+    OR C.CREATOR ='DB2PRVT' AND C.NAME ='CLT_ADR_SEARCH'                00254003
+    OR C.CREATOR ='DB2PRVT' AND C.NAME ='INDIVIDUAL_CLIENT'             00255003
+    OR C.CREATOR ='DB2PRVT' AND C.NAME ='CLFT_POLICY_TERM'              00256003
+    OR C.CREATOR ='DB2PRVT' AND C.NAME ='CLT_REF_RELATION'              00257003
+    OR C.CREATOR ='DB2ACPT' AND C.NAME ='CLT_OBJ_RELATION'              00258003
+    OR C.CREATOR ='DB2ACPT' AND C.NAME ='CLIENT_POLICY'                 00259003
+    OR C.CREATOR ='DB2ACPT' AND C.NAME ='CLT_ADR_SEARCH'                00259103
+    OR C.CREATOR ='DB2ACPT' AND C.NAME ='CLT_ADR_RELATION'              00259203
+    OR C.CREATOR ='DB2ACPT' AND C.NAME ='CLIENT_TAB'                    00259303
+    OR C.CREATOR ='DB2ACPT' AND C.NAME ='CLT_CLT_RELATION'              00259403
+    OR C.CREATOR ='DB2ACPT' AND C.NAME ='CLIENT_ADDRESS'                00259503
+    OR C.CREATOR ='DB2ACPT' AND C.NAME ='CLFT_POLICY_TERM'              00259603
+    OR C.CREATOR ='DB2ACPT' AND C.NAME ='INDIVIDUAL_CLIENT'             00259703
+    OR C.CREATOR ='DB2ACPT' AND C.NAME ='CLT_REF_RELATION'              00259803
+    OR C.CREATOR ='DB2ACP4' AND C.NAME ='CLT_ADR_SEARCH'                00259903
+    OR C.CREATOR ='DB2ACP4' AND C.NAME ='CLT_OBJ_RELATION'              00260003
+    OR C.CREATOR ='DB2ACP4' AND C.NAME ='CLT_ADR_RELATION'              00260103
+    OR C.CREATOR ='DB2ACP4' AND C.NAME ='CLIENT_TAB'                    00260203
+    OR C.CREATOR ='DB2ACP4' AND C.NAME ='CLIENT_ADDRESS'                00260303
+    OR C.CREATOR ='DB2ACP4' AND C.NAME ='CLT_CLT_RELATION'              00260403
+    OR C.CREATOR ='DB2ACP4' AND C.NAME ='INDIVIDUAL_CLIENT'             00260503
+    OR C.CREATOR ='DB2ACP4' AND C.NAME ='CLT_REF_RELATION'              00260603
+    OR C.CREATOR ='DB2ACP4' AND C.NAME ='CLIENT_POLICY'                 00260703
+    OR C.CREATOR ='DB2ACP4' AND C.NAME ='CLFT_POLICY_TERM'              00260803
+    OR C.CREATOR ='DB2ACP2' AND C.NAME ='CLT_ADR_SEARCH'                00260903
+    OR C.CREATOR ='DB2ACP2' AND C.NAME ='CLT_ADR_RELATION'              00261003
+    OR C.CREATOR ='DB2ACP2' AND C.NAME ='CLIENT_TAB'                    00261103
+    OR C.CREATOR ='DB2ACP2' AND C.NAME ='INDIVIDUAL_CLIENT'             00261203
+    OR C.CREATOR ='DB2ACP2' AND C.NAME ='CLIENT_ADDRESS'                00261303
+    OR C.CREATOR ='DB2ACP2' AND C.NAME ='CLT_CLT_RELATION'              00261403
+    OR C.CREATOR ='DB2ACP2' AND C.NAME ='CLT_REF_RELATION'              00261503
+    OR C.CREATOR ='DB2ACP2' AND C.NAME ='CLT_OBJ_RELATION'              00261603
+    OR C.CREATOR ='DB2ACP2' AND C.NAME ='CLIENT_POLICY'                 00261703
+    OR C.CREATOR ='DB2ACP2' AND C.NAME ='CLFT_POLICY_TERM')             00261803
+GROUP BY 'DB2P',                                                        00262000
+STRIP(A.VCATNAME)||'.DSNDBD.'||STRIP(A.DBNAME)||'.'||STRIP(A.TSNAME),   00270000
+         B.TYPE, B.DSSIZE, B.PARTITIONS                                 00280000
+;                                                                       00290000

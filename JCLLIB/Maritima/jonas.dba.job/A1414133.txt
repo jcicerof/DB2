@@ -1,0 +1,104 @@
+SET CURRENT SQLID='SYSADM';                                                     
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.HS_03202008190523 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE MARITIMA.HS_03202008190523;                                          
+COMMIT;                                                                         
+                                                                                
+ALTER TABLE MARITIMA.MO_07032007171541 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE MARITIMA.MO_07032007171541;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.ON_10232007192704 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE MARITIMA.ON_10232007192704;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.RN_03112008145029 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE MARITIMA.RN_03112008145029;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.RN_03112008175230 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE MARITIMA.RN_03112008175230;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.SS_01232008180016 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE MARITIMA.SS_01232008180016;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.SS_01232008180544 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE MARITIMA.SS_01232008180544;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.SS_01232008182240 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE MARITIMA.SS_01232008182240;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE MARITIMA.SS_01232008182757 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE MARITIMA.SS_01232008182757;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE TECINFOR.CO_09212007143137 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE TECINFOR.CO_09212007143137;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE TECINFOR.CO_09212007172241 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE TECINFOR.CO_09212007172241;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE TECINFOR.CO_09212007173343 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE TECINFOR.CO_09212007173343;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE TECINFOR.LA_01022008141703 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE TECINFOR.LA_01022008141703;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE TECINFOR.LA_02112008120529 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE TECINFOR.LA_02112008120529;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE TECINFOR.RE_04032008195122 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE TECINFOR.RE_04032008195122;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE TECINFOR.SI_10262007130519 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE TECINFOR.SI_10262007130519;                                          
+COMMIT;                                                                         
+                                                                                
+                                                                                
+ALTER TABLE TECINFOR.SO_01022008142202 DROP RESTRICT ON DROP;                   
+COMMIT;                                                                         
+DROP TABLE TECINFOR.SO_01022008142202;                                          
+COMMIT;                                                                         
+                                                                                

@@ -1,0 +1,49 @@
+//DBPLOAD JOB 'JONAS',MSGCLASS=T,CLASS=T,NOTIFY=&SYSUID,TYPRUN=HOLD             
+//*                                                                             
+//         SET DSN=DB2P                                                         
+//         SET LIB=DB2.DB2P                                                     
+//*------------------------------------------------------------------           
+//* LOAD                                                                        
+//*------------------------------------------------------------------           
+//LOAD     EXEC PGM=DSNUTILB,PARM='&DSN'                                        
+//STEPLIB  DD   DSN=&LIB..SDSNEXIT,DISP=SHR                                     
+//         DD   DSN=&LIB..SDSNLOAD,DISP=SHR                                     
+//SYSPRINT DD   SYSOUT=*                                                        
+//UTPRINT  DD   SYSOUT=*                                                        
+//SYSUDUMP DD   SYSOUT=*                                                        
+//SYSMAP   DD   UNIT=SYSDA,SPACE=(CYL,(1000,1000),RLSE)                         
+//SYSUT1   DD   UNIT=VSM                                                        
+//SYSERR   DD   UNIT=SYSDA,SPACE=(CYL,(1000,1000),RLSE)                         
+//SORTOUT  DD   UNIT=VSM                                                        
+//SYSDISC  DD   DUMMY                                                           
+//SYSREC   DD   DSN=DBA.DB2P.SSLOGRED.REC,DISP=SHR                              
+//SYSCOPY  DD   DSN=DB2PCOPY.FE.DBSS01.SSLOGRED.GENIS.#1286697,                 
+//         DISP=(NEW,CATLG,DELETE),                                             
+//         UNIT=VSM                                                             
+//SYSIN    DD   *                                                               
+COPY TABLESPACE DBSS01.SSLOGRED                                                 
+     SHRLEVEL REFERENCE                                                         
+     FULL YES                                                                   
+LOAD DATA INDDN SYSREC   LOG YES RESUME YES  NOCOPYPEND                         
+STATISTICS TABLE(ALL) INDEX(ALL) UPDATE ALL INTO TABLE                          
+      SQLUSER.SSLOGRED                                                          
+   (                                                                            
+   NRLOTE                                 POSITION(       1         )           
+   INTEGER                       ,                                              
+   NRCPCGPR                               POSITION(       5:       9)           
+   DECIMAL                       ,                                              
+   NRCGFIPR                               POSITION(      10         )           
+   SMALLINT                      ,                                              
+   TPCOMPRO                               POSITION(      12         )           
+   CHAR(                      1) ,                                              
+   NRCOMPRO                               POSITION(      13         )           
+   INTEGER                       ,                                              
+   TSLOGRED                               POSITION(      17         )           
+   TIMESTAMP EXTERNAL(       26) ,                                              
+   CDANALIS                               POSITION(      43         )           
+   SMALLINT                      ,                                              
+   CDTPMOV                                POSITION(      45         )           
+   SMALLINT                      ,                                              
+   CDPGMLOG                               POSITION(      47         )           
+   CHAR(                      8)                                                
+   )                                                                            

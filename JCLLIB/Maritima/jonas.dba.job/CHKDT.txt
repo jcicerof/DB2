@@ -1,0 +1,20 @@
+//DBPCHECK JOB MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID                                
+//DBPCHECK PROC JOB='DBHCHECK',SYS='DB2P',UID='PRODUC'                          
+//DBPCHECK EXEC PGM=DSNUTILB,REGION=3M,PARM='&SYS,&JOB..&UID,&RST'              
+//STEPLIB DD DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                     
+//SYSPRINT DD SYSOUT=*                                                          
+//UTPRINT  DD SYSOUT=*                                                          
+//         PEND                                                                 
+//*                                                                             
+//S01S01   EXEC DBPCHECK,UID='S01S01',RST=''                                    
+//SYSERR   DD DSN=DB2PWRK.ERR,SPACE=(CYL,(02,22)),UNIT=SYSWRK,                  
+//         DISP=(NEW,DELETE)                                                    
+//SORTOUT  DD DSN=DB2PWRK.SORTOUT,SPACE=(CYL,(60,99)),UNIT=SYSWRK,              
+//         DISP=(NEW,DELETE)                                                    
+//SYSUT1   DD DSN=DB2PWRK.REI,SPACE=(CYL,(60,90)),UNIT=SYSWRK,                  
+//         DISP=(NEW,DELETE)                                                    
+//SYSIN    DD *                                                                 
+  CHECK DATA TABLESPACE (DBEEVT.CTINDCOR) SCOPE ALL                             
+  CHECK DATA TABLESPACE (DBEEVT.CTSITCOR) SCOPE ALL                             
+  CHECK DATA TABLESPACE (DBEEVT.HSINDCOR) SCOPE ALL                             
+  CHECK DATA TABLESPACE (DBEEVT.VSTCOBER) SCOPE ALL                             

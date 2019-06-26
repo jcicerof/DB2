@@ -1,0 +1,27 @@
+LOAD DATA INDDN SYSREC LOG NO REPLACE NOCOPYPEND
+     STATISTICS TABLE(ALL) INDEX(ALL) UPDATE ALL
+     ENFORCE NO
+ EBCDIC CCSID(00037,00000,00000)
+ INTO TABLE "PROD"."DS010T_ITEM_NF    "
+ ( "NI_NF             " POSITION(00007:00012) DECIMAL
+ , "CD_ITEM           " POSITION(00013:00015) DECIMAL
+ , "NI_SKU            " POSITION(00017:00021) DECIMAL
+                          NULLIF(00016)=X'FF'
+ , "NI_MDL            " POSITION(00023:00026) DECIMAL
+                          NULLIF(00022)=X'FF'
+ , "CD_PRD_FOR        " POSITION(00028:00049) VARCHAR
+                          NULLIF(00027)=X'FF'
+ , "NO_PRD_FOR        " POSITION(00051:00102) VARCHAR
+                          NULLIF(00050)=X'FF'
+ , "QT_REC_NF         " POSITION(00103:00108) DECIMAL
+ , "VL_UNI            " POSITION(00110:00116) DECIMAL
+                          NULLIF(00109)=X'FF'
+ , "PC_ICMS           " POSITION(00118:00119) DECIMAL
+                          NULLIF(00117)=X'FF'
+ , "PC_IPI            " POSITION(00121:00122) DECIMAL
+                          NULLIF(00120)=X'FF'
+ , "VL_FRT_ITEM       " POSITION(00124:00130) DECIMAL
+                          NULLIF(00123)=X'FF'
+ , "VL_TOT_DCT_ITEM   " POSITION(00132:00138) DECIMAL
+                          NULLIF(00131)=X'FF'
+ )

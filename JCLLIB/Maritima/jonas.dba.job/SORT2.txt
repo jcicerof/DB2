@@ -1,0 +1,12 @@
+//DBSORTUW JOB 'JONAS',MSGCLASS=S,CLASS=S,NOTIFY=&SYSUID                00010000
+//SORT     EXEC PGM=SORT                                                00020000
+//SYSOUT   DD SYSOUT=*                                                  00030000
+//SORTIN   DD DISP=SHR,DSN=P.DB2PDPRC.DPROP.G0023V00                    00040001
+//SORTOUT  DD DSN=JONAS.DPROP.LISTA,                                    00050000
+//         DISP=(NEW,CATLG,DELETE),UNIT=SYSDBA,                         00060000
+//         SPACE=(CYL,(050,09),RLSE),                                   00070000
+//         DCB=(LRECL=0131,BLKSIZE=13100,RECFM=FB,DSORG=PS)             00080000
+//SYSIN    DD *                                                         00090000
+   SORT FIELDS=(1,40,CH,A)                                              00120000
+   INCLUDE COND=(11,7,CH,EQ,C'IBMSNAP',AND,32,1,CH,GE,C'1')             00130001
+   END                                                                  00140000

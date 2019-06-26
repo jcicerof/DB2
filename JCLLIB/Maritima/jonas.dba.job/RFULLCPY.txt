@@ -1,0 +1,14 @@
+//DBPRECOV JOB   MSGCLASS=X,CLASS=T,NOTIFY=&SYSUID                      JOB01064
+//**************************************************************                
+//*   RECOVER DE TABELAS VIA TOCOPY                            *                
+//**************************************************************                
+//*                                                                             
+//S01S01   EXEC PGM=DSNUTILB,REGION=5M,                                         
+//         PARM='DB2P,SSCONSIN'                                                 
+//SYSPRINT DD SYSOUT=*                                                          
+//UTPRINT  DD SYSOUT=*                                                          
+//SYSUT1   DD DSN=DB2PWRK.SYSUT1,DISP=(MOD,CATLG,CATLG),                        
+//         SPACE=(CYL,(190,190)),UNIT=SYSWRK                                    
+//SYSIN    DD *                                                                 
+  RECOVER TABLESPACE DBSS01.SSCARMAN                                            
+  TOLASTFULLCOPY                                                                

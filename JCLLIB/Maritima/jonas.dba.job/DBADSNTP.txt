@@ -1,0 +1,12 @@
+//DB@DSNTP JOB MSGCLASS=P,CLASS=A,NOTIFY=&SYSUID,TYPRUN=HOLD                    
+//         JCLLIB ORDER=(CICERO.DB2.PROCLIB)                                    
+//QUERY01 EXEC PGM=IKJEFT01,DYNAMNBR=20                                         
+//SYSTSPRT DD SYSOUT=*                                                          
+//SYSTSIN DD *                                                                  
+  DSN SYSTEM(DB2P)                                                              
+  RUN PROGRAM(DSNTEP2) PLAN(DSNTEP00) PARMS('/ALIGN(LHS) MIXED') -              
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+  END                                                                           
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSUDUMP DD SYSOUT=*                                                          
+//SYSIN    DD DISP=SHR,DSN=JONAS.DBA.GENIS08(E1770431)                          

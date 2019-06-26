@@ -1,0 +1,67 @@
+//DBTESTE  JOB MSGCLASS=P,CLASS=A,NOTIFY=JONAS                                  
+//DSNTIAUL EXEC PGM=IKJEFT01,DYNAMNBR=20                                        
+//SYSTSPRT DD   SYSOUT=*                                                        
+//SYSTSIN  DD   *                                                               
+ DSN SYSTEM(DB2P)                                                               
+ RUN  PROGRAM(DSNTIAUL) PLAN(DSNTIB00) PARMS('SQL') -                           
+      LIB('DB2.DB2P.RUNLIB.LOAD')                                               
+//SYSPRINT DD   SYSOUT=*                                                        
+//SYSPUNCH DD   SYSOUT=*                                                        
+//SYSREC00 DD   DSN=&&TEMP,DISP=(NEW,PASS,DELETE),UNIT=SYSDA,                   
+//         SPACE=(TRK,(1,1),RLSE)                                               
+//SYSIN    DD   *                                                               
+SELECT                                                                          
+'            INCLUDE TABLESPACE '||STRIP(DBNAME)||'.'||STRIP(TSNAME)            
+FROM SYSIBM.SYSTABLES WHERE NAME LIKE 'CD%' AND CREATOR = 'DB2PDPRC'            
+AND TYPE='T'                                                                    
+WITH UR;                                                                        
+//*-------------------------------------------------------------------          
+//* STEP 02                                                                     
+//*-------------------------------------------------------------------          
+//COPY     EXEC PGM=IEBGENER                                                    
+//SYSUT1   DD DSN=&&TEMP,DISP=(OLD,PASS,PASS)                                   
+//SYSUT2  DD   DSN=&&TEMP2,DISP=(NEW,PASS,DELETE),UNIT=SYSDA,                   
+//         SPACE=(TRK,(1,1),RLSE),                                              
+//         DCB=(RECFM=FB,LRECL=80,BLKSIZE=80)                                   
+//SYSPRINT DD SYSOUT=*                                                          
+//SYSIN        DD   *                                                           
+  GENERATE MAXFLDS=10,MAXLITS=30                                                
+  RECORD FIELD=(80,1)                                                           
+//******************************************************                        
+//DSNTEP2  EXEC PGM=IEBGENER                                                    
+//STEPLIB  DD   DSN=DB2.DB2P.SDSNEXIT,DISP=SHR                                  
+//         DD   DSN=DB2.DB2P.SDSNLOAD,DISP=SHR                                  
+//SYSUT2   DD   SYSOUT=*                                                        
+//SYSPRINT DD   SYSOUT=*                                                        
+//SYSIN    DD   DUMMY                                                           
+//SYSUT1   DD   *                                                               
+OPTIONS EVENT(ITEMERROR, SKIP)                                                  
+LISTDEF DBLIST                                                                  
+//         DD   DSN=&&TEMP2,DISP=(OLD,KEEP,KEEP)                                
+TEMPLATE DDCOPY                                                                 
+         DSN('DB2PCOPY.FD1.&DB..&TS..P0(+1)')                                   
+         UNIT=VSM                                                               
+         VOLCNT(255)                                                            
+         DISP(NEW,CATLG,DELETE)                                                 
+         STACK YES                                                              
+         GDGLIMIT(5)                                                            
+                                                                                
+TEMPLATE DDDISC DSN(DB2PWRK.UNL.&DB..&TS..DISC.D&DT.)                           
+   DISP (NEW,DELETE,CATLG)                                                      
+   UNIT VSM  VOLCNT(255) RETPD 5                                                
+                                                                                
+TEMPLATE DDPUNCH DSN(DB2PWRK.UNL.&DB..&TS..PUNCH.D&DT.)                         
+   UNIT SYSDA SPACE (1,0) TRK DISP (NEW,DELETE,CATLG)                           
+                                                                                
+TEMPLATE DDREC DSN(DB2PWRK.UNL.&DB..&TS..REC.D&DT.)                             
+   DISP (NEW,DELETE,CATLG)                                                      
+   UNIT VSM  VOLCNT(255) RETPD 5                                                
+                                                                                
+QUIESCE LIST DBLIST                                                             
+REORG TABLESPACE LIST DBLIST LOG NO                                             
+      SORTDATA SORTKEYS                                                         
+      PUNCHDDN(DDPUNCH) COPYDDN(DDCOPY) UNLDDN(DDREC) DISCARDDN(DDDISC)         
+      FASTSWITCH NO                                                             
+      SHRLEVEL CHANGE MAPPINGTABLE SYSADM.MAPTABLE                              
+      STATISTICS TABLE(ALL) INDEX(ALL) UPDATE ALL                               
+//                                                                              
